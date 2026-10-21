@@ -1,0 +1,16 @@
+{
+  "arm": {
+    "id": "9b_v8_native_rules_s43",
+    "adapter": "/workspace/famu_v8_20261005/outputs/E1_bound_s43/adapter"
+  },
+  "loading_seconds": 7.717850579880178,
+  "audit": {
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "mismatched_keys": [],
+    "error_msgs": []
+  },
+  "adapter_sha256": "18a3406399f8d6095d136209edd6f9085ecf57facf56cf1f50d0e0b3bd26f991",
+  "trainable_parameters": 0,
+  "quantization": "BF16, none"
+}

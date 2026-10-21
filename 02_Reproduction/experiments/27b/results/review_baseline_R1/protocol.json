@@ -1,0 +1,722 @@
+{
+  "mode": "review",
+  "scheme": "R1",
+  "seed": 20261001,
+  "epochs": 4,
+  "updates": 80,
+  "reports": [
+    0,
+    20,
+    80
+  ],
+  "dataset_files": {
+    "audit.json": "4058b93064d41b3486743e73a9f8b2b48dc8390d56fe528d97b941d5fb4e9b30",
+    "d4_development_rules_only.json": "907c11725cbb90025c3f7724e10fd4153a878ad0536c248ba115cb0abf5591f4",
+    "evidence_bindings.json": "eb4aaad4657fa5b91bb4b6fd11688d2b101eed620ac0487d9250d91de557890e",
+    "gold_train.jsonl": "27ca96201da826949dc40ebd188ba140a78dabf0010479fd02bd27721437ba44",
+    "internal_dev.jsonl": "fec9c4cc8034f2af9a14dc4cca22f50fb1589f24fc132dd90b664365282a41d1",
+    "labor_auxiliary.jsonl": "1853b9ccb62d18234e3f7239121f17aa6cd1f783f577d18b1b2a49f2e3ceba4e",
+    "risk_probe_selection.json": "45f8e020f7ba671a957cc7d9cb6e582242d9b80776f925e0e2d52965e7a32e23",
+    "sources.json": "6015ebbd96fdfd23ea8f495fbc1b3fd51fec642f54b69844059a220a60363cab"
+  },
+  "base": {
+    "repo_id": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "files": {
+      "LICENSE": "bbedc3fda3305820b977265f01b8619d87570a6739de3a5582c3464840f1e57a",
+      "README.md": "57e4bdb258ee1a7d2635c5174ebd4e56abe392505cdb5f8bbb356b0dc4293641",
+      "chat_template.jinja": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041",
+      "config.json": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab",
+      "crc32.txt": "b42dd291f5f98b05807e458f5b47849969a9b3326acbf0c97d28b05826740b83",
+      "generation_config.json": "e70c136c1b78ddc1fb0905bac8e733a4dc448d4f852a5dd75143fffc70be550e",
+      "merges.txt": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d",
+      "model-00001-of-00018.safetensors": "ba0ce20aae489ad196733da5064bcdf159a1fe84f53336648196e1ebb7751b1c",
+      "model-00002-of-00018.safetensors": "06a148c01bfbe3faa14a5f184a7ff29a706f7ae1c8b2705d2058e26d17a001fb",
+      "model-00003-of-00018.safetensors": "2e1bf62cbcd406eaa64b60d10353e1f0ef4039d0976e56f05cabe953454f9968",
+      "model-00004-of-00018.safetensors": "511e34063187882659753c4d93f3859f93c019fd438d8813071921c81d9a3f1a",
+      "model-00005-of-00018.safetensors": "635cb53446dc74f219740fc59e18b774f877b803b9722e289ca62575a6efa701",
+      "model-00006-of-00018.safetensors": "0bc5214fac607f0e6cc92eec3789d4b8559410ef9fce66621ba8158e8410dae0",
+      "model-00007-of-00018.safetensors": "80b0c49033e9a0d5762562aa12f4acdb7f54da586f3d0110f28c48d91cf07892",
+      "model-00008-of-00018.safetensors": "7192c5b66185d3592927daabee1cc19e6f6e0ce75988ee20e824b624765fda79",
+      "model-00009-of-00018.safetensors": "af3c48cc37af44f3db6ae0579baf019180d48d9c527caa0a1f03ff85813a56d8",
+      "model-00010-of-00018.safetensors": "163490a76f3bea3a40855b7efc04ce6d27afaf1a34f0bbde495b9491f76457c9",
+      "model-00011-of-00018.safetensors": "5f3ae1b948aeee39da77aec558e8236cd65fe4d7cb7686a76bb007acc563c6d8",
+      "model-00012-of-00018.safetensors": "a3de1c7114677a8f5ac5c4892c90e8238ea5c1e2038c80e757dfc87c3902ca55",
+      "model-00013-of-00018.safetensors": "06ab79a41f74c9c5cb734816feb0c7fc364104b227165ee7391231e1155aa02a",
+      "model-00014-of-00018.safetensors": "4138ed94603065ba884bbcadedb04d7718bb40117e85e6f5c6fc5b9c05b7a85b",
+      "model-00015-of-00018.safetensors": "69224e27b9de4e7dbf6fc936c6eaae08447bda3b80a6c31a871ab451173afd22",
+      "model-00016-of-00018.safetensors": "73cb9a1089fb6155cb648609478d6633be8a5c7d9ca5a05bc8925ce8a553cefe",
+      "model-00017-of-00018.safetensors": "beb51f01056142ac4984bd800507b0dd0fd18de57f8e9ef6ea41d1a3598983a8",
+      "model-00018-of-00018.safetensors": "1d3479509e21494658f9b64d317f5ea8e55c4025d28c702d6c4d0b356ce8ea06",
+      "model.safetensors.index.json": "77042094076611b69791a610065f28b7013b8c621795fa86ddccc8bac7d1b9df",
+      "preprocessor_config.json": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+      "tokenizer.json": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+      "tokenizer_config.json": "b11349aafa7cdc6a320767cf7ceb29ed82f7eda5d65e8e0819e76f0ce947bf27",
+      "video_preprocessor_config.json": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+      "vocab.json": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003"
+    },
+    "weights_verified": true,
+    "download_mirror": "Official Qwen ModelScope; SHA256 matches pinned Hugging Face LFS"
+  },
+  "code_hashes": {
+    "scripts/train_famu_27b.py": "c1ff47e0e2f121c44a29a307847cb2c6544998112cb3d296c3d70d24f4fc73bb",
+    "src/evidence_reasoning/famu_27b.py": "8ff6892beb98ce9b5e915d7918622a78a30dd22af860d292b5e3dfab05c44aa2",
+    "src/evidence_reasoning/field_experts.py": "95e5ef630eccd2d791d886791e11e45dc9173a67f8c5d55570f58725dcfea119",
+    "src/evidence_reasoning/famu_v4.py": "81bd2a2bbbe4275d6867ccf60355088a0e1634bf98ae2871c8e92e827e394264",
+    "src/evidence_reasoning/famu_llm.py": "df02794172a06114586cfd6da967c8ee9b83f8d982ea6a3533336749b90e382f",
+    "src/evidence_reasoning/compact_delta.py": "cb3646269b8dfdfe71611efb0784e86ef75800c63f2f96adf12d2b8683d7a4e7",
+    "src/evidence_reasoning/chunked_attention.py": "d9e6bab1aa3e4267a28d2bdd9b1d645b00f9813a51d44330bb50bebc95e39ba3",
+    "src/evidence_reasoning/sft_checkpoint.py": "62c90b5996502f888aaa29a4cf51e7faa4def8414d78dd335892e6836e76e77b"
+  },
+  "init_adapter_sha256": null,
+  "ids": [
+    "TR001",
+    "TR002",
+    "TR003",
+    "TR004",
+    "TR005",
+    "TR006",
+    "TR007",
+    "TR008",
+    "TR009",
+    "TR010",
+    "TR011",
+    "TR012",
+    "TR013",
+    "TR015",
+    "TR016",
+    "TR023",
+    "TR025",
+    "TR026",
+    "TR027",
+    "TR028",
+    "TR029",
+    "TR030",
+    "TR031",
+    "TR032",
+    "TR033",
+    "TR034",
+    "TR035",
+    "TR036",
+    "TR037",
+    "TR038",
+    "TR039",
+    "TR040",
+    "TR041",
+    "TR042",
+    "TR043",
+    "TR044",
+    "TR045",
+    "TR046",
+    "TR047",
+    "TR048",
+    "TR049",
+    "TR050",
+    "TR051",
+    "TR052",
+    "TR053",
+    "TR054",
+    "TR055",
+    "TR056",
+    "TR057",
+    "TR058",
+    "TR059",
+    "TR060",
+    "TR061",
+    "TR062",
+    "TR063",
+    "TR064",
+    "TR065",
+    "TR066",
+    "TR067",
+    "TR068",
+    "TR069",
+    "TR073",
+    "TR074",
+    "TR076",
+    "TR077",
+    "TR078",
+    "TR079",
+    "TR081",
+    "TR082",
+    "TR083",
+    "TR084",
+    "TR085",
+    "TR086",
+    "TR087",
+    "TR088",
+    "TR089",
+    "TR090"
+  ],
+  "plan": [
+    [
+      "TR009",
+      "TR069",
+      "TR073",
+      "TR084"
+    ],
+    [
+      "TR036",
+      "TR042",
+      "TR038",
+      "TR046"
+    ],
+    [
+      "TR011",
+      "TR047",
+      "TR063",
+      "TR079"
+    ],
+    [
+      "TR051",
+      "TR066",
+      "TR003",
+      "TR048"
+    ],
+    [
+      "TR035",
+      "TR043",
+      "TR027",
+      "TR001"
+    ],
+    [
+      "TR064",
+      "TR088",
+      "TR058",
+      "TR082"
+    ],
+    [
+      "TR054",
+      "TR089",
+      "TR086",
+      "TR053"
+    ],
+    [
+      "TR031",
+      "TR062",
+      "TR006",
+      "TR077"
+    ],
+    [
+      "TR056",
+      "TR007",
+      "TR008",
+      "TR040"
+    ],
+    [
+      "TR049",
+      "TR052",
+      "TR004",
+      "TR041"
+    ],
+    [
+      "TR083",
+      "TR078",
+      "TR012",
+      "TR037"
+    ],
+    [
+      "TR090",
+      "TR067",
+      "TR085",
+      "TR044"
+    ],
+    [
+      "TR016",
+      "TR002",
+      "TR029",
+      "TR074"
+    ],
+    [
+      "TR076",
+      "TR060",
+      "TR034",
+      "TR061"
+    ],
+    [
+      "TR025",
+      "TR087",
+      "TR065",
+      "TR045"
+    ],
+    [
+      "TR013",
+      "TR030",
+      "TR015",
+      "TR057"
+    ],
+    [
+      "TR068",
+      "TR032",
+      "TR005",
+      "TR026"
+    ],
+    [
+      "TR010",
+      "TR033",
+      "TR028",
+      "TR023"
+    ],
+    [
+      "TR059",
+      "TR081",
+      "TR055",
+      "TR050"
+    ],
+    [
+      "TR039"
+    ],
+    [
+      "TR064",
+      "TR011",
+      "TR047",
+      "TR016"
+    ],
+    [
+      "TR003",
+      "TR032",
+      "TR026",
+      "TR088"
+    ],
+    [
+      "TR068",
+      "TR031",
+      "TR046",
+      "TR052"
+    ],
+    [
+      "TR028",
+      "TR086",
+      "TR051",
+      "TR037"
+    ],
+    [
+      "TR035",
+      "TR045",
+      "TR085",
+      "TR087"
+    ],
+    [
+      "TR001",
+      "TR078",
+      "TR044",
+      "TR058"
+    ],
+    [
+      "TR069",
+      "TR065",
+      "TR062",
+      "TR007"
+    ],
+    [
+      "TR074",
+      "TR059",
+      "TR013",
+      "TR084"
+    ],
+    [
+      "TR067",
+      "TR034",
+      "TR040",
+      "TR023"
+    ],
+    [
+      "TR039",
+      "TR090",
+      "TR025",
+      "TR036"
+    ],
+    [
+      "TR038",
+      "TR048",
+      "TR010",
+      "TR004"
+    ],
+    [
+      "TR053",
+      "TR005",
+      "TR030",
+      "TR009"
+    ],
+    [
+      "TR061",
+      "TR063",
+      "TR050",
+      "TR079"
+    ],
+    [
+      "TR057",
+      "TR077",
+      "TR008",
+      "TR082"
+    ],
+    [
+      "TR041",
+      "TR006",
+      "TR042",
+      "TR033"
+    ],
+    [
+      "TR089",
+      "TR015",
+      "TR055",
+      "TR066"
+    ],
+    [
+      "TR002",
+      "TR081",
+      "TR073",
+      "TR043"
+    ],
+    [
+      "TR049",
+      "TR076",
+      "TR012",
+      "TR054"
+    ],
+    [
+      "TR060",
+      "TR056",
+      "TR083",
+      "TR027"
+    ],
+    [
+      "TR029"
+    ],
+    [
+      "TR036",
+      "TR066",
+      "TR063",
+      "TR023"
+    ],
+    [
+      "TR039",
+      "TR086",
+      "TR026",
+      "TR089"
+    ],
+    [
+      "TR038",
+      "TR002",
+      "TR042",
+      "TR083"
+    ],
+    [
+      "TR054",
+      "TR064",
+      "TR067",
+      "TR043"
+    ],
+    [
+      "TR085",
+      "TR084",
+      "TR082",
+      "TR068"
+    ],
+    [
+      "TR005",
+      "TR078",
+      "TR055",
+      "TR034"
+    ],
+    [
+      "TR056",
+      "TR074",
+      "TR031",
+      "TR087"
+    ],
+    [
+      "TR011",
+      "TR035",
+      "TR051",
+      "TR006"
+    ],
+    [
+      "TR013",
+      "TR046",
+      "TR032",
+      "TR037"
+    ],
+    [
+      "TR029",
+      "TR060",
+      "TR062",
+      "TR012"
+    ],
+    [
+      "TR025",
+      "TR077",
+      "TR053",
+      "TR050"
+    ],
+    [
+      "TR030",
+      "TR028",
+      "TR073",
+      "TR010"
+    ],
+    [
+      "TR040",
+      "TR044",
+      "TR016",
+      "TR088"
+    ],
+    [
+      "TR090",
+      "TR041",
+      "TR048",
+      "TR061"
+    ],
+    [
+      "TR009",
+      "TR057",
+      "TR065",
+      "TR049"
+    ],
+    [
+      "TR008",
+      "TR059",
+      "TR033",
+      "TR069"
+    ],
+    [
+      "TR003",
+      "TR007",
+      "TR047",
+      "TR079"
+    ],
+    [
+      "TR058",
+      "TR015",
+      "TR081",
+      "TR045"
+    ],
+    [
+      "TR076",
+      "TR027",
+      "TR052",
+      "TR001"
+    ],
+    [
+      "TR004"
+    ],
+    [
+      "TR051",
+      "TR085",
+      "TR052",
+      "TR003"
+    ],
+    [
+      "TR041",
+      "TR039",
+      "TR065",
+      "TR037"
+    ],
+    [
+      "TR086",
+      "TR008",
+      "TR028",
+      "TR062"
+    ],
+    [
+      "TR006",
+      "TR015",
+      "TR042",
+      "TR067"
+    ],
+    [
+      "TR063",
+      "TR011",
+      "TR045",
+      "TR038"
+    ],
+    [
+      "TR001",
+      "TR040",
+      "TR049",
+      "TR090"
+    ],
+    [
+      "TR054",
+      "TR060",
+      "TR048",
+      "TR043"
+    ],
+    [
+      "TR061",
+      "TR074",
+      "TR078",
+      "TR058"
+    ],
+    [
+      "TR081",
+      "TR009",
+      "TR082",
+      "TR030"
+    ],
+    [
+      "TR046",
+      "TR002",
+      "TR029",
+      "TR088"
+    ],
+    [
+      "TR053",
+      "TR066",
+      "TR056",
+      "TR084"
+    ],
+    [
+      "TR068",
+      "TR057",
+      "TR004",
+      "TR032"
+    ],
+    [
+      "TR016",
+      "TR076",
+      "TR077",
+      "TR064"
+    ],
+    [
+      "TR005",
+      "TR073",
+      "TR050",
+      "TR010"
+    ],
+    [
+      "TR013",
+      "TR083",
+      "TR034",
+      "TR026"
+    ],
+    [
+      "TR012",
+      "TR023",
+      "TR089",
+      "TR036"
+    ],
+    [
+      "TR035",
+      "TR055",
+      "TR087",
+      "TR027"
+    ],
+    [
+      "TR069",
+      "TR025",
+      "TR033",
+      "TR079"
+    ],
+    [
+      "TR044",
+      "TR059",
+      "TR047",
+      "TR007"
+    ],
+    [
+      "TR031"
+    ]
+  ],
+  "weights": {
+    "TR001": 0.2851851851851852,
+    "TR002": 0.2851851851851852,
+    "TR003": 0.2851851851851852,
+    "TR004": 0.2851851851851852,
+    "TR005": 0.2851851851851852,
+    "TR006": 0.20623377881530858,
+    "TR007": 0.2851851851851852,
+    "TR008": 0.2851851851851852,
+    "TR009": 0.2851851851851852,
+    "TR026": 0.3093506682229628,
+    "TR027": 0.42777777777777776,
+    "TR028": 0.42777777777777776,
+    "TR029": 0.42777777777777776,
+    "TR030": 0.42777777777777776,
+    "TR031": 0.42777777777777776,
+    "TR047": 0.23333333333333334,
+    "TR048": 0.23333333333333334,
+    "TR049": 0.16873672812161608,
+    "TR050": 0.23333333333333334,
+    "TR051": 0.23333333333333334,
+    "TR052": 0.23333333333333334,
+    "TR053": 0.23333333333333334,
+    "TR054": 0.23333333333333334,
+    "TR055": 0.23333333333333334,
+    "TR056": 0.23333333333333334,
+    "TR057": 0.23333333333333334,
+    "TR058": 0.5133333333333333,
+    "TR059": 0.5133333333333333,
+    "TR060": 0.5133333333333333,
+    "TR061": 0.37122080186755535,
+    "TR062": 0.5133333333333333,
+    "TR063": 0.36666666666666664,
+    "TR064": 0.36666666666666664,
+    "TR065": 0.36666666666666664,
+    "TR066": 0.6348518518518518,
+    "TR067": 0.2651577156196824,
+    "TR068": 0.36666666666666664,
+    "TR069": 0.36666666666666664,
+    "TR085": 1.4813209876543207,
+    "TR086": 0.8555555555555555,
+    "TR087": 0.8555555555555555,
+    "TR010": 2.2,
+    "TR011": 0.7333333333333333,
+    "TR012": 0.7053909465020575,
+    "TR013": 0.7333333333333333,
+    "TR033": 0.7333333333333333,
+    "TR034": 0.7053909465020575,
+    "TR035": 0.7333333333333333,
+    "TR038": 0.55,
+    "TR039": 0.55,
+    "TR040": 0.55,
+    "TR041": 0.3977365734295237,
+    "TR042": 0.3977365734295237,
+    "TR043": 0.55,
+    "TR044": 0.55,
+    "TR045": 0.55,
+    "TR081": 2.2,
+    "TR082": 0.7333333333333333,
+    "TR083": 0.7333333333333333,
+    "TR084": 0.7053909465020575,
+    "TR015": 1.925,
+    "TR016": 1.925,
+    "TR023": 1.925,
+    "TR025": 1.925,
+    "TR073": 1.925,
+    "TR074": 1.925,
+    "TR076": 1.925,
+    "TR077": 1.925,
+    "TR032": 2.2,
+    "TR037": 2.2,
+    "TR046": 2.2,
+    "TR078": 2.2,
+    "TR079": 2.2,
+    "TR088": 2.2,
+    "TR090": 2.2,
+    "TR036": 7.7,
+    "TR089": 7.7
+  },
+  "lr": 2e-05,
+  "scheduler": "linear to zero across fixed updates; no warmup",
+  "microbatch": 1,
+  "effective_batch": 4,
+  "last_batch_denominator": "actual examples",
+  "architecture": "baseline",
+  "lora_rank": 32,
+  "lora_alpha": 64,
+  "lora_dropout": 0.05,
+  "max_length": 16384,
+  "truncation": false,
+  "representation": "field",
+  "dtype": "bfloat16",
+  "quantization": "nf4_double_bf16",
+  "backend": "query-blocked exact SDPA (128) + compact gated delta + checkpointed MLP blocks 512",
+  "checkpoint_input_storage": "CPU pinned memory, unchanged tensor dtype; layer compute and weights on CUDA",
+  "primary_metric": "raw greedy JSON generation",
+  "candidate_metric": "full JSON + EOS mean log likelihood, separate secondary diagnostic",
+  "checkpoint_retention": "latest two committed checkpoints per run; all reports retained",
+  "independent_test": false,
+  "teacher_calls": 0,
+  "production_promotion": false
+}

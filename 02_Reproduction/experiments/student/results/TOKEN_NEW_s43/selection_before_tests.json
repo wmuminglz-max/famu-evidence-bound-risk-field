@@ -1,0 +1,162 @@
+{
+  "selected": {
+    "version": "continuous-span-student-r11-v1",
+    "representation": "lexical",
+    "query_gate": 0.0,
+    "threshold": 0.5,
+    "span_gate": 0.9,
+    "encoder_sha256": {
+      "config.json": "3853a7979202c348751b753e36f579c41d8da7d36af617d3d907e1fc9b441f2a",
+      "model.safetensors": "354763b9b1357bc9c44f62c6be2276321081ed2567773608c0d0785b61d5a026",
+      "README.md": "c48a4eeea77f6b1d38b48ec1c5b8d4f86d5550cc43fa345a0db1b2ca1d082369",
+      "snapshot_manifest.json": "8f7f7f24f3a784df577497cee1942bcc3728157f2c16e990aeb427ee054aa702",
+      "special_tokens_map.json": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+      "tokenizer.json": "48cea5d44424912a6fd1ea647bf4fe50b55ab8b1e5879c3275f80e339e8fae26",
+      "tokenizer_config.json": "e6f3b96db926a37d4039995fbf5ad17de158dfb8f6343d607e4dbaad18d75f5a",
+      "vocab.txt": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c"
+    },
+    "arm": "TOKEN_NEW",
+    "mode": "shadow",
+    "decision_authority": false
+  },
+  "grid": [
+    {
+      "query_gate": 0.0,
+      "threshold": 0.5,
+      "span_gate": 0.5,
+      "n": 168,
+      "correct": 56,
+      "macro_f1": 0.433718043474141,
+      "confusion": {
+        "established": {
+          "established": 10,
+          "conflict": 12,
+          "abstain": 12,
+          "unknown": 18
+        },
+        "not_established": {
+          "conflict": 16,
+          "not_established": 22,
+          "abstain": 16,
+          "unknown": 6
+        },
+        "unknown": {
+          "established": 4,
+          "conflict": 14,
+          "abstain": 14,
+          "unknown": 24
+        }
+      },
+      "citation_f1": 0.5318860244233379,
+      "citations": {
+        "tp": 392,
+        "fp": 486,
+        "fn": 204,
+        "invalid": 0
+      },
+      "field_F_recall": 0.5576923076923077,
+      "field_F_n": 312,
+      "unknown_to_established": 4,
+      "unknown_to_not_established": 0,
+      "not_established_recall": 0.36666666666666664,
+      "determinate_coverage": 0.21428571428571427,
+      "extraction_abstentions": 42,
+      "all_correct_groups": {
+        "correct": 6,
+        "n": 52
+      },
+      "max_evidence_chars": 4191
+    },
+    {
+      "query_gate": 0.0,
+      "threshold": 0.5,
+      "span_gate": 0.7,
+      "n": 168,
+      "correct": 56,
+      "macro_f1": 0.433718043474141,
+      "confusion": {
+        "established": {
+          "established": 10,
+          "conflict": 24,
+          "unknown": 18
+        },
+        "not_established": {
+          "conflict": 32,
+          "not_established": 22,
+          "unknown": 6
+        },
+        "unknown": {
+          "established": 4,
+          "conflict": 28,
+          "unknown": 24
+        }
+      },
+      "citation_f1": 0.5318860244233379,
+      "citations": {
+        "tp": 392,
+        "fp": 486,
+        "fn": 204,
+        "invalid": 0
+      },
+      "field_F_recall": 0.5576923076923077,
+      "field_F_n": 312,
+      "unknown_to_established": 4,
+      "unknown_to_not_established": 0,
+      "not_established_recall": 0.36666666666666664,
+      "determinate_coverage": 0.21428571428571427,
+      "extraction_abstentions": 0,
+      "all_correct_groups": {
+        "correct": 6,
+        "n": 52
+      },
+      "max_evidence_chars": 4191
+    },
+    {
+      "query_gate": 0.0,
+      "threshold": 0.5,
+      "span_gate": 0.9,
+      "n": 168,
+      "correct": 62,
+      "macro_f1": 0.4902752428884833,
+      "confusion": {
+        "established": {
+          "established": 16,
+          "conflict": 24,
+          "unknown": 12
+        },
+        "not_established": {
+          "conflict": 32,
+          "not_established": 22,
+          "unknown": 6
+        },
+        "unknown": {
+          "established": 4,
+          "conflict": 27,
+          "abstain": 1,
+          "unknown": 24
+        }
+      },
+      "citation_f1": 0.5378378378378378,
+      "citations": {
+        "tp": 398,
+        "fp": 486,
+        "fn": 198,
+        "invalid": 0
+      },
+      "field_F_recall": 0.5769230769230769,
+      "field_F_n": 312,
+      "unknown_to_established": 4,
+      "unknown_to_not_established": 0,
+      "not_established_recall": 0.36666666666666664,
+      "determinate_coverage": 0.25,
+      "extraction_abstentions": 1,
+      "all_correct_groups": {
+        "correct": 12,
+        "n": 52
+      },
+      "max_evidence_chars": 4191
+    }
+  ],
+  "tests_used": false,
+  "fixed_step": 960
+}

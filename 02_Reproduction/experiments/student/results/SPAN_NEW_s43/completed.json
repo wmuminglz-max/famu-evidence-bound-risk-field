@@ -1,0 +1,18 @@
+{
+  "run": "SPAN_NEW_s43",
+  "arm": "SPAN_NEW",
+  "updates": 960,
+  "train_seconds": 39.71554605104029,
+  "encoder_base_unchanged": true,
+  "adapter_maxabs_change": 0.025837302207946777,
+  "CE_positions": 0,
+  "relation_anchor_exposures": 0,
+  "paragraph_exposures": 30720,
+  "span_token_positions": 0,
+  "class_positions": 30720,
+  "boundary_positions": 38400,
+  "encoder_tokens": 6936482,
+  "padded_tokens": 8106912,
+  "encoded_sequences": 30720,
+  "auxiliary_query_labels": 0
+}

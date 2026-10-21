@@ -1,0 +1,536 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-04T07:03:31.728019+00:00",
+  "manifest_files": {
+    "pilot": 65,
+    "shift": 21,
+    "guarded": 19
+  },
+  "runs": 18,
+  "head_updates": 4320,
+  "backbone_updates": 0,
+  "protocol_and_metrics_independently_replayed": true,
+  "paired_intervals": {
+    "pilot_M3_minus_M0": {
+      "delta_accuracy": 0.0546875,
+      "family_bootstrap_95_percentile": [
+        0.015625,
+        0.1015625
+      ],
+      "families": 16,
+      "seeds_averaged_within_family": 3,
+      "synthetic_only": true,
+      "not_a_population_legal_accuracy_interval": true
+    },
+    "pilot_M4_minus_M3": {
+      "delta_accuracy": 0,
+      "family_bootstrap_95_percentile": [
+        0,
+        0
+      ],
+      "families": 16,
+      "seeds_averaged_within_family": 3,
+      "synthetic_only": true,
+      "not_a_population_legal_accuracy_interval": true
+    },
+    "shift_M3_minus_M0": {
+      "delta_accuracy": 0.4622395833333333,
+      "family_bootstrap_95_percentile": [
+        0.2734375,
+        0.6393229166666666
+      ],
+      "families": 32,
+      "seeds_averaged_within_family": 3,
+      "synthetic_only": true,
+      "not_a_population_legal_accuracy_interval": true
+    },
+    "shift_M4_minus_M3": {
+      "delta_accuracy": 0.0078125,
+      "family_bootstrap_95_percentile": [
+        -0.009114583333333332,
+        0.026041666666666664
+      ],
+      "families": 32,
+      "seeds_averaged_within_family": 3,
+      "synthetic_only": true,
+      "not_a_population_legal_accuracy_interval": true
+    }
+  },
+  "regression_errors": [
+    {
+      "arm": "M0_direct",
+      "seed": 17,
+      "id": "DV03",
+      "domain": "v4_legal",
+      "split": "regression",
+      "task": "qa",
+      "original_target": "F",
+      "expected": "not_established",
+      "prediction": "unknown",
+      "soft_prediction": "unknown",
+      "field_expected": [
+        "refuted"
+      ],
+      "field_prediction": [
+        "supported"
+      ]
+    },
+    {
+      "arm": "M1_cbm",
+      "seed": 17,
+      "id": "DV03",
+      "domain": "v4_legal",
+      "split": "regression",
+      "task": "qa",
+      "original_target": "F",
+      "expected": "not_established",
+      "prediction": "unknown",
+      "soft_prediction": "unknown",
+      "field_expected": [
+        "refuted"
+      ],
+      "field_prediction": [
+        "unknown"
+      ]
+    },
+    {
+      "arm": "M1_cbm",
+      "seed": 17,
+      "id": "DV04",
+      "domain": "v4_legal",
+      "split": "regression",
+      "task": "condition",
+      "original_target": "F",
+      "expected": "not_established",
+      "prediction": "unknown",
+      "soft_prediction": "unknown",
+      "field_expected": [
+        "refuted"
+      ],
+      "field_prediction": [
+        "unknown"
+      ]
+    },
+    {
+      "arm": "M1_cbm",
+      "seed": 17,
+      "id": "DV08",
+      "domain": "v4_legal",
+      "split": "regression",
+      "task": "risk_status",
+      "original_target": "unknown",
+      "expected": "unknown",
+      "prediction": "established",
+      "soft_prediction": "established",
+      "field_expected": [
+        "unknown"
+      ],
+      "field_prediction": [
+        "supported"
+      ]
+    },
+    {
+      "arm": "M2_cbm_fact",
+      "seed": 17,
+      "id": "DV03",
+      "domain": "v4_legal",
+      "split": "regression",
+      "task": "qa",
+      "original_target": "F",
+      "expected": "not_established",
+      "prediction": "established",
+      "soft_prediction": "established",
+      "field_expected": [
+        "refuted"
+      ],
+      "field_prediction": [
+        "supported"
+      ]
+    },
+    {
+      "arm": "M2_cbm_fact",
+      "seed": 17,
+      "id": "DV08",
+      "domain": "v4_legal",
+      "split": "regression",
+      "task": "risk_status",
+      "original_target": "unknown",
+      "expected": "unknown",
+      "prediction": "established",
+      "soft_prediction": "established",
+      "field_expected": [
+        "unknown"
+      ],
+      "field_prediction": [
+        "supported"
+      ]
+    },
+    {
+      "arm": "M3_boundary",
+      "seed": 17,
+      "id": "DV03",
+      "domain": "v4_legal",
+      "split": "regression",
+      "task": "qa",
+      "original_target": "F",
+      "expected": "not_established",
+      "prediction": "unknown",
+      "soft_prediction": "unknown",
+      "field_expected": [
+        "refuted"
+      ],
+      "field_prediction": [
+        "unknown"
+      ]
+    },
+    {
+      "arm": "M4_dual",
+      "seed": 17,
+      "id": "DV03",
+      "domain": "v4_legal",
+      "split": "regression",
+      "task": "qa",
+      "original_target": "F",
+      "expected": "not_established",
+      "prediction": "unknown",
+      "soft_prediction": "unknown",
+      "field_expected": [
+        "refuted"
+      ],
+      "field_prediction": [
+        "unknown"
+      ]
+    },
+    {
+      "arm": "M4_dual",
+      "seed": 17,
+      "id": "DV08",
+      "domain": "v4_legal",
+      "split": "regression",
+      "task": "risk_status",
+      "original_target": "unknown",
+      "expected": "unknown",
+      "prediction": "established",
+      "soft_prediction": "established",
+      "field_expected": [
+        "unknown"
+      ],
+      "field_prediction": [
+        "supported"
+      ]
+    },
+    {
+      "arm": "M0_direct",
+      "seed": 29,
+      "id": "DV03",
+      "domain": "v4_legal",
+      "split": "regression",
+      "task": "qa",
+      "original_target": "F",
+      "expected": "not_established",
+      "prediction": "unknown",
+      "soft_prediction": "unknown",
+      "field_expected": [
+        "refuted"
+      ],
+      "field_prediction": [
+        "unknown"
+      ]
+    },
+    {
+      "arm": "M1_cbm",
+      "seed": 29,
+      "id": "DV03",
+      "domain": "v4_legal",
+      "split": "regression",
+      "task": "qa",
+      "original_target": "F",
+      "expected": "not_established",
+      "prediction": "established",
+      "soft_prediction": "established",
+      "field_expected": [
+        "refuted"
+      ],
+      "field_prediction": [
+        "supported"
+      ]
+    },
+    {
+      "arm": "M1_cbm",
+      "seed": 29,
+      "id": "DV08",
+      "domain": "v4_legal",
+      "split": "regression",
+      "task": "risk_status",
+      "original_target": "unknown",
+      "expected": "unknown",
+      "prediction": "established",
+      "soft_prediction": "established",
+      "field_expected": [
+        "unknown"
+      ],
+      "field_prediction": [
+        "supported"
+      ]
+    },
+    {
+      "arm": "M2_cbm_fact",
+      "seed": 29,
+      "id": "DV03",
+      "domain": "v4_legal",
+      "split": "regression",
+      "task": "qa",
+      "original_target": "F",
+      "expected": "not_established",
+      "prediction": "unknown",
+      "soft_prediction": "unknown",
+      "field_expected": [
+        "refuted"
+      ],
+      "field_prediction": [
+        "unknown"
+      ]
+    },
+    {
+      "arm": "M2_cbm_fact",
+      "seed": 29,
+      "id": "DV08",
+      "domain": "v4_legal",
+      "split": "regression",
+      "task": "risk_status",
+      "original_target": "unknown",
+      "expected": "unknown",
+      "prediction": "established",
+      "soft_prediction": "established",
+      "field_expected": [
+        "unknown"
+      ],
+      "field_prediction": [
+        "supported"
+      ]
+    },
+    {
+      "arm": "M3_boundary",
+      "seed": 29,
+      "id": "DV03",
+      "domain": "v4_legal",
+      "split": "regression",
+      "task": "qa",
+      "original_target": "F",
+      "expected": "not_established",
+      "prediction": "unknown",
+      "soft_prediction": "unknown",
+      "field_expected": [
+        "refuted"
+      ],
+      "field_prediction": [
+        "unknown"
+      ]
+    },
+    {
+      "arm": "M4_dual",
+      "seed": 29,
+      "id": "DV03",
+      "domain": "v4_legal",
+      "split": "regression",
+      "task": "qa",
+      "original_target": "F",
+      "expected": "not_established",
+      "prediction": "unknown",
+      "soft_prediction": "unknown",
+      "field_expected": [
+        "refuted"
+      ],
+      "field_prediction": [
+        "unknown"
+      ]
+    },
+    {
+      "arm": "M4_dual",
+      "seed": 29,
+      "id": "DV08",
+      "domain": "v4_legal",
+      "split": "regression",
+      "task": "risk_status",
+      "original_target": "unknown",
+      "expected": "unknown",
+      "prediction": "established",
+      "soft_prediction": "established",
+      "field_expected": [
+        "unknown"
+      ],
+      "field_prediction": [
+        "supported"
+      ]
+    },
+    {
+      "arm": "M0_direct",
+      "seed": 43,
+      "id": "DV03",
+      "domain": "v4_legal",
+      "split": "regression",
+      "task": "qa",
+      "original_target": "F",
+      "expected": "not_established",
+      "prediction": "unknown",
+      "soft_prediction": "unknown",
+      "field_expected": [
+        "refuted"
+      ],
+      "field_prediction": [
+        "supported"
+      ]
+    },
+    {
+      "arm": "M1_cbm",
+      "seed": 43,
+      "id": "DV03",
+      "domain": "v4_legal",
+      "split": "regression",
+      "task": "qa",
+      "original_target": "F",
+      "expected": "not_established",
+      "prediction": "established",
+      "soft_prediction": "established",
+      "field_expected": [
+        "refuted"
+      ],
+      "field_prediction": [
+        "supported"
+      ]
+    },
+    {
+      "arm": "M1_cbm",
+      "seed": 43,
+      "id": "DV08",
+      "domain": "v4_legal",
+      "split": "regression",
+      "task": "risk_status",
+      "original_target": "unknown",
+      "expected": "unknown",
+      "prediction": "established",
+      "soft_prediction": "established",
+      "field_expected": [
+        "unknown"
+      ],
+      "field_prediction": [
+        "supported"
+      ]
+    },
+    {
+      "arm": "M2_cbm_fact",
+      "seed": 43,
+      "id": "DV03",
+      "domain": "v4_legal",
+      "split": "regression",
+      "task": "qa",
+      "original_target": "F",
+      "expected": "not_established",
+      "prediction": "established",
+      "soft_prediction": "established",
+      "field_expected": [
+        "refuted"
+      ],
+      "field_prediction": [
+        "supported"
+      ]
+    },
+    {
+      "arm": "M2_cbm_fact",
+      "seed": 43,
+      "id": "DV08",
+      "domain": "v4_legal",
+      "split": "regression",
+      "task": "risk_status",
+      "original_target": "unknown",
+      "expected": "unknown",
+      "prediction": "established",
+      "soft_prediction": "established",
+      "field_expected": [
+        "unknown"
+      ],
+      "field_prediction": [
+        "supported"
+      ]
+    },
+    {
+      "arm": "M3_boundary",
+      "seed": 43,
+      "id": "DV03",
+      "domain": "v4_legal",
+      "split": "regression",
+      "task": "qa",
+      "original_target": "F",
+      "expected": "not_established",
+      "prediction": "unknown",
+      "soft_prediction": "unknown",
+      "field_expected": [
+        "refuted"
+      ],
+      "field_prediction": [
+        "unknown"
+      ]
+    },
+    {
+      "arm": "M3_boundary",
+      "seed": 43,
+      "id": "DV08",
+      "domain": "v4_legal",
+      "split": "regression",
+      "task": "risk_status",
+      "original_target": "unknown",
+      "expected": "unknown",
+      "prediction": "established",
+      "soft_prediction": "established",
+      "field_expected": [
+        "unknown"
+      ],
+      "field_prediction": [
+        "supported"
+      ]
+    },
+    {
+      "arm": "M4_dual",
+      "seed": 43,
+      "id": "DV03",
+      "domain": "v4_legal",
+      "split": "regression",
+      "task": "qa",
+      "original_target": "F",
+      "expected": "not_established",
+      "prediction": "unknown",
+      "soft_prediction": "unknown",
+      "field_expected": [
+        "refuted"
+      ],
+      "field_prediction": [
+        "unknown"
+      ]
+    },
+    {
+      "arm": "M4_dual",
+      "seed": 43,
+      "id": "DV08",
+      "domain": "v4_legal",
+      "split": "regression",
+      "task": "risk_status",
+      "original_target": "unknown",
+      "expected": "unknown",
+      "prediction": "established",
+      "soft_prediction": "established",
+      "field_expected": [
+        "unknown"
+      ],
+      "field_prediction": [
+        "supported"
+      ]
+    }
+  ],
+  "packages_sha256": {
+    "input_bundle.zip": "a1646943a217e8307e5c8b19370570b9224e8576049af02c232278c0fadbf09f",
+    "stress_input.zip": "9aa672e3d391235217a4317a014847374393ea947f6d5bdc02ef015ba224dbab",
+    "v5_guarded_results.zip": "e9e0379db977df094a1eaed0ee18c17ffc66507ff002cbbfee00d71b8633d816",
+    "v5_initial_results.zip": "40cdc2cdb2ea5a98beb375acef708ad1aa5a2c97a7ee4e4c16c2611eaa283ffe",
+    "v5_stress_results.zip": "698c5c0614f5f749371827177694f3c71f9db04c7b8d955d2357e73af9cb5c9b"
+  }
+}

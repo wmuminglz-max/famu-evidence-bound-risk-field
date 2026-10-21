@@ -1,0 +1,3902 @@
+{
+  "run": "TOKEN_MIX_s43",
+  "metrics": {
+    "dev": {
+      "n": 96,
+      "correct": 96,
+      "macro_f1": 1.0,
+      "confusion": {
+        "established": {
+          "established": 28
+        },
+        "not_established": {
+          "not_established": 36
+        },
+        "unknown": {
+          "unknown": 32
+        }
+      },
+      "citation_f1": 1.0,
+      "citations": {
+        "tp": 332,
+        "fp": 0,
+        "fn": 0,
+        "invalid": 0
+      },
+      "field_F_recall": 1.0,
+      "field_F_n": 180,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "not_established_recall": 1.0,
+      "determinate_coverage": 0.6666666666666666,
+      "extraction_abstentions": 0,
+      "all_correct_groups": {
+        "correct": 28,
+        "n": 28
+      },
+      "max_evidence_chars": 4191,
+      "by_axis": {
+        "actor": {
+          "n": 12,
+          "correct": 12,
+          "macro_f1": 1.0,
+          "confusion": {
+            "established": {
+              "established": 4
+            },
+            "not_established": {
+              "not_established": 4
+            },
+            "unknown": {
+              "unknown": 4
+            }
+          },
+          "citation_f1": 1.0,
+          "citations": {
+            "tp": 44,
+            "fp": 0,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 1.0,
+          "field_F_n": 28,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 4,
+            "n": 4
+          },
+          "max_evidence_chars": 4184
+        },
+        "composition": {
+          "n": 24,
+          "correct": 24,
+          "macro_f1": 1.0,
+          "confusion": {
+            "established": {
+              "established": 4
+            },
+            "not_established": {
+              "not_established": 12
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 1.0,
+          "citations": {
+            "tp": 68,
+            "fp": 0,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 1.0,
+          "field_F_n": 36,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 4,
+            "n": 4
+          },
+          "max_evidence_chars": 4181
+        },
+        "event": {
+          "n": 12,
+          "correct": 12,
+          "macro_f1": 1.0,
+          "confusion": {
+            "established": {
+              "established": 4
+            },
+            "not_established": {
+              "not_established": 4
+            },
+            "unknown": {
+              "unknown": 4
+            }
+          },
+          "citation_f1": 1.0,
+          "citations": {
+            "tp": 44,
+            "fp": 0,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 1.0,
+          "field_F_n": 28,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 4,
+            "n": 4
+          },
+          "max_evidence_chars": 4182
+        },
+        "exception": {
+          "n": 12,
+          "correct": 12,
+          "macro_f1": 1.0,
+          "confusion": {
+            "established": {
+              "established": 4
+            },
+            "not_established": {
+              "not_established": 4
+            },
+            "unknown": {
+              "unknown": 4
+            }
+          },
+          "citation_f1": 1.0,
+          "citations": {
+            "tp": 44,
+            "fp": 0,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 1.0,
+          "field_F_n": 16,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 4,
+            "n": 4
+          },
+          "max_evidence_chars": 4182
+        },
+        "payment": {
+          "n": 12,
+          "correct": 12,
+          "macro_f1": 1.0,
+          "confusion": {
+            "established": {
+              "established": 4
+            },
+            "not_established": {
+              "not_established": 4
+            },
+            "unknown": {
+              "unknown": 4
+            }
+          },
+          "citation_f1": 1.0,
+          "citations": {
+            "tp": 44,
+            "fp": 0,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 1.0,
+          "field_F_n": 16,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 4,
+            "n": 4
+          },
+          "max_evidence_chars": 4184
+        },
+        "source": {
+          "n": 12,
+          "correct": 12,
+          "macro_f1": 1.0,
+          "confusion": {
+            "established": {
+              "established": 4
+            },
+            "not_established": {
+              "not_established": 4
+            },
+            "unknown": {
+              "unknown": 4
+            }
+          },
+          "citation_f1": 1.0,
+          "citations": {
+            "tp": 44,
+            "fp": 0,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 1.0,
+          "field_F_n": 28,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 4,
+            "n": 4
+          },
+          "max_evidence_chars": 4191
+        },
+        "time": {
+          "n": 12,
+          "correct": 12,
+          "macro_f1": 1.0,
+          "confusion": {
+            "established": {
+              "established": 4
+            },
+            "not_established": {
+              "not_established": 4
+            },
+            "unknown": {
+              "unknown": 4
+            }
+          },
+          "citation_f1": 1.0,
+          "citations": {
+            "tp": 44,
+            "fp": 0,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 1.0,
+          "field_F_n": 28,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 4,
+            "n": 4
+          },
+          "max_evidence_chars": 4186
+        }
+      }
+    },
+    "test": {
+      "n": 144,
+      "correct": 144,
+      "macro_f1": 1.0,
+      "confusion": {
+        "established": {
+          "established": 42
+        },
+        "not_established": {
+          "not_established": 54
+        },
+        "unknown": {
+          "unknown": 48
+        }
+      },
+      "citation_f1": 1.0,
+      "citations": {
+        "tp": 498,
+        "fp": 0,
+        "fn": 0,
+        "invalid": 0
+      },
+      "field_F_recall": 1.0,
+      "field_F_n": 270,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "not_established_recall": 1.0,
+      "determinate_coverage": 0.6666666666666666,
+      "extraction_abstentions": 0,
+      "all_correct_groups": {
+        "correct": 42,
+        "n": 42
+      },
+      "max_evidence_chars": 6583,
+      "by_axis": {
+        "actor": {
+          "n": 18,
+          "correct": 18,
+          "macro_f1": 1.0,
+          "confusion": {
+            "established": {
+              "established": 6
+            },
+            "not_established": {
+              "not_established": 6
+            },
+            "unknown": {
+              "unknown": 6
+            }
+          },
+          "citation_f1": 1.0,
+          "citations": {
+            "tp": 66,
+            "fp": 0,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 1.0,
+          "field_F_n": 42,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 6,
+            "n": 6
+          },
+          "max_evidence_chars": 6578
+        },
+        "composition": {
+          "n": 36,
+          "correct": 36,
+          "macro_f1": 1.0,
+          "confusion": {
+            "established": {
+              "established": 6
+            },
+            "not_established": {
+              "not_established": 18
+            },
+            "unknown": {
+              "unknown": 12
+            }
+          },
+          "citation_f1": 1.0,
+          "citations": {
+            "tp": 102,
+            "fp": 0,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 1.0,
+          "field_F_n": 54,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 6,
+            "n": 6
+          },
+          "max_evidence_chars": 6573
+        },
+        "event": {
+          "n": 18,
+          "correct": 18,
+          "macro_f1": 1.0,
+          "confusion": {
+            "established": {
+              "established": 6
+            },
+            "not_established": {
+              "not_established": 6
+            },
+            "unknown": {
+              "unknown": 6
+            }
+          },
+          "citation_f1": 1.0,
+          "citations": {
+            "tp": 66,
+            "fp": 0,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 1.0,
+          "field_F_n": 42,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 6,
+            "n": 6
+          },
+          "max_evidence_chars": 6574
+        },
+        "exception": {
+          "n": 18,
+          "correct": 18,
+          "macro_f1": 1.0,
+          "confusion": {
+            "established": {
+              "established": 6
+            },
+            "not_established": {
+              "not_established": 6
+            },
+            "unknown": {
+              "unknown": 6
+            }
+          },
+          "citation_f1": 1.0,
+          "citations": {
+            "tp": 66,
+            "fp": 0,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 1.0,
+          "field_F_n": 24,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 6,
+            "n": 6
+          },
+          "max_evidence_chars": 6574
+        },
+        "payment": {
+          "n": 18,
+          "correct": 18,
+          "macro_f1": 1.0,
+          "confusion": {
+            "established": {
+              "established": 6
+            },
+            "not_established": {
+              "not_established": 6
+            },
+            "unknown": {
+              "unknown": 6
+            }
+          },
+          "citation_f1": 1.0,
+          "citations": {
+            "tp": 66,
+            "fp": 0,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 1.0,
+          "field_F_n": 24,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 6,
+            "n": 6
+          },
+          "max_evidence_chars": 6572
+        },
+        "source": {
+          "n": 18,
+          "correct": 18,
+          "macro_f1": 1.0,
+          "confusion": {
+            "established": {
+              "established": 6
+            },
+            "not_established": {
+              "not_established": 6
+            },
+            "unknown": {
+              "unknown": 6
+            }
+          },
+          "citation_f1": 1.0,
+          "citations": {
+            "tp": 66,
+            "fp": 0,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 1.0,
+          "field_F_n": 42,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 6,
+            "n": 6
+          },
+          "max_evidence_chars": 6583
+        },
+        "time": {
+          "n": 18,
+          "correct": 18,
+          "macro_f1": 1.0,
+          "confusion": {
+            "established": {
+              "established": 6
+            },
+            "not_established": {
+              "not_established": 6
+            },
+            "unknown": {
+              "unknown": 6
+            }
+          },
+          "citation_f1": 1.0,
+          "citations": {
+            "tp": 66,
+            "fp": 0,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 1.0,
+          "field_F_n": 42,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 6,
+            "n": 6
+          },
+          "max_evidence_chars": 6580
+        }
+      }
+    },
+    "r10_regression": {
+      "n": 96,
+      "correct": 64,
+      "macro_f1": 0.6412698412698412,
+      "confusion": {
+        "established": {
+          "unknown": 24,
+          "established": 8
+        },
+        "not_established": {
+          "not_established": 24,
+          "unknown": 8
+        },
+        "unknown": {
+          "unknown": 32
+        }
+      },
+      "citation_f1": 0.6666666666666666,
+      "citations": {
+        "tp": 176,
+        "fp": 0,
+        "fn": 176,
+        "invalid": 0
+      },
+      "field_F_recall": 0.5,
+      "field_F_n": 176,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "not_established_recall": 0.75,
+      "determinate_coverage": 0.3333333333333333,
+      "extraction_abstentions": 0,
+      "all_correct_groups": {
+        "correct": 8,
+        "n": 32
+      },
+      "max_evidence_chars": 1104,
+      "by_axis": {
+        "event": {
+          "n": 24,
+          "correct": 16,
+          "macro_f1": 0.5555555555555555,
+          "confusion": {
+            "established": {
+              "unknown": 8
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.7777777777777778,
+          "citations": {
+            "tp": 56,
+            "fp": 0,
+            "fn": 32,
+            "invalid": 0
+          },
+          "field_F_recall": 0.5714285714285714,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.3333333333333333,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 1097
+        },
+        "exception": {
+          "n": 24,
+          "correct": 8,
+          "macro_f1": 0.16666666666666666,
+          "confusion": {
+            "established": {
+              "unknown": 8
+            },
+            "not_established": {
+              "unknown": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.7058823529411765,
+          "citations": {
+            "tp": 48,
+            "fp": 0,
+            "fn": 40,
+            "invalid": 0
+          },
+          "field_F_recall": 0.75,
+          "field_F_n": 32,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 0.0,
+          "determinate_coverage": 0.0,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 1104
+        },
+        "payment": {
+          "n": 24,
+          "correct": 24,
+          "macro_f1": 1.0,
+          "confusion": {
+            "established": {
+              "established": 8
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.625,
+          "citations": {
+            "tp": 40,
+            "fp": 0,
+            "fn": 48,
+            "invalid": 0
+          },
+          "field_F_recall": 0.25,
+          "field_F_n": 32,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 8,
+            "n": 8
+          },
+          "max_evidence_chars": 1097
+        },
+        "source": {
+          "n": 24,
+          "correct": 16,
+          "macro_f1": 0.5555555555555555,
+          "confusion": {
+            "established": {
+              "unknown": 8
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.5333333333333333,
+          "citations": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 56,
+            "invalid": 0
+          },
+          "field_F_recall": 0.42857142857142855,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.3333333333333333,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 1102
+        }
+      }
+    },
+    "r10_regression_short": {
+      "n": 96,
+      "correct": 64,
+      "macro_f1": 0.6412698412698412,
+      "confusion": {
+        "established": {
+          "unknown": 24,
+          "established": 8
+        },
+        "not_established": {
+          "not_established": 24,
+          "unknown": 8
+        },
+        "unknown": {
+          "unknown": 32
+        }
+      },
+      "citation_f1": 0.8421052631578947,
+      "citations": {
+        "tp": 256,
+        "fp": 0,
+        "fn": 96,
+        "invalid": 0
+      },
+      "field_F_recall": 0.9545454545454546,
+      "field_F_n": 176,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "not_established_recall": 0.75,
+      "determinate_coverage": 0.3333333333333333,
+      "extraction_abstentions": 0,
+      "all_correct_groups": {
+        "correct": 8,
+        "n": 32
+      },
+      "max_evidence_chars": 695,
+      "by_axis": {
+        "event": {
+          "n": 24,
+          "correct": 16,
+          "macro_f1": 0.5555555555555555,
+          "confusion": {
+            "established": {
+              "unknown": 8
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.9523809523809523,
+          "citations": {
+            "tp": 80,
+            "fp": 0,
+            "fn": 8,
+            "invalid": 0
+          },
+          "field_F_recall": 1.0,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.3333333333333333,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 688
+        },
+        "exception": {
+          "n": 24,
+          "correct": 8,
+          "macro_f1": 0.16666666666666666,
+          "confusion": {
+            "established": {
+              "unknown": 8
+            },
+            "not_established": {
+              "unknown": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.7777777777777778,
+          "citations": {
+            "tp": 56,
+            "fp": 0,
+            "fn": 32,
+            "invalid": 0
+          },
+          "field_F_recall": 1.0,
+          "field_F_n": 32,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 0.0,
+          "determinate_coverage": 0.0,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 695
+        },
+        "payment": {
+          "n": 24,
+          "correct": 24,
+          "macro_f1": 1.0,
+          "confusion": {
+            "established": {
+              "established": 8
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.8421052631578947,
+          "citations": {
+            "tp": 64,
+            "fp": 0,
+            "fn": 24,
+            "invalid": 0
+          },
+          "field_F_recall": 1.0,
+          "field_F_n": 32,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 8,
+            "n": 8
+          },
+          "max_evidence_chars": 688
+        },
+        "source": {
+          "n": 24,
+          "correct": 16,
+          "macro_f1": 0.5555555555555555,
+          "confusion": {
+            "established": {
+              "unknown": 8
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.7777777777777778,
+          "citations": {
+            "tp": 56,
+            "fp": 0,
+            "fn": 32,
+            "invalid": 0
+          },
+          "field_F_recall": 0.8571428571428571,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.3333333333333333,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 688
+        }
+      }
+    },
+    "r10_regression_reordered": {
+      "n": 96,
+      "correct": 56,
+      "macro_f1": 0.5647058823529412,
+      "confusion": {
+        "established": {
+          "abstain": 2,
+          "unknown": 22,
+          "established": 8
+        },
+        "not_established": {
+          "unknown": 16,
+          "not_established": 16
+        },
+        "unknown": {
+          "unknown": 32
+        }
+      },
+      "citation_f1": 0.42857142857142855,
+      "citations": {
+        "tp": 96,
+        "fp": 0,
+        "fn": 256,
+        "invalid": 0
+      },
+      "field_F_recall": 0.5,
+      "field_F_n": 176,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "not_established_recall": 0.5,
+      "determinate_coverage": 0.25,
+      "extraction_abstentions": 2,
+      "all_correct_groups": {
+        "correct": 8,
+        "n": 32
+      },
+      "max_evidence_chars": 1180,
+      "by_axis": {
+        "event": {
+          "n": 24,
+          "correct": 16,
+          "macro_f1": 0.5555555555555555,
+          "confusion": {
+            "established": {
+              "unknown": 8
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.5333333333333333,
+          "citations": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 56,
+            "invalid": 0
+          },
+          "field_F_recall": 0.5714285714285714,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.3333333333333333,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 1173
+        },
+        "exception": {
+          "n": 24,
+          "correct": 8,
+          "macro_f1": 0.16666666666666666,
+          "confusion": {
+            "established": {
+              "unknown": 8
+            },
+            "not_established": {
+              "unknown": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.42857142857142855,
+          "citations": {
+            "tp": 24,
+            "fp": 0,
+            "fn": 64,
+            "invalid": 0
+          },
+          "field_F_recall": 0.75,
+          "field_F_n": 32,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 0.0,
+          "determinate_coverage": 0.0,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 1180
+        },
+        "payment": {
+          "n": 24,
+          "correct": 24,
+          "macro_f1": 1.0,
+          "confusion": {
+            "established": {
+              "established": 8
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.3076923076923077,
+          "citations": {
+            "tp": 16,
+            "fp": 0,
+            "fn": 72,
+            "invalid": 0
+          },
+          "field_F_recall": 0.25,
+          "field_F_n": 32,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 8,
+            "n": 8
+          },
+          "max_evidence_chars": 1173
+        },
+        "source": {
+          "n": 24,
+          "correct": 8,
+          "macro_f1": 0.17777777777777778,
+          "confusion": {
+            "established": {
+              "abstain": 2,
+              "unknown": 6
+            },
+            "not_established": {
+              "unknown": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.42857142857142855,
+          "citations": {
+            "tp": 24,
+            "fp": 0,
+            "fn": 64,
+            "invalid": 0
+          },
+          "field_F_recall": 0.42857142857142855,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 0.0,
+          "determinate_coverage": 0.0,
+          "extraction_abstentions": 2,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 1178
+        }
+      }
+    },
+    "r2_regression": {
+      "n": 72,
+      "correct": 72,
+      "macro_f1": 1.0,
+      "confusion": {
+        "established": {
+          "established": 24
+        },
+        "not_established": {
+          "not_established": 24
+        },
+        "unknown": {
+          "unknown": 24
+        }
+      },
+      "citation_f1": 1.0,
+      "citations": {
+        "tp": 264,
+        "fp": 0,
+        "fn": 0,
+        "invalid": 0
+      },
+      "field_F_recall": 1.0,
+      "field_F_n": 132,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "not_established_recall": 1.0,
+      "determinate_coverage": 0.6666666666666666,
+      "extraction_abstentions": 0,
+      "all_correct_groups": {
+        "correct": 24,
+        "n": 24
+      },
+      "max_evidence_chars": 422,
+      "by_axis": {
+        "event": {
+          "n": 18,
+          "correct": 18,
+          "macro_f1": 1.0,
+          "confusion": {
+            "established": {
+              "established": 6
+            },
+            "not_established": {
+              "not_established": 6
+            },
+            "unknown": {
+              "unknown": 6
+            }
+          },
+          "citation_f1": 1.0,
+          "citations": {
+            "tp": 66,
+            "fp": 0,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 1.0,
+          "field_F_n": 42,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 6,
+            "n": 6
+          },
+          "max_evidence_chars": 412
+        },
+        "exception": {
+          "n": 18,
+          "correct": 18,
+          "macro_f1": 1.0,
+          "confusion": {
+            "established": {
+              "established": 6
+            },
+            "not_established": {
+              "not_established": 6
+            },
+            "unknown": {
+              "unknown": 6
+            }
+          },
+          "citation_f1": 1.0,
+          "citations": {
+            "tp": 66,
+            "fp": 0,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 1.0,
+          "field_F_n": 24,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 6,
+            "n": 6
+          },
+          "max_evidence_chars": 414
+        },
+        "payment": {
+          "n": 18,
+          "correct": 18,
+          "macro_f1": 1.0,
+          "confusion": {
+            "established": {
+              "established": 6
+            },
+            "not_established": {
+              "not_established": 6
+            },
+            "unknown": {
+              "unknown": 6
+            }
+          },
+          "citation_f1": 1.0,
+          "citations": {
+            "tp": 66,
+            "fp": 0,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 1.0,
+          "field_F_n": 24,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 6,
+            "n": 6
+          },
+          "max_evidence_chars": 412
+        },
+        "source": {
+          "n": 18,
+          "correct": 18,
+          "macro_f1": 1.0,
+          "confusion": {
+            "established": {
+              "established": 6
+            },
+            "not_established": {
+              "not_established": 6
+            },
+            "unknown": {
+              "unknown": 6
+            }
+          },
+          "citation_f1": 1.0,
+          "citations": {
+            "tp": 66,
+            "fp": 0,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 1.0,
+          "field_F_n": 42,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 6,
+            "n": 6
+          },
+          "max_evidence_chars": 422
+        }
+      }
+    },
+    "r3_regression": {
+      "n": 72,
+      "correct": 36,
+      "macro_f1": 0.5714285714285714,
+      "confusion": {
+        "established": {
+          "established": 18,
+          "abstain": 6
+        },
+        "not_established": {
+          "not_established": 18,
+          "abstain": 6
+        },
+        "unknown": {
+          "abstain": 24
+        }
+      },
+      "citation_f1": 0.9772727272727273,
+      "citations": {
+        "tp": 258,
+        "fp": 6,
+        "fn": 6,
+        "invalid": 0
+      },
+      "field_F_recall": 1.0,
+      "field_F_n": 132,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "not_established_recall": 0.75,
+      "determinate_coverage": 0.5,
+      "extraction_abstentions": 36,
+      "all_correct_groups": {
+        "correct": 0,
+        "n": 24
+      },
+      "max_evidence_chars": 502,
+      "by_axis": {
+        "event": {
+          "n": 18,
+          "correct": 12,
+          "macro_f1": 0.6666666666666666,
+          "confusion": {
+            "established": {
+              "established": 6
+            },
+            "not_established": {
+              "not_established": 6
+            },
+            "unknown": {
+              "abstain": 6
+            }
+          },
+          "citation_f1": 1.0,
+          "citations": {
+            "tp": 66,
+            "fp": 0,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 1.0,
+          "field_F_n": 42,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 6,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 6
+          },
+          "max_evidence_chars": 498
+        },
+        "exception": {
+          "n": 18,
+          "correct": 12,
+          "macro_f1": 0.6666666666666666,
+          "confusion": {
+            "established": {
+              "established": 6
+            },
+            "not_established": {
+              "not_established": 6
+            },
+            "unknown": {
+              "abstain": 6
+            }
+          },
+          "citation_f1": 1.0,
+          "citations": {
+            "tp": 66,
+            "fp": 0,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 1.0,
+          "field_F_n": 24,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 6,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 6
+          },
+          "max_evidence_chars": 498
+        },
+        "payment": {
+          "n": 18,
+          "correct": 0,
+          "macro_f1": 0.0,
+          "confusion": {
+            "established": {
+              "abstain": 6
+            },
+            "not_established": {
+              "abstain": 6
+            },
+            "unknown": {
+              "abstain": 6
+            }
+          },
+          "citation_f1": 0.9090909090909091,
+          "citations": {
+            "tp": 60,
+            "fp": 6,
+            "fn": 6,
+            "invalid": 0
+          },
+          "field_F_recall": 1.0,
+          "field_F_n": 24,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 0.0,
+          "determinate_coverage": 0.0,
+          "extraction_abstentions": 18,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 6
+          },
+          "max_evidence_chars": 502
+        },
+        "source": {
+          "n": 18,
+          "correct": 12,
+          "macro_f1": 0.6666666666666666,
+          "confusion": {
+            "established": {
+              "established": 6
+            },
+            "not_established": {
+              "not_established": 6
+            },
+            "unknown": {
+              "abstain": 6
+            }
+          },
+          "citation_f1": 1.0,
+          "citations": {
+            "tp": 66,
+            "fp": 0,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 1.0,
+          "field_F_n": 42,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 6,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 6
+          },
+          "max_evidence_chars": 498
+        }
+      }
+    },
+    "r4_regression": {
+      "n": 96,
+      "correct": 15,
+      "macro_f1": 0.23928571428571432,
+      "confusion": {
+        "established": {
+          "conflict": 28,
+          "established": 3,
+          "not_established": 1
+        },
+        "not_established": {
+          "conflict": 23,
+          "not_established": 9
+        },
+        "unknown": {
+          "conflict": 23,
+          "not_established": 6,
+          "unknown": 3
+        }
+      },
+      "citation_f1": 0.7889908256880734,
+      "citations": {
+        "tp": 344,
+        "fp": 176,
+        "fn": 8,
+        "invalid": 0
+      },
+      "field_F_recall": 0.48863636363636365,
+      "field_F_n": 176,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 6,
+      "not_established_recall": 0.28125,
+      "determinate_coverage": 0.19791666666666666,
+      "extraction_abstentions": 0,
+      "all_correct_groups": {
+        "correct": 3,
+        "n": 32
+      },
+      "max_evidence_chars": 514,
+      "by_axis": {
+        "event": {
+          "n": 24,
+          "correct": 3,
+          "macro_f1": 0.2222222222222222,
+          "confusion": {
+            "established": {
+              "conflict": 7,
+              "established": 1
+            },
+            "not_established": {
+              "conflict": 7,
+              "not_established": 1
+            },
+            "unknown": {
+              "conflict": 7,
+              "unknown": 1
+            }
+          },
+          "citation_f1": 0.8073394495412844,
+          "citations": {
+            "tp": 88,
+            "fp": 42,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 0.5178571428571429,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 0.125,
+          "determinate_coverage": 0.08333333333333333,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 1,
+            "n": 8
+          },
+          "max_evidence_chars": 510
+        },
+        "exception": {
+          "n": 24,
+          "correct": 8,
+          "macro_f1": 0.3586744639376218,
+          "confusion": {
+            "established": {
+              "conflict": 7,
+              "established": 1
+            },
+            "not_established": {
+              "not_established": 6,
+              "conflict": 2
+            },
+            "unknown": {
+              "not_established": 5,
+              "unknown": 1,
+              "conflict": 2
+            }
+          },
+          "citation_f1": 0.8073394495412844,
+          "citations": {
+            "tp": 88,
+            "fp": 42,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 0.59375,
+          "field_F_n": 32,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 5,
+          "not_established_recall": 0.75,
+          "determinate_coverage": 0.5,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 1,
+            "n": 8
+          },
+          "max_evidence_chars": 510
+        },
+        "payment": {
+          "n": 24,
+          "correct": 1,
+          "macro_f1": 0.06060606060606061,
+          "confusion": {
+            "established": {
+              "conflict": 7,
+              "not_established": 1
+            },
+            "not_established": {
+              "conflict": 7,
+              "not_established": 1
+            },
+            "unknown": {
+              "conflict": 7,
+              "not_established": 1
+            }
+          },
+          "citation_f1": 0.7339449541284404,
+          "citations": {
+            "tp": 80,
+            "fp": 50,
+            "fn": 8,
+            "invalid": 0
+          },
+          "field_F_recall": 0.28125,
+          "field_F_n": 32,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 1,
+          "not_established_recall": 0.125,
+          "determinate_coverage": 0.125,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 514
+        },
+        "source": {
+          "n": 24,
+          "correct": 3,
+          "macro_f1": 0.2222222222222222,
+          "confusion": {
+            "established": {
+              "conflict": 7,
+              "established": 1
+            },
+            "not_established": {
+              "conflict": 7,
+              "not_established": 1
+            },
+            "unknown": {
+              "conflict": 7,
+              "unknown": 1
+            }
+          },
+          "citation_f1": 0.8073394495412844,
+          "citations": {
+            "tp": 88,
+            "fp": 42,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 0.5178571428571429,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 0.125,
+          "determinate_coverage": 0.08333333333333333,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 1,
+            "n": 8
+          },
+          "max_evidence_chars": 510
+        }
+      }
+    },
+    "r5_regression": {
+      "n": 96,
+      "correct": 6,
+      "macro_f1": 0.0909090909090909,
+      "confusion": {
+        "established": {
+          "conflict": 26,
+          "established": 6
+        },
+        "not_established": {
+          "conflict": 32
+        },
+        "unknown": {
+          "conflict": 26,
+          "established": 6
+        }
+      },
+      "citation_f1": 0.8529769137302552,
+      "citations": {
+        "tp": 351,
+        "fp": 120,
+        "fn": 1,
+        "invalid": 0
+      },
+      "field_F_recall": 0.4318181818181818,
+      "field_F_n": 176,
+      "unknown_to_established": 6,
+      "unknown_to_not_established": 0,
+      "not_established_recall": 0.0,
+      "determinate_coverage": 0.125,
+      "extraction_abstentions": 0,
+      "all_correct_groups": {
+        "correct": 0,
+        "n": 32
+      },
+      "max_evidence_chars": 533,
+      "by_axis": {
+        "event": {
+          "n": 24,
+          "correct": 0,
+          "macro_f1": 0.0,
+          "confusion": {
+            "established": {
+              "conflict": 8
+            },
+            "not_established": {
+              "conflict": 8
+            },
+            "unknown": {
+              "conflict": 8
+            }
+          },
+          "citation_f1": 0.8543689320388349,
+          "citations": {
+            "tp": 88,
+            "fp": 30,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 0.4642857142857143,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 0.0,
+          "determinate_coverage": 0.0,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 529
+        },
+        "exception": {
+          "n": 24,
+          "correct": 0,
+          "macro_f1": 0.0,
+          "confusion": {
+            "established": {
+              "conflict": 8
+            },
+            "not_established": {
+              "conflict": 8
+            },
+            "unknown": {
+              "conflict": 8
+            }
+          },
+          "citation_f1": 0.8543689320388349,
+          "citations": {
+            "tp": 88,
+            "fp": 30,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 0.1875,
+          "field_F_n": 32,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 0.0,
+          "determinate_coverage": 0.0,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 533
+        },
+        "payment": {
+          "n": 24,
+          "correct": 6,
+          "macro_f1": 0.19999999999999998,
+          "confusion": {
+            "established": {
+              "conflict": 2,
+              "established": 6
+            },
+            "not_established": {
+              "conflict": 8
+            },
+            "unknown": {
+              "conflict": 2,
+              "established": 6
+            }
+          },
+          "citation_f1": 0.848780487804878,
+          "citations": {
+            "tp": 87,
+            "fp": 30,
+            "fn": 1,
+            "invalid": 0
+          },
+          "field_F_recall": 0.5625,
+          "field_F_n": 32,
+          "unknown_to_established": 6,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 0.0,
+          "determinate_coverage": 0.5,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 529
+        },
+        "source": {
+          "n": 24,
+          "correct": 0,
+          "macro_f1": 0.0,
+          "confusion": {
+            "established": {
+              "conflict": 8
+            },
+            "not_established": {
+              "conflict": 8
+            },
+            "unknown": {
+              "conflict": 8
+            }
+          },
+          "citation_f1": 0.8543689320388349,
+          "citations": {
+            "tp": 88,
+            "fp": 30,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 0.4642857142857143,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 0.0,
+          "determinate_coverage": 0.0,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 529
+        }
+      }
+    },
+    "r6_regression": {
+      "n": 96,
+      "correct": 82,
+      "macro_f1": 0.8468376068376068,
+      "confusion": {
+        "established": {
+          "unknown": 14,
+          "established": 18
+        },
+        "not_established": {
+          "not_established": 32
+        },
+        "unknown": {
+          "unknown": 32
+        }
+      },
+      "citation_f1": 0.9797101449275363,
+      "citations": {
+        "tp": 338,
+        "fp": 0,
+        "fn": 14,
+        "invalid": 0
+      },
+      "field_F_recall": 0.9545454545454546,
+      "field_F_n": 176,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "not_established_recall": 1.0,
+      "determinate_coverage": 0.5208333333333334,
+      "extraction_abstentions": 0,
+      "all_correct_groups": {
+        "correct": 18,
+        "n": 32
+      },
+      "max_evidence_chars": 521,
+      "by_axis": {
+        "event": {
+          "n": 24,
+          "correct": 24,
+          "macro_f1": 1.0,
+          "confusion": {
+            "established": {
+              "established": 8
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 1.0,
+          "citations": {
+            "tp": 88,
+            "fp": 0,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 1.0,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 8,
+            "n": 8
+          },
+          "max_evidence_chars": 519
+        },
+        "exception": {
+          "n": 24,
+          "correct": 24,
+          "macro_f1": 1.0,
+          "confusion": {
+            "established": {
+              "established": 8
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 1.0,
+          "citations": {
+            "tp": 88,
+            "fp": 0,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 1.0,
+          "field_F_n": 32,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 8,
+            "n": 8
+          },
+          "max_evidence_chars": 517
+        },
+        "payment": {
+          "n": 24,
+          "correct": 18,
+          "macro_f1": 0.709090909090909,
+          "confusion": {
+            "established": {
+              "established": 2,
+              "unknown": 6
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.9647058823529412,
+          "citations": {
+            "tp": 82,
+            "fp": 0,
+            "fn": 6,
+            "invalid": 0
+          },
+          "field_F_recall": 1.0,
+          "field_F_n": 32,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.4166666666666667,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 2,
+            "n": 8
+          },
+          "max_evidence_chars": 521
+        },
+        "source": {
+          "n": 24,
+          "correct": 16,
+          "macro_f1": 0.5555555555555555,
+          "confusion": {
+            "established": {
+              "unknown": 8
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.9523809523809523,
+          "citations": {
+            "tp": 80,
+            "fp": 0,
+            "fn": 8,
+            "invalid": 0
+          },
+          "field_F_recall": 0.8571428571428571,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.3333333333333333,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 517
+        }
+      }
+    },
+    "r7_regression": {
+      "n": 96,
+      "correct": 41,
+      "macro_f1": 0.4373111165563996,
+      "confusion": {
+        "established": {
+          "unknown": 20,
+          "abstain": 12
+        },
+        "not_established": {
+          "not_established": 21,
+          "unknown": 5,
+          "abstain": 6
+        },
+        "unknown": {
+          "unknown": 20,
+          "abstain": 12
+        }
+      },
+      "citation_f1": 0.6666666666666666,
+      "citations": {
+        "tp": 176,
+        "fp": 0,
+        "fn": 176,
+        "invalid": 0
+      },
+      "field_F_recall": 0.5,
+      "field_F_n": 176,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "not_established_recall": 0.65625,
+      "determinate_coverage": 0.21875,
+      "extraction_abstentions": 30,
+      "all_correct_groups": {
+        "correct": 0,
+        "n": 32
+      },
+      "max_evidence_chars": 561,
+      "by_axis": {
+        "event": {
+          "n": 24,
+          "correct": 13,
+          "macro_f1": 0.5185185185185185,
+          "confusion": {
+            "established": {
+              "unknown": 5,
+              "abstain": 3
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "unknown": 5,
+              "abstain": 3
+            }
+          },
+          "citation_f1": 0.7777777777777778,
+          "citations": {
+            "tp": 56,
+            "fp": 0,
+            "fn": 32,
+            "invalid": 0
+          },
+          "field_F_recall": 0.5714285714285714,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.3333333333333333,
+          "extraction_abstentions": 6,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 560
+        },
+        "exception": {
+          "n": 24,
+          "correct": 10,
+          "macro_f1": 0.4415954415954417,
+          "confusion": {
+            "established": {
+              "unknown": 5,
+              "abstain": 3
+            },
+            "not_established": {
+              "not_established": 5,
+              "abstain": 3
+            },
+            "unknown": {
+              "unknown": 5,
+              "abstain": 3
+            }
+          },
+          "citation_f1": 0.625,
+          "citations": {
+            "tp": 40,
+            "fp": 0,
+            "fn": 48,
+            "invalid": 0
+          },
+          "field_F_recall": 0.25,
+          "field_F_n": 32,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 0.625,
+          "determinate_coverage": 0.20833333333333334,
+          "extraction_abstentions": 9,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 561
+        },
+        "payment": {
+          "n": 24,
+          "correct": 5,
+          "macro_f1": 0.14492753623188406,
+          "confusion": {
+            "established": {
+              "unknown": 5,
+              "abstain": 3
+            },
+            "not_established": {
+              "unknown": 5,
+              "abstain": 3
+            },
+            "unknown": {
+              "unknown": 5,
+              "abstain": 3
+            }
+          },
+          "citation_f1": 0.7058823529411765,
+          "citations": {
+            "tp": 48,
+            "fp": 0,
+            "fn": 40,
+            "invalid": 0
+          },
+          "field_F_recall": 0.75,
+          "field_F_n": 32,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 0.0,
+          "determinate_coverage": 0.0,
+          "extraction_abstentions": 9,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 559
+        },
+        "source": {
+          "n": 24,
+          "correct": 13,
+          "macro_f1": 0.5185185185185185,
+          "confusion": {
+            "established": {
+              "unknown": 5,
+              "abstain": 3
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "unknown": 5,
+              "abstain": 3
+            }
+          },
+          "citation_f1": 0.5333333333333333,
+          "citations": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 56,
+            "invalid": 0
+          },
+          "field_F_recall": 0.42857142857142855,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.3333333333333333,
+          "extraction_abstentions": 6,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 559
+        }
+      }
+    },
+    "r8_regression": {
+      "n": 96,
+      "correct": 74,
+      "macro_f1": 0.7401255075673681,
+      "confusion": {
+        "established": {
+          "unknown": 22,
+          "established": 10
+        },
+        "not_established": {
+          "not_established": 32
+        },
+        "unknown": {
+          "unknown": 32
+        }
+      },
+      "citation_f1": 0.86084142394822,
+      "citations": {
+        "tp": 266,
+        "fp": 0,
+        "fn": 86,
+        "invalid": 0
+      },
+      "field_F_recall": 0.5113636363636364,
+      "field_F_n": 176,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "not_established_recall": 1.0,
+      "determinate_coverage": 0.4375,
+      "extraction_abstentions": 0,
+      "all_correct_groups": {
+        "correct": 10,
+        "n": 32
+      },
+      "max_evidence_chars": 732,
+      "by_axis": {
+        "event": {
+          "n": 24,
+          "correct": 16,
+          "macro_f1": 0.5555555555555555,
+          "confusion": {
+            "established": {
+              "unknown": 8
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.8421052631578947,
+          "citations": {
+            "tp": 64,
+            "fp": 0,
+            "fn": 24,
+            "invalid": 0
+          },
+          "field_F_recall": 0.5714285714285714,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.3333333333333333,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 732
+        },
+        "exception": {
+          "n": 24,
+          "correct": 16,
+          "macro_f1": 0.5555555555555555,
+          "confusion": {
+            "established": {
+              "unknown": 8
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.9523809523809523,
+          "citations": {
+            "tp": 80,
+            "fp": 0,
+            "fn": 8,
+            "invalid": 0
+          },
+          "field_F_recall": 0.75,
+          "field_F_n": 32,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.3333333333333333,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 732
+        },
+        "payment": {
+          "n": 24,
+          "correct": 24,
+          "macro_f1": 1.0,
+          "confusion": {
+            "established": {
+              "established": 8
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.8421052631578947,
+          "citations": {
+            "tp": 64,
+            "fp": 0,
+            "fn": 24,
+            "invalid": 0
+          },
+          "field_F_recall": 0.25,
+          "field_F_n": 32,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 8,
+            "n": 8
+          },
+          "max_evidence_chars": 732
+        },
+        "source": {
+          "n": 24,
+          "correct": 18,
+          "macro_f1": 0.709090909090909,
+          "confusion": {
+            "established": {
+              "unknown": 6,
+              "established": 2
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.7945205479452054,
+          "citations": {
+            "tp": 58,
+            "fp": 0,
+            "fn": 30,
+            "invalid": 0
+          },
+          "field_F_recall": 0.4642857142857143,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.4166666666666667,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 2,
+            "n": 8
+          },
+          "max_evidence_chars": 732
+        }
+      }
+    },
+    "r8_regression_short": {
+      "n": 96,
+      "correct": 32,
+      "macro_f1": 0.4615753219526804,
+      "confusion": {
+        "established": {
+          "established": 16,
+          "abstain": 1,
+          "conflict": 15
+        },
+        "not_established": {
+          "not_established": 8,
+          "abstain": 2,
+          "conflict": 20,
+          "unknown": 2
+        },
+        "unknown": {
+          "abstain": 4,
+          "conflict": 15,
+          "established": 5,
+          "unknown": 8
+        }
+      },
+      "citation_f1": 0.91005291005291,
+      "citations": {
+        "tp": 344,
+        "fp": 60,
+        "fn": 8,
+        "invalid": 0
+      },
+      "field_F_recall": 0.7159090909090909,
+      "field_F_n": 176,
+      "unknown_to_established": 5,
+      "unknown_to_not_established": 0,
+      "not_established_recall": 0.25,
+      "determinate_coverage": 0.3020833333333333,
+      "extraction_abstentions": 7,
+      "all_correct_groups": {
+        "correct": 6,
+        "n": 32
+      },
+      "max_evidence_chars": 522,
+      "by_axis": {
+        "event": {
+          "n": 24,
+          "correct": 8,
+          "macro_f1": 0.4969696969696969,
+          "confusion": {
+            "established": {
+              "established": 3,
+              "conflict": 5
+            },
+            "not_established": {
+              "not_established": 3,
+              "conflict": 5
+            },
+            "unknown": {
+              "abstain": 1,
+              "conflict": 5,
+              "unknown": 2
+            }
+          },
+          "citation_f1": 0.9214659685863874,
+          "citations": {
+            "tp": 88,
+            "fp": 15,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 0.7321428571428571,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 0.375,
+          "determinate_coverage": 0.25,
+          "extraction_abstentions": 1,
+          "all_correct_groups": {
+            "correct": 2,
+            "n": 8
+          },
+          "max_evidence_chars": 519
+        },
+        "exception": {
+          "n": 24,
+          "correct": 5,
+          "macro_f1": 0.2929292929292929,
+          "confusion": {
+            "established": {
+              "established": 3,
+              "conflict": 5
+            },
+            "not_established": {
+              "abstain": 1,
+              "conflict": 5,
+              "unknown": 2
+            },
+            "unknown": {
+              "abstain": 1,
+              "conflict": 5,
+              "unknown": 2
+            }
+          },
+          "citation_f1": 0.8743169398907104,
+          "citations": {
+            "tp": 80,
+            "fp": 15,
+            "fn": 8,
+            "invalid": 0
+          },
+          "field_F_recall": 0.53125,
+          "field_F_n": 32,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 0.0,
+          "determinate_coverage": 0.125,
+          "extraction_abstentions": 2,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 522
+        },
+        "payment": {
+          "n": 24,
+          "correct": 11,
+          "macro_f1": 0.5,
+          "confusion": {
+            "established": {
+              "abstain": 1,
+              "established": 7
+            },
+            "not_established": {
+              "abstain": 1,
+              "conflict": 5,
+              "not_established": 2
+            },
+            "unknown": {
+              "abstain": 1,
+              "established": 5,
+              "unknown": 2
+            }
+          },
+          "citation_f1": 0.9214659685863874,
+          "citations": {
+            "tp": 88,
+            "fp": 15,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 0.84375,
+          "field_F_n": 32,
+          "unknown_to_established": 5,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 0.25,
+          "determinate_coverage": 0.5833333333333334,
+          "extraction_abstentions": 3,
+          "all_correct_groups": {
+            "correct": 2,
+            "n": 8
+          },
+          "max_evidence_chars": 519
+        },
+        "source": {
+          "n": 24,
+          "correct": 8,
+          "macro_f1": 0.4969696969696969,
+          "confusion": {
+            "established": {
+              "established": 3,
+              "conflict": 5
+            },
+            "not_established": {
+              "not_established": 3,
+              "conflict": 5
+            },
+            "unknown": {
+              "abstain": 1,
+              "conflict": 5,
+              "unknown": 2
+            }
+          },
+          "citation_f1": 0.9214659685863874,
+          "citations": {
+            "tp": 88,
+            "fp": 15,
+            "fn": 0,
+            "invalid": 0
+          },
+          "field_F_recall": 0.7321428571428571,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 0.375,
+          "determinate_coverage": 0.25,
+          "extraction_abstentions": 1,
+          "all_correct_groups": {
+            "correct": 2,
+            "n": 8
+          },
+          "max_evidence_chars": 519
+        }
+      }
+    },
+    "r9_regression": {
+      "n": 96,
+      "correct": 32,
+      "macro_f1": 0.2490842490842491,
+      "confusion": {
+        "established": {
+          "not_established": 8,
+          "unknown": 24
+        },
+        "not_established": {
+          "not_established": 8,
+          "unknown": 24
+        },
+        "unknown": {
+          "not_established": 8,
+          "unknown": 24
+        }
+      },
+      "citation_f1": 0.3125,
+      "citations": {
+        "tp": 80,
+        "fp": 80,
+        "fn": 272,
+        "invalid": 0
+      },
+      "field_F_recall": 0.0,
+      "field_F_n": 176,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 8,
+      "not_established_recall": 0.25,
+      "determinate_coverage": 0.25,
+      "extraction_abstentions": 0,
+      "all_correct_groups": {
+        "correct": 0,
+        "n": 32
+      },
+      "max_evidence_chars": 1198,
+      "by_axis": {
+        "event": {
+          "n": 24,
+          "correct": 8,
+          "macro_f1": 0.16666666666666666,
+          "confusion": {
+            "established": {
+              "unknown": 8
+            },
+            "not_established": {
+              "unknown": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.15384615384615385,
+          "citations": {
+            "tp": 8,
+            "fp": 8,
+            "fn": 80,
+            "invalid": 0
+          },
+          "field_F_recall": 0.0,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 0.0,
+          "determinate_coverage": 0.0,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 1196
+        },
+        "exception": {
+          "n": 24,
+          "correct": 8,
+          "macro_f1": 0.16666666666666666,
+          "confusion": {
+            "established": {
+              "unknown": 8
+            },
+            "not_established": {
+              "unknown": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.35294117647058826,
+          "citations": {
+            "tp": 24,
+            "fp": 24,
+            "fn": 64,
+            "invalid": 0
+          },
+          "field_F_recall": 0.0,
+          "field_F_n": 32,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 0.0,
+          "determinate_coverage": 0.0,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 1198
+        },
+        "payment": {
+          "n": 24,
+          "correct": 8,
+          "macro_f1": 0.16666666666666666,
+          "confusion": {
+            "established": {
+              "unknown": 8
+            },
+            "not_established": {
+              "unknown": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.35294117647058826,
+          "citations": {
+            "tp": 24,
+            "fp": 24,
+            "fn": 64,
+            "invalid": 0
+          },
+          "field_F_recall": 0.0,
+          "field_F_n": 32,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 0.0,
+          "determinate_coverage": 0.0,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 1191
+        },
+        "source": {
+          "n": 24,
+          "correct": 8,
+          "macro_f1": 0.16666666666666666,
+          "confusion": {
+            "established": {
+              "not_established": 8
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "not_established": 8
+            }
+          },
+          "citation_f1": 0.35294117647058826,
+          "citations": {
+            "tp": 24,
+            "fp": 24,
+            "fn": 64,
+            "invalid": 0
+          },
+          "field_F_recall": 0.0,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 8,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 1.0,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 1190
+        }
+      }
+    },
+    "r9_regression_short": {
+      "n": 96,
+      "correct": 48,
+      "macro_f1": 0.4222222222222222,
+      "confusion": {
+        "established": {
+          "not_established": 8,
+          "unknown": 24
+        },
+        "not_established": {
+          "not_established": 24,
+          "established": 8
+        },
+        "unknown": {
+          "not_established": 8,
+          "unknown": 24
+        }
+      },
+      "citation_f1": 0.3116883116883117,
+      "citations": {
+        "tp": 96,
+        "fp": 168,
+        "fn": 256,
+        "invalid": 0
+      },
+      "field_F_recall": 0.045454545454545456,
+      "field_F_n": 176,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 8,
+      "not_established_recall": 0.75,
+      "determinate_coverage": 0.5,
+      "extraction_abstentions": 0,
+      "all_correct_groups": {
+        "correct": 0,
+        "n": 32
+      },
+      "max_evidence_chars": 738,
+      "by_axis": {
+        "event": {
+          "n": 24,
+          "correct": 16,
+          "macro_f1": 0.5555555555555555,
+          "confusion": {
+            "established": {
+              "unknown": 8
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.2222222222222222,
+          "citations": {
+            "tp": 16,
+            "fp": 40,
+            "fn": 72,
+            "invalid": 0
+          },
+          "field_F_recall": 0.14285714285714285,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.3333333333333333,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 736
+        },
+        "exception": {
+          "n": 24,
+          "correct": 16,
+          "macro_f1": 0.5555555555555555,
+          "confusion": {
+            "established": {
+              "unknown": 8
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.38095238095238093,
+          "citations": {
+            "tp": 32,
+            "fp": 48,
+            "fn": 56,
+            "invalid": 0
+          },
+          "field_F_recall": 0.0,
+          "field_F_n": 32,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.3333333333333333,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 738
+        },
+        "payment": {
+          "n": 24,
+          "correct": 8,
+          "macro_f1": 0.2222222222222222,
+          "confusion": {
+            "established": {
+              "unknown": 8
+            },
+            "not_established": {
+              "established": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.3333333333333333,
+          "citations": {
+            "tp": 24,
+            "fp": 32,
+            "fn": 64,
+            "invalid": 0
+          },
+          "field_F_recall": 0.0,
+          "field_F_n": 32,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 0.0,
+          "determinate_coverage": 0.3333333333333333,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 734
+        },
+        "source": {
+          "n": 24,
+          "correct": 8,
+          "macro_f1": 0.16666666666666666,
+          "confusion": {
+            "established": {
+              "not_established": 8
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "not_established": 8
+            }
+          },
+          "citation_f1": 0.3,
+          "citations": {
+            "tp": 24,
+            "fp": 48,
+            "fn": 64,
+            "invalid": 0
+          },
+          "field_F_recall": 0.0,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 8,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 1.0,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 734
+        }
+      }
+    },
+    "r9_regression_reordered": {
+      "n": 96,
+      "correct": 47,
+      "macro_f1": 0.4632034632034632,
+      "confusion": {
+        "established": {
+          "not_established": 8,
+          "unknown": 17,
+          "established": 7
+        },
+        "not_established": {
+          "not_established": 16,
+          "unknown": 11,
+          "established": 5
+        },
+        "unknown": {
+          "not_established": 8,
+          "unknown": 24
+        }
+      },
+      "citation_f1": 0.3247863247863248,
+      "citations": {
+        "tp": 95,
+        "fp": 138,
+        "fn": 257,
+        "invalid": 0
+      },
+      "field_F_recall": 0.045454545454545456,
+      "field_F_n": 176,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 8,
+      "not_established_recall": 0.5,
+      "determinate_coverage": 0.4583333333333333,
+      "extraction_abstentions": 0,
+      "all_correct_groups": {
+        "correct": 0,
+        "n": 32
+      },
+      "max_evidence_chars": 1274,
+      "by_axis": {
+        "event": {
+          "n": 24,
+          "correct": 16,
+          "macro_f1": 0.5555555555555555,
+          "confusion": {
+            "established": {
+              "unknown": 8
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.23703703703703705,
+          "citations": {
+            "tp": 16,
+            "fp": 31,
+            "fn": 72,
+            "invalid": 0
+          },
+          "field_F_recall": 0.14285714285714285,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.3333333333333333,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 1272
+        },
+        "exception": {
+          "n": 24,
+          "correct": 8,
+          "macro_f1": 0.16666666666666666,
+          "confusion": {
+            "established": {
+              "unknown": 8
+            },
+            "not_established": {
+              "unknown": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.31788079470198677,
+          "citations": {
+            "tp": 24,
+            "fp": 39,
+            "fn": 64,
+            "invalid": 0
+          },
+          "field_F_recall": 0.0,
+          "field_F_n": 32,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 0.0,
+          "determinate_coverage": 0.0,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 1274
+        },
+        "payment": {
+          "n": 24,
+          "correct": 15,
+          "macro_f1": 0.5,
+          "confusion": {
+            "established": {
+              "established": 7,
+              "unknown": 1
+            },
+            "not_established": {
+              "unknown": 3,
+              "established": 5
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.4189189189189189,
+          "citations": {
+            "tp": 31,
+            "fp": 29,
+            "fn": 57,
+            "invalid": 0
+          },
+          "field_F_recall": 0.0,
+          "field_F_n": 32,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 0.0,
+          "determinate_coverage": 0.5,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 1267
+        },
+        "source": {
+          "n": 24,
+          "correct": 8,
+          "macro_f1": 0.16666666666666666,
+          "confusion": {
+            "established": {
+              "not_established": 8
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "not_established": 8
+            }
+          },
+          "citation_f1": 0.31788079470198677,
+          "citations": {
+            "tp": 24,
+            "fp": 39,
+            "fn": 64,
+            "invalid": 0
+          },
+          "field_F_recall": 0.0,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 8,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 1.0,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 1266
+        }
+      }
+    },
+    "new_dev": {
+      "n": 72,
+      "correct": 44,
+      "macro_f1": 0.5592185592185591,
+      "confusion": {
+        "established": {
+          "unknown": 18,
+          "abstain": 4,
+          "established": 2
+        },
+        "not_established": {
+          "not_established": 18,
+          "unknown": 6
+        },
+        "unknown": {
+          "unknown": 24
+        }
+      },
+      "citation_f1": 0.6481012658227848,
+      "citations": {
+        "tp": 128,
+        "fp": 3,
+        "fn": 136,
+        "invalid": 0
+      },
+      "field_F_recall": 0.5,
+      "field_F_n": 132,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "not_established_recall": 0.75,
+      "determinate_coverage": 0.2777777777777778,
+      "extraction_abstentions": 4,
+      "all_correct_groups": {
+        "correct": 2,
+        "n": 24
+      },
+      "max_evidence_chars": 1066,
+      "by_axis": {
+        "event": {
+          "n": 18,
+          "correct": 12,
+          "macro_f1": 0.5555555555555555,
+          "confusion": {
+            "established": {
+              "unknown": 6
+            },
+            "not_established": {
+              "not_established": 6
+            },
+            "unknown": {
+              "unknown": 6
+            }
+          },
+          "citation_f1": 0.7567567567567568,
+          "citations": {
+            "tp": 42,
+            "fp": 3,
+            "fn": 24,
+            "invalid": 0
+          },
+          "field_F_recall": 0.5714285714285714,
+          "field_F_n": 42,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.3333333333333333,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 6
+          },
+          "max_evidence_chars": 1066
+        },
+        "exception": {
+          "n": 18,
+          "correct": 6,
+          "macro_f1": 0.16666666666666666,
+          "confusion": {
+            "established": {
+              "unknown": 6
+            },
+            "not_established": {
+              "unknown": 6
+            },
+            "unknown": {
+              "unknown": 6
+            }
+          },
+          "citation_f1": 0.7058823529411765,
+          "citations": {
+            "tp": 36,
+            "fp": 0,
+            "fn": 30,
+            "invalid": 0
+          },
+          "field_F_recall": 0.75,
+          "field_F_n": 24,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 0.0,
+          "determinate_coverage": 0.0,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 6
+          },
+          "max_evidence_chars": 1066
+        },
+        "payment": {
+          "n": 18,
+          "correct": 14,
+          "macro_f1": 0.8333333333333334,
+          "confusion": {
+            "established": {
+              "abstain": 4,
+              "established": 2
+            },
+            "not_established": {
+              "not_established": 6
+            },
+            "unknown": {
+              "unknown": 6
+            }
+          },
+          "citation_f1": 0.5652173913043478,
+          "citations": {
+            "tp": 26,
+            "fp": 0,
+            "fn": 40,
+            "invalid": 0
+          },
+          "field_F_recall": 0.25,
+          "field_F_n": 24,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.4444444444444444,
+          "extraction_abstentions": 4,
+          "all_correct_groups": {
+            "correct": 2,
+            "n": 6
+          },
+          "max_evidence_chars": 1064
+        },
+        "source": {
+          "n": 18,
+          "correct": 12,
+          "macro_f1": 0.5555555555555555,
+          "confusion": {
+            "established": {
+              "unknown": 6
+            },
+            "not_established": {
+              "not_established": 6
+            },
+            "unknown": {
+              "unknown": 6
+            }
+          },
+          "citation_f1": 0.5333333333333333,
+          "citations": {
+            "tp": 24,
+            "fp": 0,
+            "fn": 42,
+            "invalid": 0
+          },
+          "field_F_recall": 0.42857142857142855,
+          "field_F_n": 42,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.3333333333333333,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 6
+          },
+          "max_evidence_chars": 1065
+        }
+      }
+    },
+    "new_test": {
+      "n": 96,
+      "correct": 55,
+      "macro_f1": 0.5418803418803418,
+      "confusion": {
+        "established": {
+          "not_established": 8,
+          "unknown": 16,
+          "established": 7,
+          "abstain": 1
+        },
+        "not_established": {
+          "not_established": 24,
+          "unknown": 8
+        },
+        "unknown": {
+          "not_established": 8,
+          "unknown": 24
+        }
+      },
+      "citation_f1": 0.5691056910569106,
+      "citations": {
+        "tp": 175,
+        "fp": 88,
+        "fn": 177,
+        "invalid": 0
+      },
+      "field_F_recall": 0.5,
+      "field_F_n": 176,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 8,
+      "not_established_recall": 0.75,
+      "determinate_coverage": 0.4895833333333333,
+      "extraction_abstentions": 1,
+      "all_correct_groups": {
+        "correct": 7,
+        "n": 32
+      },
+      "max_evidence_chars": 1031,
+      "by_axis": {
+        "event": {
+          "n": 24,
+          "correct": 16,
+          "macro_f1": 0.5555555555555555,
+          "confusion": {
+            "established": {
+              "unknown": 8
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.5555555555555556,
+          "citations": {
+            "tp": 40,
+            "fp": 16,
+            "fn": 48,
+            "invalid": 0
+          },
+          "field_F_recall": 0.5714285714285714,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.3333333333333333,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 1031
+        },
+        "exception": {
+          "n": 24,
+          "correct": 8,
+          "macro_f1": 0.16666666666666666,
+          "confusion": {
+            "established": {
+              "unknown": 8
+            },
+            "not_established": {
+              "unknown": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.6,
+          "citations": {
+            "tp": 48,
+            "fp": 24,
+            "fn": 40,
+            "invalid": 0
+          },
+          "field_F_recall": 0.75,
+          "field_F_n": 32,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 0.0,
+          "determinate_coverage": 0.0,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 1025
+        },
+        "payment": {
+          "n": 24,
+          "correct": 23,
+          "macro_f1": 0.9777777777777779,
+          "confusion": {
+            "established": {
+              "established": 7,
+              "abstain": 1
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.5165562913907285,
+          "citations": {
+            "tp": 39,
+            "fp": 24,
+            "fn": 49,
+            "invalid": 0
+          },
+          "field_F_recall": 0.25,
+          "field_F_n": 32,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.625,
+          "extraction_abstentions": 1,
+          "all_correct_groups": {
+            "correct": 7,
+            "n": 8
+          },
+          "max_evidence_chars": 1025
+        },
+        "source": {
+          "n": 24,
+          "correct": 8,
+          "macro_f1": 0.16666666666666666,
+          "confusion": {
+            "established": {
+              "not_established": 8
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "not_established": 8
+            }
+          },
+          "citation_f1": 0.6,
+          "citations": {
+            "tp": 48,
+            "fp": 24,
+            "fn": 40,
+            "invalid": 0
+          },
+          "field_F_recall": 0.42857142857142855,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 8,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 1.0,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 1029
+        }
+      }
+    },
+    "new_test_short": {
+      "n": 96,
+      "correct": 56,
+      "macro_f1": 0.5555555555555555,
+      "confusion": {
+        "established": {
+          "not_established": 8,
+          "unknown": 16,
+          "established": 8
+        },
+        "not_established": {
+          "not_established": 24,
+          "unknown": 8
+        },
+        "unknown": {
+          "not_established": 8,
+          "unknown": 24
+        }
+      },
+      "citation_f1": 0.5714285714285714,
+      "citations": {
+        "tp": 176,
+        "fp": 88,
+        "fn": 176,
+        "invalid": 0
+      },
+      "field_F_recall": 0.5,
+      "field_F_n": 176,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 8,
+      "not_established_recall": 0.75,
+      "determinate_coverage": 0.5,
+      "extraction_abstentions": 0,
+      "all_correct_groups": {
+        "correct": 8,
+        "n": 32
+      },
+      "max_evidence_chars": 660,
+      "by_axis": {
+        "event": {
+          "n": 24,
+          "correct": 16,
+          "macro_f1": 0.5555555555555555,
+          "confusion": {
+            "established": {
+              "unknown": 8
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.5555555555555556,
+          "citations": {
+            "tp": 40,
+            "fp": 16,
+            "fn": 48,
+            "invalid": 0
+          },
+          "field_F_recall": 0.5714285714285714,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.3333333333333333,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 660
+        },
+        "exception": {
+          "n": 24,
+          "correct": 8,
+          "macro_f1": 0.16666666666666666,
+          "confusion": {
+            "established": {
+              "unknown": 8
+            },
+            "not_established": {
+              "unknown": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.6,
+          "citations": {
+            "tp": 48,
+            "fp": 24,
+            "fn": 40,
+            "invalid": 0
+          },
+          "field_F_recall": 0.75,
+          "field_F_n": 32,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 0.0,
+          "determinate_coverage": 0.0,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 655
+        },
+        "payment": {
+          "n": 24,
+          "correct": 24,
+          "macro_f1": 1.0,
+          "confusion": {
+            "established": {
+              "established": 8
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.5263157894736842,
+          "citations": {
+            "tp": 40,
+            "fp": 24,
+            "fn": 48,
+            "invalid": 0
+          },
+          "field_F_recall": 0.25,
+          "field_F_n": 32,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 8,
+            "n": 8
+          },
+          "max_evidence_chars": 655
+        },
+        "source": {
+          "n": 24,
+          "correct": 8,
+          "macro_f1": 0.16666666666666666,
+          "confusion": {
+            "established": {
+              "not_established": 8
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "not_established": 8
+            }
+          },
+          "citation_f1": 0.6,
+          "citations": {
+            "tp": 48,
+            "fp": 24,
+            "fn": 40,
+            "invalid": 0
+          },
+          "field_F_recall": 0.42857142857142855,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 8,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 1.0,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 655
+        }
+      }
+    },
+    "new_test_reordered": {
+      "n": 96,
+      "correct": 56,
+      "macro_f1": 0.5555555555555555,
+      "confusion": {
+        "established": {
+          "not_established": 8,
+          "unknown": 16,
+          "established": 8
+        },
+        "not_established": {
+          "not_established": 24,
+          "unknown": 8
+        },
+        "unknown": {
+          "not_established": 8,
+          "unknown": 24
+        }
+      },
+      "citation_f1": 0.5714285714285714,
+      "citations": {
+        "tp": 176,
+        "fp": 88,
+        "fn": 176,
+        "invalid": 0
+      },
+      "field_F_recall": 0.5,
+      "field_F_n": 176,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 8,
+      "not_established_recall": 0.75,
+      "determinate_coverage": 0.5,
+      "extraction_abstentions": 0,
+      "all_correct_groups": {
+        "correct": 8,
+        "n": 32
+      },
+      "max_evidence_chars": 1107,
+      "by_axis": {
+        "event": {
+          "n": 24,
+          "correct": 16,
+          "macro_f1": 0.5555555555555555,
+          "confusion": {
+            "established": {
+              "unknown": 8
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.5555555555555556,
+          "citations": {
+            "tp": 40,
+            "fp": 16,
+            "fn": 48,
+            "invalid": 0
+          },
+          "field_F_recall": 0.5714285714285714,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.3333333333333333,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 1107
+        },
+        "exception": {
+          "n": 24,
+          "correct": 8,
+          "macro_f1": 0.16666666666666666,
+          "confusion": {
+            "established": {
+              "unknown": 8
+            },
+            "not_established": {
+              "unknown": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.6,
+          "citations": {
+            "tp": 48,
+            "fp": 24,
+            "fn": 40,
+            "invalid": 0
+          },
+          "field_F_recall": 0.75,
+          "field_F_n": 32,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 0.0,
+          "determinate_coverage": 0.0,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 1101
+        },
+        "payment": {
+          "n": 24,
+          "correct": 24,
+          "macro_f1": 1.0,
+          "confusion": {
+            "established": {
+              "established": 8
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "unknown": 8
+            }
+          },
+          "citation_f1": 0.5263157894736842,
+          "citations": {
+            "tp": 40,
+            "fp": 24,
+            "fn": 48,
+            "invalid": 0
+          },
+          "field_F_recall": 0.25,
+          "field_F_n": 32,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 0.6666666666666666,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 8,
+            "n": 8
+          },
+          "max_evidence_chars": 1101
+        },
+        "source": {
+          "n": 24,
+          "correct": 8,
+          "macro_f1": 0.16666666666666666,
+          "confusion": {
+            "established": {
+              "not_established": 8
+            },
+            "not_established": {
+              "not_established": 8
+            },
+            "unknown": {
+              "not_established": 8
+            }
+          },
+          "citation_f1": 0.6,
+          "citations": {
+            "tp": 48,
+            "fp": 24,
+            "fn": 40,
+            "invalid": 0
+          },
+          "field_F_recall": 0.42857142857142855,
+          "field_F_n": 56,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 8,
+          "not_established_recall": 1.0,
+          "determinate_coverage": 1.0,
+          "extraction_abstentions": 0,
+          "all_correct_groups": {
+            "correct": 0,
+            "n": 8
+          },
+          "max_evidence_chars": 1105
+        }
+      }
+    }
+  },
+  "span_metrics": {
+    "new_dev": {
+      "character_tp": 14664,
+      "character_fp": 320,
+      "character_fn": 1452,
+      "character_class_f1": 0.9430225080385852,
+      "paragraph_exact": 408,
+      "paragraphs": 576,
+      "repeated_scene_evidence_not_independent": true
+    },
+    "new_test": {
+      "character_tp": 19851,
+      "character_fp": 47,
+      "character_fn": 1925,
+      "character_class_f1": 0.9526803282622258,
+      "paragraph_exact": 552,
+      "paragraphs": 768,
+      "repeated_scene_evidence_not_independent": true
+    },
+    "new_test_short": {
+      "character_tp": 19618,
+      "character_fp": 0,
+      "character_fn": 2158,
+      "character_class_f1": 0.9478668406049185,
+      "paragraph_exact": 680,
+      "paragraphs": 768,
+      "repeated_scene_evidence_not_independent": true
+    },
+    "new_test_reordered": {
+      "character_tp": 14426,
+      "character_fp": 8,
+      "character_fn": 7350,
+      "character_class_f1": 0.7967964650648992,
+      "paragraph_exact": 392,
+      "paragraphs": 768,
+      "repeated_scene_evidence_not_independent": true
+    }
+  },
+  "rule_evaluation_seconds": 1.4436162374913692,
+  "encoding_and_selection_seconds": 14.479578299447894
+}

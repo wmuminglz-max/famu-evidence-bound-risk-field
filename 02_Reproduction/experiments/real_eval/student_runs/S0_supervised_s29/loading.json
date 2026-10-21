@@ -1,0 +1,17 @@
+{
+  "arm": "S0_supervised_s29",
+  "path": "/workspace/famu_student_gpu_20261009/outputs/S0_supervised_s29",
+  "load_seconds": 0.25866354815661907,
+  "parameters": 23955459,
+  "config": {
+    "threshold": 0.6
+  },
+  "model_manifest": {
+    "config.json": "079b574367bf26186a186284d0b0f992f26536cc259bba5ce7342a0a199dac3d",
+    "model.safetensors": "618b4acec3b767376beaa46d01642396e4abbefb423d5c7a920c192c0894de16",
+    "tokenizer_config.json": "a93a18bc860825f568586435a21871384c0072a6b6046b15d58bd2404d92bb52",
+    "tokenizer.json": "48cea5d44424912a6fd1ea647bf4fe50b55ab8b1e5879c3275f80e339e8fae26",
+    "relation_head.safetensors": "6a9d540e19b5031369e849d0f44c5deab2e897061d2a945fe3eba7c3d3885761",
+    "student_config.json": "2f8191fbc9b073b5631b02e273e768374d8c2303c8457b283f657c1b80287f56"
+  }
+}

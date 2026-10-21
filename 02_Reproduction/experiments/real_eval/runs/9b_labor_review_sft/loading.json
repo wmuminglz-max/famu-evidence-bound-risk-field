@@ -1,0 +1,16 @@
+{
+  "arm": {
+    "id": "9b_labor_review_sft",
+    "adapter": "/workspace/famu_v4_20261003/outputs/labor_then_review_R1/adapter"
+  },
+  "loading_seconds": 9.029894491657615,
+  "audit": {
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "mismatched_keys": [],
+    "error_msgs": []
+  },
+  "adapter_sha256": "d37b66408f6c869359f52135d6f45f27fd6a39c8d6a71263858780c2b1e667f2",
+  "trainable_parameters": 0,
+  "quantization": "BF16, none"
+}

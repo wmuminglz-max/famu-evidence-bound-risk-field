@@ -1,0 +1,31 @@
+{
+  "arms": [
+    "M0_direct",
+    "M1_cbm",
+    "M2_cbm_fact",
+    "M3_boundary",
+    "M4_dual"
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "updates_per_run": 240,
+  "lr": 0.001,
+  "weight_decay": 0.01,
+  "gradient_clip": 1.0,
+  "field_loss": 1.0,
+  "status_loss": 1.0,
+  "each_pair_loss": 0.2,
+  "backbone_updates": 0,
+  "full_batch": true,
+  "domain_then_family_balanced": true,
+  "no_test_selection_or_early_stopping": true,
+  "data_manifest_sha256": "54b2da3a54aac476dc8b740292e58f2d438c85dbca7e9f6d4d88f7630a426539",
+  "code_sha256": {
+    "scripts/run_famu_v5.py": "67a8cbd89b976805b943700e7623883cbd4e7bf99584e8d98af0e57f458e0ace",
+    "src/evidence_reasoning/risk_field_v5.py": "c9328af49239c8c02ab3b8a0f1aa5b165b9e6ccb429008aef67da7a9f3f20c67",
+    "src/evidence_reasoning/risk_field_v5_learning.py": "7bc88062d60be786ad9b4963160512ebb377156173d5ae5bae62ebdbfd4bc923"
+  }
+}

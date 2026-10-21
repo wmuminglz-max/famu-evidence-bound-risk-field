@@ -1,0 +1,43 @@
+{
+  "id": "famu_student_round11_20261010",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "arms": [
+    "TOKEN_NEW",
+    "SPAN_NEW",
+    "TOKEN_MIX",
+    "SPAN_MIX"
+  ],
+  "updates_per_run": 960,
+  "max_total_updates": 11520,
+  "batch_size": 32,
+  "max_paragraph_exposures": 368640,
+  "relation_anchor_exposures": 0,
+  "wall_hours_max": 2,
+  "checkpoint_steps": [
+    480,
+    960
+  ],
+  "comparison": "2x2 TOKEN versus SPAN and NEW versus MIX; all3seeds, matched initial original locked encoder/rank8alpha16LoRA24modules/five-outputhead. Same paragraph batches within data arm. Additional endpoint supervision and numeric-boundary decoder are part of SPAN representation intervention, not a single-loss-variable claim.",
+  "TOKEN": "First3 logits per token inactive/current-known/current-uncertain CE weights .5/1/1; prefix/special/pad ignored. Independent tokens can yield fragmented source spans; remaining2head outputs unused.",
+  "SPAN": "First3 body-token logits mean -> paragraph classCE. Last2 start/endCE on nonempty authored source interval; numeric-atom and repeated-normalization boundary masks apply in train and inference. Joint start<=end argmax, exactly one contiguous original substring or none. Dates/amounts cannot be cut inside matched numeric atoms, but wrong/omitted dates remain possible and must be measured.",
+  "sampling": "NEW per32:12inactive12known8uncertain new paragraphs. MIX:14new(6/4/4)+14R10training(6/4/4)+4historicaltrainingknownpositives(0/4/0). Family-uniform per source/class. Only historical label1/2 evidence whole paragraphs eligible; no all-label0 invented inactive targets. Counts are paragraph exposures, not relation pairs or independent facts.",
+  "optimizer": "FP32 eager no dropout/TF32; AdamW selector1e-3 adapter2e-4 wd.01 clip1,96warmup linear960; sameR8LEXhead/base frozen. No new teacher or RL; all initialization/base/order hashes retained. Longest positive/uncertain backward preflight zero updates.",
+  "data": "1152train72dev96test+96same-factshort+96reordered, authored spans. New family entities/wording banks held apart, shared program generator, entirely fictional, not expert legal gold. R2-R10 tests regression only, no fit. R10 training/old training only MIX replay.",
+  "selection": "Only span_gate .5,.7,.9 on historicaldev+newdev: minimize unknownboth strong errors, maximize macroF1/citation, prefer lowergate. Original correspondingR8 querygate/threshold frozen. Lock all12 before any test metrics. Baselines R8_FROZEN and R10_SELECT frozen3seeds each, zero updates and no reselection.",
+  "signals": "Predefined TOKEN_NEW->SPAN_NEW,TOKEN_MIX->SPAN_MIX,TOKEN_NEW->TOKEN_MIX,SPAN_NEW->SPAN_MIX plus descriptive R10_SELECT comparisons. All3seeds gain correct+citations on newlong/reordered, no correct/citation loss on newshort and each old regression; no fieldF recall loss or unknownstrong increase on new3. Report full span classF1/exact, numeric atom fragmentation and gold current numeric retention, all lengths and train/inference costs. No best seed or production promotion.",
+  "limits": "<=512tokens rejection, no truncation; one current interval assumption fits authored data, not arbitrary multi-fact documents.12completeCPUloads/shortsceneGPUagreement/24fullCP+optimizerRNG audits. Not actualwebsite4core8GiBhardlimit/concurrency,not77formal/LAB9acceptance; no automatic extension, no old deletion.",
+  "encoder_sha256": {
+    "config.json": "3853a7979202c348751b753e36f579c41d8da7d36af617d3d907e1fc9b441f2a",
+    "model.safetensors": "354763b9b1357bc9c44f62c6be2276321081ed2567773608c0d0785b61d5a026",
+    "README.md": "c48a4eeea77f6b1d38b48ec1c5b8d4f86d5550cc43fa345a0db1b2ca1d082369",
+    "snapshot_manifest.json": "8f7f7f24f3a784df577497cee1942bcc3728157f2c16e990aeb427ee054aa702",
+    "special_tokens_map.json": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+    "tokenizer.json": "48cea5d44424912a6fd1ea647bf4fe50b55ab8b1e5879c3275f80e339e8fae26",
+    "tokenizer_config.json": "e6f3b96db926a37d4039995fbf5ad17de158dfb8f6343d607e4dbaad18d75f5a",
+    "vocab.txt": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c"
+  }
+}

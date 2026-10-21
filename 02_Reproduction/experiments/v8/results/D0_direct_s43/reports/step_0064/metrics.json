@@ -1,0 +1,804 @@
+{
+  "all": {
+    "n": 24,
+    "correct": 16,
+    "invalid": 0,
+    "unknown_to_established": 1,
+    "unknown_to_not_established": 4,
+    "per_class": {
+      "established": {
+        "n": 7,
+        "correct": 7
+      },
+      "not_established": {
+        "n": 9,
+        "correct": 6
+      },
+      "unknown": {
+        "n": 8,
+        "correct": 3
+      },
+      "conflict": {
+        "n": 0,
+        "correct": 0
+      }
+    },
+    "all_correct_groups": {
+      "n": 7,
+      "correct": 2
+    }
+  },
+  "by_split": {
+    "dev": {
+      "n": 24,
+      "correct": 16,
+      "invalid": 0,
+      "unknown_to_established": 1,
+      "unknown_to_not_established": 4,
+      "per_class": {
+        "established": {
+          "n": 7,
+          "correct": 7
+        },
+        "not_established": {
+          "n": 9,
+          "correct": 6
+        },
+        "unknown": {
+          "n": 8,
+          "correct": 3
+        },
+        "conflict": {
+          "n": 0,
+          "correct": 0
+        }
+      },
+      "all_correct_groups": {
+        "n": 7,
+        "correct": 2
+      }
+    }
+  },
+  "by_axis": {
+    "actor": {
+      "n": 3,
+      "correct": 2,
+      "invalid": 0,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 1,
+      "per_class": {
+        "established": {
+          "n": 1,
+          "correct": 1
+        },
+        "not_established": {
+          "n": 1,
+          "correct": 1
+        },
+        "unknown": {
+          "n": 1,
+          "correct": 0
+        },
+        "conflict": {
+          "n": 0,
+          "correct": 0
+        }
+      },
+      "all_correct_groups": {
+        "n": 1,
+        "correct": 0
+      }
+    },
+    "composition": {
+      "n": 6,
+      "correct": 3,
+      "invalid": 0,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 1,
+      "per_class": {
+        "established": {
+          "n": 1,
+          "correct": 1
+        },
+        "not_established": {
+          "n": 3,
+          "correct": 1
+        },
+        "unknown": {
+          "n": 2,
+          "correct": 1
+        },
+        "conflict": {
+          "n": 0,
+          "correct": 0
+        }
+      },
+      "all_correct_groups": {
+        "n": 1,
+        "correct": 0
+      }
+    },
+    "event": {
+      "n": 3,
+      "correct": 3,
+      "invalid": 0,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "per_class": {
+        "established": {
+          "n": 1,
+          "correct": 1
+        },
+        "not_established": {
+          "n": 1,
+          "correct": 1
+        },
+        "unknown": {
+          "n": 1,
+          "correct": 1
+        },
+        "conflict": {
+          "n": 0,
+          "correct": 0
+        }
+      },
+      "all_correct_groups": {
+        "n": 1,
+        "correct": 1
+      }
+    },
+    "exception": {
+      "n": 3,
+      "correct": 2,
+      "invalid": 0,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 1,
+      "per_class": {
+        "established": {
+          "n": 1,
+          "correct": 1
+        },
+        "not_established": {
+          "n": 1,
+          "correct": 1
+        },
+        "unknown": {
+          "n": 1,
+          "correct": 0
+        },
+        "conflict": {
+          "n": 0,
+          "correct": 0
+        }
+      },
+      "all_correct_groups": {
+        "n": 1,
+        "correct": 0
+      }
+    },
+    "payment": {
+      "n": 3,
+      "correct": 3,
+      "invalid": 0,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "per_class": {
+        "established": {
+          "n": 1,
+          "correct": 1
+        },
+        "not_established": {
+          "n": 1,
+          "correct": 1
+        },
+        "unknown": {
+          "n": 1,
+          "correct": 1
+        },
+        "conflict": {
+          "n": 0,
+          "correct": 0
+        }
+      },
+      "all_correct_groups": {
+        "n": 1,
+        "correct": 1
+      }
+    },
+    "source": {
+      "n": 3,
+      "correct": 1,
+      "invalid": 0,
+      "unknown_to_established": 1,
+      "unknown_to_not_established": 0,
+      "per_class": {
+        "established": {
+          "n": 1,
+          "correct": 1
+        },
+        "not_established": {
+          "n": 1,
+          "correct": 0
+        },
+        "unknown": {
+          "n": 1,
+          "correct": 0
+        },
+        "conflict": {
+          "n": 0,
+          "correct": 0
+        }
+      },
+      "all_correct_groups": {
+        "n": 1,
+        "correct": 0
+      }
+    },
+    "time": {
+      "n": 3,
+      "correct": 2,
+      "invalid": 0,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 1,
+      "per_class": {
+        "established": {
+          "n": 1,
+          "correct": 1
+        },
+        "not_established": {
+          "n": 1,
+          "correct": 1
+        },
+        "unknown": {
+          "n": 1,
+          "correct": 0
+        },
+        "conflict": {
+          "n": 0,
+          "correct": 0
+        }
+      },
+      "all_correct_groups": {
+        "n": 1,
+        "correct": 0
+      }
+    }
+  },
+  "candidate": {
+    "mean": {
+      "all": {
+        "n": 24,
+        "correct": 16,
+        "invalid": 0,
+        "unknown_to_established": 0,
+        "unknown_to_not_established": 5,
+        "per_class": {
+          "established": {
+            "n": 7,
+            "correct": 7
+          },
+          "not_established": {
+            "n": 9,
+            "correct": 6
+          },
+          "unknown": {
+            "n": 8,
+            "correct": 3
+          },
+          "conflict": {
+            "n": 0,
+            "correct": 0
+          }
+        },
+        "all_correct_groups": {
+          "n": 7,
+          "correct": 2
+        }
+      },
+      "by_split": {
+        "dev": {
+          "n": 24,
+          "correct": 16,
+          "invalid": 0,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 5,
+          "per_class": {
+            "established": {
+              "n": 7,
+              "correct": 7
+            },
+            "not_established": {
+              "n": 9,
+              "correct": 6
+            },
+            "unknown": {
+              "n": 8,
+              "correct": 3
+            },
+            "conflict": {
+              "n": 0,
+              "correct": 0
+            }
+          },
+          "all_correct_groups": {
+            "n": 7,
+            "correct": 2
+          }
+        }
+      },
+      "by_axis": {
+        "actor": {
+          "n": 3,
+          "correct": 2,
+          "invalid": 0,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 1,
+          "per_class": {
+            "established": {
+              "n": 1,
+              "correct": 1
+            },
+            "not_established": {
+              "n": 1,
+              "correct": 1
+            },
+            "unknown": {
+              "n": 1,
+              "correct": 0
+            },
+            "conflict": {
+              "n": 0,
+              "correct": 0
+            }
+          },
+          "all_correct_groups": {
+            "n": 1,
+            "correct": 0
+          }
+        },
+        "composition": {
+          "n": 6,
+          "correct": 3,
+          "invalid": 0,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 1,
+          "per_class": {
+            "established": {
+              "n": 1,
+              "correct": 1
+            },
+            "not_established": {
+              "n": 3,
+              "correct": 1
+            },
+            "unknown": {
+              "n": 2,
+              "correct": 1
+            },
+            "conflict": {
+              "n": 0,
+              "correct": 0
+            }
+          },
+          "all_correct_groups": {
+            "n": 1,
+            "correct": 0
+          }
+        },
+        "event": {
+          "n": 3,
+          "correct": 3,
+          "invalid": 0,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "per_class": {
+            "established": {
+              "n": 1,
+              "correct": 1
+            },
+            "not_established": {
+              "n": 1,
+              "correct": 1
+            },
+            "unknown": {
+              "n": 1,
+              "correct": 1
+            },
+            "conflict": {
+              "n": 0,
+              "correct": 0
+            }
+          },
+          "all_correct_groups": {
+            "n": 1,
+            "correct": 1
+          }
+        },
+        "exception": {
+          "n": 3,
+          "correct": 2,
+          "invalid": 0,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 1,
+          "per_class": {
+            "established": {
+              "n": 1,
+              "correct": 1
+            },
+            "not_established": {
+              "n": 1,
+              "correct": 1
+            },
+            "unknown": {
+              "n": 1,
+              "correct": 0
+            },
+            "conflict": {
+              "n": 0,
+              "correct": 0
+            }
+          },
+          "all_correct_groups": {
+            "n": 1,
+            "correct": 0
+          }
+        },
+        "payment": {
+          "n": 3,
+          "correct": 3,
+          "invalid": 0,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "per_class": {
+            "established": {
+              "n": 1,
+              "correct": 1
+            },
+            "not_established": {
+              "n": 1,
+              "correct": 1
+            },
+            "unknown": {
+              "n": 1,
+              "correct": 1
+            },
+            "conflict": {
+              "n": 0,
+              "correct": 0
+            }
+          },
+          "all_correct_groups": {
+            "n": 1,
+            "correct": 1
+          }
+        },
+        "source": {
+          "n": 3,
+          "correct": 1,
+          "invalid": 0,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 1,
+          "per_class": {
+            "established": {
+              "n": 1,
+              "correct": 1
+            },
+            "not_established": {
+              "n": 1,
+              "correct": 0
+            },
+            "unknown": {
+              "n": 1,
+              "correct": 0
+            },
+            "conflict": {
+              "n": 0,
+              "correct": 0
+            }
+          },
+          "all_correct_groups": {
+            "n": 1,
+            "correct": 0
+          }
+        },
+        "time": {
+          "n": 3,
+          "correct": 2,
+          "invalid": 0,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 1,
+          "per_class": {
+            "established": {
+              "n": 1,
+              "correct": 1
+            },
+            "not_established": {
+              "n": 1,
+              "correct": 1
+            },
+            "unknown": {
+              "n": 1,
+              "correct": 0
+            },
+            "conflict": {
+              "n": 0,
+              "correct": 0
+            }
+          },
+          "all_correct_groups": {
+            "n": 1,
+            "correct": 0
+          }
+        }
+      }
+    },
+    "sum": {
+      "all": {
+        "n": 24,
+        "correct": 16,
+        "invalid": 0,
+        "unknown_to_established": 1,
+        "unknown_to_not_established": 4,
+        "per_class": {
+          "established": {
+            "n": 7,
+            "correct": 7
+          },
+          "not_established": {
+            "n": 9,
+            "correct": 6
+          },
+          "unknown": {
+            "n": 8,
+            "correct": 3
+          },
+          "conflict": {
+            "n": 0,
+            "correct": 0
+          }
+        },
+        "all_correct_groups": {
+          "n": 7,
+          "correct": 2
+        }
+      },
+      "by_split": {
+        "dev": {
+          "n": 24,
+          "correct": 16,
+          "invalid": 0,
+          "unknown_to_established": 1,
+          "unknown_to_not_established": 4,
+          "per_class": {
+            "established": {
+              "n": 7,
+              "correct": 7
+            },
+            "not_established": {
+              "n": 9,
+              "correct": 6
+            },
+            "unknown": {
+              "n": 8,
+              "correct": 3
+            },
+            "conflict": {
+              "n": 0,
+              "correct": 0
+            }
+          },
+          "all_correct_groups": {
+            "n": 7,
+            "correct": 2
+          }
+        }
+      },
+      "by_axis": {
+        "actor": {
+          "n": 3,
+          "correct": 2,
+          "invalid": 0,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 1,
+          "per_class": {
+            "established": {
+              "n": 1,
+              "correct": 1
+            },
+            "not_established": {
+              "n": 1,
+              "correct": 1
+            },
+            "unknown": {
+              "n": 1,
+              "correct": 0
+            },
+            "conflict": {
+              "n": 0,
+              "correct": 0
+            }
+          },
+          "all_correct_groups": {
+            "n": 1,
+            "correct": 0
+          }
+        },
+        "composition": {
+          "n": 6,
+          "correct": 3,
+          "invalid": 0,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 1,
+          "per_class": {
+            "established": {
+              "n": 1,
+              "correct": 1
+            },
+            "not_established": {
+              "n": 3,
+              "correct": 1
+            },
+            "unknown": {
+              "n": 2,
+              "correct": 1
+            },
+            "conflict": {
+              "n": 0,
+              "correct": 0
+            }
+          },
+          "all_correct_groups": {
+            "n": 1,
+            "correct": 0
+          }
+        },
+        "event": {
+          "n": 3,
+          "correct": 3,
+          "invalid": 0,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "per_class": {
+            "established": {
+              "n": 1,
+              "correct": 1
+            },
+            "not_established": {
+              "n": 1,
+              "correct": 1
+            },
+            "unknown": {
+              "n": 1,
+              "correct": 1
+            },
+            "conflict": {
+              "n": 0,
+              "correct": 0
+            }
+          },
+          "all_correct_groups": {
+            "n": 1,
+            "correct": 1
+          }
+        },
+        "exception": {
+          "n": 3,
+          "correct": 2,
+          "invalid": 0,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 1,
+          "per_class": {
+            "established": {
+              "n": 1,
+              "correct": 1
+            },
+            "not_established": {
+              "n": 1,
+              "correct": 1
+            },
+            "unknown": {
+              "n": 1,
+              "correct": 0
+            },
+            "conflict": {
+              "n": 0,
+              "correct": 0
+            }
+          },
+          "all_correct_groups": {
+            "n": 1,
+            "correct": 0
+          }
+        },
+        "payment": {
+          "n": 3,
+          "correct": 3,
+          "invalid": 0,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 0,
+          "per_class": {
+            "established": {
+              "n": 1,
+              "correct": 1
+            },
+            "not_established": {
+              "n": 1,
+              "correct": 1
+            },
+            "unknown": {
+              "n": 1,
+              "correct": 1
+            },
+            "conflict": {
+              "n": 0,
+              "correct": 0
+            }
+          },
+          "all_correct_groups": {
+            "n": 1,
+            "correct": 1
+          }
+        },
+        "source": {
+          "n": 3,
+          "correct": 1,
+          "invalid": 0,
+          "unknown_to_established": 1,
+          "unknown_to_not_established": 0,
+          "per_class": {
+            "established": {
+              "n": 1,
+              "correct": 1
+            },
+            "not_established": {
+              "n": 1,
+              "correct": 0
+            },
+            "unknown": {
+              "n": 1,
+              "correct": 0
+            },
+            "conflict": {
+              "n": 0,
+              "correct": 0
+            }
+          },
+          "all_correct_groups": {
+            "n": 1,
+            "correct": 0
+          }
+        },
+        "time": {
+          "n": 3,
+          "correct": 2,
+          "invalid": 0,
+          "unknown_to_established": 0,
+          "unknown_to_not_established": 1,
+          "per_class": {
+            "established": {
+              "n": 1,
+              "correct": 1
+            },
+            "not_established": {
+              "n": 1,
+              "correct": 1
+            },
+            "unknown": {
+              "n": 1,
+              "correct": 0
+            },
+            "conflict": {
+              "n": 0,
+              "correct": 0
+            }
+          },
+          "all_correct_groups": {
+            "n": 1,
+            "correct": 0
+          }
+        }
+      }
+    }
+  },
+  "decoding": "raw greedy risk JSON"
+}

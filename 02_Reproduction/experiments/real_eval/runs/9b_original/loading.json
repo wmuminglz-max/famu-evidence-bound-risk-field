@@ -1,0 +1,16 @@
+{
+  "arm": {
+    "id": "9b_original",
+    "adapter": null
+  },
+  "loading_seconds": 8.763765250332654,
+  "audit": {
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "mismatched_keys": [],
+    "error_msgs": []
+  },
+  "adapter_sha256": null,
+  "trainable_parameters": 0,
+  "quantization": "BF16, none"
+}

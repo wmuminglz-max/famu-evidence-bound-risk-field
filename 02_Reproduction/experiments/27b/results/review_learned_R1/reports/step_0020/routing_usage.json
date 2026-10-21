@@ -1,0 +1,1410 @@
+[
+  {
+    "module": "base_model.model.model.layers.0.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.41725072264671326,
+      0.37802746891975403,
+      0.030444063246250153,
+      0.17427775263786316
+    ],
+    "entropy": 1.1432342529296875
+  },
+  {
+    "module": "base_model.model.model.layers.0.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.5032168626785278,
+      0.4047600328922272,
+      0.017085464671254158,
+      0.07493767887353897
+    ],
+    "entropy": 0.9753664135932922
+  },
+  {
+    "module": "base_model.model.model.layers.1.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.12203329056501389,
+      0.0,
+      0.4993169605731964,
+      0.37864920496940613
+    ],
+    "entropy": 0.971198320388794
+  },
+  {
+    "module": "base_model.model.model.layers.1.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.07875994592905045,
+      0.5004093050956726,
+      0.0006195490714162588,
+      0.42021095752716064
+    ],
+    "entropy": 0.9155030250549316
+  },
+  {
+    "module": "base_model.model.model.layers.2.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.5106924772262573,
+      0.0,
+      0.4893064796924591,
+      1.0689414011721965e-06
+    ],
+    "entropy": 0.6929334998130798
+  },
+  {
+    "module": "base_model.model.model.layers.2.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.024178454652428627,
+      0.3725482225418091,
+      0.5059220790863037,
+      0.09735025465488434
+    ],
+    "entropy": 1.0293422937393188
+  },
+  {
+    "module": "base_model.model.model.layers.3.self_attn.o_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.499079167842865,
+      0.00082180998288095,
+      0.0026621290016919374,
+      0.4974369406700134
+    ],
+    "entropy": 0.7158296704292297
+  },
+  {
+    "module": "base_model.model.model.layers.3.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.0009078492294065654,
+      0.4028789699077606,
+      0.09268784523010254,
+      0.5035247206687927
+    ],
+    "entropy": 0.9385632276535034
+  },
+  {
+    "module": "base_model.model.model.layers.4.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.5043175220489502,
+      0.0,
+      0.4956822991371155,
+      0.0
+    ],
+    "entropy": 0.6931099891662598
+  },
+  {
+    "module": "base_model.model.model.layers.4.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.0034179158974438906,
+      0.4791322648525238,
+      0.49706941843032837,
+      0.020380014553666115
+    ],
+    "entropy": 0.7987523674964905
+  },
+  {
+    "module": "base_model.model.model.layers.5.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      4.310955773689784e-06,
+      0.5067819952964783,
+      0.49321359395980835,
+      0.0
+    ],
+    "entropy": 0.6931097507476807
+  },
+  {
+    "module": "base_model.model.model.layers.5.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.0,
+      0.4992973804473877,
+      0.43403953313827515,
+      0.06666239351034164
+    ],
+    "entropy": 0.8895759582519531
+  },
+  {
+    "module": "base_model.model.model.layers.6.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.0288615133613348,
+      0.486983060836792,
+      0.4841552972793579,
+      0.0
+    ],
+    "entropy": 0.8038999438285828
+  },
+  {
+    "module": "base_model.model.model.layers.6.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.40972885489463806,
+      0.17345699667930603,
+      0.40079888701438904,
+      0.016015054658055305
+    ],
+    "entropy": 1.102109432220459
+  },
+  {
+    "module": "base_model.model.model.layers.7.self_attn.o_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.5026546120643616,
+      0.043938685208559036,
+      0.29237428307533264,
+      0.16103139519691467
+    ],
+    "entropy": 1.13666570186615
+  },
+  {
+    "module": "base_model.model.model.layers.7.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.062110722064971924,
+      0.42929306626319885,
+      0.5082646012306213,
+      0.0003321748226881027
+    ],
+    "entropy": 0.882242739200592
+  },
+  {
+    "module": "base_model.model.model.layers.8.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.5035780668258667,
+      0.046258799731731415,
+      0.0,
+      0.45016321539878845
+    ],
+    "entropy": 0.8469350337982178
+  },
+  {
+    "module": "base_model.model.model.layers.8.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.3659396171569824,
+      9.151150152320042e-05,
+      0.4935392439365387,
+      0.14042922854423523
+    ],
+    "entropy": 0.99290931224823
+  },
+  {
+    "module": "base_model.model.model.layers.9.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.15533578395843506,
+      0.4578564167022705,
+      0.31226131319999695,
+      0.07454606145620346
+    ],
+    "entropy": 1.2039307355880737
+  },
+  {
+    "module": "base_model.model.model.layers.9.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.4241018295288086,
+      0.00016492046415805817,
+      0.074983611702919,
+      0.500748872756958
+    ],
+    "entropy": 0.9058104753494263
+  },
+  {
+    "module": "base_model.model.model.layers.10.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.0,
+      0.005535165313631296,
+      0.5077477693557739,
+      0.48671701550483704
+    ],
+    "entropy": 0.7233721613883972
+  },
+  {
+    "module": "base_model.model.model.layers.10.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.44136232137680054,
+      0.3679628372192383,
+      0.04343913123011589,
+      0.1472347229719162
+    ],
+    "entropy": 1.147168755531311
+  },
+  {
+    "module": "base_model.model.model.layers.11.self_attn.o_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.504763662815094,
+      0.45233577489852905,
+      0.032132890075445175,
+      0.010767529718577862
+    ],
+    "entropy": 0.8631998896598816
+  },
+  {
+    "module": "base_model.model.model.layers.11.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.0009061492746695876,
+      0.4075521230697632,
+      0.08735063672065735,
+      0.5041903853416443
+    ],
+    "entropy": 0.9303778409957886
+  },
+  {
+    "module": "base_model.model.model.layers.12.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.0008712915005162358,
+      0.5048277974128723,
+      0.0,
+      0.4943007230758667
+    ],
+    "entropy": 0.6994974613189697
+  },
+  {
+    "module": "base_model.model.model.layers.12.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.0,
+      0.32313376665115356,
+      0.17676161229610443,
+      0.5001043081283569
+    ],
+    "entropy": 1.0179017782211304
+  },
+  {
+    "module": "base_model.model.model.layers.13.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.087306909263134,
+      0.1214766725897789,
+      0.5187060832977295,
+      0.2725087106227875
+    ],
+    "entropy": 1.1637318134307861
+  },
+  {
+    "module": "base_model.model.model.layers.13.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.40746966004371643,
+      0.15551024675369263,
+      0.42997753620147705,
+      0.007041900884360075
+    ],
+    "entropy": 1.0530425310134888
+  },
+  {
+    "module": "base_model.model.model.layers.14.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.5114798545837402,
+      0.00046326409210450947,
+      0.0002541799040045589,
+      0.48780277371406555
+    ],
+    "entropy": 0.6987470388412476
+  },
+  {
+    "module": "base_model.model.model.layers.14.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.4956930875778198,
+      0.020513862371444702,
+      0.0038073083851486444,
+      0.479985773563385
+    ],
+    "entropy": 0.8011257648468018
+  },
+  {
+    "module": "base_model.model.model.layers.15.self_attn.o_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.00024304719408974051,
+      0.4948790371417999,
+      0.5048778653144836,
+      0.0
+    ],
+    "entropy": 0.6951944828033447
+  },
+  {
+    "module": "base_model.model.model.layers.15.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.5037545561790466,
+      8.669884664413985e-06,
+      0.496195912361145,
+      4.097147029824555e-05
+    ],
+    "entropy": 0.6936488151550293
+  },
+  {
+    "module": "base_model.model.model.layers.16.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.007690880913287401,
+      0.425627738237381,
+      0.5073498487472534,
+      0.05933132395148277
+    ],
+    "entropy": 0.912856936454773
+  },
+  {
+    "module": "base_model.model.model.layers.16.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.3445107340812683,
+      0.4952700138092041,
+      0.009652124717831612,
+      0.15056654810905457
+    ],
+    "entropy": 1.0449901819229126
+  },
+  {
+    "module": "base_model.model.model.layers.17.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.438334584236145,
+      0.052841417491436005,
+      0.5081363916397095,
+      0.0006880879518575966
+    ],
+    "entropy": 0.8659259080886841
+  },
+  {
+    "module": "base_model.model.model.layers.17.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.0003062936302740127,
+      0.3720831573009491,
+      0.25282734632492065,
+      0.374783992767334
+    ],
+    "entropy": 1.0857986211776733
+  },
+  {
+    "module": "base_model.model.model.layers.18.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.3557906448841095,
+      0.012497507967054844,
+      0.5079771280288696,
+      0.12373542040586472
+    ],
+    "entropy": 1.0250667333602905
+  },
+  {
+    "module": "base_model.model.model.layers.18.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.5045256614685059,
+      0.3061358332633972,
+      0.130006343126297,
+      0.05933111160993576
+    ],
+    "entropy": 1.1403687000274658
+  },
+  {
+    "module": "base_model.model.model.layers.19.self_attn.o_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.4978766441345215,
+      0.4748585820198059,
+      1.0871947779378388e-05,
+      0.02725391648709774
+    ],
+    "entropy": 0.7991740703582764
+  },
+  {
+    "module": "base_model.model.model.layers.19.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.0003189426788594574,
+      0.48187392950057983,
+      0.012116676196455956,
+      0.5056899785995483
+    ],
+    "entropy": 0.7526389956474304
+  },
+  {
+    "module": "base_model.model.model.layers.20.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.0016159728402271867,
+      0.5164991021156311,
+      0.013439422473311424,
+      0.46844515204429626
+    ],
+    "entropy": 0.764785647392273
+  },
+  {
+    "module": "base_model.model.model.layers.20.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.4934918284416199,
+      0.5064517259597778,
+      0.0,
+      5.65137634112034e-05
+    ],
+    "entropy": 0.6936333179473877
+  },
+  {
+    "module": "base_model.model.model.layers.21.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.0002684738428797573,
+      0.44017454981803894,
+      0.5095438957214355,
+      0.05001349002122879
+    ],
+    "entropy": 0.8567757606506348
+  },
+  {
+    "module": "base_model.model.model.layers.21.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.4979743957519531,
+      0.0020192277152091265,
+      0.0005586020415648818,
+      0.49944794178009033
+    ],
+    "entropy": 0.7106471061706543
+  },
+  {
+    "module": "base_model.model.model.layers.22.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.06143362820148468,
+      0.5009319186210632,
+      0.4376331865787506,
+      1.0824130640685325e-06
+    ],
+    "entropy": 0.879337728023529
+  },
+  {
+    "module": "base_model.model.model.layers.22.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.0005911052576266229,
+      0.007658743765205145,
+      0.48315760493278503,
+      0.5085923075675964
+    ],
+    "entropy": 0.7370251417160034
+  },
+  {
+    "module": "base_model.model.model.layers.23.self_attn.o_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.5032435059547424,
+      0.0,
+      3.2153050142369466e-06,
+      0.4967533051967621
+    ],
+    "entropy": 0.6931677460670471
+  },
+  {
+    "module": "base_model.model.model.layers.23.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.038800522685050964,
+      0.4531436860561371,
+      0.0,
+      0.5080561637878418
+    ],
+    "entropy": 0.8287964463233948
+  },
+  {
+    "module": "base_model.model.model.layers.24.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.020087767392396927,
+      0.5006428360939026,
+      0.0004560026281978935,
+      0.4788130521774292
+    ],
+    "entropy": 0.7809993028640747
+  },
+  {
+    "module": "base_model.model.model.layers.24.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.5030808448791504,
+      0.4944067597389221,
+      0.0019114791648462415,
+      0.0006013216334395111
+    ],
+    "entropy": 0.710302472114563
+  },
+  {
+    "module": "base_model.model.model.layers.25.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.4982467591762543,
+      0.0009378902614116669,
+      0.5001801252365112,
+      0.0006352926720865071
+    ],
+    "entropy": 0.7048422694206238
+  },
+  {
+    "module": "base_model.model.model.layers.25.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.49928078055381775,
+      0.00022566007100977004,
+      0.5000990033149719,
+      0.0003946057113353163
+    ],
+    "entropy": 0.69832444190979
+  },
+  {
+    "module": "base_model.model.model.layers.26.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.40540575981140137,
+      0.0005758610786870122,
+      0.08912044018507004,
+      0.5048973560333252
+    ],
+    "entropy": 0.9308424592018127
+  },
+  {
+    "module": "base_model.model.model.layers.26.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.0002488773316144943,
+      9.358785609947518e-05,
+      0.5045603513717651,
+      0.4950971007347107
+    ],
+    "entropy": 0.6961409449577332
+  },
+  {
+    "module": "base_model.model.model.layers.27.self_attn.o_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.2614370286464691,
+      0.37154442071914673,
+      0.337924599647522,
+      0.02909381128847599
+    ],
+    "entropy": 1.1881320476531982
+  },
+  {
+    "module": "base_model.model.model.layers.27.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.4396696090698242,
+      0.4521513283252716,
+      0.07990479469299316,
+      0.028273852542042732
+    ],
+    "entropy": 1.0229127407073975
+  },
+  {
+    "module": "base_model.model.model.layers.28.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.00017616141121834517,
+      0.5037220120429993,
+      0.49518463015556335,
+      0.0009171566925942898
+    ],
+    "entropy": 0.7013831734657288
+  },
+  {
+    "module": "base_model.model.model.layers.28.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.5046893358230591,
+      0.48821359872817993,
+      5.660397437168285e-05,
+      0.0070402976125478745
+    ],
+    "entropy": 0.7306089997291565
+  },
+  {
+    "module": "base_model.model.model.layers.29.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.5087270736694336,
+      0.11772113293409348,
+      0.2257014960050583,
+      0.1478508561849594
+    ],
+    "entropy": 1.2142674922943115
+  },
+  {
+    "module": "base_model.model.model.layers.29.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.09127677977085114,
+      0.0336916483938694,
+      0.3947736322879791,
+      0.4802573323249817
+    ],
+    "entropy": 1.051891565322876
+  },
+  {
+    "module": "base_model.model.model.layers.30.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.4446427822113037,
+      1.0465448212926276e-05,
+      0.04645618051290512,
+      0.5088903307914734
+    ],
+    "entropy": 0.8468483090400696
+  },
+  {
+    "module": "base_model.model.model.layers.30.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.3829120993614197,
+      0.439632773399353,
+      0.08312969654798508,
+      0.09432489424943924
+    ],
+    "entropy": 1.1583483219146729
+  },
+  {
+    "module": "base_model.model.model.layers.31.self_attn.o_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.5150328278541565,
+      0.08957794308662415,
+      0.37097838521003723,
+      0.024410827085375786
+    ],
+    "entropy": 1.0163540840148926
+  },
+  {
+    "module": "base_model.model.model.layers.31.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.30378344655036926,
+      0.0111898984760046,
+      0.1782873421907425,
+      0.5067377686500549
+    ],
+    "entropy": 1.06410551071167
+  },
+  {
+    "module": "base_model.model.model.layers.32.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.23925165832042694,
+      0.2467184066772461,
+      0.46486982703208923,
+      0.04915988817811012
+    ],
+    "entropy": 1.1916635036468506
+  },
+  {
+    "module": "base_model.model.model.layers.32.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.43917956948280334,
+      0.3136101961135864,
+      0.2460756003856659,
+      0.0011348412372171879
+    ],
+    "entropy": 1.077763557434082
+  },
+  {
+    "module": "base_model.model.model.layers.33.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.4969400465488434,
+      0.5024245381355286,
+      0.0006151996203698218,
+      2.012458207900636e-05
+    ],
+    "entropy": 0.698093056678772
+  },
+  {
+    "module": "base_model.model.model.layers.33.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.5017114281654358,
+      0.49408888816833496,
+      0.004077943041920662,
+      0.00012191526911919937
+    ],
+    "entropy": 0.7179341316223145
+  },
+  {
+    "module": "base_model.model.model.layers.34.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.3891535699367523,
+      0.1306820511817932,
+      0.016470132395625114,
+      0.46369418501853943
+    ],
+    "entropy": 1.0572048425674438
+  },
+  {
+    "module": "base_model.model.model.layers.34.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.5018906593322754,
+      0.0,
+      0.49215856194496155,
+      0.00595064228400588
+    ],
+    "entropy": 0.7254003882408142
+  },
+  {
+    "module": "base_model.model.model.layers.35.self_attn.o_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.4956711530685425,
+      0.007963502779603004,
+      0.009798157028853893,
+      0.4865671396255493
+    ],
+    "entropy": 0.7822052240371704
+  },
+  {
+    "module": "base_model.model.model.layers.35.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.18659187853336334,
+      0.4956269860267639,
+      0.0012507118517532945,
+      0.3165299594402313
+    ],
+    "entropy": 1.0336285829544067
+  },
+  {
+    "module": "base_model.model.model.layers.36.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      5.458529631141573e-05,
+      0.5146220326423645,
+      0.4845442473888397,
+      0.0007792224059812725
+    ],
+    "entropy": 0.6990627646446228
+  },
+  {
+    "module": "base_model.model.model.layers.36.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.32215553522109985,
+      0.15756118297576904,
+      0.499664843082428,
+      0.020618680864572525
+    ],
+    "entropy": 1.0827850103378296
+  },
+  {
+    "module": "base_model.model.model.layers.37.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.5031675100326538,
+      0.020480990409851074,
+      0.00316137308254838,
+      0.473190039396286
+    ],
+    "entropy": 0.7974945306777954
+  },
+  {
+    "module": "base_model.model.model.layers.37.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.052160218358039856,
+      0.19045549631118774,
+      0.4755662679672241,
+      0.28181684017181396
+    ],
+    "entropy": 1.180275797843933
+  },
+  {
+    "module": "base_model.model.model.layers.38.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.4823874533176422,
+      0.40172210335731506,
+      0.021759260445833206,
+      0.09413103014230728
+    ],
+    "entropy": 1.023758888244629
+  },
+  {
+    "module": "base_model.model.model.layers.38.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.02753290720283985,
+      0.30954745411872864,
+      0.4432345926761627,
+      0.21968479454517365
+    ],
+    "entropy": 1.1554837226867676
+  },
+  {
+    "module": "base_model.model.model.layers.39.self_attn.o_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.002665891544893384,
+      0.30082499980926514,
+      0.19651447236537933,
+      0.499994695186615
+    ],
+    "entropy": 1.0434683561325073
+  },
+  {
+    "module": "base_model.model.model.layers.39.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.38469505310058594,
+      0.5071129202842712,
+      0.09524044394493103,
+      0.012951882556080818
+    ],
+    "entropy": 0.9920806288719177
+  },
+  {
+    "module": "base_model.model.model.layers.40.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.504986047744751,
+      0.23126906156539917,
+      0.0023363542277365923,
+      0.26140719652175903
+    ],
+    "entropy": 1.0485169887542725
+  },
+  {
+    "module": "base_model.model.model.layers.40.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.0027440330013632774,
+      0.3620463013648987,
+      0.5108211636543274,
+      0.12438876181840897
+    ],
+    "entropy": 0.9864238500595093
+  },
+  {
+    "module": "base_model.model.model.layers.41.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.20977143943309784,
+      7.512808224419132e-05,
+      0.4575399160385132,
+      0.3326131999492645
+    ],
+    "entropy": 1.0521998405456543
+  },
+  {
+    "module": "base_model.model.model.layers.41.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.22767990827560425,
+      0.26122331619262695,
+      0.22029072046279907,
+      0.29080596566200256
+    ],
+    "entropy": 1.380016565322876
+  },
+  {
+    "module": "base_model.model.model.layers.42.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.32648858428001404,
+      5.926751691731624e-05,
+      0.47040408849716187,
+      0.20304740965366364
+    ],
+    "entropy": 1.0445183515548706
+  },
+  {
+    "module": "base_model.model.model.layers.42.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.38427045941352844,
+      0.1632036715745926,
+      0.2726421058177948,
+      0.17988315224647522
+    ],
+    "entropy": 1.32627272605896
+  },
+  {
+    "module": "base_model.model.model.layers.43.self_attn.o_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.42585456371307373,
+      0.4255373179912567,
+      0.004633024800568819,
+      0.14397503435611725
+    ],
+    "entropy": 1.0310547351837158
+  },
+  {
+    "module": "base_model.model.model.layers.43.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.16902616620063782,
+      0.3237394392490387,
+      0.006246353965252638,
+      0.5009875893592834
+    ],
+    "entropy": 1.0435712337493896
+  },
+  {
+    "module": "base_model.model.model.layers.44.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.4318980276584625,
+      0.4907507002353668,
+      0.07718538492918015,
+      0.00016576457710471004
+    ],
+    "entropy": 0.9110892415046692
+  },
+  {
+    "module": "base_model.model.model.layers.44.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.0018226939719170332,
+      0.035677287727594376,
+      0.4499249756336212,
+      0.5125747919082642
+    ],
+    "entropy": 0.8323192596435547
+  },
+  {
+    "module": "base_model.model.model.layers.45.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.019226795062422752,
+      0.474271684885025,
+      0.00021533742255996913,
+      0.5062863826751709
+    ],
+    "entropy": 0.7761919498443604
+  },
+  {
+    "module": "base_model.model.model.layers.45.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.0,
+      0.42430901527404785,
+      0.06701895594596863,
+      0.5086723566055298
+    ],
+    "entropy": 0.8887324333190918
+  },
+  {
+    "module": "base_model.model.model.layers.46.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.5015527009963989,
+      0.1958588808774948,
+      0.28020015358924866,
+      0.022387901321053505
+    ],
+    "entropy": 1.1069573163986206
+  },
+  {
+    "module": "base_model.model.model.layers.46.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.18316534161567688,
+      0.5083602070808411,
+      0.0,
+      0.3084743022918701
+    ],
+    "entropy": 1.01763916015625
+  },
+  {
+    "module": "base_model.model.model.layers.47.self_attn.o_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.15233314037322998,
+      0.4733011722564697,
+      0.20161916315555573,
+      0.17274613678455353
+    ],
+    "entropy": 1.2668818235397339
+  },
+  {
+    "module": "base_model.model.model.layers.47.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.024257436394691467,
+      0.4900607168674469,
+      0.057990286499261856,
+      0.4276914596557617
+    ],
+    "entropy": 0.9681254625320435
+  },
+  {
+    "module": "base_model.model.model.layers.48.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      7.552111492259428e-05,
+      0.0001627071324037388,
+      0.49933722615242004,
+      0.5004245042800903
+    ],
+    "entropy": 0.6953558921813965
+  },
+  {
+    "module": "base_model.model.model.layers.48.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.37197986245155334,
+      0.4868544638156891,
+      0.1259831190109253,
+      0.01518185343593359
+    ],
+    "entropy": 1.042853593826294
+  },
+  {
+    "module": "base_model.model.model.layers.49.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.030865833163261414,
+      0.5056501030921936,
+      0.461875319480896,
+      0.001608415157534182
+    ],
+    "entropy": 0.8192891478538513
+  },
+  {
+    "module": "base_model.model.model.layers.49.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.32875898480415344,
+      0.4986809492111206,
+      0.11824233084917068,
+      0.05431745946407318
+    ],
+    "entropy": 1.1233694553375244
+  },
+  {
+    "module": "base_model.model.model.layers.50.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.0348847322165966,
+      0.1928570419549942,
+      0.33362114429473877,
+      0.43863680958747864
+    ],
+    "entropy": 1.162173867225647
+  },
+  {
+    "module": "base_model.model.model.layers.50.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.11975933611392975,
+      0.4797828197479248,
+      6.271287566050887e-05,
+      0.4003945291042328
+    ],
+    "entropy": 0.9736146926879883
+  },
+  {
+    "module": "base_model.model.model.layers.51.self_attn.o_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.18491129577159882,
+      0.23778213560581207,
+      0.44680455327033997,
+      0.13050168752670288
+    ],
+    "entropy": 1.2793687582015991
+  },
+  {
+    "module": "base_model.model.model.layers.51.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.380817174911499,
+      0.3784320652484894,
+      0.029961908236145973,
+      0.21078959107398987
+    ],
+    "entropy": 1.1686625480651855
+  },
+  {
+    "module": "base_model.model.model.layers.52.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.14482174813747406,
+      0.3003856837749481,
+      0.48104989528656006,
+      0.07374251633882523
+    ],
+    "entropy": 1.1853867769241333
+  },
+  {
+    "module": "base_model.model.model.layers.52.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.002401474630460143,
+      0.4947354197502136,
+      0.5026134252548218,
+      0.0002495645312592387
+    ],
+    "entropy": 0.7104812860488892
+  },
+  {
+    "module": "base_model.model.model.layers.53.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.13789747655391693,
+      0.3560095429420471,
+      0.5034624338150024,
+      0.0026301711332052946
+    ],
+    "entropy": 1.002018690109253
+  },
+  {
+    "module": "base_model.model.model.layers.53.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.4893880784511566,
+      0.29665103554725647,
+      0.0009568305104039609,
+      0.21300338208675385
+    ],
+    "entropy": 1.0462567806243896
+  },
+  {
+    "module": "base_model.model.model.layers.54.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.4866328835487366,
+      0.3843870460987091,
+      0.015736980363726616,
+      0.11324284970760345
+    ],
+    "entropy": 1.0300133228302002
+  },
+  {
+    "module": "base_model.model.model.layers.54.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.00035458675120025873,
+      0.3411228358745575,
+      0.16650114953517914,
+      0.49202102422714233
+    ],
+    "entropy": 1.0171523094177246
+  },
+  {
+    "module": "base_model.model.model.layers.55.self_attn.o_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.35816651582717896,
+      0.0007345752674154937,
+      0.1523524969816208,
+      0.48874667286872864
+    ],
+    "entropy": 1.0096101760864258
+  },
+  {
+    "module": "base_model.model.model.layers.55.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.19973939657211304,
+      0.3957717716693878,
+      0.23082804679870605,
+      0.1736612766981125
+    ],
+    "entropy": 1.3310091495513916
+  },
+  {
+    "module": "base_model.model.model.layers.56.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.47758689522743225,
+      0.35599806904792786,
+      0.13525615632534027,
+      0.03115876577794552
+    ],
+    "entropy": 1.0992971658706665
+  },
+  {
+    "module": "base_model.model.model.layers.56.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.24826988577842712,
+      0.07922098785638809,
+      0.16893896460533142,
+      0.5035696029663086
+    ],
+    "entropy": 1.192641019821167
+  },
+  {
+    "module": "base_model.model.model.layers.57.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.09019589424133301,
+      0.49046653509140015,
+      0.011746188625693321,
+      0.4075911045074463
+    ],
+    "entropy": 0.9844101667404175
+  },
+  {
+    "module": "base_model.model.model.layers.57.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.3376304805278778,
+      0.04130037501454353,
+      0.47747713327407837,
+      0.14359216392040253
+    ],
+    "entropy": 1.129870057106018
+  },
+  {
+    "module": "base_model.model.model.layers.58.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.42468586564064026,
+      0.004236837849020958,
+      0.4975760579109192,
+      0.07350093126296997
+    ],
+    "entropy": 0.9260356426239014
+  },
+  {
+    "module": "base_model.model.model.layers.58.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.040690336376428604,
+      0.4138883948326111,
+      0.07785367220640182,
+      0.467567503452301
+    ],
+    "entropy": 1.0496009588241577
+  },
+  {
+    "module": "base_model.model.model.layers.59.self_attn.o_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.3406784236431122,
+      0.03576935455203056,
+      0.5036743879318237,
+      0.11987781524658203
+    ],
+    "entropy": 1.085711121559143
+  },
+  {
+    "module": "base_model.model.model.layers.59.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.016310565173625946,
+      0.1781151443719864,
+      0.3842144012451172,
+      0.4213601350784302
+    ],
+    "entropy": 1.106129765510559
+  },
+  {
+    "module": "base_model.model.model.layers.60.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.330778568983078,
+      0.42970171570777893,
+      0.06543974578380585,
+      0.17407992482185364
+    ],
+    "entropy": 1.2116591930389404
+  },
+  {
+    "module": "base_model.model.model.layers.60.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.4456956684589386,
+      0.3056242763996124,
+      0.1431053727865219,
+      0.10557480156421661
+    ],
+    "entropy": 1.238051176071167
+  },
+  {
+    "module": "base_model.model.model.layers.61.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.1915861964225769,
+      0.3340153694152832,
+      0.0008905510185286403,
+      0.473507821559906
+    ],
+    "entropy": 1.0430941581726074
+  },
+  {
+    "module": "base_model.model.model.layers.61.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.07523193955421448,
+      0.06171853095293045,
+      0.38280224800109863,
+      0.48024725914001465
+    ],
+    "entropy": 1.0863553285598755
+  },
+  {
+    "module": "base_model.model.model.layers.62.linear_attn.out_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.2228417843580246,
+      0.35852691531181335,
+      0.11584851145744324,
+      0.3027830719947815
+    ],
+    "entropy": 1.313765287399292
+  },
+  {
+    "module": "base_model.model.model.layers.62.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.48367840051651,
+      0.04157400131225586,
+      0.29577502608299255,
+      0.17897218465805054
+    ],
+    "entropy": 1.1517558097839355
+  },
+  {
+    "module": "base_model.model.model.layers.63.self_attn.o_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.16243399679660797,
+      0.3864400386810303,
+      0.43932032585144043,
+      0.01180622261017561
+    ],
+    "entropy": 1.0764018297195435
+  },
+  {
+    "module": "base_model.model.model.layers.63.mlp.down_proj.lora_B.default",
+    "token_evaluations": 456315,
+    "expert_mass_fraction": [
+      0.41492605209350586,
+      0.07635713368654251,
+      0.03216007724404335,
+      0.4765569567680359
+    ],
+    "entropy": 1.0251517295837402
+  }
+]

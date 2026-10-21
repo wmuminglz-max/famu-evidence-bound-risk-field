@@ -1,0 +1,22 @@
+{
+  "max_tokens": 10131,
+  "min_tokens": 364,
+  "by_arm": {
+    "D0_direct": {
+      "min": 1165,
+      "max": 5818
+    },
+    "E1_bound": {
+      "min": 1297,
+      "max": 5950
+    },
+    "replay": {
+      "min": 364,
+      "max": 10131
+    }
+  },
+  "truncated": 0,
+  "passed": true,
+  "evaluations_reserved_tokens": 192,
+  "rows": 1421
+}

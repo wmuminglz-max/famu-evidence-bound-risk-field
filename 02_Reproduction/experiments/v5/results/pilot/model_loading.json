@@ -1,0 +1,16 @@
+{
+  "lock": {
+    "examples_sha256": "46fc70b7451f56b66a273f19fc41daf9b5eeeaa5daf470b13786dfac64beb98d",
+    "base_lock_sha256": "1f4415b40bbd4a89881335731c9316b8b0e6d1dcbb62b8f02ad06f4ef0a4988c",
+    "encoder_sha256": "7bc88062d60be786ad9b4963160512ebb377156173d5ae5bae62ebdbfd4bc923",
+    "mode": "frozen_bf16_last_hidden_at_target_free_queries",
+    "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a"
+  },
+  "loading": {
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "mismatched_keys": [],
+    "error_msgs": []
+  },
+  "backbone_training": false
+}

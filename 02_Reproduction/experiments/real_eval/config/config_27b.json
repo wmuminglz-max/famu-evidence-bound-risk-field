@@ -1,0 +1,24 @@
+{
+  "host_label": "27b",
+  "runtime_root": "/workspace/famu_27b_20261004",
+  "base": "/workspace/famu_27b_20261004/models/Qwen3.8-27B",
+  "quantization": "NF4 double quantization BF16 compute, FP32 norms",
+  "max_new_tokens": 1024,
+  "arms": [
+    {
+      "id": "27b_review_sft",
+      "adapter": "/workspace/famu_27b_20261004/outputs/review_baseline_R1/adapter",
+      "architecture": "baseline"
+    },
+    {
+      "id": "27b_labor_review_sft",
+      "adapter": "/workspace/famu_27b_20261004/outputs/labor_then_review_R1/adapter",
+      "architecture": "baseline"
+    },
+    {
+      "id": "27b_learned_experts",
+      "adapter": "/workspace/famu_27b_20261004/outputs/review_learned_R1/adapter",
+      "architecture": "learned"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-16",
+  "entity_alias_count": 89,
+  "rule_replacement_counts": {
+    "email": 10,
+    "mobile": 6,
+    "telephone": 0,
+    "account_or_id": 382,
+    "registration": 32,
+    "case_id": 5,
+    "address_line": 113,
+    "url": 21,
+    "host": 0,
+    "ip": 7
+  },
+  "anchor_offsets_checked": 2932,
+  "real_input_hashes_recomputed": 28,
+  "original_weights_included": false,
+  "original_private_mapping_included": false,
+  "retrained_or_regenerated": false,
+  "facts_preserved": [
+    "class labels",
+    "numeric evaluation outcomes",
+    "random seeds",
+    "record IDs",
+    "condition order",
+    "evidence IDs",
+    "monetary arithmetic and task dates"
+  ],
+  "removed": [
+    "named organizations and people in the reviewed material",
+    "direct contact and account identifiers",
+    "case and contract identifiers",
+    "source URLs",
+    "local usernames and server locations",
+    "private workbook review metadata",
+    "original document attachments",
+    "weights and latent feature caches"
+  ],
+  "limitation": "Deidentified derivatives change model input text. Archived predictions were redacted, not regenerated. These files reproduce archived scoring; exact original generation requires controlled originals."
+}

@@ -1,0 +1,18 @@
+{
+  "run": "SPAN_MIX_s43",
+  "arm": "SPAN_MIX",
+  "updates": 960,
+  "train_seconds": 39.399407325312495,
+  "encoder_base_unchanged": true,
+  "adapter_maxabs_change": 0.032305192202329636,
+  "CE_positions": 0,
+  "relation_anchor_exposures": 0,
+  "paragraph_exposures": 30720,
+  "span_token_positions": 0,
+  "class_positions": 30720,
+  "boundary_positions": 38400,
+  "encoder_tokens": 6506692,
+  "padded_tokens": 8048736,
+  "encoded_sequences": 30720,
+  "auxiliary_query_labels": 0
+}

@@ -1,0 +1,1613 @@
+{
+  "public_input_sha256": "f61325b53fbe36e412347d07fa7b283cc3a2f6a4aaa79a2b2b7c1a445793b0e1",
+  "script_sha256": "6f9da0caefa365d64f78584844bea3d92a29b787afb75fda2564827871a85224",
+  "target_fields": 46,
+  "scope": "46 state questions only; other 41 fields unsupported",
+  "window_policy": "180 raw characters, sentence-preferred cut, reduce if combined tokens exceed500; identical windows for all students; citations mapped to original evidence IDs",
+  "task_family_transport": "famu_v8_simulated_contract_fields",
+  "task_family_semantics": "explicit out-of-family real-contract transfer probe, not in-distribution qualification",
+  "rows": {
+    "B01-Q01": {
+      "scope": {
+        "roles": "甲方为医院001；乙方为供应商001。",
+        "time_scope": "资料观察日2026-10-10。",
+        "display_scope": "全部13页公开PDF的逐页文字；可复查同一PDF图像。原件及其他网站附件未展示。文字提取未保留勾选框图形，本题不判断勾选项。"
+      },
+      "windows": {
+        "B01-P01#1": {
+          "original_evidence_id": "B01-P01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 120,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B01-P02#1": {
+          "original_evidence_id": "B01-P02",
+          "start": 0,
+          "end": 176,
+          "text": "使 用 说 明\n  1.本合同标准文本适用于购买现成货物的采购项目，不包括需要供应商定制开发、创新研发的货物采购项目。\n  2.本合同标准文本为政府采购货物买卖合同编制提供参考，可以结合采购项目具体情况，对文本作必要的调整修订后使用。\n  3.本合同标准文本各条款中，如涉及填写多家供应商、制造商，多种采购标的、分包主要内容等信息的，可根据采购项目具\n"
+        },
+        "B01-P02#2": {
+          "original_evidence_id": "B01-P02",
+          "start": 176,
+          "end": 191,
+          "text": "体情况添加信息项。\n-第2页-"
+        },
+        "B01-P03#1": {
+          "original_evidence_id": "B01-P03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 153,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B01-P03#2": {
+          "original_evidence_id": "B01-P03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 153,
+          "original_end": 329,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B01-P03#3": {
+          "original_evidence_id": "B01-P03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 329,
+          "original_end": 506,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B01-P03#4": {
+          "original_evidence_id": "B01-P03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 506,
+          "original_end": 669,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B01-P03#5": {
+          "original_evidence_id": "B01-P03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 669,
+          "original_end": 828,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B01-P03#6": {
+          "original_evidence_id": "B01-P03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 828,
+          "original_end": 997,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B01-P03#7": {
+          "original_evidence_id": "B01-P03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 997,
+          "original_end": 1167,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B01-P03#8": {
+          "original_evidence_id": "B01-P03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 1167,
+          "original_end": 1250,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B01-P04#1": {
+          "original_evidence_id": "B01-P04",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 176,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B01-P04#2": {
+          "original_evidence_id": "B01-P04",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 176,
+          "original_end": 355,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B01-P04#3": {
+          "original_evidence_id": "B01-P04",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 355,
+          "original_end": 531,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B01-P04#4": {
+          "original_evidence_id": "B01-P04",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 531,
+          "original_end": 702,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B01-P04#5": {
+          "original_evidence_id": "B01-P04",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 702,
+          "original_end": 872,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B01-P05#1": {
+          "original_evidence_id": "B01-P05",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 180,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B01-P05#2": {
+          "original_evidence_id": "B01-P05",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 180,
+          "original_end": 356,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B01-P05#3": {
+          "original_evidence_id": "B01-P05",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 356,
+          "original_end": 536,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B01-P05#4": {
+          "original_evidence_id": "B01-P05",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 536,
+          "original_end": 714,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B01-P05#5": {
+          "original_evidence_id": "B01-P05",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 714,
+          "original_end": 752,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B01-P06#1": {
+          "original_evidence_id": "B01-P06",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 175,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B01-P06#2": {
+          "original_evidence_id": "B01-P06",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 175,
+          "original_end": 353,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B01-P06#3": {
+          "original_evidence_id": "B01-P06",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 353,
+          "original_end": 515,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B01-P06#4": {
+          "original_evidence_id": "B01-P06",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 515,
+          "original_end": 689,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B01-P06#5": {
+          "original_evidence_id": "B01-P06",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 689,
+          "original_end": 824,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B01-P06#6": {
+          "original_evidence_id": "B01-P06",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 824,
+          "original_end": 959,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B01-P06#7": {
+          "original_evidence_id": "B01-P06",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 959,
+          "original_end": 1021,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B01-P07#1": {
+          "original_evidence_id": "B01-P07",
+          "start": 0,
+          "end": 141,
+          "text": "的其备品备件、工具、手册及其他技术资料和材料等。\n（4）“相关服务”系指根据合同规定，乙方应提供的与货物有关的技术、管理和其他服务，包括但不限于：管理和质量保证、\n运输、保险、检验、现场准备、安装、集成、调试、培训、维修、废弃处置、技术支持等以及合同中规定乙方应承担的其他义\n务。\n"
+        },
+        "B01-P07#2": {
+          "original_evidence_id": "B01-P07",
+          "start": 141,
+          "end": 285,
+          "text": "（5）“分包”系指中标（成交）供应商按采购文件、投标（响应）文件的规定，根据分包意向协议，将中标（成交）项目中的\n部分履约内容，分给具有相应资质条件的供应商履行合同的行为。\n（6）“联合体”系指由两个以上的自然人、法人或者非法人组织组成，以一个供应商的身份共同参加政府采购的主体。联合体\n"
+        },
+        "B01-P07#3": {
+          "original_evidence_id": "B01-P07",
+          "start": 285,
+          "end": 449,
+          "text": "各方应在签订合同协议书前向甲方提交联合协议，且明确牵头人及各成员单位的工作分工、权利、义务、责任，联合体各方应\n共同与甲方签订合同，就合同约定的事项对甲方承担连带责任。联合体具体要求见【政府采购合同专用条款】。\n（7）其他术语解释，见【政府采购合同专用条款】。\n九、合同标的及金额\n1、 合同标的及金额应与中标（成交）结果一致。"
+        },
+        "B01-P07#4": {
+          "original_evidence_id": "B01-P07",
+          "start": 449,
+          "end": 620,
+          "text": "乙方为履行本合同而发生的所有费用均应包含在合同价款中，甲方不再另行\n支付其他任何费用。\n十、履行合同的时间、地点和方式\n1 、乙方应当在约定的时间、地点，按照约定方式履行合同。\n十一、甲方的权利和义务\n1、签署合同后，甲方应确定项目负责人（或项目联系人），负责与本合同有关的事务。甲方有权对乙方的履约行为进行检\n查，并及时确认乙方提交的事项。"
+        },
+        "B01-P07#5": {
+          "original_evidence_id": "B01-P07",
+          "start": 620,
+          "end": 761,
+          "text": "甲方应当配合乙方完成相关项目实施工作。\n2、甲方有权要求乙方按时提交各阶段有关安排计划，并有权定期核对乙方提供货物数量、规格、质量等内容。甲方有权督促\n乙方工作并要求乙方更换不符合要求的货物。\n3、甲方有权要求乙方对缺陷部分予以修复，并按合同约定享有货物保修及其他合同约定的权利。\n"
+        },
+        "B01-P07#6": {
+          "original_evidence_id": "B01-P07",
+          "start": 761,
+          "end": 935,
+          "text": "4、甲方应当按照合同约定及时对交付的货物进行验收，未在【政府采购合同专用条款】约定的期限内对乙方履约提出任何异\n议或者向乙方作出任何说明的，视为验收通过。\n5、甲方应当根据合同约定及时向乙方支付合同价款，不得以内部人员变更、履行内部付款流程等为由，拒绝或迟延支付。\n6、国家法律法规规定及【政府采购合同专用条款】约定应由甲方承担的其他义务和责任。\n"
+        },
+        "B01-P07#7": {
+          "original_evidence_id": "B01-P07",
+          "start": 935,
+          "end": 1106,
+          "text": "十二、乙方的权利和义务\n1、签署合同后，乙方应确定项目负责人（或项目联系人），负责与本合同有关的事务。\n2、乙方应按照合同要求履约，充分合理安排，确保提供的货物及相关服务符合合同有关要求。接受项目行业管理部门及政府\n有关部门的指导，配合甲方的履约检查及验收，并负责项目实施过程中的所有协调工作。\n3、乙方有权根据合同约定向甲方收取合同价款。\n"
+        },
+        "B01-P07#8": {
+          "original_evidence_id": "B01-P07",
+          "start": 1106,
+          "end": 1262,
+          "text": "4、国家法律法规规定及【政府采购合同专用条款】约定应由乙方承担的其他义务和责任。\n十三、合同履行\n1、甲乙双方应当按照【政府采购合同专用条款】约定顺序履行合同义务；如果没有先后顺序的，应当同时履行。\n2、甲乙双方按照合同约定顺序履行合同义务时，应当先履行一方未履行的，后履行一方有权拒绝其履行请求。先履行一方履\n"
+        },
+        "B01-P07#9": {
+          "original_evidence_id": "B01-P07",
+          "start": 1262,
+          "end": 1407,
+          "text": "行不符合约定的，后履行一方有权拒绝其相应的履行请求。\n十四、货物包装、运输、保险和交付要求\n1、本合同涉及商品包装、快递包装的，除【政府采购合同专用条款】另有约定外，包装应适应远距离运输、防潮、防震、防\n锈和防野蛮装卸等要求，确保货物安全无损地运抵【政府采购合同专用条款】约定的指定现场。\n"
+        },
+        "B01-P07#10": {
+          "original_evidence_id": "B01-P07",
+          "start": 1407,
+          "end": 1566,
+          "text": "2、除【政府采购合同专用条款】另有约定外，乙方负责办理将货物运抵本合同规定的交货地点，并装卸、交付至甲方的一切\n运输事项，相关费用应包含在合同价款中。\n3、货物保险要求按【政府采购合同专用条款】规定执行。\n4、除采购活动对商品包装、快递包装达成具体约定外，乙方提供产品及相关快递服务涉及到具体包装要求的，应不低于《商\n"
+        },
+        "B01-P07#11": {
+          "original_evidence_id": "B01-P07",
+          "start": 1566,
+          "end": 1646,
+          "text": "品包装政府采购需求标准（试行）》《快递包装政府采购需求标准（试行）》标准，并作为履约验收的内容，必要时甲方可以\n要求乙方在履约验收环节出具检测报告。\n-第7页-"
+        },
+        "B01-P08#1": {
+          "original_evidence_id": "B01-P08",
+          "start": 0,
+          "end": 138,
+          "text": "5、乙方在运输到达之前应提前通知甲方，并提示货物运输装卸的注意事项，甲方配合乙方做好货物的接收工作。\n6、如因包装、运输问题导致货物损毁、丢失或者品质下降，甲方有权要求降价、换货、拒收部分或整批货物，由此产生的费\n用和损失，均由乙方承担。\n十五、质量标准和保证\n1、质量标准\n"
+        },
+        "B01-P08#2": {
+          "original_evidence_id": "B01-P08",
+          "start": 138,
+          "end": 305,
+          "text": "（1）本合同下提供的货物应符合合同约定的品牌、规格型号、技术性能、配置、质量、数量等要求。质量要求不明确的，按\n照强制性国家标准履行；没有强制性国家标准的，按照推荐性国家标准履行；没有推荐性国家标准的，按照行业标准履行；没\n有国家标准、行业标准的，按照通常标准或者符合合同目的的特定标准履行。\n（2）采用中华人民共和国法定计量单位。\n"
+        },
+        "B01-P08#3": {
+          "original_evidence_id": "B01-P08",
+          "start": 305,
+          "end": 480,
+          "text": "（3）乙方所提供的货物应符合国家有关安全、环保、卫生的规定。\n（4）乙方应向甲方提交所提供货物的技术文件，包括相应的中文技术文件，如：产品目录、图纸、操作手册、使用说明、维\n护手册或服务指南等。上述文件应包装好随货物一同发运。\n2、保证\n（1）乙方应保证提供的货物完全符合合同规定的质量、规格和性能要求。乙方应保证货物在正确安装、正常使用和保养条件\n"
+        },
+        "B01-P08#4": {
+          "original_evidence_id": "B01-P08",
+          "start": 480,
+          "end": 660,
+          "text": "下，在其使用寿命期内具备合同约定的性能。存在质量保证期的，货物最终交付验收合格后在【政府采购合同专用条款】规定\n或乙方书面承诺（两者以较长的为准）的质量保证期内，本保证保持有效。\n（2）在质量保证期内所发现的缺陷，甲方应尽快以书面形式通知乙方。\n（3）乙方收到通知后，应在【政府采购合同专用条款】规定的响应时间内以合理的速度免费维修或更换有缺陷的货物或部\n件。"
+        },
+        "B01-P08#5": {
+          "original_evidence_id": "B01-P08",
+          "start": 660,
+          "end": 834,
+          "text": "\n（4）在质量保证期内，如果货物的质量或规格与合同不符，或证实货物是有缺陷的，包括潜在的缺陷或使用不符合要求的材\n料等，甲方可以根据本合同第15.1条规定以书面形式追究乙方的违约责任。\n（5）乙方在约定的时间内未能弥补缺陷，甲方可采取必要的补救措施，但其风险和费用将由乙方承担，甲方根据合同约定对\n乙方行使的其他权利不受影响。\n十六、权利瑕疵担保\n"
+        },
+        "B01-P08#6": {
+          "original_evidence_id": "B01-P08",
+          "start": 834,
+          "end": 1010,
+          "text": "1、乙方保证对其出售的货物享有合法的权利。\n2、乙方保证在交付的货物上不存在抵押权等担保物权。\n3、如甲方使用上述货物构成对第三人侵权的，则由乙方承担全部责任。\n十七、知识产权保护\n1、 乙方对其所销售的货物应当享有知识产权或经权利人合法授权，保证没有侵犯任何第三人的知识产权等权利。因违反前述\n约定对第三人构成侵权的，应当由乙方向第三人承担法律责任；"
+        },
+        "B01-P08#7": {
+          "original_evidence_id": "B01-P08",
+          "start": 1010,
+          "end": 1180,
+          "text": "甲方依法向第三人赔偿后，有权向乙方追偿。甲方有其他损失\n的，乙方应当赔偿。\n十八、保密义务\n1、 甲、乙双方对采购和合同履行过程中所获悉的国家秘密、工作秘密、商业秘密或者其他应当保密的信息，均有保密义务且\n不受合同有效期所限，直至该信息成为公开信息。泄露、不正当地使用国家秘密、工作秘密、商业秘密或者其他应当保密的信\n息，应当承担相应责任。"
+        },
+        "B01-P08#8": {
+          "original_evidence_id": "B01-P08",
+          "start": 1180,
+          "end": 1357,
+          "text": "其他应当保密的信息由双方在【政府采购合同专用条款】中约定。\n十九、合同价款支付\n1、合同价款支付按照国库集中支付制度及财政管理相关规定执行。\n2、对于满足合同约定支付条件的，甲方原则上应当自收到发票后10个工作日内将资金支付到合同约定的乙方账户，不得以机\n构变动、人员更替、政策调整等为由迟延付款，不得将采购文件和合同中未规定的义务作为向乙方付款的条件。"
+        },
+        "B01-P08#9": {
+          "original_evidence_id": "B01-P08",
+          "start": 1357,
+          "end": 1492,
+          "text": "具体合同价款\n支付时间在【政府采购合同专用条款】中约定。\n二十、履约保证金\n1、乙方应当以支票、汇票、本票或者金融机构、担保机构出具的保函等非现金形式提交。\n2、如果乙方出现【政府采购合同专用条款】约定情形的，履约保证金不予退还；如果乙方未能按合同约定全面履行义务，甲\n"
+        },
+        "B01-P08#10": {
+          "original_evidence_id": "B01-P08",
+          "start": 1492,
+          "end": 1606,
+          "text": "方有权从履约保证金中取得补偿或赔偿，且不影响甲方要求乙方承担合同约定的超过履约保证金的违约责任的权利。\n13.3、甲方在项目通过验收后按照【政府采购合同专用条款】规定的时间内将履约保证金退还乙方；逾期退还的，乙方可要\n-第8页-"
+        },
+        "B01-P09#1": {
+          "original_evidence_id": "B01-P09",
+          "start": 0,
+          "end": 131,
+          "text": "求甲方支付违约金，违约金按照【政府采购合同专用条款】规定支付。\n二十一、售后服务\n1、除项目不涉及或采购活动中明确约定无须承担外，乙方还应提供下列服务：\n（1）货物的现场移动、安装、调试、启动监督及技术支持；\n（2）提供货物组装和维修所需的专用工具和辅助材料；\n"
+        },
+        "B01-P09#2": {
+          "original_evidence_id": "B01-P09",
+          "start": 131,
+          "end": 306,
+          "text": "（3）在【政府采购合同专用条款】约定的期限内对所有的货物实施运行监督、维修，但前提条件是该服务并不能免除乙方在\n质量保证期内所承担的义务；\n（4）在制造商所在地或指定现场就货物的安装、启动、运营、维护、废弃处置等对甲方操作人员进行培训；\n（5）依照法律、行政法规的规定或者按照【政府采购合同专用条款】约定，货物在有效使用年限届满后应予回收的，乙方负\n"
+        },
+        "B01-P09#3": {
+          "original_evidence_id": "B01-P09",
+          "start": 306,
+          "end": 468,
+          "text": "有自行或者委托第三人对货物予以回收的义务；\n（6）【政府采购合同专用条款】规定由乙方提供的其他服务。\n2、乙方提供的售后服务的费用已包含在合同价款中，甲方不再另行支付。\n二十二、违约责任\n1、质量瑕疵的违约责任\n乙方提供的产品不符合合同约定的质量标准或存在产品质量缺陷，甲方有权要求乙方根据【政府采购合同专用条款】要求及时\n"
+        },
+        "B01-P09#4": {
+          "original_evidence_id": "B01-P09",
+          "start": 468,
+          "end": 642,
+          "text": "修理、重作、更换，并承担由此给甲方造成的损失。\n2、迟延交货的违约责任\n（1）乙方应按照本合同规定的时间、地点交货和提供相关服务。在履行合同过程中，如果乙方遇到可能影响按时交货和提供\n服务的情形时，应及时以书面形式将迟延的事实、可能迟延的期限和理由通知甲方。甲方在收到乙方通知后，应尽快对情况进\n行评价，并确定是否同意延长交货时间或延期提供服务。\n"
+        },
+        "B01-P09#5": {
+          "original_evidence_id": "B01-P09",
+          "start": 642,
+          "end": 782,
+          "text": "（2）如果乙方没有按照合同规定的时间交货和提供相关服务，甲方有权从货款中扣除误期赔偿费而不影响合同项下的其他补\n救方法，赔偿费按【政府采购合同专用条款】规定执行。如果涉及公共利益，且赔偿金额无法弥补公共利益损失，甲方可要求\n继续履行或者采取其他补救措施。\n3、迟延支付的违约责任\n"
+        },
+        "B01-P09#6": {
+          "original_evidence_id": "B01-P09",
+          "start": 782,
+          "end": 957,
+          "text": "甲方存在迟延支付乙方合同款项的，应当承担【政府采购合同专用条款】规定的逾期付款利息。\n4、其他违约责任根据项目实际需要按【政府采购合同专用条款】规定执行。\n二十三、合同变更、中止与终止\n1、合同的变更\n政府采购合同履行中，在不改变合同其他条款的前提下，甲方可以在合同价款10%的范围内追加与合同标的相同的货物，并\n就此与乙方协商一致后签订补充协议。\n"
+        },
+        "B01-P09#7": {
+          "original_evidence_id": "B01-P09",
+          "start": 957,
+          "end": 1131,
+          "text": "2、合同的中止\n（1）合同履行过程中因供应商就采购文件、采购过程或结果提起投诉的，甲方认为有必要的，可以中止合同的履行。\n（2）合同履行过程中，如果乙方出现以下情形之一的：1．经营状况严重恶化；2．转移财产、抽逃资金，以逃避债务；3．\n丧失商业信誉；4．有丧失或者可能丧失履约能力的其他情形，乙方有义务及时告知甲方。甲方有权以书面形式通知乙方中止\n"
+        },
+        "B01-P09#8": {
+          "original_evidence_id": "B01-P09",
+          "start": 1131,
+          "end": 1294,
+          "text": "合同并要求乙方在合理期限内消除相关情形或者提供适当担保。乙方提供适当担保的，合同继续履行；乙方在合理期限内未恢\n复履约能力且未提供适当担保的，视为拒绝继续履约，甲方有权解除合同并要求乙方承担由此给甲方造成的损失。\n（3）乙方分立、合并或者变更住所的，应当及时以书面形式告知甲方。乙方没有及时告知甲方，致使合同履行发生困难的，\n"
+        },
+        "B01-P09#9": {
+          "original_evidence_id": "B01-P09",
+          "start": 1294,
+          "end": 1461,
+          "text": "甲方可以中止合同履行并要求乙方承担由此给甲方造成的损失。\n（4）甲方不得以行政区划调整、政府换届、机构或者职能调整以及相关责任人更替为由中止合同。\n3、合同的终止\n（1）合同因有效期限届满而终止；\n（2）乙方未按合同约定履行，构成根本性违约的，甲方有权终止合同，并追究乙方的违约责任。\n4、涉及国家利益、社会公共利益的情形\n-第9页-"
+        },
+        "B01-P10#1": {
+          "original_evidence_id": "B01-P10",
+          "start": 0,
+          "end": 143,
+          "text": "政府采购合同继续履行将损害国家利益和社会公共利益的，双方当事人应当变更、中止或者终止合同。有过错的一方应当承担\n赔偿责任，双方都有过错的，各自承担相应的责任。\n二十四、合同分包\n1、乙方不得将合同转包给其他供应商。涉及合同分包的，乙方应根据采购文件和投标（响应）文件规定进行合同分包。\n"
+        },
+        "B01-P10#2": {
+          "original_evidence_id": "B01-P10",
+          "start": 143,
+          "end": 311,
+          "text": "2、乙方执行政府采购政策向中小企业依法分包的，乙方应当按采购文件和投标（响应）文件签订分包意向协议，分包意向协\n议属于本合同组成部分。\n二十五、不可抗力\n1、不可抗力是指合同双方不能预见、不能避免且不能克服的客观情况。\n2、任何一方对由于不可抗力造成的部分或全部不能履行合同不承担违约责任。但迟延履行后发生不可抗力的，不能免除责\n任。\n"
+        },
+        "B01-P10#3": {
+          "original_evidence_id": "B01-P10",
+          "start": 311,
+          "end": 473,
+          "text": "3、遇有不可抗力的一方，应及时将事件情况以书面形式告知另一方，并在事件发生后及时向另一方提交合同不能履行或部分\n不能履行或需要延期履行的详细报告，以及证明不可抗力发生及其持续时间的证据。\n二十六、解决争议的方法\n1、因本合同及合同有关事项发生的争议，由甲乙双方友好协商解决。协商不成时，可以向有关组织申请调解。合同一方或双\n"
+        },
+        "B01-P10#4": {
+          "original_evidence_id": "B01-P10",
+          "start": 473,
+          "end": 617,
+          "text": "方不愿调解或调解不成的，可以通过仲裁或诉讼的方式解决争议。\n2、选择仲裁的，应在【政府采购合同专用条款】中明确仲裁机构及仲裁地；通过诉讼方式解决的，可以在【政府采购合同专\n用条款】中进一步约定选择与争议有实际联系的地点的人民法院管辖，但管辖法院的约定不得违反级别管辖和专属管辖的规\n定。\n"
+        },
+        "B01-P10#5": {
+          "original_evidence_id": "B01-P10",
+          "start": 617,
+          "end": 790,
+          "text": "3、如甲乙双方有争议的事项不影响合同其他部分的履行，在争议解决期间，合同其他部分应当继续履行。\n二十七、政府采购政策\n1、本合同应当按照规定执行政府采购政策。\n2、本合同依法执行政府采购政策的方式和内容，属于合同履约验收的范围。甲乙双方未按规定要求执行政府采购政策造成损\n失的，有过错的一方应当承担赔偿责任，双方都有过错的，各自承担相应的责任。\n"
+        },
+        "B01-P10#6": {
+          "original_evidence_id": "B01-P10",
+          "start": 790,
+          "end": 936,
+          "text": "3、对于为落实中小企业支持政策，通过采购项目整体预留、设置采购包专门预留、要求以联合体形式参加或者合同分包等措\n施签订的采购合同，应当明确标注本合同为中小企业预留合同。其中，要求以联合体形式参加采购活动或者合同分包的，须将\n联合协议或者分包意向协议作为采购合同的组成部分。\n二十八、法律适用\n"
+        },
+        "B01-P10#7": {
+          "original_evidence_id": "B01-P10",
+          "start": 936,
+          "end": 1101,
+          "text": "1、本合同的订立、生效、解释、履行及与本合同有关的争议解决，均适用法律、行政法规。\n2、本合同条款与法律、行政法规的强制性规定不一致的，双方当事人应按照法律、行政法规的强制性规定修改本合同的相关\n条款。\n二十九、通知\n1、本合同任何一方向对方发出的通知、信件、数据电文等，应当发送至本合同第一部分《政府采购合同协议书》所约定的通\n"
+        },
+        "B01-P10#8": {
+          "original_evidence_id": "B01-P10",
+          "start": 1101,
+          "end": 1281,
+          "text": "讯地址、联系人、联系电话或电子邮箱。\n2、一方当事人变更名称、住所、联系人、联系电话或电子邮箱等信息的，应当在变更后3日内及时书面通知对方，对方实际\n收到变更通知前的送达仍为有效送达。\n3、本合同一方给另一方的通知均应采用书面形式，传真或快递送到本合同中规定的对方的地址和办理签收手续。\n4、通知以送达之日或通知书中规定的生效之日起生效，两者中以较迟之日为准。"
+        },
+        "B01-P10#9": {
+          "original_evidence_id": "B01-P10",
+          "start": 1281,
+          "end": 1358,
+          "text": "\n三十、合同未尽事项\n1、合同未尽事项见【政府采购合同专用条款】。\n2、合同附件与合同正文具有同等的法律效力。\n第三节 政府采购合同专用条款\n-第10页-"
+        },
+        "B01-P11#1": {
+          "original_evidence_id": "B01-P11",
+          "start": 0,
+          "end": 146,
+          "text": "联合体具体要求\n无\n其他术语解释\n无\n履约验收中甲方提出异议或作出说明的期限\n无\n约定甲方承担的其他义务和责任\n无\n约定乙方承担的其他义务和责任\n无\n履行合同义务的顺序\n无\n包装特殊要求\n无\n指定现场\n无\n运输特殊要求\n无\n保险要求\n无\n质量保证期\n无\n货物质量缺陷响应时间\n无\n-第11页-"
+        },
+        "B01-P12#1": {
+          "original_evidence_id": "B01-P12",
+          "start": 0,
+          "end": 144,
+          "text": "其他应当保密的信息\n无\n合同价款支付时间\n无\n履约保证金不予退还的情形\n无\n履约保证金退还时间及逾期退还的违约金\n无\n运行监督、维修期限\n无\n货物回收的约定\n无\n乙方提供的其他服务\n无\n修理、重作、更换相关具体规定\n无\n迟延交货赔偿费\n无\n逾期付款利息\n无\n其他违约责任\n无\n-第12页-"
+        },
+        "B01-P13#1": {
+          "original_evidence_id": "B01-P13",
+          "start": 0,
+          "end": 89,
+          "text": "解决争议的方法\n因本合同及合同有关事项发生的争议，选择下列一种方式解\n决：\n向仲裁委员会申请仲裁，仲裁地点为\n向甲方所在地区级人民法院人民法院起诉\n其他专用条款\n无\n-第13页-"
+        }
+      }
+    },
+    "B01-Q02": {
+      "scope": {
+        "roles": "甲方付款、乙方收款。",
+        "time_scope": "固定观察日2026-10-10；三期计划日期各自绑定。",
+        "display_scope": "仅展示第4页付款表，不展示银行回单、验收凭证和履行记录。"
+      },
+      "windows": {
+        "B01-S01#1": {
+          "original_evidence_id": "B01-S01",
+          "start": 0,
+          "end": 180,
+          "text": "（3）付款方式（按项目实际勾选填写）：分期付款\n   付款期数：三期\n期数\n支付条件\n计划支付时间\n支付比例(%)\n支付金额(元)\n1\n甲方收到乙方提供的付款凭证并完成付款审批程序后43个工作日内\n2026-11-30\n50%\n880000元\n2\n甲方收到乙方提供的付款凭证并完成付款审批程序后30个工作日内\n2027-03-16\n40%\n704000元\n3\n"
+        },
+        "B01-S01#2": {
+          "original_evidence_id": "B01-S01",
+          "start": 180,
+          "end": 217,
+          "text": "验收合格后满一年且无质量问题\n2027-05-31\n10%\n176000元"
+        }
+      }
+    },
+    "B01-Q03": {
+      "scope": {
+        "roles": "同一份B01合同的组成文件。",
+        "time_scope": "采用已展示合同文本版本。",
+        "display_scope": "仅展示组成文件的解释顺序和第三十条。"
+      },
+      "windows": {
+        "B01-S02#1": {
+          "original_evidence_id": "B01-S02",
+          "start": 0,
+          "end": 153,
+          "text": "五、组成合同的文件\n本协议书与下列文件一起构成合同文件，如下述文件之间有任何抵触、矛盾或歧义，应按以下顺序解释：\n（1）政府采购合同协议书及其变更、补充协议\n（2）政府采购合同专用条款\n（3）政府采购合同通用条款\n（4）中标（成交）通知书\n（5）投标（响应）文件\n（6）采购文件\n（7）有关技术文件，图纸\n"
+        },
+        "B01-S02#2": {
+          "original_evidence_id": "B01-S02",
+          "start": 153,
+          "end": 191,
+          "text": "（8）国家法律、行政法规和规章制度规定或合同约定的作为合同组成部分的其他文件"
+        },
+        "B01-S03#1": {
+          "original_evidence_id": "B01-S03",
+          "start": 0,
+          "end": 54,
+          "text": "三十、合同未尽事项\n1、合同未尽事项见【政府采购合同专用条款】。\n2、合同附件与合同正文具有同等的法律效力。"
+        }
+      }
+    },
+    "B02-Q01": {
+      "scope": {
+        "roles": "供应商为作出放弃或降低表示的一方，采购人为付款方。",
+        "time_scope": "例外须绑定签订合同时的表示。",
+        "display_scope": "仅展示专用条款2.5，假设场景为未支付10%预付款；未展示签约声明、发票收讫日期和支付记录。"
+      },
+      "windows": {
+        "B02-S02#1": {
+          "original_evidence_id": "B02-S02",
+          "start": 0,
+          "end": 170,
+          "text": "合同签订且在收到供应商发票后15 日历天内，支付合同价款的10%\n作为预付款；剩下价款按月支付，具体付款金额=合同总金额*90%/服务期\n限（24 个月）。（采购人将根据考核检查情况调整每月实际支付金额，实\n际总金额可能与合同价有差异。）以实际到岗人员为准，据实结算。注：\n在签订合同时，成交人明确表示无需预付款或者主动要求降低预付款比例\n"
+        },
+        "B02-S02#2": {
+          "original_evidence_id": "B02-S02",
+          "start": 170,
+          "end": 184,
+          "text": "的，采购人可不适用前述规定。"
+        }
+      }
+    },
+    "B02-Q02": {
+      "scope": {
+        "roles": "采购人考核、供应商提供人员及发票。",
+        "time_scope": "月度应付金额，具体月份未指定。",
+        "display_scope": "专用付款条款及凭证条款；未展示特定月份的考核、人员、发票记录。"
+      },
+      "windows": {
+        "B02-S02#1": {
+          "original_evidence_id": "B02-S02",
+          "start": 0,
+          "end": 170,
+          "text": "合同签订且在收到供应商发票后15 日历天内，支付合同价款的10%\n作为预付款；剩下价款按月支付，具体付款金额=合同总金额*90%/服务期\n限（24 个月）。（采购人将根据考核检查情况调整每月实际支付金额，实\n际总金额可能与合同价有差异。）以实际到岗人员为准，据实结算。注：\n在签订合同时，成交人明确表示无需预付款或者主动要求降低预付款比例\n"
+        },
+        "B02-S02#2": {
+          "original_evidence_id": "B02-S02",
+          "start": 170,
+          "end": 184,
+          "text": "的，采购人可不适用前述规定。"
+        },
+        "B02-S03#1": {
+          "original_evidence_id": "B02-S03",
+          "start": 0,
+          "end": 62,
+          "text": "发票及相关凭证提交要求：乙方应按甲方要求提供完整、合法、有效\n的增值税发票，并附乙方当月为甲方提供服务人员花名册、考勤记录。"
+        }
+      }
+    },
+    "B02-Q03": {
+      "scope": {
+        "roles": "同一合同的一般部分与专用部分。",
+        "time_scope": "采用本次合同文本版本。",
+        "display_scope": "一般条款2.5、专用部分引言与2.5全部展示。"
+      },
+      "windows": {
+        "B02-S04#1": {
+          "original_evidence_id": "B02-S04",
+          "start": 0,
+          "end": 24,
+          "text": "2.5 结算方式和付款条件 \n详见合同专用条款。"
+        },
+        "B02-S01#1": {
+          "original_evidence_id": "B02-S01",
+          "start": 0,
+          "end": 104,
+          "text": "第三部分  合同专用条款 \n本部分是对前两部分的补充和修改，如果前两部分和本部分的约定不一致，\n应以本部分的约定为准。本部分的条款号应与前两部分的条款号保持对应；与前\n两部分无对应关系的内容可另行编制条款号。"
+        },
+        "B02-S02#1": {
+          "original_evidence_id": "B02-S02",
+          "start": 0,
+          "end": 170,
+          "text": "合同签订且在收到供应商发票后15 日历天内，支付合同价款的10%\n作为预付款；剩下价款按月支付，具体付款金额=合同总金额*90%/服务期\n限（24 个月）。（采购人将根据考核检查情况调整每月实际支付金额，实\n际总金额可能与合同价有差异。）以实际到岗人员为准，据实结算。注：\n在签订合同时，成交人明确表示无需预付款或者主动要求降低预付款比例\n"
+        },
+        "B02-S02#2": {
+          "original_evidence_id": "B02-S02",
+          "start": 170,
+          "end": 184,
+          "text": "的，采购人可不适用前述规定。"
+        }
+      }
+    },
+    "B04-Q01": {
+      "scope": {
+        "roles": "出租方人员001；9月签约方人员002；10月签字人人员003。",
+        "time_scope": "10月20日补充已签署的文本阶段。",
+        "display_scope": "比较9月16日和10月20日两份补充协议的文字承接；不判断协议在现实争议中的整体法律效力。"
+      },
+      "windows": {
+        "B04-S02#1": {
+          "original_evidence_id": "B04-S02",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 163,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B04-S02#2": {
+          "original_evidence_id": "B04-S02",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 163,
+          "original_end": 213,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B04-S03#1": {
+          "original_evidence_id": "B04-S03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 85,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B04-S03#2": {
+          "original_evidence_id": "B04-S03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 85,
+          "original_end": 198,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B04-S03#3": {
+          "original_evidence_id": "B04-S03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 198,
+          "original_end": 367,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B04-S03#4": {
+          "original_evidence_id": "B04-S03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 367,
+          "original_end": 458,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        }
+      }
+    },
+    "B04-Q02": {
+      "scope": {
+        "roles": "二押一租付款义务人与出租方之间的款项。",
+        "time_scope": "以2011-10-20补充的记载时点为准；后续支付单列。",
+        "display_scope": "只展示主合同及10月补充；不展示2013年欠款状态，避免后续金额覆盖本题早期状态。"
+      },
+      "windows": {
+        "B04-S01#1": {
+          "original_evidence_id": "B04-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 109,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B04-S01#2": {
+          "original_evidence_id": "B04-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 109,
+          "original_end": 273,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B04-S01#3": {
+          "original_evidence_id": "B04-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 273,
+          "original_end": 399,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B04-S03#1": {
+          "original_evidence_id": "B04-S03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 85,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B04-S03#2": {
+          "original_evidence_id": "B04-S03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 85,
+          "original_end": 198,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B04-S03#3": {
+          "original_evidence_id": "B04-S03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 198,
+          "original_end": 367,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B04-S03#4": {
+          "original_evidence_id": "B04-S03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 367,
+          "original_end": 458,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        }
+      }
+    },
+    "B04-Q03": {
+      "scope": {
+        "roles": "人员002、人员003、酒店001分别保留，不以签字人直接替代全部义务人。",
+        "time_scope": "2011年签约与2012年成立分别对应。",
+        "display_scope": "仅合同签字、酒店成立记录和双方主张；不展示法院责任主体认定。"
+      },
+      "windows": {
+        "B04-S01#1": {
+          "original_evidence_id": "B04-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 109,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B04-S01#2": {
+          "original_evidence_id": "B04-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 109,
+          "original_end": 273,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B04-S01#3": {
+          "original_evidence_id": "B04-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 273,
+          "original_end": 399,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B04-S03#1": {
+          "original_evidence_id": "B04-S03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 85,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B04-S03#2": {
+          "original_evidence_id": "B04-S03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 85,
+          "original_end": 198,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B04-S03#3": {
+          "original_evidence_id": "B04-S03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 198,
+          "original_end": 367,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B04-S03#4": {
+          "original_evidence_id": "B04-S03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 367,
+          "original_end": 458,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B04-S05#1": {
+          "original_evidence_id": "B04-S05",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 21,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B04-S06#1": {
+          "original_evidence_id": "B04-S06",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 124,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        }
+      }
+    },
+    "B04-Q04": {
+      "scope": {
+        "roles": "甲方补偿乙方，资金约定从房租中扣除。",
+        "time_scope": "补充协议约定阶段。",
+        "display_scope": "仅10月补充的约定；未展示抵扣流水或其后法院准予抵扣的处理。"
+      },
+      "windows": {
+        "B04-S03#1": {
+          "original_evidence_id": "B04-S03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 85,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B04-S03#2": {
+          "original_evidence_id": "B04-S03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 85,
+          "original_end": 198,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B04-S03#3": {
+          "original_evidence_id": "B04-S03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 198,
+          "original_end": 367,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "B04-S03#4": {
+          "original_evidence_id": "B04-S03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 367,
+          "original_end": 458,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        }
+      }
+    },
+    "A02-Q01": {
+      "scope": {
+        "roles": "工区是列明合同甲方；集团/四公司付款行为另记；主张不改写为独立协议。",
+        "time_scope": "合同2016-04-16；付款统计截至2024-02-07。",
+        "display_scope": "合同、付款事实及集团/四公司的代付主张；不展示法院最终责任判断。"
+      },
+      "windows": {
+        "A02-S01#1": {
+          "original_evidence_id": "A02-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 122,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A02-S01#2": {
+          "original_evidence_id": "A02-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 122,
+          "original_end": 221,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A02-S03#1": {
+          "original_evidence_id": "A02-S03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 112,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A02-S04#1": {
+          "original_evidence_id": "A02-S04",
+          "start": 0,
+          "end": 85,
+          "text": "3.某某四公司是受某某集团的委托代付了部分款项，其不应在本案中承担任何责任。在原告起诉后，某某四公司于2024年2月7日又代付了3万元，某某集团截至目前共付款118万元。"
+        },
+        "A02-S05#1": {
+          "original_evidence_id": "A02-S05",
+          "start": 0,
+          "end": 114,
+          "text": "某某四公司辩称，不同意原告的全部诉讼请求。理由如下：某某四公司与原告不存在合同关系，案涉合同的权利义务应由合同相对方即某某集团承担，某某四公司只是受委托支付了部分款项，但不构成债的加入，不应承担任何责任。其它辩论意见同某某集团。"
+        }
+      }
+    },
+    "A02-Q02": {
+      "scope": {
+        "roles": "同一期发票与该期结算对齐。",
+        "time_scope": "发票覆盖多个时间；差异样本为2018-06-04。",
+        "display_scope": "合同结算约定、发票列表及一期结算说明；排除法院确定的应付总额。"
+      },
+      "windows": {
+        "A02-S01#1": {
+          "original_evidence_id": "A02-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 122,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A02-S01#2": {
+          "original_evidence_id": "A02-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 122,
+          "original_end": 221,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A02-S02#1": {
+          "original_evidence_id": "A02-S02",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 180,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A02-S02#2": {
+          "original_evidence_id": "A02-S02",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 180,
+          "original_end": 348,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A02-S02#3": {
+          "original_evidence_id": "A02-S02",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 348,
+          "original_end": 497,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        }
+      }
+    },
+    "A02-Q03": {
+      "scope": {
+        "roles": "两被告累计付款，四公司新增代付。",
+        "time_scope": "起诉日2023-12-27与累计截至2024-02-07分开。",
+        "display_scope": "只展示列明付款及提交状态，不使用法院欠款金额反推。"
+      },
+      "windows": {
+        "A02-S03#1": {
+          "original_evidence_id": "A02-S03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 112,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A02-S04#1": {
+          "original_evidence_id": "A02-S04",
+          "start": 0,
+          "end": 85,
+          "text": "3.某某四公司是受某某集团的委托代付了部分款项，其不应在本案中承担任何责任。在原告起诉后，某某四公司于2024年2月7日又代付了3万元，某某集团截至目前共付款118万元。"
+        },
+        "A02-S06#1": {
+          "original_evidence_id": "A02-S06",
+          "start": 0,
+          "end": 151,
+          "text": "庭审中，原告表示每次办理结算后的结算对账单据，都交回给某某集团了。两被告称无法明确实际合同款项和欠付款项金额，无法明确两被告的支付行为针对的是原告开具的哪张发票，也无法提供每一期付款具体的结算单、对账单。本院要求其于庭后五日内核实每一期款项支付及对账结算情况并将相关证据补充提交，但两被告逾期均未提交。"
+        }
+      }
+    },
+    "A05-Q01": {
+      "scope": {
+        "roles": "两份水泥合同分开封账，再按明确口径相加。",
+        "time_scope": "2021-12-27、2022-05-17封账，另有2023-09-28新增付款。",
+        "display_scope": "展示两次封账、封账后付款事实和原告后续累计主张；累计主张仍标记其陈述性质。"
+      },
+      "windows": {
+        "A05-S05#1": {
+          "original_evidence_id": "A05-S05",
+          "start": 0,
+          "end": 180,
+          "text": "2021年12月27日、2022年5月17日，项目经理部（协议甲方）、原告（协议乙方）、工地材料厂（协议丙方）分别对上述两份《水泥买卖合同》进行封账结算，并签订两份《水泥买卖合同封账协议》，确定编号为******的《水泥买卖合同》应支付乙方价款为7,553,155.14元，已付款5,950,000元，逾期付款违约金0元，按照合同约定履约保证金为228,000"
+        },
+        "A05-S05#2": {
+          "original_evidence_id": "A05-S05",
+          "start": 180,
+          "end": 341,
+          "text": "元；编号为******的《水泥买卖合同》应支付乙方价款为33,734,593.04元，已付款26,670,000元，逾期付款违约金0元，按照合同约定履约保证金为1,400,000元。封账协议还约定“乙方确认对本工程已结（决）算的所有供应数量、价款、相关扣（罚）款以及该合同履行过程中产生的内容均无异议，不存在其他遗留问题；"
+        },
+        "A05-S05#3": {
+          "original_evidence_id": "A05-S05",
+          "start": 341,
+          "end": 414,
+          "text": "本协议为三方最终确认协议，若乙方再持有与该工程有关的任何涉及债权债务内容的书面资料视为已在上述价款中综合考虑，不再作为向某、丙方主张权利的依据。”"
+        },
+        "A05-S06#1": {
+          "original_evidence_id": "A05-S06",
+          "start": 0,
+          "end": 37,
+          "text": "之后，被告向原告又支付部分货款，现仍欠原告货款4,540,740.40元。"
+        },
+        "A05-S07#1": {
+          "original_evidence_id": "A05-S07",
+          "start": 0,
+          "end": 55,
+          "text": "但截止目前，被告合计支付的金额为36,747,007.78元，被告尚欠原告货款4,540,740.40元未付。"
+        },
+        "A05-S08#1": {
+          "original_evidence_id": "A05-S08",
+          "start": 0,
+          "end": 44,
+          "text": "审理中，原告以被告于2023年9月28日又付款10,007.78元为由，变更诉讼请求为："
+        }
+      }
+    },
+    "A05-Q02": {
+      "scope": {
+        "roles": "甲方付款、乙方供货开票、丙方办理申请。",
+        "time_scope": "两合同分别签于2020-03-27和2020-10-13。",
+        "display_scope": "两份合同付款条款分别完整列出；不展示具体拨款记录。"
+      },
+      "windows": {
+        "A05-S02#1": {
+          "original_evidence_id": "A05-S02",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 57,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A05-S02#2": {
+          "original_evidence_id": "A05-S02",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 57,
+          "original_end": 220,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A05-S02#3": {
+          "original_evidence_id": "A05-S02",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 220,
+          "original_end": 391,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A05-S02#4": {
+          "original_evidence_id": "A05-S02",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 391,
+          "original_end": 535,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A05-S02#5": {
+          "original_evidence_id": "A05-S02",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 535,
+          "original_end": 656,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A05-S04#1": {
+          "original_evidence_id": "A05-S04",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 110,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A05-S04#2": {
+          "original_evidence_id": "A05-S04",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 110,
+          "original_end": 273,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A05-S04#3": {
+          "original_evidence_id": "A05-S04",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 273,
+          "original_end": 444,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A05-S04#4": {
+          "original_evidence_id": "A05-S04",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 444,
+          "original_end": 583,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A05-S04#5": {
+          "original_evidence_id": "A05-S04",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 583,
+          "original_end": 705,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        }
+      }
+    },
+    "A05-Q03": {
+      "scope": {
+        "roles": "按两份合同及各自封账对应。",
+        "time_scope": "签约与最终封账为不同阶段。",
+        "display_scope": "合同最初列价、最终结算条款及两份封账文本；不计算后续违约责任。"
+      },
+      "windows": {
+        "A05-S01#1": {
+          "original_evidence_id": "A05-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 173,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A05-S01#2": {
+          "original_evidence_id": "A05-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 173,
+          "original_end": 337,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A05-S01#3": {
+          "original_evidence_id": "A05-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 337,
+          "original_end": 381,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A05-S03#1": {
+          "original_evidence_id": "A05-S03",
+          "start": 0,
+          "end": 144,
+          "text": "2020年10月13日，三方又签订一份《新建某某买卖合同》（合同编号：*****），由甲方向乙方购买某某公司2生产的P.042.5散装（低碱）水泥58,000吨（单价466.20元）、P.042.5袋装（低碱）水泥2,000吨（单价476元），总价款（含增值税）计27,991,600元。"
+        },
+        "A05-S03#2": {
+          "original_evidence_id": "A05-S03",
+          "start": 144,
+          "end": 324,
+          "text": "关于货款结算方式，合同约定“11.2货到甲方工地现场经验收合格，按月计量结算，每月16日至次月15日为一个结算周期，乙方在每个结算周期结束后3日内将该结算周期供应的货物经甲方有权收料人签收的数量汇总报丙方审核：三方在结算当月的25日前按该结算周期内甲方签认的数量和本合同约定的单价，以确认书（或结算单）形式进行数量和金额的汇总核实，在结算当月的月底前由三方签字"
+        },
+        "A05-S03#3": {
+          "original_evidence_id": "A05-S03",
+          "start": 324,
+          "end": 407,
+          "text": "盖章确认。供货完毕后，三方对历次供货和付款进行核实汇总，办理最终结算，合同最终价款以最终结算为准；除此之外任何证明、收条、欠条、信函等文件，都不得作为结算、支付依据。"
+        },
+        "A05-S05#1": {
+          "original_evidence_id": "A05-S05",
+          "start": 0,
+          "end": 180,
+          "text": "2021年12月27日、2022年5月17日，项目经理部（协议甲方）、原告（协议乙方）、工地材料厂（协议丙方）分别对上述两份《水泥买卖合同》进行封账结算，并签订两份《水泥买卖合同封账协议》，确定编号为******的《水泥买卖合同》应支付乙方价款为7,553,155.14元，已付款5,950,000元，逾期付款违约金0元，按照合同约定履约保证金为228,000"
+        },
+        "A05-S05#2": {
+          "original_evidence_id": "A05-S05",
+          "start": 180,
+          "end": 341,
+          "text": "元；编号为******的《水泥买卖合同》应支付乙方价款为33,734,593.04元，已付款26,670,000元，逾期付款违约金0元，按照合同约定履约保证金为1,400,000元。封账协议还约定“乙方确认对本工程已结（决）算的所有供应数量、价款、相关扣（罚）款以及该合同履行过程中产生的内容均无异议，不存在其他遗留问题；"
+        },
+        "A05-S05#3": {
+          "original_evidence_id": "A05-S05",
+          "start": 341,
+          "end": 414,
+          "text": "本协议为三方最终确认协议，若乙方再持有与该工程有关的任何涉及债权债务内容的书面资料视为已在上述价款中综合考虑，不再作为向某、丙方主张权利的依据。”"
+        }
+      }
+    },
+    "A07-Q01": {
+      "scope": {
+        "roles": "事业单位医院与在编人员人员109。",
+        "time_scope": "2016年培训协议、2022-09-20离职协议、2022-09-30转账分别绑定。",
+        "display_scope": "只展示官方案情中的协议与转账事实，不展示法律评价。"
+      },
+      "windows": {
+        "A07-S01#1": {
+          "original_evidence_id": "A07-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 107,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A07-S01#2": {
+          "original_evidence_id": "A07-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 107,
+          "original_end": 245,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A07-S01#3": {
+          "original_evidence_id": "A07-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 245,
+          "original_end": 356,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A07-S03#1": {
+          "original_evidence_id": "A07-S03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 89,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A07-S04#1": {
+          "original_evidence_id": "A07-S04",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 47,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        }
+      }
+    },
+    "A07-Q02": {
+      "scope": {
+        "roles": "人员109参加培训，培训后回医院服务。",
+        "time_scope": "各期间按其事件含义分别绑定。",
+        "display_scope": "协议期间与返岗事实。"
+      },
+      "windows": {
+        "A07-S01#1": {
+          "original_evidence_id": "A07-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 107,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A07-S01#2": {
+          "original_evidence_id": "A07-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 107,
+          "original_end": 245,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A07-S01#3": {
+          "original_evidence_id": "A07-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 245,
+          "original_end": 356,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A07-S02#1": {
+          "original_evidence_id": "A07-S02",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 50,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        }
+      }
+    },
+    "A07-Q03": {
+      "scope": {
+        "roles": "医院实际支出与人员109约定违约责任分开。",
+        "time_scope": "培训期内工资待遇与协议违约金额分开。",
+        "display_scope": "只有协议金额和支付工资的叙述，没有逐项支出核算。"
+      },
+      "windows": {
+        "A07-S01#1": {
+          "original_evidence_id": "A07-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 107,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A07-S01#2": {
+          "original_evidence_id": "A07-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 107,
+          "original_end": 245,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A07-S01#3": {
+          "original_evidence_id": "A07-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 245,
+          "original_end": 356,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "A07-S02#1": {
+          "original_evidence_id": "A07-S02",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 50,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        }
+      }
+    },
+    "C09-Q01": {
+      "scope": {
+        "roles": "每辆车分别比较出租方/承租方持有版本；不是四份合同原件的直接展示。",
+        "time_scope": "版本内容比较阶段，不调用后续裁判。",
+        "display_scope": "阶段1：只展示法院记载的两种持有版本内容，不展示鉴定、微信、终审选择。"
+      },
+      "windows": {
+        "C09-S01#1": {
+          "original_evidence_id": "C09-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 180,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C09-S01#2": {
+          "original_evidence_id": "C09-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 180,
+          "original_end": 302,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C09-S02#1": {
+          "original_evidence_id": "C09-S02",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 180,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C09-S02#2": {
+          "original_evidence_id": "C09-S02",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 180,
+          "original_end": 331,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        }
+      }
+    },
+    "C09-Q02": {
+      "scope": {
+        "roles": "关联案人员104陈述和本案发件行为分别标明来源。",
+        "time_scope": "鉴定2024-02-05；PDF发送2020-07-10；不得把证据形成顺序当交易发生顺序。",
+        "display_scope": "阶段2：展示鉴定、关联案业务员陈述、本案微信身份及发件记录；不展示法院关于权限及合同效力的终局评价。"
+      },
+      "windows": {
+        "C09-S05#1": {
+          "original_evidence_id": "C09-S05",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 121,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C09-S05#2": {
+          "original_evidence_id": "C09-S05",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 121,
+          "original_end": 277,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C09-S06#1": {
+          "original_evidence_id": "C09-S06",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 171,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C09-S06#2": {
+          "original_evidence_id": "C09-S06",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 171,
+          "original_end": 240,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C09-S07#1": {
+          "original_evidence_id": "C09-S07",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 81,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C09-S08#1": {
+          "original_evidence_id": "C09-S08",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 175,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        }
+      }
+    },
+    "C09-Q03": {
+      "scope": {
+        "roles": "法院选择承租方版本，原两版本作为历史材料保留。",
+        "time_scope": "终审处理阶段。",
+        "display_scope": "阶段3：明确展示终审理由及主文，任务是读取和区分裁判处理与历史文本差异。"
+      },
+      "windows": {
+        "C09-S01#1": {
+          "original_evidence_id": "C09-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 180,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C09-S01#2": {
+          "original_evidence_id": "C09-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 180,
+          "original_end": 302,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C09-S02#1": {
+          "original_evidence_id": "C09-S02",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 180,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C09-S02#2": {
+          "original_evidence_id": "C09-S02",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 180,
+          "original_end": 331,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C09-S04#1": {
+          "original_evidence_id": "C09-S04",
+          "start": 0,
+          "end": 110,
+          "text": "审理中，某某公司1、某某公司5一致确认：案涉两辆车辆在《融资租赁合同》项下的租金均已支付完毕。某某公司5先前已经向某某公司1支付了案涉两份融资租赁合同项下的保证金合计205,000元（140,000元+65,000元）。"
+        },
+        "C09-R01#1": {
+          "original_evidence_id": "C09-R01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 136,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C09-R01#2": {
+          "original_evidence_id": "C09-R01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 136,
+          "original_end": 280,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C09-R01#3": {
+          "original_evidence_id": "C09-R01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 280,
+          "original_end": 460,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C09-R01#4": {
+          "original_evidence_id": "C09-R01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 460,
+          "original_end": 572,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C09-R02#1": {
+          "original_evidence_id": "C09-R02",
+          "start": 0,
+          "end": 10,
+          "text": "驳回上诉，维持原判。"
+        }
+      }
+    },
+    "C09-Q04": {
+      "scope": {
+        "roles": "租金、保证金、留购价三个款项类别独立。",
+        "time_scope": "金额与履行事实阶段，先于本题未展示的终审处理。",
+        "display_scope": "仅条款、租金及保证金事实，不展示终审确认抵扣；因此不以终审答案回填本阶段。"
+      },
+      "windows": {
+        "C09-S01#1": {
+          "original_evidence_id": "C09-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 180,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C09-S01#2": {
+          "original_evidence_id": "C09-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 180,
+          "original_end": 302,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C09-S02#1": {
+          "original_evidence_id": "C09-S02",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 180,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C09-S02#2": {
+          "original_evidence_id": "C09-S02",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 180,
+          "original_end": 331,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C09-S03#1": {
+          "original_evidence_id": "C09-S03",
+          "start": 0,
+          "end": 156,
+          "text": "该两份合同第五条约定“非经出租方同意，保证金不得抵扣相关费用。本合同项下保证金均不计利息，租赁期限届满时，如承租方按期足额向出租方支付全部租金及其他应付款项并履行完毕本合同全部义务后，出租方将保证金退还给承租方：租赁期限届满时，如承租方未支付完毕上述全部款项的，则出租方可将保证金款项用于冲抵承租方所负全部债务”"
+        },
+        "C09-S04#1": {
+          "original_evidence_id": "C09-S04",
+          "start": 0,
+          "end": 110,
+          "text": "审理中，某某公司1、某某公司5一致确认：案涉两辆车辆在《融资租赁合同》项下的租金均已支付完毕。某某公司5先前已经向某某公司1支付了案涉两份融资租赁合同项下的保证金合计205,000元（140,000元+65,000元）。"
+        }
+      }
+    },
+    "C09-Q05": {
+      "scope": {
+        "roles": "PDF中所示签章与实际签署行为形成日期分别处理。",
+        "time_scope": "2019年11月为一方诉状描述；2020-07-09询问，次日发PDF。",
+        "display_scope": "仅无落款的记载、出租方起诉状时间主张与微信补发行为。"
+      },
+      "windows": {
+        "C09-S09#1": {
+          "original_evidence_id": "C09-S09",
+          "start": 0,
+          "end": 49,
+          "text": "上述四份合同均无落款签署日期，某某公司1在起诉状中描述其持有的两份合同签订时间为2019年11月。"
+        },
+        "C09-S08#1": {
+          "original_evidence_id": "C09-S08",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 175,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        }
+      }
+    },
+    "C01-Q01": {
+      "scope": {
+        "roles": "代付人人员101；出租公司某某公司1；承租公司某某公司2。",
+        "time_scope": "2024-01首期代付；2024-03-02退款；后两期未履行另有明确事实句。",
+        "display_scope": "承诺、银行转账、退款，以及从说理段单独切出的实际仅履行一期的事实句；不展示返还请求的法律评价。"
+      },
+      "windows": {
+        "C01-S01#1": {
+          "original_evidence_id": "C01-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 146,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C01-S02#1": {
+          "original_evidence_id": "C01-S02",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 37,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C01-S04#1": {
+          "original_evidence_id": "C01-S04",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 42,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C01-S07#1": {
+          "original_evidence_id": "C01-S07",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 29,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        }
+      }
+    },
+    "C01-Q02": {
+      "scope": {
+        "roles": "人员101、人员102、人员103、出租公司、承租公司分开。",
+        "time_scope": "承诺签署与图片转发行为分别处理。",
+        "display_scope": "只展示人员101所签承诺和人员103转发图片的来源；不展示法院对返还义务的评价。"
+      },
+      "windows": {
+        "C01-S01#1": {
+          "original_evidence_id": "C01-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 146,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C01-S03#1": {
+          "original_evidence_id": "C01-S03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 142,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        }
+      }
+    },
+    "C01-Q03": {
+      "scope": {
+        "roles": "收款事实与对账记账范围分别判断。",
+        "time_scope": "2024年付款退款、2024-06-12对账，后续申请纠正。",
+        "display_scope": "转账、退款、对账范围、以及从混合段落切出的自认和扣减申请事实；不展示返还责任结论。"
+      },
+      "windows": {
+        "C01-S02#1": {
+          "original_evidence_id": "C01-S02",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 37,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C01-S04#1": {
+          "original_evidence_id": "C01-S04",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 42,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C01-S05#1": {
+          "original_evidence_id": "C01-S05",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 156,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C01-S05#2": {
+          "original_evidence_id": "C01-S05",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 156,
+          "original_end": 240,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C01-S06#1": {
+          "original_evidence_id": "C01-S06",
+          "start": 0,
+          "end": 95,
+          "text": "某某公司1庭审中自认因案涉400,000元垫付款支付主体并非某某公司2，故在对账时未将该垫付款计算在内，为纠正错误，现已在另案执行程序中主动申请将租金项目的申请执行标的减少400,000元。"
+        }
+      }
+    },
+    "C01-Q04": {
+      "scope": {
+        "roles": "人员102/承租公司的付款与人员101代付分别记录。",
+        "time_scope": "condition_met字段以2024-03-19为观察截止日；按该日是否完成承诺的50万元偿付判断。其他字段按其明示命题判断。",
+        "display_scope": "本题假定返还承诺存在。最后一项采用明确给定的50万元全部履行条件，不据此代替法院解释完整返还条件。展示另有部分付款的事实。"
+      },
+      "windows": {
+        "C01-S01#1": {
+          "original_evidence_id": "C01-S01",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 146,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C01-S03#1": {
+          "original_evidence_id": "C01-S03",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 142,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C01-S08#1": {
+          "original_evidence_id": "C01-S08",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 76,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        },
+        "C01-S09#1": {
+          "original_evidence_id": "C01-S09",
+          "text": "[原始切片受控；请按证据编号查看脱敏后的完整证据]",
+          "original_start": 0,
+          "original_end": 89,
+          "offset_space": "original_controlled_evidence; no released character offset"
+        }
+      }
+    }
+  },
+  "all_characters_retained_in_original_run": true,
+  "release_note": "Historical windows are not regenerated. Windows from evidence changed during deidentification have their text withheld and positions explicitly marked as original. Parent evidence IDs refer to data/real/public_inputs.jsonl."
+}

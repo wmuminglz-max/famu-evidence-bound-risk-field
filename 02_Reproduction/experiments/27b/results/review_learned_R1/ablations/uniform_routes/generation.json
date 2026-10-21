@@ -1,0 +1,110 @@
+[
+  {
+    "id": "DV01",
+    "task": "qa",
+    "split": "internal_dev",
+    "proposition_type": "as_defined_in_question",
+    "gold": "F",
+    "prediction": "F",
+    "raw": "{\"value\":\"F\"}",
+    "input_tokens": 3590,
+    "output_tokens": 6,
+    "seconds": 4.71333097293973
+  },
+  {
+    "id": "DV02",
+    "task": "qa",
+    "split": "internal_dev",
+    "proposition_type": "as_defined_in_question",
+    "gold": "U",
+    "prediction": "U",
+    "raw": "{\"value\":\"U\"}",
+    "input_tokens": 3558,
+    "output_tokens": 6,
+    "seconds": 4.548067666590214
+  },
+  {
+    "id": "DV03",
+    "task": "qa",
+    "split": "internal_dev",
+    "proposition_type": "as_defined_in_question",
+    "gold": "F",
+    "prediction": "F",
+    "raw": "{\"value\":\"F\"}",
+    "input_tokens": 3568,
+    "output_tokens": 6,
+    "seconds": 4.543251097202301
+  },
+  {
+    "id": "DV04",
+    "task": "condition",
+    "split": "internal_dev",
+    "proposition_type": "as_defined_in_question",
+    "gold": "F",
+    "prediction": "F",
+    "raw": "{\"value\":\"F\"}",
+    "input_tokens": 3567,
+    "output_tokens": 6,
+    "seconds": 4.5524139739573
+  },
+  {
+    "id": "DV05",
+    "task": "condition",
+    "split": "internal_dev",
+    "proposition_type": "as_defined_in_question",
+    "gold": "T",
+    "prediction": "T",
+    "raw": "{\"value\":\"T\"}",
+    "input_tokens": 3551,
+    "output_tokens": 6,
+    "seconds": 4.570234648883343
+  },
+  {
+    "id": "DV07",
+    "task": "risk_status",
+    "split": "internal_dev",
+    "proposition_type": "as_defined_in_question",
+    "gold": "unknown",
+    "prediction": "unknown",
+    "raw": "{\"value\":\"unknown\"}",
+    "input_tokens": 3575,
+    "output_tokens": 6,
+    "seconds": 4.566095419228077
+  },
+  {
+    "id": "DV08",
+    "task": "risk_status",
+    "split": "internal_dev",
+    "proposition_type": "as_defined_in_question",
+    "gold": "unknown",
+    "prediction": "established",
+    "raw": "{\"value\":\"established\"}",
+    "input_tokens": 3579,
+    "output_tokens": 7,
+    "seconds": 4.747158348560333
+  },
+  {
+    "id": "DV06-TEXT",
+    "task": "risk_status",
+    "split": "internal_dev",
+    "proposition_type": "as_defined_in_question",
+    "gold": "established",
+    "prediction": "established",
+    "raw": "{\"value\":\"established\"}",
+    "input_tokens": 3549,
+    "output_tokens": 7,
+    "seconds": 4.759895399212837
+  },
+  {
+    "id": "DV06-ACTUAL",
+    "task": "risk_status",
+    "split": "internal_dev",
+    "proposition_type": "as_defined_in_question",
+    "gold": "unknown",
+    "prediction": "unknown",
+    "raw": "{\"value\":\"unknown\"}",
+    "input_tokens": 3551,
+    "output_tokens": 6,
+    "seconds": 4.563012909144163
+  }
+]

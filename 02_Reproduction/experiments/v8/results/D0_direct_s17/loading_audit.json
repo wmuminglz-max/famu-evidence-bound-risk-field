@@ -1,0 +1,9 @@
+{
+  "missing_keys": [],
+  "unexpected_keys": [],
+  "mismatched_keys": [],
+  "error_msgs": [],
+  "compact_delta": 24,
+  "chunked_mlp": 32,
+  "trainable_parameters": 43278336
+}

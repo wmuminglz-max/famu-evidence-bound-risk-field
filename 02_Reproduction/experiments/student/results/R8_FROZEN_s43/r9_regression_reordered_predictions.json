@@ -1,0 +1,7434 @@
+[
+  {
+    "id": "R9-test-0-w5-source-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "31da1eedfc423c881755078df97f5827efd55f04358184a249cfaefadf34d6ce",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-0-w5-source-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "f0c0a620709d821c1fb8ac99cd7e6bb1969d736131d040c43b9da443ec36e42a",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-0-w5-source-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "18fb0d7346f0b1046d07512915d5803a157dba497e4f25e22fd6d521cccda02a",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-0-w5-event-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "80db1613eda129f2ec0f9c8ed0ac4de3959b7d76cafa185749b8ce06a19b193c",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-0-w5-event-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "9d1e36eccb5f4cfee4c84fa7c46f621340f3d70199b226e3265624d1aac0e40f",
+    "fields": {
+      "A": "supported",
+      "B": "supported",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "supported",
+      "B": "supported",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [
+          "E02"
+        ],
+        "r": []
+      },
+      "B": {
+        "s": [
+          "E02"
+        ],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [
+      {
+        "field": "A",
+        "relation": "support",
+        "anchor": {
+          "evidence_id": "E02",
+          "start": 0,
+          "end": 197,
+          "text": "岑湾1房屋租赁核验事项经双方签章核真的履行单可以确定，岑湾1承租服务公司退租交房全数结束是在2047年2月12日，此后并无未办事项。以上是本轮核验状态。下面这段仅为已撤回旧口述的存档，不能作为事实：卷宗把先前口述“岑湾1房屋租赁核验事项双方核验实际完成凭据，确认岑湾1承租服务公司到2047年2月25日才把退租交房做完，之前仍未结束。”加引号保存，仅供追溯错误；口述已撤销，不能据以作事实判断。"
+        },
+        "model_score": 0.6086231632422685,
+        "score_is_calibrated_probability": false
+      },
+      {
+        "field": "B",
+        "relation": "support",
+        "anchor": {
+          "evidence_id": "E02",
+          "start": 0,
+          "end": 197,
+          "text": "岑湾1房屋租赁核验事项经双方签章核真的履行单可以确定，岑湾1承租服务公司退租交房全数结束是在2047年2月12日，此后并无未办事项。以上是本轮核验状态。下面这段仅为已撤回旧口述的存档，不能作为事实：卷宗把先前口述“岑湾1房屋租赁核验事项双方核验实际完成凭据，确认岑湾1承租服务公司到2047年2月25日才把退租交房做完，之前仍未结束。”加引号保存，仅供追溯错误；口述已撤销，不能据以作事实判断。"
+        },
+        "model_score": 0.6086231632422685,
+        "score_is_calibrated_probability": false
+      }
+    ],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 4,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false
+        },
+        "differing_fields": [
+          "C"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-0-w5-event-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "fd356e585b1cbe3e21413d551dcaff02980dcfb843ad8778b57f8422d47ebe02",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-0-w5-exception-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "cbc9d0535d914f37c2a3eef9c540703da240e2f07107f4179afbe8118f748a3d",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-0-w5-exception-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "dd18bea98de008da55d87b7e08ea4b97d9cc3676c108b43bb18a681d1d07272f",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-0-w5-exception-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "c183b506bf5b8d16ceb5e0061f376ddacff3297bf00646c56e72e85cec2da488",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-0-w5-payment-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "b0fcfd471048f788c886e83871251c7a8a02dc1d768d6404aca8058c848db2d0",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true
+        },
+        "not_established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "D"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-0-w5-payment-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "d0d6e5eb6ae9936ddb1c49b8f7bc2e4d1b5da200e630a3224ac5ccce3e6f0241",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true
+        },
+        "not_established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "D"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-0-w5-payment-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "3f352effb285637c1fcc2aa445367471b4f3792df20f5b5a4f9da7686b2979d0",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true
+        },
+        "not_established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "D"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-1-w5-source-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "bd86357016b6dca0b707a469e2e0f1ff5ce0770f7c7b922ed4af653fefe29a69",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-1-w5-source-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "3b7de9ecf5ab2789e08ee149d6359e3c1b767dee00c7e8067e13481d029ae8e5",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-1-w5-source-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "df8b99c77ac3b2d2356b4db3283a1eea352d953a431ffffe035caf7e8e79f9fb",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-1-w5-event-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "2a5b1a8a632e390e7487d9dafd0836b1444713869322bcd52bafed8c9f208362",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-1-w5-event-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "888540f20a8f966f7536871503bd9de30833239900c761ba31d67ea7dde7ef04",
+    "fields": {
+      "A": "supported",
+      "B": "supported",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "supported",
+      "B": "supported",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [
+          "E06"
+        ],
+        "r": []
+      },
+      "B": {
+        "s": [
+          "E06"
+        ],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [
+      {
+        "field": "A",
+        "relation": "support",
+        "anchor": {
+          "evidence_id": "E06",
+          "start": 0,
+          "end": 203,
+          "text": "岑湾2房屋租赁核验事项经双方签章核真的履行单可以确定，岑湾2承租服务公司移交出租房钥匙全数结束是在2047年3月12日，此后并无未办事项。以上是本轮核验状态。下面这段仅为已撤回旧口述的存档，不能作为事实：卷宗把先前口述“岑湾2房屋租赁核验事项双方核验实际完成凭据，确认岑湾2承租服务公司到2047年3月25日才把移交出租房钥匙做完，之前仍未结束。”加引号保存，仅供追溯错误；口述已撤销，不能据以作事实判断。"
+        },
+        "model_score": 0.6086231632422685,
+        "score_is_calibrated_probability": false
+      },
+      {
+        "field": "B",
+        "relation": "support",
+        "anchor": {
+          "evidence_id": "E06",
+          "start": 0,
+          "end": 203,
+          "text": "岑湾2房屋租赁核验事项经双方签章核真的履行单可以确定，岑湾2承租服务公司移交出租房钥匙全数结束是在2047年3月12日，此后并无未办事项。以上是本轮核验状态。下面这段仅为已撤回旧口述的存档，不能作为事实：卷宗把先前口述“岑湾2房屋租赁核验事项双方核验实际完成凭据，确认岑湾2承租服务公司到2047年3月25日才把移交出租房钥匙做完，之前仍未结束。”加引号保存，仅供追溯错误；口述已撤销，不能据以作事实判断。"
+        },
+        "model_score": 0.6086231632422685,
+        "score_is_calibrated_probability": false
+      }
+    ],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 4,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false
+        },
+        "differing_fields": [
+          "C"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-1-w5-event-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "c6a0e656b15303ea9a00411774dd8c585d901969262971ea3026410d67a1966c",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-1-w5-exception-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "a51a4cbb89f8bdce6fd8d7a23a7c9835d3b7e6dcadb807c154b6dfac4951d78d",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-1-w5-exception-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "aa1dc40b398e1bf4424309446391baa9e3fb9975009443a39ec9623bdf8f52f5",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-1-w5-exception-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "f9b4390ed4a33402a959e62c924d6195bbb360e7060eb3efc09ba0e79111b630",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-1-w5-payment-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "d6d14cdbf458c0c6594ae4177c33afb753717c55f8b8b4dd44f29d1557e534c9",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true
+        },
+        "not_established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "D"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-1-w5-payment-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "4f4d610b0cc3d270c3344b4dccd97f77b6db294f2835ce5db68cde1a8017c2d2",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true
+        },
+        "not_established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "D"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-1-w5-payment-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "a24576975c1ffb0b7ef8392256103a544098368c44aed006b362db44fef79cf4",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true
+        },
+        "not_established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "D"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-2-w5-source-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "2e20f62d5ab77238d54e8aa27b711646bc810eff221368203b7cd7ba1fffaf3c",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-2-w5-source-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "f0240ab3c3f3bb8bdc39b047855b763697311e035ea51ee9c7255c19de309475",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-2-w5-source-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "18c0de760ac614b018c3ac6c14c4f6cba9eeeaaf00b1f3768516f2f85db8cc5c",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-2-w5-event-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "437b337f30ce4218689698590f039bc2aef5e251bb72dde8ca594f8748e3559d",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-2-w5-event-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "b5d8d26e2850164faa37192cc172de9df81cf1980dbbbc80dcbfc1aaed8e95a3",
+    "fields": {
+      "A": "supported",
+      "B": "supported",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "supported",
+      "B": "supported",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [
+          "E08"
+        ],
+        "r": []
+      },
+      "B": {
+        "s": [
+          "E08"
+        ],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [
+      {
+        "field": "A",
+        "relation": "support",
+        "anchor": {
+          "evidence_id": "E08",
+          "start": 0,
+          "end": 201,
+          "text": "岑湾3房屋租赁核验事项经双方签章核真的履行单可以确定，岑湾3承租服务公司返还承租住房全数结束是在2047年4月12日，此后并无未办事项。以上是本轮核验状态。下面这段仅为已撤回旧口述的存档，不能作为事实：卷宗把先前口述“岑湾3房屋租赁核验事项双方核验实际完成凭据，确认岑湾3承租服务公司到2047年4月25日才把返还承租住房做完，之前仍未结束。”加引号保存，仅供追溯错误；口述已撤销，不能据以作事实判断。"
+        },
+        "model_score": 0.6086231632422685,
+        "score_is_calibrated_probability": false
+      },
+      {
+        "field": "B",
+        "relation": "support",
+        "anchor": {
+          "evidence_id": "E08",
+          "start": 0,
+          "end": 201,
+          "text": "岑湾3房屋租赁核验事项经双方签章核真的履行单可以确定，岑湾3承租服务公司返还承租住房全数结束是在2047年4月12日，此后并无未办事项。以上是本轮核验状态。下面这段仅为已撤回旧口述的存档，不能作为事实：卷宗把先前口述“岑湾3房屋租赁核验事项双方核验实际完成凭据，确认岑湾3承租服务公司到2047年4月25日才把返还承租住房做完，之前仍未结束。”加引号保存，仅供追溯错误；口述已撤销，不能据以作事实判断。"
+        },
+        "model_score": 0.6086231632422685,
+        "score_is_calibrated_probability": false
+      }
+    ],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 4,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false
+        },
+        "differing_fields": [
+          "C"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-2-w5-event-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "9c896a2ec0b70f83da7c754ea0e2f5ca0b14f8b7f3f506f46fcd0687a90665b6",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-2-w5-exception-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "c9b7f340851d3b769746823712d054271cbb7ac979759a7d6eb0f3e99c88f6c2",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-2-w5-exception-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "c88264f7f0d0c86f9137bc6d78ac6dba41090ed693d58091aa47551eba9fe985",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-2-w5-exception-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "2fa37f9a8057571ba8ffcdd12618a66a96105c320392932fe5170bb833252077",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-2-w5-payment-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "e873774493b9e07b9321573ab815bbd73e616fceddc9fa0bcca8fbabac3ed5cf",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true
+        },
+        "not_established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "D"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-2-w5-payment-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "d8ec218d4889f12978df570633cc0009f6394bf712741fd6d85463309fe8098f",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true
+        },
+        "not_established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "D"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-2-w5-payment-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "0acdde1fe051a7a354b18578744ec5a28c6a1a134fd1867492f17f63ea33ad6f",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true
+        },
+        "not_established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "D"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-3-w5-source-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "93a91663930c217685c9f574b3ce3c567a4b6521161cfe1ea53032371e4369fa",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-3-w5-source-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "e79002dceb5fa064d9276b739a6adc5f3a526b3db1d7bf9eb9d3bc02857ed022",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-3-w5-source-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "6fb7de849eefa7ec557663efdae3f8a1e9d8f6894037f819a6c8349005c1386f",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-3-w5-event-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "e9f15cdd9da6fabeddf82f5b9e356c8eb77f556904ddd2da5908354396522638",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-3-w5-event-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "0b22fe903525426df1a14765c8a40f305e4c078d2b037dd6ce66c28c35b3e001",
+    "fields": {
+      "A": "supported",
+      "B": "supported",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "supported",
+      "B": "supported",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [
+          "E07"
+        ],
+        "r": []
+      },
+      "B": {
+        "s": [
+          "E07"
+        ],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [
+      {
+        "field": "A",
+        "relation": "support",
+        "anchor": {
+          "evidence_id": "E07",
+          "start": 0,
+          "end": 201,
+          "text": "岑湾4房屋租赁核验事项经双方签章核真的履行单可以确定，岑湾4承租服务公司完成租房交接全数结束是在2047年5月12日，此后并无未办事项。以上是本轮核验状态。下面这段仅为已撤回旧口述的存档，不能作为事实：卷宗把先前口述“岑湾4房屋租赁核验事项双方核验实际完成凭据，确认岑湾4承租服务公司到2047年5月25日才把完成租房交接做完，之前仍未结束。”加引号保存，仅供追溯错误；口述已撤销，不能据以作事实判断。"
+        },
+        "model_score": 0.6086231632422685,
+        "score_is_calibrated_probability": false
+      },
+      {
+        "field": "B",
+        "relation": "support",
+        "anchor": {
+          "evidence_id": "E07",
+          "start": 0,
+          "end": 201,
+          "text": "岑湾4房屋租赁核验事项经双方签章核真的履行单可以确定，岑湾4承租服务公司完成租房交接全数结束是在2047年5月12日，此后并无未办事项。以上是本轮核验状态。下面这段仅为已撤回旧口述的存档，不能作为事实：卷宗把先前口述“岑湾4房屋租赁核验事项双方核验实际完成凭据，确认岑湾4承租服务公司到2047年5月25日才把完成租房交接做完，之前仍未结束。”加引号保存，仅供追溯错误；口述已撤销，不能据以作事实判断。"
+        },
+        "model_score": 0.6086231632422685,
+        "score_is_calibrated_probability": false
+      }
+    ],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 4,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false
+        },
+        "differing_fields": [
+          "C"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-3-w5-event-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "e5140464d1e9e86eddd74907e850e5e4b596c20e18c0bd490042bcc9b8b57027",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-3-w5-exception-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "aa865cb4b58b3f9d6077b986b262b294aca8fd10d6f1a9907d2a20790010aa40",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-3-w5-exception-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "481937f846859cd28cc6919d9af07e9d6437679d07e63941a669627677622ce8",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-3-w5-exception-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "83f99c177694bd5252878fbe2fca949deb853d563778ccabf7459780a0ab0fe6",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-3-w5-payment-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "a8de2382612e6a3ecaf1b3bf4dd186b43f04675805a9f2f0e202435766ebbfce",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true
+        },
+        "not_established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "D"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-3-w5-payment-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "121d11c3023c0097e94ae1c7afd316b7cef27114c5fcdad6e445fa51862bfc02",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true
+        },
+        "not_established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "D"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-3-w5-payment-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "6a19bdcb87603d99a07d7343f7aba6cd0cdb2454d3697d8383de91c8511ef136",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true
+        },
+        "not_established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "D"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-4-w5-source-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "12f6d1c45c893a93810611d70a4c7fe52d9ebfd3daa74c3701fa0297175ae03c",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-4-w5-source-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "536c1cd6cf5ec1f59e1ec689e6191be96f51ddf00407dca7782e352fe8303fc2",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-4-w5-source-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "9225fe51ade5b7599916ca7b8708cc077f943a1b60aa8c86e812ee2ecb7c7721",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-4-w5-event-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "d8621ebd6dd552ab0384dbde593da43c90c43174566c2f0af0414b9a18432bed",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-4-w5-event-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "29f1d83ae3eea3eb63dd7fc843b425295eacbba131102c0b1ba1ac2123506f48",
+    "fields": {
+      "A": "supported",
+      "B": "supported",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "supported",
+      "B": "supported",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [
+          "E03"
+        ],
+        "r": []
+      },
+      "B": {
+        "s": [
+          "E03"
+        ],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [
+      {
+        "field": "A",
+        "relation": "support",
+        "anchor": {
+          "evidence_id": "E03",
+          "start": 0,
+          "end": 197,
+          "text": "岑湾5房屋租赁核验事项经双方签章核真的履行单可以确定，岑湾5承租服务公司退租交房全数结束是在2047年6月12日，此后并无未办事项。以上是本轮核验状态。下面这段仅为已撤回旧口述的存档，不能作为事实：卷宗把先前口述“岑湾5房屋租赁核验事项双方核验实际完成凭据，确认岑湾5承租服务公司到2047年6月25日才把退租交房做完，之前仍未结束。”加引号保存，仅供追溯错误；口述已撤销，不能据以作事实判断。"
+        },
+        "model_score": 0.6086231632422685,
+        "score_is_calibrated_probability": false
+      },
+      {
+        "field": "B",
+        "relation": "support",
+        "anchor": {
+          "evidence_id": "E03",
+          "start": 0,
+          "end": 197,
+          "text": "岑湾5房屋租赁核验事项经双方签章核真的履行单可以确定，岑湾5承租服务公司退租交房全数结束是在2047年6月12日，此后并无未办事项。以上是本轮核验状态。下面这段仅为已撤回旧口述的存档，不能作为事实：卷宗把先前口述“岑湾5房屋租赁核验事项双方核验实际完成凭据，确认岑湾5承租服务公司到2047年6月25日才把退租交房做完，之前仍未结束。”加引号保存，仅供追溯错误；口述已撤销，不能据以作事实判断。"
+        },
+        "model_score": 0.6086231632422685,
+        "score_is_calibrated_probability": false
+      }
+    ],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 4,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false
+        },
+        "differing_fields": [
+          "C"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-4-w5-event-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "53a3cffee9a0613bbc66c374c9121697c4c528377bbdfc0cdc2e0c1f1307e2a4",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-4-w5-exception-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "7e61461a79092717ae5f83301052c159b07848250071d1dfa84f4225dfdf9455",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-4-w5-exception-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "8da1303859a95d857bec0bca3a7a093cb68880c8717cd0c910e2032fb6ccc91e",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-4-w5-exception-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "ad706271c66d2ede38098eea1253105298999b71aa79c3c4480549518c564744",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-4-w5-payment-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "236d4229f3c40d9fe2e8564a24e8b0c5d99571a3df49e0ddd118e4881314ce34",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true
+        },
+        "not_established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "D"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-4-w5-payment-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "778f6ea4e0f4643d9d38f8925c84d03a7bb84528f5274f785cb6ba64e8e5c2c9",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true
+        },
+        "not_established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "D"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-4-w5-payment-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "6137f510102884ec489ccc2a3c80dc2f16eec9fe01656a34ea482d2b0d8c3294",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true
+        },
+        "not_established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "D"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-5-w5-source-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "996ad4bbaf526ea429862c3fd4cca7a249232b43f13e75129027738804143a73",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-5-w5-source-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "22e55a57e3d08514c495c9ed10aef50e7d426d8deceebe950cad6a57793bf6f6",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-5-w5-source-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "d623e101691cb5826b5a501264362612531c58dc2122203de5058e6659ec4625",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-5-w5-event-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "b47f66b13dc57c69b6a7f4ab722056757be3ffd0237a70753e93db81c2616fe6",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-5-w5-event-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "ebb730c59010be9ee968bd196a74c6a787f3476f0ecb7269c4cf3e1b3cf7c2ff",
+    "fields": {
+      "A": "supported",
+      "B": "supported",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "supported",
+      "B": "supported",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [
+          "E04"
+        ],
+        "r": []
+      },
+      "B": {
+        "s": [
+          "E04"
+        ],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [
+      {
+        "field": "A",
+        "relation": "support",
+        "anchor": {
+          "evidence_id": "E04",
+          "start": 0,
+          "end": 203,
+          "text": "岑湾6房屋租赁核验事项经双方签章核真的履行单可以确定，岑湾6承租服务公司移交出租房钥匙全数结束是在2047年7月12日，此后并无未办事项。以上是本轮核验状态。下面这段仅为已撤回旧口述的存档，不能作为事实：卷宗把先前口述“岑湾6房屋租赁核验事项双方核验实际完成凭据，确认岑湾6承租服务公司到2047年7月25日才把移交出租房钥匙做完，之前仍未结束。”加引号保存，仅供追溯错误；口述已撤销，不能据以作事实判断。"
+        },
+        "model_score": 0.6086231632422685,
+        "score_is_calibrated_probability": false
+      },
+      {
+        "field": "B",
+        "relation": "support",
+        "anchor": {
+          "evidence_id": "E04",
+          "start": 0,
+          "end": 203,
+          "text": "岑湾6房屋租赁核验事项经双方签章核真的履行单可以确定，岑湾6承租服务公司移交出租房钥匙全数结束是在2047年7月12日，此后并无未办事项。以上是本轮核验状态。下面这段仅为已撤回旧口述的存档，不能作为事实：卷宗把先前口述“岑湾6房屋租赁核验事项双方核验实际完成凭据，确认岑湾6承租服务公司到2047年7月25日才把移交出租房钥匙做完，之前仍未结束。”加引号保存，仅供追溯错误；口述已撤销，不能据以作事实判断。"
+        },
+        "model_score": 0.6086231632422685,
+        "score_is_calibrated_probability": false
+      }
+    ],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 4,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false
+        },
+        "differing_fields": [
+          "C"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-5-w5-event-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "88d1e4760e4e4f4c33eb2da4b9062656214bb45a6e20ddd3e1ee44c93ee2196d",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-5-w5-exception-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "396190325270102a5fb89ecd0a5d4eed8453e671055fe9a1d14eecc4036817c8",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-5-w5-exception-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "da567cac9ece45261f4ace5311ab98565dc34f22fbd1727bf071cef4d7aaefed",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-5-w5-exception-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "425afbe51aeceba9ff6e98d1b900e5d4c6bcd36bc5732919e24915d00303a77d",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-5-w5-payment-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "32fd7be3ea17dc6f97e42cc5845567fbaa04d6a0bf73d2c60371b8bfe98e64af",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true
+        },
+        "not_established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "D"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-5-w5-payment-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "5eada65dbc28e7814fe98efdb46710a036c2b89b307647255dda3978a2857d6a",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true
+        },
+        "not_established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "D"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-5-w5-payment-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "e0b354f64ee27f47de5b56b5cf87081dca5461b1b9d969d9541c5934e9331047",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true
+        },
+        "not_established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "D"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-6-w5-source-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "8632bf9feaafba9cebfa14e66ad01cf2a9f86eaf7c1263cfc7f863232346f4a8",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-6-w5-source-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "f9384dca932c67d7459d5538a18a066f56deb115873244dd7b50b7f69bc93521",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-6-w5-source-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "4ad8c868152fed60311fac5831b458fdb63cdf3a8b4340c47cca6b98a013f421",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-6-w5-event-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "ddee3c5687db80225b592c80f16824cc06ccc48ac102a0eba31350c13f977268",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-6-w5-event-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "0258626a043210fc6da46ef4caeafd585a668cd4d89c320d329e87ff380f23b9",
+    "fields": {
+      "A": "supported",
+      "B": "supported",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "supported",
+      "B": "supported",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [
+          "E07"
+        ],
+        "r": []
+      },
+      "B": {
+        "s": [
+          "E07"
+        ],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [
+      {
+        "field": "A",
+        "relation": "support",
+        "anchor": {
+          "evidence_id": "E07",
+          "start": 0,
+          "end": 201,
+          "text": "岑湾7房屋租赁核验事项经双方签章核真的履行单可以确定，岑湾7承租服务公司返还承租住房全数结束是在2047年8月12日，此后并无未办事项。以上是本轮核验状态。下面这段仅为已撤回旧口述的存档，不能作为事实：卷宗把先前口述“岑湾7房屋租赁核验事项双方核验实际完成凭据，确认岑湾7承租服务公司到2047年8月25日才把返还承租住房做完，之前仍未结束。”加引号保存，仅供追溯错误；口述已撤销，不能据以作事实判断。"
+        },
+        "model_score": 0.6086231632422685,
+        "score_is_calibrated_probability": false
+      },
+      {
+        "field": "B",
+        "relation": "support",
+        "anchor": {
+          "evidence_id": "E07",
+          "start": 0,
+          "end": 201,
+          "text": "岑湾7房屋租赁核验事项经双方签章核真的履行单可以确定，岑湾7承租服务公司返还承租住房全数结束是在2047年8月12日，此后并无未办事项。以上是本轮核验状态。下面这段仅为已撤回旧口述的存档，不能作为事实：卷宗把先前口述“岑湾7房屋租赁核验事项双方核验实际完成凭据，确认岑湾7承租服务公司到2047年8月25日才把返还承租住房做完，之前仍未结束。”加引号保存，仅供追溯错误；口述已撤销，不能据以作事实判断。"
+        },
+        "model_score": 0.6086231632422685,
+        "score_is_calibrated_probability": false
+      }
+    ],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 4,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false
+        },
+        "differing_fields": [
+          "C"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-6-w5-event-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "bd9d23ea74623932bb9c44c884dc10ce2ce248141b95d7455b0621a07e94d1ff",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-6-w5-exception-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "e5ae32a9d36fa149b6b9e018901b62cb6085e41585f63088e988a42cf0f4f37f",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-6-w5-exception-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "ec2cccf19ff9605431225d584193c2e54f40f3f3902bed9b7661daf24a1b1148",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-6-w5-exception-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "2189070eb5f79a42b00b3baab32efe98771d915e420773f07990e7945e0523b3",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-6-w5-payment-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "074dcf5da094880906399e852f64da0ddbe0c02f086175624f83303e12ba2a27",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true
+        },
+        "not_established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "D"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-6-w5-payment-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "ea3c51c904bed24569d361ddb9383548f2f98f1ef299f5b93dc6f68b9504c941",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true
+        },
+        "not_established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "D"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-6-w5-payment-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "af7f073c865806876ccf7c670bab266f83126003660d945d3e0cc18381e4bbf7",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true
+        },
+        "not_established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "D"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-7-w5-source-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "eb32205e34732c3b9a4cb3783824830ae65098c895a47e385898c4514ce32fcf",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-7-w5-source-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "4d1f8d464e1610d05b5e5264ba5716c966d041343f3f141b8cfb5da352b9382a",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-7-w5-source-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "8714b53b968f67c0687a3df83ccf2f061369e541f20a438d839b857f39cc2b5c",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-7-w5-event-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "88196fce7a7ee0383728e1af37306d5e606d1b596cfcfed4b4c6c950ab2e5d8e",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-7-w5-event-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "262f0fb52cbbdac8e97f2012d5cecdc0767373733c764ae8384b95f485506b74",
+    "fields": {
+      "A": "supported",
+      "B": "supported",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "supported",
+      "B": "supported",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [
+          "E08"
+        ],
+        "r": []
+      },
+      "B": {
+        "s": [
+          "E08"
+        ],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [
+      {
+        "field": "A",
+        "relation": "support",
+        "anchor": {
+          "evidence_id": "E08",
+          "start": 0,
+          "end": 201,
+          "text": "岑湾8房屋租赁核验事项经双方签章核真的履行单可以确定，岑湾8承租服务公司完成租房交接全数结束是在2047年9月12日，此后并无未办事项。以上是本轮核验状态。下面这段仅为已撤回旧口述的存档，不能作为事实：卷宗把先前口述“岑湾8房屋租赁核验事项双方核验实际完成凭据，确认岑湾8承租服务公司到2047年9月25日才把完成租房交接做完，之前仍未结束。”加引号保存，仅供追溯错误；口述已撤销，不能据以作事实判断。"
+        },
+        "model_score": 0.6086231632422685,
+        "score_is_calibrated_probability": false
+      },
+      {
+        "field": "B",
+        "relation": "support",
+        "anchor": {
+          "evidence_id": "E08",
+          "start": 0,
+          "end": 201,
+          "text": "岑湾8房屋租赁核验事项经双方签章核真的履行单可以确定，岑湾8承租服务公司完成租房交接全数结束是在2047年9月12日，此后并无未办事项。以上是本轮核验状态。下面这段仅为已撤回旧口述的存档，不能作为事实：卷宗把先前口述“岑湾8房屋租赁核验事项双方核验实际完成凭据，确认岑湾8承租服务公司到2047年9月25日才把完成租房交接做完，之前仍未结束。”加引号保存，仅供追溯错误；口述已撤销，不能据以作事实判断。"
+        },
+        "model_score": 0.6086231632422685,
+        "score_is_calibrated_probability": false
+      }
+    ],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 4,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false
+        },
+        "differing_fields": [
+          "C"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-7-w5-event-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "857f226d06dbab9aaab5df203df336ebbab4a5e50d8465472fe0ee0687ffe5a3",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-7-w5-exception-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "e1ee7d7e940787db05db9e80126c8c2c4b08be40de6f757d0dd1b561e6eb4804",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-7-w5-exception-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "4713382743b41f4d6877fa41a9dcc3c632b555994253a5bfb962ba2f6f32cc9e",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-7-w5-exception-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "4f30dd890e8fd94707517713e4fd215fe04db8b2f79597b386abc57044371906",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "not_established_world": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "A"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-7-w5-payment-T-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "a131a6f5ed728d0da885c6cccf5f36311c65370b1091034547bedea5d78de776",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true
+        },
+        "not_established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "D"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-7-w5-payment-F-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "dbeaddd6f92deb2d60fee9c1366efd3a4c29b38b5df48c3e830294d233b4fcbe",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true
+        },
+        "not_established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "D"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  },
+  {
+    "id": "R9-test-7-w5-payment-U-reordered",
+    "version": "local-field-student-20261009-v2",
+    "mode": "shadow",
+    "decision_authority": false,
+    "task_family": "famu_v8_simulated_contract_fields",
+    "input_sha256": "44de2f965ed6ec0040b25e35fb838cf5e009bc3102a4687e0178d96379baa548",
+    "fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "effective_fields": {
+      "A": "unknown",
+      "B": "unknown",
+      "C": "unknown",
+      "D": "unknown"
+    },
+    "bindings": {
+      "A": {
+        "s": [],
+        "r": []
+      },
+      "B": {
+        "s": [],
+        "r": []
+      },
+      "C": {
+        "s": [],
+        "r": []
+      },
+      "D": {
+        "s": [],
+        "r": []
+      }
+    },
+    "evidence_trace": [],
+    "conditional_decision": {
+      "lower": 0,
+      "upper": 1,
+      "state": "unknown",
+      "world_count": 16,
+      "decision_action": "request_evidence",
+      "witnesses": {
+        "established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true
+        },
+        "not_established_world": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "differing_fields": [
+          "D"
+        ],
+        "hypothesis_only": true
+      },
+      "certificate": null
+    },
+    "prediction": "unknown",
+    "workflow_action": "request_evidence",
+    "ambiguous_fields": [],
+    "unknown_scope": "no accepted support/refutation within supplied evidence, not proof of absent original material",
+    "certificate_scope": "declared rule and learned fields only; not a legal truth guarantee",
+    "deployment": {
+      "teacher_calls": 0,
+      "llm_loaded": false,
+      "max_evidence": 128
+    }
+  }
+]

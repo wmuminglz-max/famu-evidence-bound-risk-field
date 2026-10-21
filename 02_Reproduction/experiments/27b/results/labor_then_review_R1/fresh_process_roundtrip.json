@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "id": "DV01",
+  "raw": "{\"value\":\"F\"}",
+  "prediction": "F",
+  "adapter_sha256": "16643cd6dd53e1445d9fb267b7344c2c922bbc093f1b5ecad04908c675083f20",
+  "legal_correctness_claim": false
+}

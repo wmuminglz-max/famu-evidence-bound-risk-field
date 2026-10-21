@@ -1,0 +1,18 @@
+{
+  "finite": true,
+  "zero_optimizer_updates": true,
+  "adapter_gradient_abs_sum": 694.9640688896179,
+  "longest_input_index": 641,
+  "ce": 10.439785957336426,
+  "query_ce": 0.0,
+  "CE_positions": 0,
+  "paragraph_exposures": 4,
+  "relation_anchor_exposures": 0,
+  "span_token_positions": 0,
+  "class_positions": 4,
+  "boundary_positions": 6,
+  "encoder_tokens": 1009,
+  "padded_tokens": 1064,
+  "encoded_sequences": 4,
+  "auxiliary_query_labels": 0
+}

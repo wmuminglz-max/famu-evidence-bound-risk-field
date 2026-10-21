@@ -1,0 +1,9 @@
+{
+  "examples_sha256": "58ed50ed4ffa3210a8424fabcb66f772ba0137e51f5bda1b150215cbc9d9d6c2",
+  "rows": 256,
+  "families": 32,
+  "created_after_initial_pilot_results": true,
+  "new_training_updates": 0,
+  "not_independent_human_legal_validation": true,
+  "purpose": "fixed-head exploratory distribution shift stress test"
+}

@@ -1,0 +1,27 @@
+{
+  "arm": {
+    "id": "27b_learned_experts",
+    "adapter": "/workspace/famu_27b_20261004/outputs/review_learned_R1/adapter",
+    "architecture": "learned"
+  },
+  "loading_seconds": 12.500267441035248,
+  "audit": {
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "mismatched_keys": [],
+    "error_msgs": [],
+    "famu_chunked_mlp_layers": 64,
+    "famu_attention_query_block": 128,
+    "famu_mlp_token_block": 512,
+    "famu_compact_delta_layers": 48,
+    "famu_delta_triangular_solver": "cuda",
+    "compact_delta_layers": 48,
+    "checkpointed_mlp_layers": 64,
+    "nf4_modules": 496,
+    "quantization": "NF4 double quantization; BF16 compute; PEFT k-bit preparation",
+    "stored_parameter_elements_including_packed_nf4": 14720720384
+  },
+  "adapter_sha256": "4f860b51e98c259a03f37e1855f832bd36b76c63ee61039a98facc26b79cd169",
+  "trainable_parameters": 0,
+  "quantization": "NF4 double quantization BF16 compute, FP32 norms"
+}

@@ -1,0 +1,16 @@
+{
+  "arm": {
+    "id": "9b_v8_bound_s29",
+    "adapter": "/workspace/famu_v8_20261005/outputs/E1_bound_s29/adapter"
+  },
+  "loading_seconds": 8.665635616518557,
+  "audit": {
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "mismatched_keys": [],
+    "error_msgs": []
+  },
+  "adapter_sha256": "31ab9665363e84d11861dcc29eba39cbd6292cf82ddcded4a8b39deafe9b3543",
+  "trainable_parameters": 0,
+  "quantization": "BF16, none"
+}

@@ -1,0 +1,318 @@
+{
+  "date": "2026-10-16",
+  "source": "法眸智审_论文复现材料_脱敏版_20261016",
+  "files": [
+    {
+      "dataset": "01_Professional_Training_Data/gold_train.jsonl",
+      "source_release_file": "data/professional/gold_train.jsonl",
+      "sha256": "c62951258b192a8c74c464a69c38515903d7e3130fda177295b7bdd1b2e7784f",
+      "bytes": 1914469,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "27ca96201da826949dc40ebd188ba140a78dabf0010479fd02bd27721437ba44"
+    },
+    {
+      "dataset": "01_Professional_Training_Data/internal_dev.jsonl",
+      "source_release_file": "data/professional/internal_dev.jsonl",
+      "sha256": "e2a1b171a9aa308d60c427bbc1fa71ee23f3511d85c17b9c5defcee07eb17d4d",
+      "bytes": 158519,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "fec9c4cc8034f2af9a14dc4cca22f50fb1589f24fc132dd90b664365282a41d1"
+    },
+    {
+      "dataset": "01_Professional_Training_Data/labor_auxiliary.jsonl",
+      "source_release_file": "data/professional/labor_auxiliary.jsonl",
+      "sha256": "062143e0b5f341f5a8e25fff95250bb530941f7793fe81fb512a0f5e880b6b7f",
+      "bytes": 3043037,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "1853b9ccb62d18234e3f7239121f17aa6cd1f783f577d18b1b2a49f2e3ceba4e"
+    },
+    {
+      "dataset": "02_Experiment_1_Conditional_Judgment/famu_v5_20261004/examples.jsonl",
+      "source_release_file": "experiments/v5/training_data/famu_v5_20261004/examples.jsonl",
+      "sha256": "e745301ef789f47e2ce96a3301471bd309d8d355cce3ad0f9326b14a535cfc71",
+      "bytes": 3911526,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "46fc70b7451f56b66a273f19fc41daf9b5eeeaa5daf470b13786dfac64beb98d"
+    },
+    {
+      "dataset": "02_Experiment_1_Conditional_Judgment/famu_v5_20261004/manifest.json",
+      "source_release_file": "experiments/v5/training_data/famu_v5_20261004/manifest.json",
+      "sha256": "b6c9553d35d476869ca0dfa9ed3022502e1a0bf9da5cbd1b8fb23f9335b2c060",
+      "bytes": 2424,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "54b2da3a54aac476dc8b740292e58f2d438c85dbca7e9f6d4d88f7630a426539"
+    },
+    {
+      "dataset": "02_Experiment_1_Conditional_Judgment/famu_v5_20261004/pairs.jsonl",
+      "source_release_file": "experiments/v5/training_data/famu_v5_20261004/pairs.jsonl",
+      "sha256": "9deba1f2cccc2daad5bcfdd6bf90aef411ffd9adeefab1844a321dcc9d57aec4",
+      "bytes": 54144,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "dffc75ee762498e82714a637758ce56fe7750189f20ec57518cdded87f9178ba"
+    },
+    {
+      "dataset": "02_Experiment_1_Conditional_Judgment/famu_v5_20261004_stress/examples.jsonl",
+      "source_release_file": "experiments/v5/training_data/famu_v5_20261004_stress/examples.jsonl",
+      "sha256": "58ed50ed4ffa3210a8424fabcb66f772ba0137e51f5bda1b150215cbc9d9d6c2",
+      "bytes": 434001,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "58ed50ed4ffa3210a8424fabcb66f772ba0137e51f5bda1b150215cbc9d9d6c2"
+    },
+    {
+      "dataset": "02_Experiment_1_Conditional_Judgment/famu_v5_20261004_stress/manifest.json",
+      "source_release_file": "experiments/v5/training_data/famu_v5_20261004_stress/manifest.json",
+      "sha256": "116fb3c3f0351577b7266f2dba8593cfeac04565e38da870bfaebcfab8554272",
+      "bytes": 321,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "02e6d672572897ef1c6260a098a4976ce31973d2de1af918357a988201d530e5"
+    },
+    {
+      "dataset": "03_Experiment_2_Evidence_Binding/famu_v4_20261003/gold_train.jsonl",
+      "source_release_file": "experiments/v8/training_data/famu_v4_20261003/gold_train.jsonl",
+      "sha256": "5811ca85517ffabd6f0c2fcf96390db42d543319d073b7c8f1a19c887bf149db",
+      "bytes": 1914546,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "27ca96201da826949dc40ebd188ba140a78dabf0010479fd02bd27721437ba44"
+    },
+    {
+      "dataset": "03_Experiment_2_Evidence_Binding/famu_v4_20261003/internal_dev.jsonl",
+      "source_release_file": "experiments/v8/training_data/famu_v4_20261003/internal_dev.jsonl",
+      "sha256": "63d92921c6ccfe2ff43007ff5207410a588964b5c089f5bb1cdbd778680c97bf",
+      "bytes": 158528,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "fec9c4cc8034f2af9a14dc4cca22f50fb1589f24fc132dd90b664365282a41d1"
+    },
+    {
+      "dataset": "03_Experiment_2_Evidence_Binding/famu_v8_20261005/manifest.json",
+      "source_release_file": "experiments/v8/training_data/famu_v8_20261005/manifest.json",
+      "sha256": "50ff8918f267d31e2723ced535b85247ea00bb9487d23eb41253296f9d72ecaf",
+      "bytes": 1804,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "7ddc5431c5f19cdc8a436bb90c42805eacb5930b9cf5c0f857204b301e359c16"
+    },
+    {
+      "dataset": "03_Experiment_2_Evidence_Binding/famu_v8_20261005/regression9.jsonl",
+      "source_release_file": "experiments/v8/training_data/famu_v8_20261005/regression9.jsonl",
+      "sha256": "63d92921c6ccfe2ff43007ff5207410a588964b5c089f5bb1cdbd778680c97bf",
+      "bytes": 158528,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "fec9c4cc8034f2af9a14dc4cca22f50fb1589f24fc132dd90b664365282a41d1"
+    },
+    {
+      "dataset": "03_Experiment_2_Evidence_Binding/famu_v8_20261005/replay77.jsonl",
+      "source_release_file": "experiments/v8/training_data/famu_v8_20261005/replay77.jsonl",
+      "sha256": "5811ca85517ffabd6f0c2fcf96390db42d543319d073b7c8f1a19c887bf149db",
+      "bytes": 1914546,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "27ca96201da826949dc40ebd188ba140a78dabf0010479fd02bd27721437ba44"
+    },
+    {
+      "dataset": "03_Experiment_2_Evidence_Binding/famu_v8_20261005/scenes.jsonl",
+      "source_release_file": "experiments/v8/training_data/famu_v8_20261005/scenes.jsonl",
+      "sha256": "68f025ffee38a04e72ff2d5c0e297f0c659b356b226904ce90a2a1fdd781251b",
+      "bytes": 6611230,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "bc6071d2248bea7b61166075a137b6b86fbb09c3b16e7d63167696a9de73c764"
+    },
+    {
+      "dataset": "04_Real_Material_Evaluation/gold_keys.jsonl",
+      "source_release_file": "data/real/gold_keys.jsonl",
+      "sha256": "31fef62b51fcdbcf99ba406761f851379a53e6f7b00c83b08e15a0948755af53",
+      "bytes": 69205,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "33bba68ee3bd173020a43d0a6331d7c93085ad8e716ab3e5130c13178e5d23d3"
+    },
+    {
+      "dataset": "04_Real_Material_Evaluation/public_inputs.jsonl",
+      "source_release_file": "data/real/public_inputs.jsonl",
+      "sha256": "f61325b53fbe36e412347d07fa7b283cc3a2f6a4aaa79a2b2b7c1a445793b0e1",
+      "bytes": 137501,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "c5e1e0c6e37b9c048c0f070c0d88272ac045a59569360ec3cffae96a168d7d6f"
+    },
+    {
+      "dataset": "05_Student_Model_Data/contrast_pairs.json",
+      "source_release_file": "experiments/student/data/contrast_pairs.json",
+      "sha256": "9185c2851dcfec2c15707a76bdb7b45664ae917af75ab13cacefa65ab55438b9",
+      "bytes": 13153435,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "099330d787438457ce0e125d7965ab00e3b2edd22652b7227e4698b55658d5ea"
+    },
+    {
+      "dataset": "05_Student_Model_Data/fit.json",
+      "source_release_file": "experiments/student/data/fit.json",
+      "sha256": "015ff703d8de5af23711e960617c6f93f7c0a579d823d99ffbe7f9cb8bfe340e",
+      "bytes": 17576673,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "6fb810729967da195182b8babe2b30a58dd366dff6d37c0d2c06e6d407655094"
+    },
+    {
+      "dataset": "05_Student_Model_Data/historical.json",
+      "source_release_file": "experiments/student/data/historical.json",
+      "sha256": "20a05cbd1db2e590c93dd46f293c89670b71fed4f38dc7f7918643c7154b3a09",
+      "bytes": 7804449,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "c4ea8787981e0e4e27d1e93ed91cdf2d58dd9b3a4ed283c113c6350064547e3a"
+    },
+    {
+      "dataset": "05_Student_Model_Data/language_pairs.json",
+      "source_release_file": "experiments/student/data/language_pairs.json",
+      "sha256": "3aacc5c5011e1ce147728d2df990259dbdf89044dec9f9631a78d16a051f4a69",
+      "bytes": 15336003,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "c5669ae8fadf6ed7035c6f6ff61cc3a23338633b8db428d27edf9dafe9c83443"
+    },
+    {
+      "dataset": "05_Student_Model_Data/long_pairs.json",
+      "source_release_file": "experiments/student/data/long_pairs.json",
+      "sha256": "ce8244bee3c6f6a4a065500d7ede7dbca27754eb3baa86b1ecd24f90d7991fdf",
+      "bytes": 13880211,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "f6ddb12fa77525b8c2579fd2c67a17ed0254f944114194aadf0b6535e8771969"
+    },
+    {
+      "dataset": "05_Student_Model_Data/new_scenes.json",
+      "source_release_file": "experiments/student/data/new_scenes.json",
+      "sha256": "f4c5104cce39f808129080ff62567f9946c23d6bbf692679ec8869c117547404",
+      "bytes": 8109065,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "0a0be00bd6a9325f2265715dd56a2ca392385adc3e48e7e89431b5c10e3fe7dd"
+    },
+    {
+      "dataset": "05_Student_Model_Data/paragraphs.json",
+      "source_release_file": "experiments/student/data/paragraphs.json",
+      "sha256": "f78f716a7aeed6cdf121f12154acd6bbbb99469523156f504bdff6fe449a0167",
+      "bytes": 3262006,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "4cf681e9aa88bd893f7a1d0afa7a4bde8a80d07c1cfc419c51d6546ef5d7a89d"
+    },
+    {
+      "dataset": "05_Student_Model_Data/r10_regression.json",
+      "source_release_file": "experiments/student/data/r10_regression.json",
+      "sha256": "5ac738ad51be423dca483a31e38e041ee1efaaf45afba610f6f1e2d958d58f6c",
+      "bytes": 548099,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "4b90884110992cfd51b01c536a862d349293f9436ef61265180fcce82a7063fc"
+    },
+    {
+      "dataset": "05_Student_Model_Data/r10_regression_reordered.json",
+      "source_release_file": "experiments/student/data/r10_regression_reordered.json",
+      "sha256": "11bb37da5f7861dd083ba79eeb75290cde2d00ee832ed140525874613a82cd47",
+      "bytes": 571803,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "5b014fda3f74b0a259d1ac710e56c683a439fea061fa31a5505e5469f24e94b7"
+    },
+    {
+      "dataset": "05_Student_Model_Data/r10_regression_short.json",
+      "source_release_file": "experiments/student/data/r10_regression_short.json",
+      "sha256": "a4538c499487705e389be71ce262839672512bcb1e15329ead4efbf70133c840",
+      "bytes": 435603,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "eca4e742439f69c4f6feaecf149c256255ab7c329c68129ddbbc684c76deba9e"
+    },
+    {
+      "dataset": "05_Student_Model_Data/r2_regression.json",
+      "source_release_file": "experiments/student/data/r2_regression.json",
+      "sha256": "23e5f79c73ad6a792b2f46638f298d220b490c6420a5104cbb788deaefd958f9",
+      "bytes": 219819,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "24afc9a24f9227824b529098385209bba643ceb2d90c7fec41b7866df97d032d"
+    },
+    {
+      "dataset": "05_Student_Model_Data/r3_regression.json",
+      "source_release_file": "experiments/student/data/r3_regression.json",
+      "sha256": "75a35e9b14a9e9c3ef21e91d786f359e240d156cc4c753d8ecae0a4faa89ddce",
+      "bytes": 247821,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "7ebb163fec6cff53c6fc776ba70c79b601e919ff42d9859c82514109c685ce81"
+    },
+    {
+      "dataset": "05_Student_Model_Data/r4_regression.json",
+      "source_release_file": "experiments/student/data/r4_regression.json",
+      "sha256": "1692de700513981f01c78a2f1ca990a6d47a8de5a5128d8c533c64badd3a4e17",
+      "bytes": 331227,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "29bd5c095e5cfaaf6d6d297a3c539ff1305a83a48a1101ea05cc21e5b68070c6"
+    },
+    {
+      "dataset": "05_Student_Model_Data/r5_regression.json",
+      "source_release_file": "experiments/student/data/r5_regression.json",
+      "sha256": "47888a20d2699edf8d4792a60c38e43cf20dcdb589914519e5071cdb850a3c02",
+      "bytes": 337523,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "74d8380ca445941f770e771459fba49d1de1203711e649a7b1f134d0fc52c8fc"
+    },
+    {
+      "dataset": "05_Student_Model_Data/r6_regression.json",
+      "source_release_file": "experiments/student/data/r6_regression.json",
+      "sha256": "354e2fa0fd873dd041f59c3204fe4833c844a24307d54f5633aab6ef3ab81866",
+      "bytes": 336587,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "7d9b5c53137750d6013b8acee31b910ed27b4dc9349b93c749a7625528d6724b"
+    },
+    {
+      "dataset": "05_Student_Model_Data/r7_regression.json",
+      "source_release_file": "experiments/student/data/r7_regression.json",
+      "sha256": "172b15e9dd7b960afc4e97020cf58bc9a8c0821302a11154684591fcbc5f3917",
+      "bytes": 345115,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "e1bca2dc487b47f483679a0f9ec5a1e0e344dbc5ea173089e0f8984eef3659c9"
+    },
+    {
+      "dataset": "05_Student_Model_Data/r8_regression.json",
+      "source_release_file": "experiments/student/data/r8_regression.json",
+      "sha256": "4546686926f43e6148b1a2c2bd68be8de34993c92daa00670e2eb67d813ad72e",
+      "bytes": 393811,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "a3f69ff0c13eab18e6326da4f3b9640eaebc81922047cc92b73e4ca297bf6ffc"
+    },
+    {
+      "dataset": "05_Student_Model_Data/r8_regression_short.json",
+      "source_release_file": "experiments/student/data/r8_regression_short.json",
+      "sha256": "3e775363602dd78e9c3a4999e1432f364eed80c11533ef08740ab4a57ccbc288",
+      "bytes": 335163,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "952250bab9b88877b158859959eeb26a052b8bfed7d232c8a74dc665b07385c9"
+    },
+    {
+      "dataset": "05_Student_Model_Data/r9_regression.json",
+      "source_release_file": "experiments/student/data/r9_regression.json",
+      "sha256": "7f3f47dc63e1a7312025aa5ebceba32c6060e6f9665e61d48efdae74831722a0",
+      "bytes": 517291,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "e26e783195ab4f70358a344c3bfcf870d5c709ceddad6723159e9c254773af5e"
+    },
+    {
+      "dataset": "05_Student_Model_Data/r9_regression_reordered.json",
+      "source_release_file": "experiments/student/data/r9_regression_reordered.json",
+      "sha256": "06feb4ae493d3d1085e1c1e0d5734e4394c7fcc368e832feee9a9be9ad0c77b6",
+      "bytes": 542059,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "ae7b28dba8ba89fb9ab6b4757705ab6cfdf1ebbff2f220cd5277a1127f1e64b8"
+    },
+    {
+      "dataset": "05_Student_Model_Data/r9_regression_short.json",
+      "source_release_file": "experiments/student/data/r9_regression_short.json",
+      "sha256": "1920bff275bc84fafb09a79287e1441321a325c5463de5bd1c0602c9bd992ad8",
+      "bytes": 394603,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "126f1c1b3209559bbfdda25236784f631b3634df2101890595c1979c88778e5c"
+    },
+    {
+      "dataset": "05_Student_Model_Data/r9_training_pairs.json",
+      "source_release_file": "experiments/student/data/r9_training_pairs.json",
+      "sha256": "b713bbffd5106221bbfc0a08804428a18954916b7587ff0c1cd0e31b6b053c15",
+      "bytes": 14135475,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "d2c9aa061ce9e0506dca4cd369472f3c73637a6351118ab6696b04035f4792f0"
+    },
+    {
+      "dataset": "05_Student_Model_Data/selector_paragraphs.json",
+      "source_release_file": "experiments/student/data/selector_paragraphs.json",
+      "sha256": "e6c70e8f8bb309c8918ec1b6bd014672b3991bd9c3b7b11e85534203094ac1cc",
+      "bytes": 1712996,
+      "operation": "byte-identical copy of deidentified release",
+      "original_controlled_file_sha256": "48de237a7afd9599db3cdd3bf0e6374292e39f8af73cf0e215ab93ef7b6f955b"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "algorithm": "SHA256",
+  "date": "2026-10-16",
+  "excludes": [
+    "MANIFEST_SHA256.json"
+  ],
+  "files": [
+    {
+      "path": "01_Professional_Training_Data/gold_train.jsonl",
+      "bytes": 1914469,
+      "sha256": "c62951258b192a8c74c464a69c38515903d7e3130fda177295b7bdd1b2e7784f"
+    },
+    {
+      "path": "01_Professional_Training_Data/internal_dev.jsonl",
+      "bytes": 158519,
+      "sha256": "e2a1b171a9aa308d60c427bbc1fa71ee23f3511d85c17b9c5defcee07eb17d4d"
+    },
+    {
+      "path": "01_Professional_Training_Data/labor_auxiliary.jsonl",
+      "bytes": 3043037,
+      "sha256": "062143e0b5f341f5a8e25fff95250bb530941f7793fe81fb512a0f5e880b6b7f"
+    },
+    {
+      "path": "02_Experiment_1_Conditional_Judgment/famu_v5_20261004/examples.jsonl",
+      "bytes": 3911526,
+      "sha256": "e745301ef789f47e2ce96a3301471bd309d8d355cce3ad0f9326b14a535cfc71"
+    },
+    {
+      "path": "02_Experiment_1_Conditional_Judgment/famu_v5_20261004/manifest.json",
+      "bytes": 2424,
+      "sha256": "b6c9553d35d476869ca0dfa9ed3022502e1a0bf9da5cbd1b8fb23f9335b2c060"
+    },
+    {
+      "path": "02_Experiment_1_Conditional_Judgment/famu_v5_20261004/pairs.jsonl",
+      "bytes": 54144,
+      "sha256": "9deba1f2cccc2daad5bcfdd6bf90aef411ffd9adeefab1844a321dcc9d57aec4"
+    },
+    {
+      "path": "02_Experiment_1_Conditional_Judgment/famu_v5_20261004_stress/examples.jsonl",
+      "bytes": 434001,
+      "sha256": "58ed50ed4ffa3210a8424fabcb66f772ba0137e51f5bda1b150215cbc9d9d6c2"
+    },
+    {
+      "path": "02_Experiment_1_Conditional_Judgment/famu_v5_20261004_stress/manifest.json",
+      "bytes": 321,
+      "sha256": "116fb3c3f0351577b7266f2dba8593cfeac04565e38da870bfaebcfab8554272"
+    },
+    {
+      "path": "03_Experiment_2_Evidence_Binding/famu_v4_20261003/gold_train.jsonl",
+      "bytes": 1914546,
+      "sha256": "5811ca85517ffabd6f0c2fcf96390db42d543319d073b7c8f1a19c887bf149db"
+    },
+    {
+      "path": "03_Experiment_2_Evidence_Binding/famu_v4_20261003/internal_dev.jsonl",
+      "bytes": 158528,
+      "sha256": "63d92921c6ccfe2ff43007ff5207410a588964b5c089f5bb1cdbd778680c97bf"
+    },
+    {
+      "path": "03_Experiment_2_Evidence_Binding/famu_v8_20261005/manifest.json",
+      "bytes": 1804,
+      "sha256": "50ff8918f267d31e2723ced535b85247ea00bb9487d23eb41253296f9d72ecaf"
+    },
+    {
+      "path": "03_Experiment_2_Evidence_Binding/famu_v8_20261005/regression9.jsonl",
+      "bytes": 158528,
+      "sha256": "63d92921c6ccfe2ff43007ff5207410a588964b5c089f5bb1cdbd778680c97bf"
+    },
+    {
+      "path": "03_Experiment_2_Evidence_Binding/famu_v8_20261005/replay77.jsonl",
+      "bytes": 1914546,
+      "sha256": "5811ca85517ffabd6f0c2fcf96390db42d543319d073b7c8f1a19c887bf149db"
+    },
+    {
+      "path": "03_Experiment_2_Evidence_Binding/famu_v8_20261005/scenes.jsonl",
+      "bytes": 6611230,
+      "sha256": "68f025ffee38a04e72ff2d5c0e297f0c659b356b226904ce90a2a1fdd781251b"
+    },
+    {
+      "path": "04_Real_Material_Evaluation/gold_keys.jsonl",
+      "bytes": 69205,
+      "sha256": "31fef62b51fcdbcf99ba406761f851379a53e6f7b00c83b08e15a0948755af53"
+    },
+    {
+      "path": "04_Real_Material_Evaluation/public_inputs.jsonl",
+      "bytes": 137501,
+      "sha256": "f61325b53fbe36e412347d07fa7b283cc3a2f6a4aaa79a2b2b7c1a445793b0e1"
+    },
+    {
+      "path": "05_Student_Model_Data/contrast_pairs.json",
+      "bytes": 13153435,
+      "sha256": "9185c2851dcfec2c15707a76bdb7b45664ae917af75ab13cacefa65ab55438b9"
+    },
+    {
+      "path": "05_Student_Model_Data/fit.json",
+      "bytes": 17576673,
+      "sha256": "015ff703d8de5af23711e960617c6f93f7c0a579d823d99ffbe7f9cb8bfe340e"
+    },
+    {
+      "path": "05_Student_Model_Data/historical.json",
+      "bytes": 7804449,
+      "sha256": "20a05cbd1db2e590c93dd46f293c89670b71fed4f38dc7f7918643c7154b3a09"
+    },
+    {
+      "path": "05_Student_Model_Data/language_pairs.json",
+      "bytes": 15336003,
+      "sha256": "3aacc5c5011e1ce147728d2df990259dbdf89044dec9f9631a78d16a051f4a69"
+    },
+    {
+      "path": "05_Student_Model_Data/long_pairs.json",
+      "bytes": 13880211,
+      "sha256": "ce8244bee3c6f6a4a065500d7ede7dbca27754eb3baa86b1ecd24f90d7991fdf"
+    },
+    {
+      "path": "05_Student_Model_Data/new_scenes.json",
+      "bytes": 8109065,
+      "sha256": "f4c5104cce39f808129080ff62567f9946c23d6bbf692679ec8869c117547404"
+    },
+    {
+      "path": "05_Student_Model_Data/paragraphs.json",
+      "bytes": 3262006,
+      "sha256": "f78f716a7aeed6cdf121f12154acd6bbbb99469523156f504bdff6fe449a0167"
+    },
+    {
+      "path": "05_Student_Model_Data/r10_regression.json",
+      "bytes": 548099,
+      "sha256": "5ac738ad51be423dca483a31e38e041ee1efaaf45afba610f6f1e2d958d58f6c"
+    },
+    {
+      "path": "05_Student_Model_Data/r10_regression_reordered.json",
+      "bytes": 571803,
+      "sha256": "11bb37da5f7861dd083ba79eeb75290cde2d00ee832ed140525874613a82cd47"
+    },
+    {
+      "path": "05_Student_Model_Data/r10_regression_short.json",
+      "bytes": 435603,
+      "sha256": "a4538c499487705e389be71ce262839672512bcb1e15329ead4efbf70133c840"
+    },
+    {
+      "path": "05_Student_Model_Data/r2_regression.json",
+      "bytes": 219819,
+      "sha256": "23e5f79c73ad6a792b2f46638f298d220b490c6420a5104cbb788deaefd958f9"
+    },
+    {
+      "path": "05_Student_Model_Data/r3_regression.json",
+      "bytes": 247821,
+      "sha256": "75a35e9b14a9e9c3ef21e91d786f359e240d156cc4c753d8ecae0a4faa89ddce"
+    },
+    {
+      "path": "05_Student_Model_Data/r4_regression.json",
+      "bytes": 331227,
+      "sha256": "1692de700513981f01c78a2f1ca990a6d47a8de5a5128d8c533c64badd3a4e17"
+    },
+    {
+      "path": "05_Student_Model_Data/r5_regression.json",
+      "bytes": 337523,
+      "sha256": "47888a20d2699edf8d4792a60c38e43cf20dcdb589914519e5071cdb850a3c02"
+    },
+    {
+      "path": "05_Student_Model_Data/r6_regression.json",
+      "bytes": 336587,
+      "sha256": "354e2fa0fd873dd041f59c3204fe4833c844a24307d54f5633aab6ef3ab81866"
+    },
+    {
+      "path": "05_Student_Model_Data/r7_regression.json",
+      "bytes": 345115,
+      "sha256": "172b15e9dd7b960afc4e97020cf58bc9a8c0821302a11154684591fcbc5f3917"
+    },
+    {
+      "path": "05_Student_Model_Data/r8_regression.json",
+      "bytes": 393811,
+      "sha256": "4546686926f43e6148b1a2c2bd68be8de34993c92daa00670e2eb67d813ad72e"
+    },
+    {
+      "path": "05_Student_Model_Data/r8_regression_short.json",
+      "bytes": 335163,
+      "sha256": "3e775363602dd78e9c3a4999e1432f364eed80c11533ef08740ab4a57ccbc288"
+    },
+    {
+      "path": "05_Student_Model_Data/r9_regression.json",
+      "bytes": 517291,
+      "sha256": "7f3f47dc63e1a7312025aa5ebceba32c6060e6f9665e61d48efdae74831722a0"
+    },
+    {
+      "path": "05_Student_Model_Data/r9_regression_reordered.json",
+      "bytes": 542059,
+      "sha256": "06feb4ae493d3d1085e1c1e0d5734e4394c7fcc368e832feee9a9be9ad0c77b6"
+    },
+    {
+      "path": "05_Student_Model_Data/r9_regression_short.json",
+      "bytes": 394603,
+      "sha256": "1920bff275bc84fafb09a79287e1441321a325c5463de5bd1c0602c9bd992ad8"
+    },
+    {
+      "path": "05_Student_Model_Data/r9_training_pairs.json",
+      "bytes": 14135475,
+      "sha256": "b713bbffd5106221bbfc0a08804428a18954916b7587ff0c1cd0e31b6b053c15"
+    },
+    {
+      "path": "05_Student_Model_Data/selector_paragraphs.json",
+      "bytes": 1712996,
+      "sha256": "e6c70e8f8bb309c8918ec1b6bd014672b3991bd9c3b7b11e85534203094ac1cc"
+    },
+    {
+      "path": "README_数据集说明.md",
+      "bytes": 3874,
+      "sha256": "e525f36f9e0ee8246fb01b46b764e9407a44359e82ced8e425f93164aa82416c"
+    },
+    {
+      "path": "数据文件清单.csv",
+      "bytes": 6956,
+      "sha256": "c886e615f84de95cf3f857083d7c4ade375348dff88b1e4001cc4bc3b2b45de3"
+    },
+    {
+      "path": "整理校验记录.json",
+      "bytes": 281,
+      "sha256": "dd22fd0d09094af4aed4df5305d7aa4a242fa43163f7ae45b853efa391b00ffb"
+    },
+    {
+      "path": "文件来源与校验.json",
+      "bytes": 17794,
+      "sha256": "eb1c56a94eef220b78416291b54faf21a6bc88a506c14304f7e948e7852d888c"
+    },
+    {
+      "path": "样本划分与编号.jsonl",
+      "bytes": 18119776,
+      "sha256": "d21a725f1fd45fb27123d13c69a399a4ab7cd4454d6bf0f356a568150f41af8d"
+    }
+  ],
+  "directory_naming_update_date": "2026-10-21"
+}

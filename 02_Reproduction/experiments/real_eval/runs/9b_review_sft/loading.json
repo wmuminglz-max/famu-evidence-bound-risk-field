@@ -1,0 +1,16 @@
+{
+  "arm": {
+    "id": "9b_review_sft",
+    "adapter": "/workspace/famu_v4_20261003/outputs/review_R1_20261001/adapter"
+  },
+  "loading_seconds": 9.216415919363499,
+  "audit": {
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "mismatched_keys": [],
+    "error_msgs": []
+  },
+  "adapter_sha256": "66515d29b311fed2efadaab81857c5c7f1127c697960cf3adcce17eb6984fed3",
+  "trainable_parameters": 0,
+  "quantization": "BF16, none"
+}

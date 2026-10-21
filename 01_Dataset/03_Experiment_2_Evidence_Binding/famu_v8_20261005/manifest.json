@@ -1,0 +1,64 @@
+{
+  "version": "V8-evidence-bound-1",
+  "counts": {
+    "train": 432,
+    "dev": 96,
+    "test": 144
+  },
+  "labels": {
+    "train/not_established": 162,
+    "train/established": 126,
+    "train/unknown": 144,
+    "dev/not_established": 36,
+    "dev/established": 28,
+    "dev/unknown": 32,
+    "test/not_established": 54,
+    "test/established": 42,
+    "test/unknown": 48
+  },
+  "files": {
+    "scenes.jsonl": "68f025ffee38a04e72ff2d5c0e297f0c659b356b226904ce90a2a1fdd781251b",
+    "replay77.jsonl": "5811ca85517ffabd6f0c2fcf96390db42d543319d073b7c8f1a19c887bf149db",
+    "regression9.jsonl": "63d92921c6ccfe2ff43007ff5207410a588964b5c089f5bb1cdbd778680c97bf"
+  },
+  "source_v4": {
+    "gold_train.jsonl": "27ca96201da826949dc40ebd188ba140a78dabf0010479fd02bd27721437ba44",
+    "internal_dev.jsonl": "fec9c4cc8034f2af9a14dc4cca22f50fb1589f24fc132dd90b664365282a41d1",
+    "manifest.json": "0add23cad90fbc639907d1db4e7a27e2482173750a124a4bdd98eeb2c942727c"
+  },
+  "replay77_unchanged": true,
+  "historical_boundary54_used_for_training": false,
+  "LAB9_training": false,
+  "independent_legal_test": false,
+  "synthetic_wrapper_holdouts": {
+    "train": [
+      0,
+      1,
+      2
+    ],
+    "dev": [
+      3
+    ],
+    "test": [
+      4,
+      5
+    ]
+  },
+  "shared_sentence_templates_across_splits": true,
+  "synthetic_exposures_each": 3,
+  "replay_exposures_each": 4,
+  "queries_per_run": 1604,
+  "updates_per_run": 401,
+  "arms": [
+    "D0_direct",
+    "E1_bound"
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "total_updates": 2406,
+  "matched_cost": "same inputs/example exposure/update count; not equal output tokens or wall time",
+  "release_note": "File hashes refer to the deidentified derivative when the file is included; original fingerprints are in manifests/source_fingerprints.json."
+}

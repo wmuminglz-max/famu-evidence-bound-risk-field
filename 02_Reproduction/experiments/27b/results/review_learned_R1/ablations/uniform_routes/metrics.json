@@ -1,0 +1,89 @@
+{
+  "condition": {
+    "n": 2,
+    "accuracy": 1.0,
+    "macro_f1": 0.6666666666666666,
+    "per_class": {
+      "T": {
+        "support": 1,
+        "predicted": 1,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "F": {
+        "support": 1,
+        "predicted": 1,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "U": {
+        "support": 0,
+        "predicted": 0,
+        "recall": null,
+        "f1": 0.0
+      }
+    },
+    "unknown_to_established": 0,
+    "unknown_to_not_established": 0,
+    "U_forced": 0,
+    "invalid": 0
+  },
+  "qa": {
+    "n": 3,
+    "accuracy": 1.0,
+    "macro_f1": 0.6666666666666666,
+    "per_class": {
+      "T": {
+        "support": 0,
+        "predicted": 0,
+        "recall": null,
+        "f1": 0.0
+      },
+      "F": {
+        "support": 2,
+        "predicted": 2,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "U": {
+        "support": 1,
+        "predicted": 1,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "unknown_to_established": 0,
+    "unknown_to_not_established": 0,
+    "U_forced": 0,
+    "invalid": 0
+  },
+  "risk_status": {
+    "n": 4,
+    "accuracy": 0.75,
+    "macro_f1": 0.48888888888888893,
+    "per_class": {
+      "established": {
+        "support": 1,
+        "predicted": 2,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      },
+      "not_established": {
+        "support": 0,
+        "predicted": 0,
+        "recall": null,
+        "f1": 0.0
+      },
+      "unknown": {
+        "support": 3,
+        "predicted": 2,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      }
+    },
+    "unknown_to_established": 1,
+    "unknown_to_not_established": 0,
+    "U_forced": 0,
+    "invalid": 0
+  }
+}

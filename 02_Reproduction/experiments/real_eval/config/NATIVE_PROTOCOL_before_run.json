@@ -1,0 +1,16 @@
+{
+  "created_unix": 1791741301.3947685,
+  "script_sha256": "8a1d05cc900fa8699823d24a43a2fe61f64df942d6e46af2d3058c83c2d56a86",
+  "projection_sha256": "2582f5bf5d036ea69a69036e9fceb621bfce8b31dc92d07d06c23c1f3a5a5e54",
+  "purpose": "Native deployed V8 binding and existing symbolic engine; separate from uniform JSON end-to-end task",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "selection": "All three frozen E1 endpoints, no current-data tuning",
+  "shared_input": "Same evidence text, roles, display/time scope and state question wording. Original-question context preserved. Native output instructions replace generic answer protocol.",
+  "unscored_padding": "Repeat first real proposition to fill unused B/C/D, then discard padding outputs",
+  "scope": "46 state fields;27other evidence-test nonstate fields unsupported; full87 coverage reported",
+  "rule": "Each requested state itself is an identity proposition; native bindings s/r map TFUC and existing certified_decision runs on each field. This benchmark does not measure composite AND/OR rule correctness."
+}

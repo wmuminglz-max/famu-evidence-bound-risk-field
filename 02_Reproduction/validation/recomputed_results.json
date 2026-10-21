@@ -1,0 +1,1869 @@
+{
+  "mode": "score_replay_from_deidentified_archived_predictions; not new model inference",
+  "v5_stress": [
+    {
+      "run": "M0_direct_s17",
+      "n": 256,
+      "correct": 53,
+      "unknown_n": 31,
+      "unknown_correct": 0
+    },
+    {
+      "run": "M0_direct_s29",
+      "n": 256,
+      "correct": 56,
+      "unknown_n": 31,
+      "unknown_correct": 0
+    },
+    {
+      "run": "M0_direct_s43",
+      "n": 256,
+      "correct": 56,
+      "unknown_n": 31,
+      "unknown_correct": 0
+    },
+    {
+      "run": "M1_cbm_s17",
+      "n": 256,
+      "correct": 83,
+      "unknown_n": 31,
+      "unknown_correct": 30
+    },
+    {
+      "run": "M1_cbm_s29",
+      "n": 256,
+      "correct": 81,
+      "unknown_n": 31,
+      "unknown_correct": 30
+    },
+    {
+      "run": "M1_cbm_s43",
+      "n": 256,
+      "correct": 93,
+      "unknown_n": 31,
+      "unknown_correct": 28
+    },
+    {
+      "run": "M2_cbm_fact_s17",
+      "n": 256,
+      "correct": 89,
+      "unknown_n": 31,
+      "unknown_correct": 30
+    },
+    {
+      "run": "M2_cbm_fact_s29",
+      "n": 256,
+      "correct": 85,
+      "unknown_n": 31,
+      "unknown_correct": 29
+    },
+    {
+      "run": "M2_cbm_fact_s43",
+      "n": 256,
+      "correct": 91,
+      "unknown_n": 31,
+      "unknown_correct": 26
+    },
+    {
+      "run": "M3_boundary_s17",
+      "n": 256,
+      "correct": 172,
+      "unknown_n": 31,
+      "unknown_correct": 2
+    },
+    {
+      "run": "M3_boundary_s29",
+      "n": 256,
+      "correct": 172,
+      "unknown_n": 31,
+      "unknown_correct": 3
+    },
+    {
+      "run": "M3_boundary_s43",
+      "n": 256,
+      "correct": 176,
+      "unknown_n": 31,
+      "unknown_correct": 4
+    },
+    {
+      "run": "M4_dual_s17",
+      "n": 256,
+      "correct": 176,
+      "unknown_n": 31,
+      "unknown_correct": 6
+    },
+    {
+      "run": "M4_dual_s29",
+      "n": 256,
+      "correct": 176,
+      "unknown_n": 31,
+      "unknown_correct": 10
+    },
+    {
+      "run": "M4_dual_s43",
+      "n": 256,
+      "correct": 174,
+      "unknown_n": 31,
+      "unknown_correct": 5
+    }
+  ],
+  "v8_test": [
+    {
+      "run": "D0_direct_s17",
+      "n": 144,
+      "correct": 142
+    },
+    {
+      "run": "D0_direct_s29",
+      "n": 144,
+      "correct": 143
+    },
+    {
+      "run": "D0_direct_s43",
+      "n": 144,
+      "correct": 144
+    },
+    {
+      "run": "E1_bound_s17",
+      "n": 144,
+      "correct": 144,
+      "citation_tp": 498,
+      "citation_fp": 0,
+      "citation_fn": 0,
+      "citation_f1": 1.0
+    },
+    {
+      "run": "E1_bound_s29",
+      "n": 144,
+      "correct": 144,
+      "citation_tp": 498,
+      "citation_fp": 0,
+      "citation_fn": 0,
+      "citation_f1": 1.0
+    },
+    {
+      "run": "E1_bound_s43",
+      "n": 144,
+      "correct": 144,
+      "citation_tp": 498,
+      "citation_fp": 0,
+      "citation_fn": 0,
+      "citation_f1": 1.0
+    }
+  ],
+  "real_main53": [
+    {
+      "arm": "27b_labor_review_sft",
+      "fields": 53,
+      "correct": 51,
+      "joint": 46
+    },
+    {
+      "arm": "27b_learned_experts",
+      "fields": 53,
+      "correct": 50,
+      "joint": 47
+    },
+    {
+      "arm": "27b_review_sft",
+      "fields": 53,
+      "correct": 50,
+      "joint": 47
+    },
+    {
+      "arm": "9b_labor_review_sft",
+      "fields": 53,
+      "correct": 46,
+      "joint": 41
+    },
+    {
+      "arm": "9b_original",
+      "fields": 53,
+      "correct": 44,
+      "joint": 38
+    },
+    {
+      "arm": "9b_review_sft",
+      "fields": 53,
+      "correct": 47,
+      "joint": 40
+    },
+    {
+      "arm": "9b_v8_bound_s17",
+      "fields": 53,
+      "correct": 45,
+      "joint": 38
+    },
+    {
+      "arm": "9b_v8_bound_s29",
+      "fields": 53,
+      "correct": 48,
+      "joint": 40
+    },
+    {
+      "arm": "9b_v8_bound_s43",
+      "fields": 53,
+      "correct": 46,
+      "joint": 38
+    },
+    {
+      "arm": "9b_v8_native_rules_s17",
+      "fields": 53,
+      "correct": 20,
+      "joint": 10
+    },
+    {
+      "arm": "9b_v8_native_rules_s29",
+      "fields": 53,
+      "correct": 19,
+      "joint": 9
+    },
+    {
+      "arm": "9b_v8_native_rules_s43",
+      "fields": 53,
+      "correct": 21,
+      "joint": 11
+    },
+    {
+      "arm": "R11_SPAN_MIX_s17_raw",
+      "fields": 53,
+      "correct": 11,
+      "joint": 0
+    },
+    {
+      "arm": "R11_SPAN_MIX_s17_rules",
+      "fields": 53,
+      "correct": 11,
+      "joint": 0
+    },
+    {
+      "arm": "R11_SPAN_MIX_s29_raw",
+      "fields": 53,
+      "correct": 14,
+      "joint": 3
+    },
+    {
+      "arm": "R11_SPAN_MIX_s29_rules",
+      "fields": 53,
+      "correct": 14,
+      "joint": 3
+    },
+    {
+      "arm": "R11_SPAN_MIX_s43_raw",
+      "fields": 53,
+      "correct": 12,
+      "joint": 2
+    },
+    {
+      "arm": "R11_SPAN_MIX_s43_rules",
+      "fields": 53,
+      "correct": 12,
+      "joint": 2
+    },
+    {
+      "arm": "S0_supervised_s17_raw",
+      "fields": 53,
+      "correct": 10,
+      "joint": 0
+    },
+    {
+      "arm": "S0_supervised_s17_rules",
+      "fields": 53,
+      "correct": 11,
+      "joint": 1
+    },
+    {
+      "arm": "S0_supervised_s29_raw",
+      "fields": 53,
+      "correct": 11,
+      "joint": 0
+    },
+    {
+      "arm": "S0_supervised_s29_rules",
+      "fields": 53,
+      "correct": 11,
+      "joint": 0
+    },
+    {
+      "arm": "S0_supervised_s43_raw",
+      "fields": 53,
+      "correct": 8,
+      "joint": 2
+    },
+    {
+      "arm": "S0_supervised_s43_rules",
+      "fields": 53,
+      "correct": 12,
+      "joint": 3
+    },
+    {
+      "arm": "S1_gated_KD_s17_raw",
+      "fields": 53,
+      "correct": 10,
+      "joint": 0
+    },
+    {
+      "arm": "S1_gated_KD_s17_rules",
+      "fields": 53,
+      "correct": 11,
+      "joint": 1
+    },
+    {
+      "arm": "S1_gated_KD_s29_raw",
+      "fields": 53,
+      "correct": 11,
+      "joint": 0
+    },
+    {
+      "arm": "S1_gated_KD_s29_rules",
+      "fields": 53,
+      "correct": 11,
+      "joint": 0
+    },
+    {
+      "arm": "S1_gated_KD_s43_raw",
+      "fields": 53,
+      "correct": 9,
+      "joint": 1
+    },
+    {
+      "arm": "S1_gated_KD_s43_rules",
+      "fields": 53,
+      "correct": 11,
+      "joint": 1
+    }
+  ],
+  "student_archived_metrics": [
+    {
+      "run": "R10_SELECT_s17",
+      "datasets": {
+        "dev": {
+          "n": 96,
+          "correct": 84
+        },
+        "test": {
+          "n": 144,
+          "correct": 120
+        },
+        "r10_regression": {
+          "n": 96,
+          "correct": 56
+        },
+        "r10_regression_short": {
+          "n": 96,
+          "correct": 64
+        },
+        "r10_regression_reordered": {
+          "n": 96,
+          "correct": 48
+        },
+        "r2_regression": {
+          "n": 72,
+          "correct": 66
+        },
+        "r3_regression": {
+          "n": 72,
+          "correct": 48
+        },
+        "r4_regression": {
+          "n": 96,
+          "correct": 71
+        },
+        "r5_regression": {
+          "n": 96,
+          "correct": 88
+        },
+        "r6_regression": {
+          "n": 96,
+          "correct": 48
+        },
+        "r7_regression": {
+          "n": 96,
+          "correct": 58
+        },
+        "r8_regression": {
+          "n": 96,
+          "correct": 63
+        },
+        "r8_regression_short": {
+          "n": 96,
+          "correct": 94
+        },
+        "r9_regression": {
+          "n": 96,
+          "correct": 42
+        },
+        "r9_regression_short": {
+          "n": 96,
+          "correct": 52
+        },
+        "r9_regression_reordered": {
+          "n": 96,
+          "correct": 31
+        },
+        "new_dev": {
+          "n": 72,
+          "correct": 24
+        },
+        "new_test": {
+          "n": 96,
+          "correct": 56
+        },
+        "new_test_short": {
+          "n": 96,
+          "correct": 56
+        },
+        "new_test_reordered": {
+          "n": 96,
+          "correct": 44
+        }
+      }
+    },
+    {
+      "run": "R10_SELECT_s29",
+      "datasets": {
+        "dev": {
+          "n": 96,
+          "correct": 87
+        },
+        "test": {
+          "n": 144,
+          "correct": 114
+        },
+        "r10_regression": {
+          "n": 96,
+          "correct": 56
+        },
+        "r10_regression_short": {
+          "n": 96,
+          "correct": 64
+        },
+        "r10_regression_reordered": {
+          "n": 96,
+          "correct": 56
+        },
+        "r2_regression": {
+          "n": 72,
+          "correct": 72
+        },
+        "r3_regression": {
+          "n": 72,
+          "correct": 0
+        },
+        "r4_regression": {
+          "n": 96,
+          "correct": 53
+        },
+        "r5_regression": {
+          "n": 96,
+          "correct": 8
+        },
+        "r6_regression": {
+          "n": 96,
+          "correct": 85
+        },
+        "r7_regression": {
+          "n": 96,
+          "correct": 64
+        },
+        "r8_regression": {
+          "n": 96,
+          "correct": 74
+        },
+        "r8_regression_short": {
+          "n": 96,
+          "correct": 95
+        },
+        "r9_regression": {
+          "n": 96,
+          "correct": 40
+        },
+        "r9_regression_short": {
+          "n": 96,
+          "correct": 80
+        },
+        "r9_regression_reordered": {
+          "n": 96,
+          "correct": 46
+        },
+        "new_dev": {
+          "n": 72,
+          "correct": 33
+        },
+        "new_test": {
+          "n": 96,
+          "correct": 30
+        },
+        "new_test_short": {
+          "n": 96,
+          "correct": 40
+        },
+        "new_test_reordered": {
+          "n": 96,
+          "correct": 54
+        }
+      }
+    },
+    {
+      "run": "R10_SELECT_s43",
+      "datasets": {
+        "dev": {
+          "n": 96,
+          "correct": 84
+        },
+        "test": {
+          "n": 144,
+          "correct": 102
+        },
+        "r10_regression": {
+          "n": 96,
+          "correct": 54
+        },
+        "r10_regression_short": {
+          "n": 96,
+          "correct": 64
+        },
+        "r10_regression_reordered": {
+          "n": 96,
+          "correct": 50
+        },
+        "r2_regression": {
+          "n": 72,
+          "correct": 70
+        },
+        "r3_regression": {
+          "n": 72,
+          "correct": 18
+        },
+        "r4_regression": {
+          "n": 96,
+          "correct": 68
+        },
+        "r5_regression": {
+          "n": 96,
+          "correct": 51
+        },
+        "r6_regression": {
+          "n": 96,
+          "correct": 64
+        },
+        "r7_regression": {
+          "n": 96,
+          "correct": 55
+        },
+        "r8_regression": {
+          "n": 96,
+          "correct": 80
+        },
+        "r8_regression_short": {
+          "n": 96,
+          "correct": 96
+        },
+        "r9_regression": {
+          "n": 96,
+          "correct": 40
+        },
+        "r9_regression_short": {
+          "n": 96,
+          "correct": 55
+        },
+        "r9_regression_reordered": {
+          "n": 96,
+          "correct": 41
+        },
+        "new_dev": {
+          "n": 72,
+          "correct": 30
+        },
+        "new_test": {
+          "n": 96,
+          "correct": 40
+        },
+        "new_test_short": {
+          "n": 96,
+          "correct": 56
+        },
+        "new_test_reordered": {
+          "n": 96,
+          "correct": 50
+        }
+      }
+    },
+    {
+      "run": "R8_FROZEN_s17",
+      "datasets": {
+        "dev": {
+          "n": 96,
+          "correct": 96
+        },
+        "test": {
+          "n": 144,
+          "correct": 144
+        },
+        "r10_regression": {
+          "n": 96,
+          "correct": 48
+        },
+        "r10_regression_short": {
+          "n": 96,
+          "correct": 40
+        },
+        "r10_regression_reordered": {
+          "n": 96,
+          "correct": 24
+        },
+        "r2_regression": {
+          "n": 72,
+          "correct": 72
+        },
+        "r3_regression": {
+          "n": 72,
+          "correct": 72
+        },
+        "r4_regression": {
+          "n": 96,
+          "correct": 64
+        },
+        "r5_regression": {
+          "n": 96,
+          "correct": 96
+        },
+        "r6_regression": {
+          "n": 96,
+          "correct": 88
+        },
+        "r7_regression": {
+          "n": 96,
+          "correct": 56
+        },
+        "r8_regression": {
+          "n": 96,
+          "correct": 48
+        },
+        "r8_regression_short": {
+          "n": 96,
+          "correct": 88
+        },
+        "r9_regression": {
+          "n": 96,
+          "correct": 32
+        },
+        "r9_regression_short": {
+          "n": 96,
+          "correct": 48
+        },
+        "r9_regression_reordered": {
+          "n": 96,
+          "correct": 8
+        },
+        "new_dev": {
+          "n": 72,
+          "correct": 30
+        },
+        "new_test": {
+          "n": 96,
+          "correct": 16
+        },
+        "new_test_short": {
+          "n": 96,
+          "correct": 56
+        },
+        "new_test_reordered": {
+          "n": 96,
+          "correct": 40
+        }
+      }
+    },
+    {
+      "run": "R8_FROZEN_s29",
+      "datasets": {
+        "dev": {
+          "n": 96,
+          "correct": 96
+        },
+        "test": {
+          "n": 144,
+          "correct": 144
+        },
+        "r10_regression": {
+          "n": 96,
+          "correct": 48
+        },
+        "r10_regression_short": {
+          "n": 96,
+          "correct": 72
+        },
+        "r10_regression_reordered": {
+          "n": 96,
+          "correct": 40
+        },
+        "r2_regression": {
+          "n": 72,
+          "correct": 72
+        },
+        "r3_regression": {
+          "n": 72,
+          "correct": 72
+        },
+        "r4_regression": {
+          "n": 96,
+          "correct": 64
+        },
+        "r5_regression": {
+          "n": 96,
+          "correct": 64
+        },
+        "r6_regression": {
+          "n": 96,
+          "correct": 88
+        },
+        "r7_regression": {
+          "n": 96,
+          "correct": 56
+        },
+        "r8_regression": {
+          "n": 96,
+          "correct": 40
+        },
+        "r8_regression_short": {
+          "n": 96,
+          "correct": 88
+        },
+        "r9_regression": {
+          "n": 96,
+          "correct": 32
+        },
+        "r9_regression_short": {
+          "n": 96,
+          "correct": 88
+        },
+        "r9_regression_reordered": {
+          "n": 96,
+          "correct": 32
+        },
+        "new_dev": {
+          "n": 72,
+          "correct": 18
+        },
+        "new_test": {
+          "n": 96,
+          "correct": 16
+        },
+        "new_test_short": {
+          "n": 96,
+          "correct": 40
+        },
+        "new_test_reordered": {
+          "n": 96,
+          "correct": 40
+        }
+      }
+    },
+    {
+      "run": "R8_FROZEN_s43",
+      "datasets": {
+        "dev": {
+          "n": 96,
+          "correct": 96
+        },
+        "test": {
+          "n": 144,
+          "correct": 144
+        },
+        "r10_regression": {
+          "n": 96,
+          "correct": 16
+        },
+        "r10_regression_short": {
+          "n": 96,
+          "correct": 72
+        },
+        "r10_regression_reordered": {
+          "n": 96,
+          "correct": 48
+        },
+        "r2_regression": {
+          "n": 72,
+          "correct": 72
+        },
+        "r3_regression": {
+          "n": 72,
+          "correct": 66
+        },
+        "r4_regression": {
+          "n": 96,
+          "correct": 88
+        },
+        "r5_regression": {
+          "n": 96,
+          "correct": 96
+        },
+        "r6_regression": {
+          "n": 96,
+          "correct": 88
+        },
+        "r7_regression": {
+          "n": 96,
+          "correct": 56
+        },
+        "r8_regression": {
+          "n": 96,
+          "correct": 48
+        },
+        "r8_regression_short": {
+          "n": 96,
+          "correct": 96
+        },
+        "r9_regression": {
+          "n": 96,
+          "correct": 32
+        },
+        "r9_regression_short": {
+          "n": 96,
+          "correct": 72
+        },
+        "r9_regression_reordered": {
+          "n": 96,
+          "correct": 32
+        },
+        "new_dev": {
+          "n": 72,
+          "correct": 30
+        },
+        "new_test": {
+          "n": 96,
+          "correct": 16
+        },
+        "new_test_short": {
+          "n": 96,
+          "correct": 40
+        },
+        "new_test_reordered": {
+          "n": 96,
+          "correct": 40
+        }
+      }
+    },
+    {
+      "run": "SPAN_MIX_s17",
+      "datasets": {
+        "dev": {
+          "n": 96,
+          "correct": 42
+        },
+        "test": {
+          "n": 144,
+          "correct": 121
+        },
+        "r10_regression": {
+          "n": 96,
+          "correct": 40
+        },
+        "r10_regression_short": {
+          "n": 96,
+          "correct": 40
+        },
+        "r10_regression_reordered": {
+          "n": 96,
+          "correct": 40
+        },
+        "r2_regression": {
+          "n": 72,
+          "correct": 66
+        },
+        "r3_regression": {
+          "n": 72,
+          "correct": 36
+        },
+        "r4_regression": {
+          "n": 96,
+          "correct": 64
+        },
+        "r5_regression": {
+          "n": 96,
+          "correct": 96
+        },
+        "r6_regression": {
+          "n": 96,
+          "correct": 88
+        },
+        "r7_regression": {
+          "n": 96,
+          "correct": 44
+        },
+        "r8_regression": {
+          "n": 96,
+          "correct": 8
+        },
+        "r8_regression_short": {
+          "n": 96,
+          "correct": 96
+        },
+        "r9_regression": {
+          "n": 96,
+          "correct": 48
+        },
+        "r9_regression_short": {
+          "n": 96,
+          "correct": 48
+        },
+        "r9_regression_reordered": {
+          "n": 96,
+          "correct": 48
+        },
+        "new_dev": {
+          "n": 72,
+          "correct": 45
+        },
+        "new_test": {
+          "n": 96,
+          "correct": 56
+        },
+        "new_test_short": {
+          "n": 96,
+          "correct": 56
+        },
+        "new_test_reordered": {
+          "n": 96,
+          "correct": 56
+        }
+      }
+    },
+    {
+      "run": "SPAN_MIX_s29",
+      "datasets": {
+        "dev": {
+          "n": 96,
+          "correct": 65
+        },
+        "test": {
+          "n": 144,
+          "correct": 144
+        },
+        "r10_regression": {
+          "n": 96,
+          "correct": 72
+        },
+        "r10_regression_short": {
+          "n": 96,
+          "correct": 72
+        },
+        "r10_regression_reordered": {
+          "n": 96,
+          "correct": 71
+        },
+        "r2_regression": {
+          "n": 72,
+          "correct": 66
+        },
+        "r3_regression": {
+          "n": 72,
+          "correct": 36
+        },
+        "r4_regression": {
+          "n": 96,
+          "correct": 48
+        },
+        "r5_regression": {
+          "n": 96,
+          "correct": 11
+        },
+        "r6_regression": {
+          "n": 96,
+          "correct": 88
+        },
+        "r7_regression": {
+          "n": 96,
+          "correct": 51
+        },
+        "r8_regression": {
+          "n": 96,
+          "correct": 8
+        },
+        "r8_regression_short": {
+          "n": 96,
+          "correct": 96
+        },
+        "r9_regression": {
+          "n": 96,
+          "correct": 88
+        },
+        "r9_regression_short": {
+          "n": 96,
+          "correct": 88
+        },
+        "r9_regression_reordered": {
+          "n": 96,
+          "correct": 88
+        },
+        "new_dev": {
+          "n": 72,
+          "correct": 43
+        },
+        "new_test": {
+          "n": 96,
+          "correct": 40
+        },
+        "new_test_short": {
+          "n": 96,
+          "correct": 40
+        },
+        "new_test_reordered": {
+          "n": 96,
+          "correct": 40
+        }
+      }
+    },
+    {
+      "run": "SPAN_MIX_s43",
+      "datasets": {
+        "dev": {
+          "n": 96,
+          "correct": 52
+        },
+        "test": {
+          "n": 144,
+          "correct": 144
+        },
+        "r10_regression": {
+          "n": 96,
+          "correct": 72
+        },
+        "r10_regression_short": {
+          "n": 96,
+          "correct": 72
+        },
+        "r10_regression_reordered": {
+          "n": 96,
+          "correct": 72
+        },
+        "r2_regression": {
+          "n": 72,
+          "correct": 72
+        },
+        "r3_regression": {
+          "n": 72,
+          "correct": 36
+        },
+        "r4_regression": {
+          "n": 96,
+          "correct": 45
+        },
+        "r5_regression": {
+          "n": 96,
+          "correct": 96
+        },
+        "r6_regression": {
+          "n": 96,
+          "correct": 0
+        },
+        "r7_regression": {
+          "n": 96,
+          "correct": 8
+        },
+        "r8_regression": {
+          "n": 96,
+          "correct": 8
+        },
+        "r8_regression_short": {
+          "n": 96,
+          "correct": 0
+        },
+        "r9_regression": {
+          "n": 96,
+          "correct": 72
+        },
+        "r9_regression_short": {
+          "n": 96,
+          "correct": 72
+        },
+        "r9_regression_reordered": {
+          "n": 96,
+          "correct": 72
+        },
+        "new_dev": {
+          "n": 72,
+          "correct": 42
+        },
+        "new_test": {
+          "n": 96,
+          "correct": 40
+        },
+        "new_test_short": {
+          "n": 96,
+          "correct": 40
+        },
+        "new_test_reordered": {
+          "n": 96,
+          "correct": 16
+        }
+      }
+    },
+    {
+      "run": "SPAN_NEW_s17",
+      "datasets": {
+        "dev": {
+          "n": 96,
+          "correct": 52
+        },
+        "test": {
+          "n": 144,
+          "correct": 106
+        },
+        "r10_regression": {
+          "n": 96,
+          "correct": 40
+        },
+        "r10_regression_short": {
+          "n": 96,
+          "correct": 40
+        },
+        "r10_regression_reordered": {
+          "n": 96,
+          "correct": 16
+        },
+        "r2_regression": {
+          "n": 72,
+          "correct": 32
+        },
+        "r3_regression": {
+          "n": 72,
+          "correct": 6
+        },
+        "r4_regression": {
+          "n": 96,
+          "correct": 64
+        },
+        "r5_regression": {
+          "n": 96,
+          "correct": 8
+        },
+        "r6_regression": {
+          "n": 96,
+          "correct": 88
+        },
+        "r7_regression": {
+          "n": 96,
+          "correct": 56
+        },
+        "r8_regression": {
+          "n": 96,
+          "correct": 88
+        },
+        "r8_regression_short": {
+          "n": 96,
+          "correct": 96
+        },
+        "r9_regression": {
+          "n": 96,
+          "correct": 40
+        },
+        "r9_regression_short": {
+          "n": 96,
+          "correct": 48
+        },
+        "r9_regression_reordered": {
+          "n": 96,
+          "correct": 40
+        },
+        "new_dev": {
+          "n": 72,
+          "correct": 48
+        },
+        "new_test": {
+          "n": 96,
+          "correct": 56
+        },
+        "new_test_short": {
+          "n": 96,
+          "correct": 56
+        },
+        "new_test_reordered": {
+          "n": 96,
+          "correct": 40
+        }
+      }
+    },
+    {
+      "run": "SPAN_NEW_s29",
+      "datasets": {
+        "dev": {
+          "n": 96,
+          "correct": 56
+        },
+        "test": {
+          "n": 144,
+          "correct": 72
+        },
+        "r10_regression": {
+          "n": 96,
+          "correct": 72
+        },
+        "r10_regression_short": {
+          "n": 96,
+          "correct": 72
+        },
+        "r10_regression_reordered": {
+          "n": 96,
+          "correct": 56
+        },
+        "r2_regression": {
+          "n": 72,
+          "correct": 66
+        },
+        "r3_regression": {
+          "n": 72,
+          "correct": 56
+        },
+        "r4_regression": {
+          "n": 96,
+          "correct": 48
+        },
+        "r5_regression": {
+          "n": 96,
+          "correct": 8
+        },
+        "r6_regression": {
+          "n": 96,
+          "correct": 88
+        },
+        "r7_regression": {
+          "n": 96,
+          "correct": 16
+        },
+        "r8_regression": {
+          "n": 96,
+          "correct": 8
+        },
+        "r8_regression_short": {
+          "n": 96,
+          "correct": 94
+        },
+        "r9_regression": {
+          "n": 96,
+          "correct": 88
+        },
+        "r9_regression_short": {
+          "n": 96,
+          "correct": 88
+        },
+        "r9_regression_reordered": {
+          "n": 96,
+          "correct": 87
+        },
+        "new_dev": {
+          "n": 72,
+          "correct": 48
+        },
+        "new_test": {
+          "n": 96,
+          "correct": 40
+        },
+        "new_test_short": {
+          "n": 96,
+          "correct": 56
+        },
+        "new_test_reordered": {
+          "n": 96,
+          "correct": 24
+        }
+      }
+    },
+    {
+      "run": "SPAN_NEW_s43",
+      "datasets": {
+        "dev": {
+          "n": 96,
+          "correct": 56
+        },
+        "test": {
+          "n": 144,
+          "correct": 72
+        },
+        "r10_regression": {
+          "n": 96,
+          "correct": 72
+        },
+        "r10_regression_short": {
+          "n": 96,
+          "correct": 72
+        },
+        "r10_regression_reordered": {
+          "n": 96,
+          "correct": 48
+        },
+        "r2_regression": {
+          "n": 72,
+          "correct": 72
+        },
+        "r3_regression": {
+          "n": 72,
+          "correct": 55
+        },
+        "r4_regression": {
+          "n": 96,
+          "correct": 79
+        },
+        "r5_regression": {
+          "n": 96,
+          "correct": 96
+        },
+        "r6_regression": {
+          "n": 96,
+          "correct": 88
+        },
+        "r7_regression": {
+          "n": 96,
+          "correct": 51
+        },
+        "r8_regression": {
+          "n": 96,
+          "correct": 8
+        },
+        "r8_regression_short": {
+          "n": 96,
+          "correct": 90
+        },
+        "r9_regression": {
+          "n": 96,
+          "correct": 72
+        },
+        "r9_regression_short": {
+          "n": 96,
+          "correct": 64
+        },
+        "r9_regression_reordered": {
+          "n": 96,
+          "correct": 48
+        },
+        "new_dev": {
+          "n": 72,
+          "correct": 48
+        },
+        "new_test": {
+          "n": 96,
+          "correct": 40
+        },
+        "new_test_short": {
+          "n": 96,
+          "correct": 56
+        },
+        "new_test_reordered": {
+          "n": 96,
+          "correct": 16
+        }
+      }
+    },
+    {
+      "run": "TOKEN_MIX_s17",
+      "datasets": {
+        "dev": {
+          "n": 96,
+          "correct": 96
+        },
+        "test": {
+          "n": 144,
+          "correct": 144
+        },
+        "r10_regression": {
+          "n": 96,
+          "correct": 59
+        },
+        "r10_regression_short": {
+          "n": 96,
+          "correct": 40
+        },
+        "r10_regression_reordered": {
+          "n": 96,
+          "correct": 64
+        },
+        "r2_regression": {
+          "n": 72,
+          "correct": 72
+        },
+        "r3_regression": {
+          "n": 72,
+          "correct": 6
+        },
+        "r4_regression": {
+          "n": 96,
+          "correct": 45
+        },
+        "r5_regression": {
+          "n": 96,
+          "correct": 13
+        },
+        "r6_regression": {
+          "n": 96,
+          "correct": 41
+        },
+        "r7_regression": {
+          "n": 96,
+          "correct": 8
+        },
+        "r8_regression": {
+          "n": 96,
+          "correct": 72
+        },
+        "r8_regression_short": {
+          "n": 96,
+          "correct": 88
+        },
+        "r9_regression": {
+          "n": 96,
+          "correct": 41
+        },
+        "r9_regression_short": {
+          "n": 96,
+          "correct": 68
+        },
+        "r9_regression_reordered": {
+          "n": 96,
+          "correct": 45
+        },
+        "new_dev": {
+          "n": 72,
+          "correct": 48
+        },
+        "new_test": {
+          "n": 96,
+          "correct": 56
+        },
+        "new_test_short": {
+          "n": 96,
+          "correct": 56
+        },
+        "new_test_reordered": {
+          "n": 96,
+          "correct": 72
+        }
+      }
+    },
+    {
+      "run": "TOKEN_MIX_s29",
+      "datasets": {
+        "dev": {
+          "n": 96,
+          "correct": 96
+        },
+        "test": {
+          "n": 144,
+          "correct": 144
+        },
+        "r10_regression": {
+          "n": 96,
+          "correct": 64
+        },
+        "r10_regression_short": {
+          "n": 96,
+          "correct": 72
+        },
+        "r10_regression_reordered": {
+          "n": 96,
+          "correct": 55
+        },
+        "r2_regression": {
+          "n": 72,
+          "correct": 71
+        },
+        "r3_regression": {
+          "n": 72,
+          "correct": 5
+        },
+        "r4_regression": {
+          "n": 96,
+          "correct": 35
+        },
+        "r5_regression": {
+          "n": 96,
+          "correct": 8
+        },
+        "r6_regression": {
+          "n": 96,
+          "correct": 8
+        },
+        "r7_regression": {
+          "n": 96,
+          "correct": 16
+        },
+        "r8_regression": {
+          "n": 96,
+          "correct": 58
+        },
+        "r8_regression_short": {
+          "n": 96,
+          "correct": 28
+        },
+        "r9_regression": {
+          "n": 96,
+          "correct": 47
+        },
+        "r9_regression_short": {
+          "n": 96,
+          "correct": 62
+        },
+        "r9_regression_reordered": {
+          "n": 96,
+          "correct": 50
+        },
+        "new_dev": {
+          "n": 72,
+          "correct": 48
+        },
+        "new_test": {
+          "n": 96,
+          "correct": 56
+        },
+        "new_test_short": {
+          "n": 96,
+          "correct": 40
+        },
+        "new_test_reordered": {
+          "n": 96,
+          "correct": 56
+        }
+      }
+    },
+    {
+      "run": "TOKEN_MIX_s43",
+      "datasets": {
+        "dev": {
+          "n": 96,
+          "correct": 96
+        },
+        "test": {
+          "n": 144,
+          "correct": 144
+        },
+        "r10_regression": {
+          "n": 96,
+          "correct": 64
+        },
+        "r10_regression_short": {
+          "n": 96,
+          "correct": 64
+        },
+        "r10_regression_reordered": {
+          "n": 96,
+          "correct": 56
+        },
+        "r2_regression": {
+          "n": 72,
+          "correct": 72
+        },
+        "r3_regression": {
+          "n": 72,
+          "correct": 36
+        },
+        "r4_regression": {
+          "n": 96,
+          "correct": 15
+        },
+        "r5_regression": {
+          "n": 96,
+          "correct": 6
+        },
+        "r6_regression": {
+          "n": 96,
+          "correct": 82
+        },
+        "r7_regression": {
+          "n": 96,
+          "correct": 41
+        },
+        "r8_regression": {
+          "n": 96,
+          "correct": 74
+        },
+        "r8_regression_short": {
+          "n": 96,
+          "correct": 32
+        },
+        "r9_regression": {
+          "n": 96,
+          "correct": 32
+        },
+        "r9_regression_short": {
+          "n": 96,
+          "correct": 48
+        },
+        "r9_regression_reordered": {
+          "n": 96,
+          "correct": 47
+        },
+        "new_dev": {
+          "n": 72,
+          "correct": 44
+        },
+        "new_test": {
+          "n": 96,
+          "correct": 55
+        },
+        "new_test_short": {
+          "n": 96,
+          "correct": 56
+        },
+        "new_test_reordered": {
+          "n": 96,
+          "correct": 56
+        }
+      }
+    },
+    {
+      "run": "TOKEN_NEW_s17",
+      "datasets": {
+        "dev": {
+          "n": 96,
+          "correct": 67
+        },
+        "test": {
+          "n": 144,
+          "correct": 116
+        },
+        "r10_regression": {
+          "n": 96,
+          "correct": 64
+        },
+        "r10_regression_short": {
+          "n": 96,
+          "correct": 71
+        },
+        "r10_regression_reordered": {
+          "n": 96,
+          "correct": 42
+        },
+        "r2_regression": {
+          "n": 72,
+          "correct": 54
+        },
+        "r3_regression": {
+          "n": 72,
+          "correct": 50
+        },
+        "r4_regression": {
+          "n": 96,
+          "correct": 50
+        },
+        "r5_regression": {
+          "n": 96,
+          "correct": 32
+        },
+        "r6_regression": {
+          "n": 96,
+          "correct": 72
+        },
+        "r7_regression": {
+          "n": 96,
+          "correct": 37
+        },
+        "r8_regression": {
+          "n": 96,
+          "correct": 59
+        },
+        "r8_regression_short": {
+          "n": 96,
+          "correct": 64
+        },
+        "r9_regression": {
+          "n": 96,
+          "correct": 56
+        },
+        "r9_regression_short": {
+          "n": 96,
+          "correct": 46
+        },
+        "r9_regression_reordered": {
+          "n": 96,
+          "correct": 32
+        },
+        "new_dev": {
+          "n": 72,
+          "correct": 42
+        },
+        "new_test": {
+          "n": 96,
+          "correct": 55
+        },
+        "new_test_short": {
+          "n": 96,
+          "correct": 56
+        },
+        "new_test_reordered": {
+          "n": 96,
+          "correct": 51
+        }
+      }
+    },
+    {
+      "run": "TOKEN_NEW_s29",
+      "datasets": {
+        "dev": {
+          "n": 96,
+          "correct": 88
+        },
+        "test": {
+          "n": 144,
+          "correct": 87
+        },
+        "r10_regression": {
+          "n": 96,
+          "correct": 55
+        },
+        "r10_regression_short": {
+          "n": 96,
+          "correct": 64
+        },
+        "r10_regression_reordered": {
+          "n": 96,
+          "correct": 56
+        },
+        "r2_regression": {
+          "n": 72,
+          "correct": 51
+        },
+        "r3_regression": {
+          "n": 72,
+          "correct": 23
+        },
+        "r4_regression": {
+          "n": 96,
+          "correct": 65
+        },
+        "r5_regression": {
+          "n": 96,
+          "correct": 8
+        },
+        "r6_regression": {
+          "n": 96,
+          "correct": 71
+        },
+        "r7_regression": {
+          "n": 96,
+          "correct": 53
+        },
+        "r8_regression": {
+          "n": 96,
+          "correct": 32
+        },
+        "r8_regression_short": {
+          "n": 96,
+          "correct": 78
+        },
+        "r9_regression": {
+          "n": 96,
+          "correct": 55
+        },
+        "r9_regression_short": {
+          "n": 96,
+          "correct": 79
+        },
+        "r9_regression_reordered": {
+          "n": 96,
+          "correct": 56
+        },
+        "new_dev": {
+          "n": 72,
+          "correct": 48
+        },
+        "new_test": {
+          "n": 96,
+          "correct": 48
+        },
+        "new_test_short": {
+          "n": 96,
+          "correct": 56
+        },
+        "new_test_reordered": {
+          "n": 96,
+          "correct": 55
+        }
+      }
+    },
+    {
+      "run": "TOKEN_NEW_s43",
+      "datasets": {
+        "dev": {
+          "n": 96,
+          "correct": 8
+        },
+        "test": {
+          "n": 144,
+          "correct": 8
+        },
+        "r10_regression": {
+          "n": 96,
+          "correct": 56
+        },
+        "r10_regression_short": {
+          "n": 96,
+          "correct": 72
+        },
+        "r10_regression_reordered": {
+          "n": 96,
+          "correct": 51
+        },
+        "r2_regression": {
+          "n": 72,
+          "correct": 46
+        },
+        "r3_regression": {
+          "n": 72,
+          "correct": 42
+        },
+        "r4_regression": {
+          "n": 96,
+          "correct": 53
+        },
+        "r5_regression": {
+          "n": 96,
+          "correct": 71
+        },
+        "r6_regression": {
+          "n": 96,
+          "correct": 67
+        },
+        "r7_regression": {
+          "n": 96,
+          "correct": 44
+        },
+        "r8_regression": {
+          "n": 96,
+          "correct": 53
+        },
+        "r8_regression_short": {
+          "n": 96,
+          "correct": 64
+        },
+        "r9_regression": {
+          "n": 96,
+          "correct": 40
+        },
+        "r9_regression_short": {
+          "n": 96,
+          "correct": 38
+        },
+        "r9_regression_reordered": {
+          "n": 96,
+          "correct": 40
+        },
+        "new_dev": {
+          "n": 72,
+          "correct": 54
+        },
+        "new_test": {
+          "n": 96,
+          "correct": 56
+        },
+        "new_test_short": {
+          "n": 96,
+          "correct": 72
+        },
+        "new_test_reordered": {
+          "n": 96,
+          "correct": 40
+        }
+      }
+    }
+  ],
+  "checks_passed": true
+}

@@ -1,0 +1,188 @@
+{
+  "condition": {
+    "n": 20,
+    "accuracy": 0.75,
+    "macro_f1": 0.769423558897243,
+    "per_class": {
+      "T": {
+        "support": 5,
+        "predicted": 9,
+        "recall": 1.0,
+        "f1": 0.7142857142857143
+      },
+      "F": {
+        "support": 12,
+        "predicted": 7,
+        "recall": 0.5833333333333334,
+        "f1": 0.7368421052631579
+      },
+      "U": {
+        "support": 3,
+        "predicted": 4,
+        "recall": 1.0,
+        "f1": 0.8571428571428571
+      }
+    },
+    "unknown_to_established": 0,
+    "unknown_to_not_established": 0,
+    "U_forced": 0,
+    "invalid": 0
+  },
+  "conditional_grade": {
+    "n": 7,
+    "accuracy": 0.0,
+    "macro_f1": 0.0,
+    "per_class": {
+      "low": {
+        "support": 0,
+        "predicted": 0,
+        "recall": null,
+        "f1": 0.0
+      },
+      "medium": {
+        "support": 3,
+        "predicted": 0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "high": {
+        "support": 4,
+        "predicted": 0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "critical": {
+        "support": 0,
+        "predicted": 7,
+        "recall": null,
+        "f1": 0.0
+      }
+    },
+    "unknown_to_established": 0,
+    "unknown_to_not_established": 0,
+    "U_forced": 0,
+    "invalid": 0
+  },
+  "matter_grade": {
+    "n": 15,
+    "accuracy": 0.4666666666666667,
+    "macro_f1": 0.1590909090909091,
+    "per_class": {
+      "low": {
+        "support": 3,
+        "predicted": 0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "medium": {
+        "support": 4,
+        "predicted": 0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "high": {
+        "support": 8,
+        "predicted": 14,
+        "recall": 0.875,
+        "f1": 0.6363636363636364
+      },
+      "critical": {
+        "support": 0,
+        "predicted": 1,
+        "recall": null,
+        "f1": 0.0
+      }
+    },
+    "unknown_to_established": 0,
+    "unknown_to_not_established": 0,
+    "U_forced": 0,
+    "invalid": 0
+  },
+  "qa": {
+    "n": 19,
+    "accuracy": 0.8421052631578947,
+    "macro_f1": 0.8666666666666667,
+    "per_class": {
+      "T": {
+        "support": 6,
+        "predicted": 9,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      "F": {
+        "support": 9,
+        "predicted": 6,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      },
+      "U": {
+        "support": 4,
+        "predicted": 4,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "unknown_to_established": 0,
+    "unknown_to_not_established": 0,
+    "U_forced": 0,
+    "invalid": 0
+  },
+  "relation": {
+    "n": 9,
+    "accuracy": 0.5555555555555556,
+    "macro_f1": 0.37777777777777777,
+    "per_class": {
+      "support": {
+        "support": 4,
+        "predicted": 6,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      "refute": {
+        "support": 0,
+        "predicted": 2,
+        "recall": null,
+        "f1": 0.0
+      },
+      "irrelevant": {
+        "support": 5,
+        "predicted": 1,
+        "recall": 0.2,
+        "f1": 0.3333333333333333
+      }
+    },
+    "unknown_to_established": 0,
+    "unknown_to_not_established": 0,
+    "U_forced": 0,
+    "invalid": 0
+  },
+  "risk_status": {
+    "n": 16,
+    "accuracy": 0.75,
+    "macro_f1": 0.7316017316017316,
+    "per_class": {
+      "established": {
+        "support": 8,
+        "predicted": 6,
+        "recall": 0.625,
+        "f1": 0.7142857142857143
+      },
+      "not_established": {
+        "support": 2,
+        "predicted": 5,
+        "recall": 1.0,
+        "f1": 0.5714285714285714
+      },
+      "unknown": {
+        "support": 6,
+        "predicted": 5,
+        "recall": 0.8333333333333334,
+        "f1": 0.9090909090909091
+      }
+    },
+    "unknown_to_established": 1,
+    "unknown_to_not_established": 0,
+    "U_forced": 0,
+    "invalid": 0
+  }
+}

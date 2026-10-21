@@ -1,0 +1,40 @@
+﻿文件,类型,记录数,划分统计,内部集合,大小_字节,SHA256
+01_Professional_Training_Data/gold_train.jsonl,数据或标注,77,"{""train"": 77}",{},1914469,c62951258b192a8c74c464a69c38515903d7e3130fda177295b7bdd1b2e7784f
+01_Professional_Training_Data/internal_dev.jsonl,数据或标注,9,"{""internal_dev"": 9}",{},158519,e2a1b171a9aa308d60c427bbc1fa71ee23f3511d85c17b9c5defcee07eb17d4d
+01_Professional_Training_Data/labor_auxiliary.jsonl,数据或标注,1657,"{""aux_train"": 1657}",{},3043037,062143e0b5f341f5a8e25fff95250bb530941f7793fe81fb512a0f5e880b6b7f
+02_Experiment_1_Conditional_Judgment/famu_v5_20261004/examples.jsonl,数据或标注,1213,"{""train"": 948, ""test"": 128, ""dev"": 128, ""regression"": 9}",{},3911526,e745301ef789f47e2ce96a3301471bd309d8d355cce3ad0f9326b14a535cfc71
+02_Experiment_1_Conditional_Judgment/famu_v5_20261004/manifest.json,数据说明及历史清单,,{},{},2424,b6c9553d35d476869ca0dfa9ed3022502e1a0bf9da5cbd1b8fb23f9335b2c060
+02_Experiment_1_Conditional_Judgment/famu_v5_20261004/pairs.jsonl,数据或标注,576,"{""train"": 384, ""test"": 96, ""dev"": 96}",{},54144,9deba1f2cccc2daad5bcfdd6bf90aef411ffd9adeefab1844a321dcc9d57aec4
+02_Experiment_1_Conditional_Judgment/famu_v5_20261004_stress/examples.jsonl,数据或标注,256,"{""shift_test"": 256}",{},434001,58ed50ed4ffa3210a8424fabcb66f772ba0137e51f5bda1b150215cbc9d9d6c2
+02_Experiment_1_Conditional_Judgment/famu_v5_20261004_stress/manifest.json,数据说明及历史清单,,{},{},321,116fb3c3f0351577b7266f2dba8593cfeac04565e38da870bfaebcfab8554272
+03_Experiment_2_Evidence_Binding/famu_v4_20261003/gold_train.jsonl,数据或标注,77,"{""train"": 77}",{},1914546,5811ca85517ffabd6f0c2fcf96390db42d543319d073b7c8f1a19c887bf149db
+03_Experiment_2_Evidence_Binding/famu_v4_20261003/internal_dev.jsonl,数据或标注,9,"{""internal_dev"": 9}",{},158528,63d92921c6ccfe2ff43007ff5207410a588964b5c089f5bb1cdbd778680c97bf
+03_Experiment_2_Evidence_Binding/famu_v8_20261005/manifest.json,数据说明及历史清单,,{},{},1804,50ff8918f267d31e2723ced535b85247ea00bb9487d23eb41253296f9d72ecaf
+03_Experiment_2_Evidence_Binding/famu_v8_20261005/regression9.jsonl,数据或标注,9,"{""internal_dev"": 9}",{},158528,63d92921c6ccfe2ff43007ff5207410a588964b5c089f5bb1cdbd778680c97bf
+03_Experiment_2_Evidence_Binding/famu_v8_20261005/replay77.jsonl,数据或标注,77,"{""train"": 77}",{},1914546,5811ca85517ffabd6f0c2fcf96390db42d543319d073b7c8f1a19c887bf149db
+03_Experiment_2_Evidence_Binding/famu_v8_20261005/scenes.jsonl,数据或标注,672,"{""train"": 432, ""dev"": 96, ""test"": 144}",{},6611230,68f025ffee38a04e72ff2d5c0e297f0c659b356b226904ce90a2a1fdd781251b
+04_Real_Material_Evaluation/gold_keys.jsonl,数据或标注,28,"{""development"": 10, ""test_reserved"": 18}",{},69205,31fef62b51fcdbcf99ba406761f851379a53e6f7b00c83b08e15a0948755af53
+04_Real_Material_Evaluation/public_inputs.jsonl,数据或标注,28,"{""development"": 10, ""test_reserved"": 18}",{},137501,f61325b53fbe36e412347d07fa7b283cc3a2f6a4aaa79a2b2b7c1a445793b0e1
+05_Student_Model_Data/contrast_pairs.json,数据或标注,16704,"{""未单列split字段"": 16704}",{},13153435,9185c2851dcfec2c15707a76bdb7b45664ae917af75ab13cacefa65ab55438b9
+05_Student_Model_Data/fit.json,数据或标注,19204,"{""未单列split字段"": 19204}","{""original"": 2500, ""recombined"": 16704}",17576673,015ff703d8de5af23711e960617c6f93f7c0a579d823d99ffbe7f9cb8bfe340e
+05_Student_Model_Data/historical.json,数据或标注,672,"{""train"": 432, ""dev"": 96, ""test"": 144}",{},7804449,20a05cbd1db2e590c93dd46f293c89670b71fed4f38dc7f7918643c7154b3a09
+05_Student_Model_Data/language_pairs.json,数据或标注,18432,"{""未单列split字段"": 18432}",{},15336003,3aacc5c5011e1ce147728d2df990259dbdf89044dec9f9631a78d16a051f4a69
+05_Student_Model_Data/long_pairs.json,数据或标注,6144,"{""未单列split字段"": 6144}",{},13880211,ce8244bee3c6f6a4a065500d7ede7dbca27754eb3baa86b1ecd24f90d7991fdf
+05_Student_Model_Data/new_scenes.json,数据或标注,1512,"{""train"": 1152, ""dev"": 72, ""test"": 96, ""test_short"": 96, ""test_reordered"": 96}",{},8109065,f4c5104cce39f808129080ff62567f9946c23d6bbf692679ec8869c117547404
+05_Student_Model_Data/paragraphs.json,数据或标注,4056,"{""未单列split字段"": 4056}",{},3262006,f78f716a7aeed6cdf121f12154acd6bbbb99469523156f504bdff6fe449a0167
+05_Student_Model_Data/r10_regression.json,数据或标注,96,"{""test"": 96}",{},548099,5ac738ad51be423dca483a31e38e041ee1efaaf45afba610f6f1e2d958d58f6c
+05_Student_Model_Data/r10_regression_reordered.json,数据或标注,96,"{""test_reordered"": 96}",{},571803,11bb37da5f7861dd083ba79eeb75290cde2d00ee832ed140525874613a82cd47
+05_Student_Model_Data/r10_regression_short.json,数据或标注,96,"{""test_short"": 96}",{},435603,a4538c499487705e389be71ce262839672512bcb1e15329ead4efbf70133c840
+05_Student_Model_Data/r2_regression.json,数据或标注,72,"{""challenge"": 72}",{},219819,23e5f79c73ad6a792b2f46638f298d220b490c6420a5104cbb788deaefd958f9
+05_Student_Model_Data/r3_regression.json,数据或标注,72,"{""test"": 72}",{},247821,75a35e9b14a9e9c3ef21e91d786f359e240d156cc4c753d8ecae0a4faa89ddce
+05_Student_Model_Data/r4_regression.json,数据或标注,96,"{""test"": 96}",{},331227,1692de700513981f01c78a2f1ca990a6d47a8de5a5128d8c533c64badd3a4e17
+05_Student_Model_Data/r5_regression.json,数据或标注,96,"{""test"": 96}",{},337523,47888a20d2699edf8d4792a60c38e43cf20dcdb589914519e5071cdb850a3c02
+05_Student_Model_Data/r6_regression.json,数据或标注,96,"{""test"": 96}",{},336587,354e2fa0fd873dd041f59c3204fe4833c844a24307d54f5633aab6ef3ab81866
+05_Student_Model_Data/r7_regression.json,数据或标注,96,"{""test"": 96}",{},345115,172b15e9dd7b960afc4e97020cf58bc9a8c0821302a11154684591fcbc5f3917
+05_Student_Model_Data/r8_regression.json,数据或标注,96,"{""test"": 96}",{},393811,4546686926f43e6148b1a2c2bd68be8de34993c92daa00670e2eb67d813ad72e
+05_Student_Model_Data/r8_regression_short.json,数据或标注,96,"{""test_short"": 96}",{},335163,3e775363602dd78e9c3a4999e1432f364eed80c11533ef08740ab4a57ccbc288
+05_Student_Model_Data/r9_regression.json,数据或标注,96,"{""test"": 96}",{},517291,7f3f47dc63e1a7312025aa5ebceba32c6060e6f9665e61d48efdae74831722a0
+05_Student_Model_Data/r9_regression_reordered.json,数据或标注,96,"{""test_reordered"": 96}",{},542059,06feb4ae493d3d1085e1c1e0d5734e4394c7fcc368e832feee9a9be9ad0c77b6
+05_Student_Model_Data/r9_regression_short.json,数据或标注,96,"{""test_short"": 96}",{},394603,1920bff275bc84fafb09a79287e1441321a325c5463de5bd1c0602c9bd992ad8
+05_Student_Model_Data/r9_training_pairs.json,数据或标注,6144,"{""未单列split字段"": 6144}",{},14135475,b713bbffd5106221bbfc0a08804428a18954916b7587ff0c1cd0e31b6b053c15
+05_Student_Model_Data/selector_paragraphs.json,数据或标注,2256,"{""未单列split字段"": 2256}",{},1712996,e6c70e8f8bb309c8918ec1b6bd014672b3991bd9c3b7b11e85534203094ac1cc

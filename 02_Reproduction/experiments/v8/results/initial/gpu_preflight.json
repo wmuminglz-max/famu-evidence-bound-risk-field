@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "mask_abs_diff": 0.0,
+  "backward_probes": [
+    {
+      "kind": "D0_direct",
+      "id": "V8-train-002-time-2",
+      "tokens": 3946,
+      "loss": 0.4230712354183197,
+      "grad_norm": 23.939437866210938
+    },
+    {
+      "kind": "E1_bound",
+      "id": "V8-train-002-exception-0",
+      "tokens": 4078,
+      "loss": 0.0978429913520813,
+      "grad_norm": 3.4108500480651855
+    },
+    {
+      "kind": "replay",
+      "id": "TR029",
+      "tokens": 10131,
+      "loss": 0.24637015163898468,
+      "grad_norm": 10.901732444763184
+    }
+  ],
+  "optimizer_updates": 0
+}

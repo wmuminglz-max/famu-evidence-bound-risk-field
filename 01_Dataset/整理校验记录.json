@@ -1,0 +1,9 @@
+{
+  "copied_source_files": 39,
+  "all_copies_byte_identical": true,
+  "json_parse_passed": true,
+  "real_input_and_gold_pairs": 28,
+  "real_input_hash_and_evidence_reference_checks": true,
+  "source_release_sha256_matched": true,
+  "new_deidentification_changes": false
+}

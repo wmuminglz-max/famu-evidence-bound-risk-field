@@ -1,0 +1,210 @@
+[
+  {
+    "id": "TR006",
+    "task": "risk_status",
+    "split": "train",
+    "gold": "established",
+    "prediction": "established",
+    "mean_full_JSON_EOS_log_probability": {
+      "established": -4.904572506347904e-06,
+      "not_established": -1.283625841140747,
+      "unknown": -1.9748133420944214
+    },
+    "calibrated_probability": false
+  },
+  {
+    "id": "TR012",
+    "task": "risk_status",
+    "split": "train",
+    "gold": "unknown",
+    "prediction": "unknown",
+    "mean_full_JSON_EOS_log_probability": {
+      "established": -1.8220046758651733,
+      "not_established": -1.4682621955871582,
+      "unknown": -2.1457610728248255e-06
+    },
+    "calibrated_probability": false
+  },
+  {
+    "id": "TR026",
+    "task": "risk_status",
+    "split": "train",
+    "gold": "established",
+    "prediction": "established",
+    "mean_full_JSON_EOS_log_probability": {
+      "established": -5.921844785916619e-05,
+      "not_established": -0.943720281124115,
+      "unknown": -1.4295231103897095
+    },
+    "calibrated_probability": false
+  },
+  {
+    "id": "TR034",
+    "task": "risk_status",
+    "split": "train",
+    "gold": "unknown",
+    "prediction": "unknown",
+    "mean_full_JSON_EOS_log_probability": {
+      "established": -1.432369351387024,
+      "not_established": -1.1713038682937622,
+      "unknown": -1.305297246290138e-05
+    },
+    "calibrated_probability": false
+  },
+  {
+    "id": "TR041",
+    "task": "risk_status",
+    "split": "train",
+    "gold": "established",
+    "prediction": "established",
+    "mean_full_JSON_EOS_log_probability": {
+      "established": -9.04266198631376e-06,
+      "not_established": -1.1378810405731201,
+      "unknown": -1.8422060012817383
+    },
+    "calibrated_probability": false
+  },
+  {
+    "id": "TR042",
+    "task": "risk_status",
+    "split": "train",
+    "gold": "established",
+    "prediction": "established",
+    "mean_full_JSON_EOS_log_probability": {
+      "established": -5.104692536406219e-05,
+      "not_established": -0.962652325630188,
+      "unknown": -1.4475668668746948
+    },
+    "calibrated_probability": false
+  },
+  {
+    "id": "TR049",
+    "task": "risk_status",
+    "split": "train",
+    "gold": "established",
+    "prediction": "established",
+    "mean_full_JSON_EOS_log_probability": {
+      "established": -5.10301542817615e-05,
+      "not_established": -0.9745742082595825,
+      "unknown": -1.434447169303894
+    },
+    "calibrated_probability": false
+  },
+  {
+    "id": "TR061",
+    "task": "risk_status",
+    "split": "train",
+    "gold": "established",
+    "prediction": "established",
+    "mean_full_JSON_EOS_log_probability": {
+      "established": -0.00013033974391873926,
+      "not_established": -0.8217122554779053,
+      "unknown": -1.3652124404907227
+    },
+    "calibrated_probability": false
+  },
+  {
+    "id": "TR066",
+    "task": "risk_status",
+    "split": "train",
+    "gold": "not_established",
+    "prediction": "not_established",
+    "mean_full_JSON_EOS_log_probability": {
+      "established": -0.8998876214027405,
+      "not_established": -0.00022012364934198558,
+      "unknown": -1.5801979303359985
+    },
+    "calibrated_probability": false
+  },
+  {
+    "id": "TR067",
+    "task": "risk_status",
+    "split": "train",
+    "gold": "established",
+    "prediction": "established",
+    "mean_full_JSON_EOS_log_probability": {
+      "established": -0.00032383459620177746,
+      "not_established": -0.7127125263214111,
+      "unknown": -1.26233971118927
+    },
+    "calibrated_probability": false
+  },
+  {
+    "id": "TR084",
+    "task": "risk_status",
+    "split": "train",
+    "gold": "unknown",
+    "prediction": "unknown",
+    "mean_full_JSON_EOS_log_probability": {
+      "established": -1.6268306970596313,
+      "not_established": -1.289729118347168,
+      "unknown": -4.4107027861173265e-06
+    },
+    "calibrated_probability": false
+  },
+  {
+    "id": "TR085",
+    "task": "risk_status",
+    "split": "train",
+    "gold": "not_established",
+    "prediction": "not_established",
+    "mean_full_JSON_EOS_log_probability": {
+      "established": -0.9703536033630371,
+      "not_established": -0.0001364668132737279,
+      "unknown": -2.345327377319336
+    },
+    "calibrated_probability": false
+  },
+  {
+    "id": "DV07",
+    "task": "risk_status",
+    "split": "internal_dev",
+    "gold": "unknown",
+    "prediction": "unknown",
+    "mean_full_JSON_EOS_log_probability": {
+      "established": -1.3573589324951172,
+      "not_established": -1.1569678783416748,
+      "unknown": -1.901290670502931e-05
+    },
+    "calibrated_probability": false
+  },
+  {
+    "id": "DV08",
+    "task": "risk_status",
+    "split": "internal_dev",
+    "gold": "unknown",
+    "prediction": "established",
+    "mean_full_JSON_EOS_log_probability": {
+      "established": -0.0020629982464015484,
+      "not_established": -0.5664552450180054,
+      "unknown": -0.8038137555122375
+    },
+    "calibrated_probability": false
+  },
+  {
+    "id": "DV06-TEXT",
+    "task": "risk_status",
+    "split": "internal_dev",
+    "gold": "established",
+    "prediction": "established",
+    "mean_full_JSON_EOS_log_probability": {
+      "established": -0.0014684805646538734,
+      "not_established": -0.5337814092636108,
+      "unknown": -1.0501168966293335
+    },
+    "calibrated_probability": false
+  },
+  {
+    "id": "DV06-ACTUAL",
+    "task": "risk_status",
+    "split": "internal_dev",
+    "gold": "unknown",
+    "prediction": "unknown",
+    "mean_full_JSON_EOS_log_probability": {
+      "established": -1.2752455472946167,
+      "not_established": -0.8581691384315491,
+      "unknown": -0.00010000716429203749
+    },
+    "calibrated_probability": false
+  }
+]

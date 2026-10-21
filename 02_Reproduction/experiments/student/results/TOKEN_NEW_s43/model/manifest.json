@@ -1,0 +1,6 @@
+{
+  "weights.npz": "e225a152b7d015d0f44ff377f3a7b46104e6014e7d5e78108a8cc98437d920e3",
+  "selector.npz": "e416eb75c1de56a549bb56c739f7b18b6ab98dfe60f1f02c3f1c9877874fd77a",
+  "adapter.npz": "4ac4186f174caaa9b29991644bfffd8824f222fb4c823782aa0fbef7be566670",
+  "student_config.json": "69a8c9462c14fe5abc87e6ff0ee1b7417dc663a7ab2a14b06a1c501d9d6d236b"
+}

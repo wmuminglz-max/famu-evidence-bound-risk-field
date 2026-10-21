@@ -1,0 +1,21 @@
+{
+  "host_label": "9b_native",
+  "runtime_root": "/workspace/famu_v8_20261005",
+  "base": "/workspace/famu_20261001/outputs/famu_llm_models/Qwen3.5-9B",
+  "quantization": "BF16, none",
+  "max_new_tokens": 1024,
+  "arms": [
+    {
+      "id": "9b_v8_native_rules_s17",
+      "adapter": "/workspace/famu_v8_20261005/outputs/E1_bound_s17/adapter"
+    },
+    {
+      "id": "9b_v8_native_rules_s29",
+      "adapter": "/workspace/famu_v8_20261005/outputs/E1_bound_s29/adapter"
+    },
+    {
+      "id": "9b_v8_native_rules_s43",
+      "adapter": "/workspace/famu_v8_20261005/outputs/E1_bound_s43/adapter"
+    }
+  ]
+}

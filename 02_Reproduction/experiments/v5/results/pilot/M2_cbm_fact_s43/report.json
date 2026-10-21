@@ -1,0 +1,988 @@
+{
+  "arm": "M2_cbm_fact",
+  "seed": 43,
+  "updates": 240,
+  "all_training_cases_exposures_per_run": 240,
+  "backbone_training": false,
+  "generated_text_evaluation": false,
+  "trainable_parameters": 527560,
+  "groups": {
+    "labor_atom/train": {
+      "n": 390,
+      "correct": 390,
+      "accuracy": 1.0,
+      "macro_f1_3": 1.0,
+      "confusion_order": [
+        "established",
+        "not_established",
+        "unknown",
+        "conflict"
+      ],
+      "confusion": [
+        [
+          130,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          130,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          130,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "per_class": {
+        "established": {
+          "support": 130,
+          "predicted": 130,
+          "recall": 1.0,
+          "precision": 1.0,
+          "f1": 1.0
+        },
+        "not_established": {
+          "support": 130,
+          "predicted": 130,
+          "recall": 1.0,
+          "precision": 1.0,
+          "f1": 1.0
+        },
+        "unknown": {
+          "support": 130,
+          "predicted": 130,
+          "recall": 1.0,
+          "precision": 1.0,
+          "f1": 1.0
+        },
+        "conflict": {
+          "support": 0,
+          "predicted": 0,
+          "recall": null,
+          "precision": null,
+          "f1": null
+        }
+      },
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "field_accuracy": 1.0,
+      "family_all_correct": 1.0,
+      "decisive_coverage": 0.6666666666666666,
+      "accepted_error": 0.0
+    },
+    "synthetic_mechanism/dev": {
+      "n": 128,
+      "correct": 119,
+      "accuracy": 0.9296875,
+      "macro_f1_3": 0.8891789516789518,
+      "confusion_order": [
+        "established",
+        "not_established",
+        "unknown",
+        "conflict"
+      ],
+      "confusion": [
+        [
+          13,
+          0,
+          0,
+          0
+        ],
+        [
+          5,
+          70,
+          2,
+          0
+        ],
+        [
+          1,
+          1,
+          20,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          16
+        ]
+      ],
+      "per_class": {
+        "established": {
+          "support": 13,
+          "predicted": 19,
+          "recall": 1.0,
+          "precision": 0.6842105263157895,
+          "f1": 0.8125
+        },
+        "not_established": {
+          "support": 77,
+          "predicted": 71,
+          "recall": 0.9090909090909091,
+          "precision": 0.9859154929577465,
+          "f1": 0.9459459459459459
+        },
+        "unknown": {
+          "support": 22,
+          "predicted": 22,
+          "recall": 0.9090909090909091,
+          "precision": 0.9090909090909091,
+          "f1": 0.9090909090909091
+        },
+        "conflict": {
+          "support": 16,
+          "predicted": 16,
+          "recall": 1.0,
+          "precision": 1.0,
+          "f1": 1.0
+        }
+      },
+      "unknown_to_established": 1,
+      "unknown_to_not_established": 1,
+      "field_accuracy": 0.966796875,
+      "family_all_correct": 0.75,
+      "decisive_coverage": 0.703125,
+      "accepted_error": 0.07777777777777778
+    },
+    "synthetic_mechanism/test": {
+      "n": 128,
+      "correct": 121,
+      "accuracy": 0.9453125,
+      "macro_f1_3": 0.9069691273638641,
+      "confusion_order": [
+        "established",
+        "not_established",
+        "unknown",
+        "conflict"
+      ],
+      "confusion": [
+        [
+          13,
+          0,
+          0,
+          0
+        ],
+        [
+          5,
+          74,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          18,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          16
+        ]
+      ],
+      "per_class": {
+        "established": {
+          "support": 13,
+          "predicted": 19,
+          "recall": 1.0,
+          "precision": 0.6842105263157895,
+          "f1": 0.8125
+        },
+        "not_established": {
+          "support": 80,
+          "predicted": 74,
+          "recall": 0.925,
+          "precision": 1.0,
+          "f1": 0.961038961038961
+        },
+        "unknown": {
+          "support": 19,
+          "predicted": 19,
+          "recall": 0.9473684210526315,
+          "precision": 0.9473684210526315,
+          "f1": 0.9473684210526315
+        },
+        "conflict": {
+          "support": 16,
+          "predicted": 16,
+          "recall": 1.0,
+          "precision": 1.0,
+          "f1": 1.0
+        }
+      },
+      "unknown_to_established": 1,
+      "unknown_to_not_established": 0,
+      "field_accuracy": 0.9765625,
+      "family_all_correct": 0.6875,
+      "decisive_coverage": 0.7265625,
+      "accepted_error": 0.06451612903225806
+    },
+    "synthetic_mechanism/train": {
+      "n": 512,
+      "correct": 486,
+      "accuracy": 0.94921875,
+      "macro_f1_3": 0.9239622494538593,
+      "confusion_order": [
+        "established",
+        "not_established",
+        "unknown",
+        "conflict"
+      ],
+      "confusion": [
+        [
+          71,
+          5,
+          1,
+          0
+        ],
+        [
+          11,
+          281,
+          2,
+          0
+        ],
+        [
+          4,
+          2,
+          71,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          63
+        ]
+      ],
+      "per_class": {
+        "established": {
+          "support": 77,
+          "predicted": 87,
+          "recall": 0.922077922077922,
+          "precision": 0.8160919540229885,
+          "f1": 0.8658536585365854
+        },
+        "not_established": {
+          "support": 294,
+          "predicted": 288,
+          "recall": 0.95578231292517,
+          "precision": 0.9756944444444444,
+          "f1": 0.9656357388316151
+        },
+        "unknown": {
+          "support": 77,
+          "predicted": 74,
+          "recall": 0.922077922077922,
+          "precision": 0.9594594594594594,
+          "f1": 0.9403973509933775
+        },
+        "conflict": {
+          "support": 64,
+          "predicted": 63,
+          "recall": 0.984375,
+          "precision": 1.0,
+          "f1": 0.9921259842519685
+        }
+      },
+      "unknown_to_established": 4,
+      "unknown_to_not_established": 2,
+      "field_accuracy": 0.9853515625,
+      "family_all_correct": 0.765625,
+      "decisive_coverage": 0.732421875,
+      "accepted_error": 0.06133333333333333
+    },
+    "v4_legal/regression": {
+      "n": 9,
+      "correct": 7,
+      "accuracy": 0.7777777777777778,
+      "macro_f1_3": 0.7746031746031746,
+      "confusion_order": [
+        "established",
+        "not_established",
+        "unknown",
+        "conflict"
+      ],
+      "confusion": [
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "per_class": {
+        "established": {
+          "support": 2,
+          "predicted": 4,
+          "recall": 1.0,
+          "precision": 0.5,
+          "f1": 0.6666666666666666
+        },
+        "not_established": {
+          "support": 3,
+          "predicted": 2,
+          "recall": 0.6666666666666666,
+          "precision": 1.0,
+          "f1": 0.8
+        },
+        "unknown": {
+          "support": 4,
+          "predicted": 3,
+          "recall": 0.75,
+          "precision": 1.0,
+          "f1": 0.8571428571428571
+        },
+        "conflict": {
+          "support": 0,
+          "predicted": 0,
+          "recall": null,
+          "precision": null,
+          "f1": null
+        }
+      },
+      "unknown_to_established": 1,
+      "unknown_to_not_established": 0,
+      "field_accuracy": 0.7777777777777778,
+      "family_all_correct": 0.0,
+      "decisive_coverage": 0.6666666666666666,
+      "accepted_error": 0.3333333333333333
+    },
+    "v4_legal/train": {
+      "n": 46,
+      "correct": 45,
+      "accuracy": 0.9782608695652174,
+      "macro_f1_3": 0.981929181929182,
+      "confusion_order": [
+        "established",
+        "not_established",
+        "unknown",
+        "conflict"
+      ],
+      "confusion": [
+        [
+          17,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          19,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          9,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "per_class": {
+        "established": {
+          "support": 17,
+          "predicted": 18,
+          "recall": 1.0,
+          "precision": 0.9444444444444444,
+          "f1": 0.9714285714285714
+        },
+        "not_established": {
+          "support": 20,
+          "predicted": 19,
+          "recall": 0.95,
+          "precision": 1.0,
+          "f1": 0.9743589743589743
+        },
+        "unknown": {
+          "support": 9,
+          "predicted": 9,
+          "recall": 1.0,
+          "precision": 1.0,
+          "f1": 1.0
+        },
+        "conflict": {
+          "support": 0,
+          "predicted": 0,
+          "recall": null,
+          "precision": null,
+          "f1": null
+        }
+      },
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "field_accuracy": 0.9782608695652174,
+      "family_all_correct": 0.6666666666666666,
+      "decisive_coverage": 0.8043478260869565,
+      "accepted_error": 0.02702702702702703
+    }
+  },
+  "pair_groups": {
+    "synthetic_mechanism/dev": {
+      "fact": {
+        "n": 32,
+        "both_correct": 30,
+        "both_correct_rate": 0.9375,
+        "eligible_consistency": 0,
+        "violations": 0,
+        "note": "conflict predictions excluded from interval comparison, still counted in pair accuracy"
+      },
+      "information": {
+        "n": 32,
+        "both_correct": 28,
+        "both_correct_rate": 0.875,
+        "eligible_consistency": 32,
+        "violations": 0,
+        "note": "conflict predictions excluded from interval comparison, still counted in pair accuracy"
+      },
+      "equivalent": {
+        "n": 32,
+        "both_correct": 28,
+        "both_correct_rate": 0.875,
+        "eligible_consistency": 32,
+        "violations": 2,
+        "note": "conflict predictions excluded from interval comparison, still counted in pair accuracy"
+      }
+    },
+    "synthetic_mechanism/test": {
+      "fact": {
+        "n": 32,
+        "both_correct": 28,
+        "both_correct_rate": 0.875,
+        "eligible_consistency": 0,
+        "violations": 0,
+        "note": "conflict predictions excluded from interval comparison, still counted in pair accuracy"
+      },
+      "information": {
+        "n": 32,
+        "both_correct": 30,
+        "both_correct_rate": 0.9375,
+        "eligible_consistency": 32,
+        "violations": 0,
+        "note": "conflict predictions excluded from interval comparison, still counted in pair accuracy"
+      },
+      "equivalent": {
+        "n": 32,
+        "both_correct": 31,
+        "both_correct_rate": 0.96875,
+        "eligible_consistency": 32,
+        "violations": 1,
+        "note": "conflict predictions excluded from interval comparison, still counted in pair accuracy"
+      }
+    },
+    "synthetic_mechanism/train": {
+      "fact": {
+        "n": 128,
+        "both_correct": 119,
+        "both_correct_rate": 0.9296875,
+        "eligible_consistency": 0,
+        "violations": 0,
+        "note": "conflict predictions excluded from interval comparison, still counted in pair accuracy"
+      },
+      "information": {
+        "n": 128,
+        "both_correct": 116,
+        "both_correct_rate": 0.90625,
+        "eligible_consistency": 128,
+        "violations": 7,
+        "note": "conflict predictions excluded from interval comparison, still counted in pair accuracy"
+      },
+      "equivalent": {
+        "n": 128,
+        "both_correct": 124,
+        "both_correct_rate": 0.96875,
+        "eligible_consistency": 128,
+        "violations": 4,
+        "note": "conflict predictions excluded from interval comparison, still counted in pair accuracy"
+      }
+    }
+  },
+  "task_groups": {
+    "risk_status/train": {
+      "n": 12,
+      "correct": 11,
+      "accuracy": 0.9166666666666666,
+      "macro_f1_3": 0.8666666666666667,
+      "confusion_order": [
+        "established",
+        "not_established",
+        "unknown",
+        "conflict"
+      ],
+      "confusion": [
+        [
+          7,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "per_class": {
+        "established": {
+          "support": 7,
+          "predicted": 8,
+          "recall": 1.0,
+          "precision": 0.875,
+          "f1": 0.9333333333333333
+        },
+        "not_established": {
+          "support": 2,
+          "predicted": 1,
+          "recall": 0.5,
+          "precision": 1.0,
+          "f1": 0.6666666666666666
+        },
+        "unknown": {
+          "support": 3,
+          "predicted": 3,
+          "recall": 1.0,
+          "precision": 1.0,
+          "f1": 1.0
+        },
+        "conflict": {
+          "support": 0,
+          "predicted": 0,
+          "recall": null,
+          "precision": null,
+          "f1": null
+        }
+      },
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "field_accuracy": 0.9166666666666666,
+      "family_all_correct": 0.5,
+      "decisive_coverage": 0.75,
+      "accepted_error": 0.1111111111111111
+    },
+    "risk_status/regression": {
+      "n": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "macro_f1_3": 0.48888888888888893,
+      "confusion_order": [
+        "established",
+        "not_established",
+        "unknown",
+        "conflict"
+      ],
+      "confusion": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "per_class": {
+        "established": {
+          "support": 1,
+          "predicted": 2,
+          "recall": 1.0,
+          "precision": 0.5,
+          "f1": 0.6666666666666666
+        },
+        "not_established": {
+          "support": 0,
+          "predicted": 0,
+          "recall": null,
+          "precision": null,
+          "f1": null
+        },
+        "unknown": {
+          "support": 3,
+          "predicted": 2,
+          "recall": 0.6666666666666666,
+          "precision": 1.0,
+          "f1": 0.8
+        },
+        "conflict": {
+          "support": 0,
+          "predicted": 0,
+          "recall": null,
+          "precision": null,
+          "f1": null
+        }
+      },
+      "unknown_to_established": 1,
+      "unknown_to_not_established": 0,
+      "field_accuracy": 0.75,
+      "family_all_correct": 0.0,
+      "decisive_coverage": 0.5,
+      "accepted_error": 0.5
+    },
+    "condition/train": {
+      "n": 18,
+      "correct": 18,
+      "accuracy": 1.0,
+      "macro_f1_3": 1.0,
+      "confusion_order": [
+        "established",
+        "not_established",
+        "unknown",
+        "conflict"
+      ],
+      "confusion": [
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          11,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "per_class": {
+        "established": {
+          "support": 4,
+          "predicted": 4,
+          "recall": 1.0,
+          "precision": 1.0,
+          "f1": 1.0
+        },
+        "not_established": {
+          "support": 11,
+          "predicted": 11,
+          "recall": 1.0,
+          "precision": 1.0,
+          "f1": 1.0
+        },
+        "unknown": {
+          "support": 3,
+          "predicted": 3,
+          "recall": 1.0,
+          "precision": 1.0,
+          "f1": 1.0
+        },
+        "conflict": {
+          "support": 0,
+          "predicted": 0,
+          "recall": null,
+          "precision": null,
+          "f1": null
+        }
+      },
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "field_accuracy": 1.0,
+      "family_all_correct": 1.0,
+      "decisive_coverage": 0.8333333333333334,
+      "accepted_error": 0.0
+    },
+    "condition/regression": {
+      "n": 2,
+      "correct": 2,
+      "accuracy": 1.0,
+      "macro_f1_3": 0.6666666666666666,
+      "confusion_order": [
+        "established",
+        "not_established",
+        "unknown",
+        "conflict"
+      ],
+      "confusion": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "per_class": {
+        "established": {
+          "support": 1,
+          "predicted": 1,
+          "recall": 1.0,
+          "precision": 1.0,
+          "f1": 1.0
+        },
+        "not_established": {
+          "support": 1,
+          "predicted": 1,
+          "recall": 1.0,
+          "precision": 1.0,
+          "f1": 1.0
+        },
+        "unknown": {
+          "support": 0,
+          "predicted": 0,
+          "recall": null,
+          "precision": null,
+          "f1": null
+        },
+        "conflict": {
+          "support": 0,
+          "predicted": 0,
+          "recall": null,
+          "precision": null,
+          "f1": null
+        }
+      },
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "field_accuracy": 1.0,
+      "family_all_correct": 1.0,
+      "decisive_coverage": 1.0,
+      "accepted_error": 0.0
+    },
+    "qa/train": {
+      "n": 16,
+      "correct": 16,
+      "accuracy": 1.0,
+      "macro_f1_3": 1.0,
+      "confusion_order": [
+        "established",
+        "not_established",
+        "unknown",
+        "conflict"
+      ],
+      "confusion": [
+        [
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "per_class": {
+        "established": {
+          "support": 6,
+          "predicted": 6,
+          "recall": 1.0,
+          "precision": 1.0,
+          "f1": 1.0
+        },
+        "not_established": {
+          "support": 7,
+          "predicted": 7,
+          "recall": 1.0,
+          "precision": 1.0,
+          "f1": 1.0
+        },
+        "unknown": {
+          "support": 3,
+          "predicted": 3,
+          "recall": 1.0,
+          "precision": 1.0,
+          "f1": 1.0
+        },
+        "conflict": {
+          "support": 0,
+          "predicted": 0,
+          "recall": null,
+          "precision": null,
+          "f1": null
+        }
+      },
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "field_accuracy": 1.0,
+      "family_all_correct": 1.0,
+      "decisive_coverage": 0.8125,
+      "accepted_error": 0.0
+    },
+    "qa/regression": {
+      "n": 3,
+      "correct": 2,
+      "accuracy": 0.6666666666666666,
+      "macro_f1_3": 0.5555555555555555,
+      "confusion_order": [
+        "established",
+        "not_established",
+        "unknown",
+        "conflict"
+      ],
+      "confusion": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "per_class": {
+        "established": {
+          "support": 0,
+          "predicted": 1,
+          "recall": null,
+          "precision": 0.0,
+          "f1": 0.0
+        },
+        "not_established": {
+          "support": 2,
+          "predicted": 1,
+          "recall": 0.5,
+          "precision": 1.0,
+          "f1": 0.6666666666666666
+        },
+        "unknown": {
+          "support": 1,
+          "predicted": 1,
+          "recall": 1.0,
+          "precision": 1.0,
+          "f1": 1.0
+        },
+        "conflict": {
+          "support": 0,
+          "predicted": 0,
+          "recall": null,
+          "precision": null,
+          "f1": null
+        }
+      },
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "field_accuracy": 0.6666666666666666,
+      "family_all_correct": 0.0,
+      "decisive_coverage": 0.6666666666666666,
+      "accepted_error": 0.5
+    }
+  },
+  "numerics_finite": true,
+  "label_space_note": "Algebra maps T/F/U to established/not_established/unknown for whole propositions. Only task=risk_status metrics are legal risk states.",
+  "sha256": {
+    "specialists.pt": "cc2838b801b11254c0ca434befd68a344f21043bd741e0f1e91b5c1b5f105a8e",
+    "predictions.jsonl": "fe606ce26583425a4828501775b8f70ae931997009cdb0972f33c582aa078e0f",
+    "training_log.json": "5a45f9ee674fd26b86c5adab70de93ec64be12bd4c7e96c86e79953850a07fc7"
+  }
+}

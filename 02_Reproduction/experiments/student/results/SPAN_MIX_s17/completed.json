@@ -1,0 +1,18 @@
+{
+  "run": "SPAN_MIX_s17",
+  "arm": "SPAN_MIX",
+  "updates": 960,
+  "train_seconds": 39.39187565073371,
+  "encoder_base_unchanged": true,
+  "adapter_maxabs_change": 0.03173713758587837,
+  "CE_positions": 0,
+  "relation_anchor_exposures": 0,
+  "paragraph_exposures": 30720,
+  "span_token_positions": 0,
+  "class_positions": 30720,
+  "boundary_positions": 38400,
+  "encoder_tokens": 6501012,
+  "padded_tokens": 8048320,
+  "encoded_sequences": 30720,
+  "auxiliary_query_labels": 0
+}

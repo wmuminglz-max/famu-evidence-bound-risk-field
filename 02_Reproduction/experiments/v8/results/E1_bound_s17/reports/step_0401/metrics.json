@@ -1,0 +1,601 @@
+{
+  "all": {
+    "n": 264,
+    "correct": 264,
+    "invalid": 0,
+    "unknown_to_established": 0,
+    "unknown_to_not_established": 0,
+    "per_class": {
+      "established": {
+        "n": 77,
+        "correct": 77
+      },
+      "not_established": {
+        "n": 99,
+        "correct": 99
+      },
+      "unknown": {
+        "n": 88,
+        "correct": 88
+      },
+      "conflict": {
+        "n": 0,
+        "correct": 0
+      }
+    },
+    "fields": {
+      "T": {
+        "n": 418,
+        "correct": 418
+      },
+      "F": {
+        "n": 495,
+        "correct": 495
+      },
+      "U": {
+        "n": 143,
+        "correct": 143
+      },
+      "C": {
+        "n": 0,
+        "correct": 0
+      }
+    },
+    "exact_all_bindings": 264,
+    "citations": {
+      "tp": 913,
+      "fp": 0,
+      "fn": 0,
+      "f1": 1.0
+    },
+    "all_correct_groups": {
+      "n": 77,
+      "correct": 77
+    }
+  },
+  "by_split": {
+    "dev": {
+      "n": 96,
+      "correct": 96,
+      "invalid": 0,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "per_class": {
+        "established": {
+          "n": 28,
+          "correct": 28
+        },
+        "not_established": {
+          "n": 36,
+          "correct": 36
+        },
+        "unknown": {
+          "n": 32,
+          "correct": 32
+        },
+        "conflict": {
+          "n": 0,
+          "correct": 0
+        }
+      },
+      "fields": {
+        "T": {
+          "n": 152,
+          "correct": 152
+        },
+        "F": {
+          "n": 180,
+          "correct": 180
+        },
+        "U": {
+          "n": 52,
+          "correct": 52
+        },
+        "C": {
+          "n": 0,
+          "correct": 0
+        }
+      },
+      "exact_all_bindings": 96,
+      "citations": {
+        "tp": 332,
+        "fp": 0,
+        "fn": 0,
+        "f1": 1.0
+      },
+      "all_correct_groups": {
+        "n": 28,
+        "correct": 28
+      }
+    },
+    "test": {
+      "n": 144,
+      "correct": 144,
+      "invalid": 0,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "per_class": {
+        "established": {
+          "n": 42,
+          "correct": 42
+        },
+        "not_established": {
+          "n": 54,
+          "correct": 54
+        },
+        "unknown": {
+          "n": 48,
+          "correct": 48
+        },
+        "conflict": {
+          "n": 0,
+          "correct": 0
+        }
+      },
+      "fields": {
+        "T": {
+          "n": 228,
+          "correct": 228
+        },
+        "F": {
+          "n": 270,
+          "correct": 270
+        },
+        "U": {
+          "n": 78,
+          "correct": 78
+        },
+        "C": {
+          "n": 0,
+          "correct": 0
+        }
+      },
+      "exact_all_bindings": 144,
+      "citations": {
+        "tp": 498,
+        "fp": 0,
+        "fn": 0,
+        "f1": 1.0
+      },
+      "all_correct_groups": {
+        "n": 42,
+        "correct": 42
+      }
+    },
+    "train": {
+      "n": 24,
+      "correct": 24,
+      "invalid": 0,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "per_class": {
+        "established": {
+          "n": 7,
+          "correct": 7
+        },
+        "not_established": {
+          "n": 9,
+          "correct": 9
+        },
+        "unknown": {
+          "n": 8,
+          "correct": 8
+        },
+        "conflict": {
+          "n": 0,
+          "correct": 0
+        }
+      },
+      "fields": {
+        "T": {
+          "n": 38,
+          "correct": 38
+        },
+        "F": {
+          "n": 45,
+          "correct": 45
+        },
+        "U": {
+          "n": 13,
+          "correct": 13
+        },
+        "C": {
+          "n": 0,
+          "correct": 0
+        }
+      },
+      "exact_all_bindings": 24,
+      "citations": {
+        "tp": 83,
+        "fp": 0,
+        "fn": 0,
+        "f1": 1.0
+      },
+      "all_correct_groups": {
+        "n": 7,
+        "correct": 7
+      }
+    }
+  },
+  "by_axis": {
+    "actor": {
+      "n": 33,
+      "correct": 33,
+      "invalid": 0,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "per_class": {
+        "established": {
+          "n": 11,
+          "correct": 11
+        },
+        "not_established": {
+          "n": 11,
+          "correct": 11
+        },
+        "unknown": {
+          "n": 11,
+          "correct": 11
+        },
+        "conflict": {
+          "n": 0,
+          "correct": 0
+        }
+      },
+      "fields": {
+        "T": {
+          "n": 44,
+          "correct": 44
+        },
+        "F": {
+          "n": 77,
+          "correct": 77
+        },
+        "U": {
+          "n": 11,
+          "correct": 11
+        },
+        "C": {
+          "n": 0,
+          "correct": 0
+        }
+      },
+      "exact_all_bindings": 33,
+      "citations": {
+        "tp": 121,
+        "fp": 0,
+        "fn": 0,
+        "f1": 1.0
+      },
+      "all_correct_groups": {
+        "n": 11,
+        "correct": 11
+      }
+    },
+    "composition": {
+      "n": 66,
+      "correct": 66,
+      "invalid": 0,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "per_class": {
+        "established": {
+          "n": 11,
+          "correct": 11
+        },
+        "not_established": {
+          "n": 33,
+          "correct": 33
+        },
+        "unknown": {
+          "n": 22,
+          "correct": 22
+        },
+        "conflict": {
+          "n": 0,
+          "correct": 0
+        }
+      },
+      "fields": {
+        "T": {
+          "n": 88,
+          "correct": 88
+        },
+        "F": {
+          "n": 99,
+          "correct": 99
+        },
+        "U": {
+          "n": 77,
+          "correct": 77
+        },
+        "C": {
+          "n": 0,
+          "correct": 0
+        }
+      },
+      "exact_all_bindings": 66,
+      "citations": {
+        "tp": 187,
+        "fp": 0,
+        "fn": 0,
+        "f1": 1.0
+      },
+      "all_correct_groups": {
+        "n": 11,
+        "correct": 11
+      }
+    },
+    "event": {
+      "n": 33,
+      "correct": 33,
+      "invalid": 0,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "per_class": {
+        "established": {
+          "n": 11,
+          "correct": 11
+        },
+        "not_established": {
+          "n": 11,
+          "correct": 11
+        },
+        "unknown": {
+          "n": 11,
+          "correct": 11
+        },
+        "conflict": {
+          "n": 0,
+          "correct": 0
+        }
+      },
+      "fields": {
+        "T": {
+          "n": 44,
+          "correct": 44
+        },
+        "F": {
+          "n": 77,
+          "correct": 77
+        },
+        "U": {
+          "n": 11,
+          "correct": 11
+        },
+        "C": {
+          "n": 0,
+          "correct": 0
+        }
+      },
+      "exact_all_bindings": 33,
+      "citations": {
+        "tp": 121,
+        "fp": 0,
+        "fn": 0,
+        "f1": 1.0
+      },
+      "all_correct_groups": {
+        "n": 11,
+        "correct": 11
+      }
+    },
+    "exception": {
+      "n": 33,
+      "correct": 33,
+      "invalid": 0,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "per_class": {
+        "established": {
+          "n": 11,
+          "correct": 11
+        },
+        "not_established": {
+          "n": 11,
+          "correct": 11
+        },
+        "unknown": {
+          "n": 11,
+          "correct": 11
+        },
+        "conflict": {
+          "n": 0,
+          "correct": 0
+        }
+      },
+      "fields": {
+        "T": {
+          "n": 77,
+          "correct": 77
+        },
+        "F": {
+          "n": 44,
+          "correct": 44
+        },
+        "U": {
+          "n": 11,
+          "correct": 11
+        },
+        "C": {
+          "n": 0,
+          "correct": 0
+        }
+      },
+      "exact_all_bindings": 33,
+      "citations": {
+        "tp": 121,
+        "fp": 0,
+        "fn": 0,
+        "f1": 1.0
+      },
+      "all_correct_groups": {
+        "n": 11,
+        "correct": 11
+      }
+    },
+    "payment": {
+      "n": 33,
+      "correct": 33,
+      "invalid": 0,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "per_class": {
+        "established": {
+          "n": 11,
+          "correct": 11
+        },
+        "not_established": {
+          "n": 11,
+          "correct": 11
+        },
+        "unknown": {
+          "n": 11,
+          "correct": 11
+        },
+        "conflict": {
+          "n": 0,
+          "correct": 0
+        }
+      },
+      "fields": {
+        "T": {
+          "n": 77,
+          "correct": 77
+        },
+        "F": {
+          "n": 44,
+          "correct": 44
+        },
+        "U": {
+          "n": 11,
+          "correct": 11
+        },
+        "C": {
+          "n": 0,
+          "correct": 0
+        }
+      },
+      "exact_all_bindings": 33,
+      "citations": {
+        "tp": 121,
+        "fp": 0,
+        "fn": 0,
+        "f1": 1.0
+      },
+      "all_correct_groups": {
+        "n": 11,
+        "correct": 11
+      }
+    },
+    "source": {
+      "n": 33,
+      "correct": 33,
+      "invalid": 0,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "per_class": {
+        "established": {
+          "n": 11,
+          "correct": 11
+        },
+        "not_established": {
+          "n": 11,
+          "correct": 11
+        },
+        "unknown": {
+          "n": 11,
+          "correct": 11
+        },
+        "conflict": {
+          "n": 0,
+          "correct": 0
+        }
+      },
+      "fields": {
+        "T": {
+          "n": 44,
+          "correct": 44
+        },
+        "F": {
+          "n": 77,
+          "correct": 77
+        },
+        "U": {
+          "n": 11,
+          "correct": 11
+        },
+        "C": {
+          "n": 0,
+          "correct": 0
+        }
+      },
+      "exact_all_bindings": 33,
+      "citations": {
+        "tp": 121,
+        "fp": 0,
+        "fn": 0,
+        "f1": 1.0
+      },
+      "all_correct_groups": {
+        "n": 11,
+        "correct": 11
+      }
+    },
+    "time": {
+      "n": 33,
+      "correct": 33,
+      "invalid": 0,
+      "unknown_to_established": 0,
+      "unknown_to_not_established": 0,
+      "per_class": {
+        "established": {
+          "n": 11,
+          "correct": 11
+        },
+        "not_established": {
+          "n": 11,
+          "correct": 11
+        },
+        "unknown": {
+          "n": 11,
+          "correct": 11
+        },
+        "conflict": {
+          "n": 0,
+          "correct": 0
+        }
+      },
+      "fields": {
+        "T": {
+          "n": 44,
+          "correct": 44
+        },
+        "F": {
+          "n": 77,
+          "correct": 77
+        },
+        "U": {
+          "n": 11,
+          "correct": 11
+        },
+        "C": {
+          "n": 0,
+          "correct": 0
+        }
+      },
+      "exact_all_bindings": 33,
+      "citations": {
+        "tp": 121,
+        "fp": 0,
+        "fn": 0,
+        "f1": 1.0
+      },
+      "all_correct_groups": {
+        "n": 11,
+        "correct": 11
+      }
+    }
+  },
+  "decoding": "raw certificate -> deterministic field aggregation -> rule"
+}

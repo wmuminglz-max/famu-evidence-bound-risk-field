@@ -1,0 +1,56 @@
+{
+  "arms": [
+    {
+      "id": "S0_supervised_s17",
+      "kind": "kd",
+      "path": "/workspace/famu_student_gpu_20261009/outputs/S0_supervised_s17"
+    },
+    {
+      "id": "S0_supervised_s29",
+      "kind": "kd",
+      "path": "/workspace/famu_student_gpu_20261009/outputs/S0_supervised_s29"
+    },
+    {
+      "id": "S0_supervised_s43",
+      "kind": "kd",
+      "path": "/workspace/famu_student_gpu_20261009/outputs/S0_supervised_s43"
+    },
+    {
+      "id": "S1_gated_KD_s17",
+      "kind": "kd",
+      "path": "/workspace/famu_student_gpu_20261009/outputs/S1_gated_KD_s17"
+    },
+    {
+      "id": "S1_gated_KD_s29",
+      "kind": "kd",
+      "path": "/workspace/famu_student_gpu_20261009/outputs/S1_gated_KD_s29"
+    },
+    {
+      "id": "S1_gated_KD_s43",
+      "kind": "kd",
+      "path": "/workspace/famu_student_gpu_20261009/outputs/S1_gated_KD_s43"
+    },
+    {
+      "id": "R11_SPAN_MIX_s17",
+      "kind": "r11",
+      "path": "/workspace/famu_student_round11_20261010/outputs/SPAN_MIX_s17"
+    },
+    {
+      "id": "R11_SPAN_MIX_s29",
+      "kind": "r11",
+      "path": "/workspace/famu_student_round11_20261010/outputs/SPAN_MIX_s29"
+    },
+    {
+      "id": "R11_SPAN_MIX_s43",
+      "kind": "r11",
+      "path": "/workspace/famu_student_round11_20261010/outputs/SPAN_MIX_s43"
+    }
+  ],
+  "input_adapter_sha256": "122e670ffcbf420ef4c63655f13b371d0dd59d4f0be475b0bb8ed867a4b5b6dc",
+  "selection": "existing saved final checkpoints and thresholds; no selection on current dev/test",
+  "runtime": "CPU four threads",
+  "raw": "LocalFieldStudent.review fields, accepted relations, existing saved threshold",
+  "rules": "same review effective_fields; existing uncertainty relaxation plus certified_decision for identity proposition. No newly authored legal rule or gold-dependent override.",
+  "unsupported": "Non-state fields stay missing. Full-task coverage and common-state accuracy both reported.",
+  "citation_mapping": "Any predicted chunk cites parent; this preserves original evidence ID granularity but not necessarily sufficient span semantics."
+}

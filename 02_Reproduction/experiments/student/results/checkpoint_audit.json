@@ -1,0 +1,198 @@
+{
+  "all_passed": true,
+  "entries": [
+    {
+      "path": "outputs/SPAN_MIX_s17/checkpoints/step_0480/checkpoint.pt",
+      "bytes": 4897505,
+      "sha256": "e3c1985e713323e7008e7b92b4ffa2620379f4ef2f229efd40c93a6c82c4ceee",
+      "step": 480,
+      "exposures": 15360,
+      "all_passed": true
+    },
+    {
+      "path": "outputs/SPAN_MIX_s17/checkpoints/step_0960/checkpoint.pt",
+      "bytes": 4897505,
+      "sha256": "f4b90a0ceccf0dbb6359a7a95cc11e79316dfd5dfa86952ab050c19097a9eb42",
+      "step": 960,
+      "exposures": 30720,
+      "all_passed": true
+    },
+    {
+      "path": "outputs/SPAN_MIX_s29/checkpoints/step_0480/checkpoint.pt",
+      "bytes": 4897441,
+      "sha256": "c99cafc2e1dbecbdc10bbd992cee71a30845a61b8ac6135e7bfa879ab002433e",
+      "step": 480,
+      "exposures": 15360,
+      "all_passed": true
+    },
+    {
+      "path": "outputs/SPAN_MIX_s29/checkpoints/step_0960/checkpoint.pt",
+      "bytes": 4897441,
+      "sha256": "9045f97b9f1eb7a7c32e57983773aab4f1d3b897683e31ab19dde60f011f9773",
+      "step": 960,
+      "exposures": 30720,
+      "all_passed": true
+    },
+    {
+      "path": "outputs/SPAN_MIX_s43/checkpoints/step_0480/checkpoint.pt",
+      "bytes": 4897377,
+      "sha256": "a866d8619ca6f1e3f7d4fd53e1c3e90d8086f332e38a5d390c744843e5a4fb8b",
+      "step": 480,
+      "exposures": 15360,
+      "all_passed": true
+    },
+    {
+      "path": "outputs/SPAN_MIX_s43/checkpoints/step_0960/checkpoint.pt",
+      "bytes": 4897377,
+      "sha256": "acc8bc7d60a73e6806b134c2093daef0d8e16beb9987606297cb30d098f65526",
+      "step": 960,
+      "exposures": 30720,
+      "all_passed": true
+    },
+    {
+      "path": "outputs/SPAN_NEW_s17/checkpoints/step_0480/checkpoint.pt",
+      "bytes": 4897505,
+      "sha256": "cc84081161aa071e5e9bf3f2b93c555ac3f3fcbbe2a07ca669d556947b855960",
+      "step": 480,
+      "exposures": 15360,
+      "all_passed": true
+    },
+    {
+      "path": "outputs/SPAN_NEW_s17/checkpoints/step_0960/checkpoint.pt",
+      "bytes": 4897505,
+      "sha256": "7f3d2ee2b465c200dff9dcebc9693850a942e12f14c18b65e80d5609e67709e9",
+      "step": 960,
+      "exposures": 30720,
+      "all_passed": true
+    },
+    {
+      "path": "outputs/SPAN_NEW_s29/checkpoints/step_0480/checkpoint.pt",
+      "bytes": 4897441,
+      "sha256": "3341d235be991f9c8f32de20587f26fb350f90392b41481f2b62ecadcd1fe4db",
+      "step": 480,
+      "exposures": 15360,
+      "all_passed": true
+    },
+    {
+      "path": "outputs/SPAN_NEW_s29/checkpoints/step_0960/checkpoint.pt",
+      "bytes": 4897441,
+      "sha256": "656fb0ce50d79f64ab9cececb825084c7ee69b9b93a4e1b325b043a7b15d3b30",
+      "step": 960,
+      "exposures": 30720,
+      "all_passed": true
+    },
+    {
+      "path": "outputs/SPAN_NEW_s43/checkpoints/step_0480/checkpoint.pt",
+      "bytes": 4897377,
+      "sha256": "f5ce3127f8d8271354e9977616244aea71c9e3e0dbb5bfe5f268fea4c06a589c",
+      "step": 480,
+      "exposures": 15360,
+      "all_passed": true
+    },
+    {
+      "path": "outputs/SPAN_NEW_s43/checkpoints/step_0960/checkpoint.pt",
+      "bytes": 4897377,
+      "sha256": "6668ea9f2240e10c5ca5ac9837a4fe9dc09018411035b580095bc00babd8d1a3",
+      "step": 960,
+      "exposures": 30720,
+      "all_passed": true
+    },
+    {
+      "path": "outputs/TOKEN_MIX_s17/checkpoints/step_0480/checkpoint.pt",
+      "bytes": 4897505,
+      "sha256": "15b57af942823f278c97a100938ecc16fcd989a1291193861cf1687cdf713f1f",
+      "step": 480,
+      "exposures": 15360,
+      "all_passed": true
+    },
+    {
+      "path": "outputs/TOKEN_MIX_s17/checkpoints/step_0960/checkpoint.pt",
+      "bytes": 4897505,
+      "sha256": "b9f31446a8687760a01422d16e0e7ccadcd6de4ce97ad9aa99b9e171ec9edd2c",
+      "step": 960,
+      "exposures": 30720,
+      "all_passed": true
+    },
+    {
+      "path": "outputs/TOKEN_MIX_s29/checkpoints/step_0480/checkpoint.pt",
+      "bytes": 4897441,
+      "sha256": "eab659b3dfd40ccec5a8b56019e663b0cf46d852690379303619e755d35622da",
+      "step": 480,
+      "exposures": 15360,
+      "all_passed": true
+    },
+    {
+      "path": "outputs/TOKEN_MIX_s29/checkpoints/step_0960/checkpoint.pt",
+      "bytes": 4897441,
+      "sha256": "86d70d69f23b08fa9df28a980be28b5de53e69e18a3630b37c2ece8ddfdc774a",
+      "step": 960,
+      "exposures": 30720,
+      "all_passed": true
+    },
+    {
+      "path": "outputs/TOKEN_MIX_s43/checkpoints/step_0480/checkpoint.pt",
+      "bytes": 4897377,
+      "sha256": "f96189f568d41c6d14cbb511886ec4d23a570c0595faa9e40c17e3591e8a28ba",
+      "step": 480,
+      "exposures": 15360,
+      "all_passed": true
+    },
+    {
+      "path": "outputs/TOKEN_MIX_s43/checkpoints/step_0960/checkpoint.pt",
+      "bytes": 4897377,
+      "sha256": "97ad6c40d1dd539fd4bfdf24bb91230c68305e55d96ee5cf915a336b7d1a5632",
+      "step": 960,
+      "exposures": 30720,
+      "all_passed": true
+    },
+    {
+      "path": "outputs/TOKEN_NEW_s17/checkpoints/step_0480/checkpoint.pt",
+      "bytes": 4897505,
+      "sha256": "e138bf975ddf5584a54124be2e04e5801c93b1cf2afb6112a675e02e48b3fb89",
+      "step": 480,
+      "exposures": 15360,
+      "all_passed": true
+    },
+    {
+      "path": "outputs/TOKEN_NEW_s17/checkpoints/step_0960/checkpoint.pt",
+      "bytes": 4897505,
+      "sha256": "653cc52e631ca140dadc602a05701c49d2bbcb85848a4f299bca5bdbdc07533b",
+      "step": 960,
+      "exposures": 30720,
+      "all_passed": true
+    },
+    {
+      "path": "outputs/TOKEN_NEW_s29/checkpoints/step_0480/checkpoint.pt",
+      "bytes": 4897441,
+      "sha256": "cb582e533e884067a6e2b5f07ac22ee8d362702eccf0944fe68d6089fb901159",
+      "step": 480,
+      "exposures": 15360,
+      "all_passed": true
+    },
+    {
+      "path": "outputs/TOKEN_NEW_s29/checkpoints/step_0960/checkpoint.pt",
+      "bytes": 4897441,
+      "sha256": "8221e2a0822454e798158f70d0bbc4de2a6861d58d8c19553bf0cb81549cf6cb",
+      "step": 960,
+      "exposures": 30720,
+      "all_passed": true
+    },
+    {
+      "path": "outputs/TOKEN_NEW_s43/checkpoints/step_0480/checkpoint.pt",
+      "bytes": 4897377,
+      "sha256": "6bfb3a5d621450c1ebcbcdcca3bdb63419d57ba84c7b760b4bd696510d10b9ca",
+      "step": 480,
+      "exposures": 15360,
+      "all_passed": true
+    },
+    {
+      "path": "outputs/TOKEN_NEW_s43/checkpoints/step_0960/checkpoint.pt",
+      "bytes": 4897377,
+      "sha256": "efec2409490f9268bebeca370d3d48a74b86b62840842b1d17f0ce5fdc618571",
+      "step": 960,
+      "exposures": 30720,
+      "all_passed": true
+    }
+  ],
+  "zero_optimizer_updates": true
+}

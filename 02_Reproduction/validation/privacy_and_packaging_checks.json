@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-16",
+  "scope": "deidentified release files only",
+  "files_scanned": 1091,
+  "automated_findings_remaining": 0,
+  "python_syntax_errors": 0,
+  "checks": [
+    "known original entity aliases",
+    "email and mobile patterns",
+    "bank or identification number patterns",
+    "case numbers",
+    "machine paths and remote hosts",
+    "common API key and private-key patterns",
+    "Python AST and JSON parsing"
+  ],
+  "weights_and_feature_caches_included": false,
+  "identity_mapping_included": false,
+  "important_scope": "No remaining matches under these checks is not proof of irreversible anonymization. Necessary dates and monetary amounts are retained. No new model inference was performed.",
+  "shared_initializer_sha256": "66515d29b311fed2efadaab81857c5c7f1127c697960cf3adcce17eb6984fed3",
+  "shared_initializer_check": "rehash matched local original on 2026-10-16",
+  "large_27b_archives": "historical manifest fingerprints; original full archive unavailable during packaging",
+  "result_replay": {
+    "v5_runs": 15,
+    "v8_runs": 6,
+    "real_prediction_configurations": 30,
+    "student_metric_archives": 18,
+    "student_metrics_note": "18 student metric files are included as archived values; the main V5/V8 and real-data scores are recalculated from predictions."
+  },
+  "student_slice_handling": "Changed-parent historical slices are withheld; unchanged slices checked. See student_trace_deidentification.json."
+}

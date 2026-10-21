@@ -1,0 +1,18 @@
+{
+  "run": "TOKEN_MIX_s17",
+  "arm": "TOKEN_MIX",
+  "updates": 960,
+  "train_seconds": 37.39640394039452,
+  "encoder_base_unchanged": true,
+  "adapter_maxabs_change": 0.028728164732456207,
+  "CE_positions": 0,
+  "relation_anchor_exposures": 0,
+  "paragraph_exposures": 30720,
+  "span_token_positions": 3117972,
+  "class_positions": 0,
+  "boundary_positions": 0,
+  "encoder_tokens": 6501012,
+  "padded_tokens": 8048320,
+  "encoded_sequences": 30720,
+  "auxiliary_query_labels": 0
+}

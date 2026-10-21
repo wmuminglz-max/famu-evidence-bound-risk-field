@@ -1,0 +1,464 @@
+[
+  {
+    "id": "TR001",
+    "prompt_tokens": 408,
+    "supervised_tokens": 6,
+    "tokens": 414
+  },
+  {
+    "id": "TR002",
+    "prompt_tokens": 383,
+    "supervised_tokens": 6,
+    "tokens": 389
+  },
+  {
+    "id": "TR003",
+    "prompt_tokens": 10119,
+    "supervised_tokens": 6,
+    "tokens": 10125
+  },
+  {
+    "id": "TR004",
+    "prompt_tokens": 10078,
+    "supervised_tokens": 6,
+    "tokens": 10084
+  },
+  {
+    "id": "TR005",
+    "prompt_tokens": 10098,
+    "supervised_tokens": 6,
+    "tokens": 10104
+  },
+  {
+    "id": "TR006",
+    "prompt_tokens": 10094,
+    "supervised_tokens": 7,
+    "tokens": 10101
+  },
+  {
+    "id": "TR007",
+    "prompt_tokens": 468,
+    "supervised_tokens": 6,
+    "tokens": 474
+  },
+  {
+    "id": "TR008",
+    "prompt_tokens": 10071,
+    "supervised_tokens": 6,
+    "tokens": 10077
+  },
+  {
+    "id": "TR009",
+    "prompt_tokens": 10072,
+    "supervised_tokens": 6,
+    "tokens": 10078
+  },
+  {
+    "id": "TR010",
+    "prompt_tokens": 3449,
+    "supervised_tokens": 6,
+    "tokens": 3455
+  },
+  {
+    "id": "TR011",
+    "prompt_tokens": 3262,
+    "supervised_tokens": 6,
+    "tokens": 3268
+  },
+  {
+    "id": "TR012",
+    "prompt_tokens": 3266,
+    "supervised_tokens": 6,
+    "tokens": 3272
+  },
+  {
+    "id": "TR013",
+    "prompt_tokens": 3243,
+    "supervised_tokens": 6,
+    "tokens": 3249
+  },
+  {
+    "id": "TR015",
+    "prompt_tokens": 1203,
+    "supervised_tokens": 6,
+    "tokens": 1209
+  },
+  {
+    "id": "TR016",
+    "prompt_tokens": 1195,
+    "supervised_tokens": 6,
+    "tokens": 1201
+  },
+  {
+    "id": "TR023",
+    "prompt_tokens": 1224,
+    "supervised_tokens": 6,
+    "tokens": 1230
+  },
+  {
+    "id": "TR025",
+    "prompt_tokens": 1216,
+    "supervised_tokens": 6,
+    "tokens": 1222
+  },
+  {
+    "id": "TR026",
+    "prompt_tokens": 10105,
+    "supervised_tokens": 7,
+    "tokens": 10112
+  },
+  {
+    "id": "TR027",
+    "prompt_tokens": 10078,
+    "supervised_tokens": 6,
+    "tokens": 10084
+  },
+  {
+    "id": "TR028",
+    "prompt_tokens": 10074,
+    "supervised_tokens": 6,
+    "tokens": 10080
+  },
+  {
+    "id": "TR029",
+    "prompt_tokens": 10125,
+    "supervised_tokens": 6,
+    "tokens": 10131
+  },
+  {
+    "id": "TR030",
+    "prompt_tokens": 10103,
+    "supervised_tokens": 6,
+    "tokens": 10109
+  },
+  {
+    "id": "TR031",
+    "prompt_tokens": 10076,
+    "supervised_tokens": 6,
+    "tokens": 10082
+  },
+  {
+    "id": "TR032",
+    "prompt_tokens": 2193,
+    "supervised_tokens": 6,
+    "tokens": 2199
+  },
+  {
+    "id": "TR033",
+    "prompt_tokens": 3259,
+    "supervised_tokens": 6,
+    "tokens": 3265
+  },
+  {
+    "id": "TR034",
+    "prompt_tokens": 3263,
+    "supervised_tokens": 6,
+    "tokens": 3269
+  },
+  {
+    "id": "TR035",
+    "prompt_tokens": 3270,
+    "supervised_tokens": 6,
+    "tokens": 3276
+  },
+  {
+    "id": "TR036",
+    "prompt_tokens": 1209,
+    "supervised_tokens": 6,
+    "tokens": 1215
+  },
+  {
+    "id": "TR037",
+    "prompt_tokens": 2741,
+    "supervised_tokens": 6,
+    "tokens": 2747
+  },
+  {
+    "id": "TR038",
+    "prompt_tokens": 3311,
+    "supervised_tokens": 6,
+    "tokens": 3317
+  },
+  {
+    "id": "TR039",
+    "prompt_tokens": 3276,
+    "supervised_tokens": 6,
+    "tokens": 3282
+  },
+  {
+    "id": "TR040",
+    "prompt_tokens": 3293,
+    "supervised_tokens": 6,
+    "tokens": 3299
+  },
+  {
+    "id": "TR041",
+    "prompt_tokens": 3298,
+    "supervised_tokens": 7,
+    "tokens": 3305
+  },
+  {
+    "id": "TR042",
+    "prompt_tokens": 3279,
+    "supervised_tokens": 7,
+    "tokens": 3286
+  },
+  {
+    "id": "TR043",
+    "prompt_tokens": 3290,
+    "supervised_tokens": 6,
+    "tokens": 3296
+  },
+  {
+    "id": "TR044",
+    "prompt_tokens": 3274,
+    "supervised_tokens": 6,
+    "tokens": 3280
+  },
+  {
+    "id": "TR045",
+    "prompt_tokens": 3263,
+    "supervised_tokens": 6,
+    "tokens": 3269
+  },
+  {
+    "id": "TR046",
+    "prompt_tokens": 7629,
+    "supervised_tokens": 6,
+    "tokens": 7635
+  },
+  {
+    "id": "TR047",
+    "prompt_tokens": 10078,
+    "supervised_tokens": 6,
+    "tokens": 10084
+  },
+  {
+    "id": "TR048",
+    "prompt_tokens": 389,
+    "supervised_tokens": 6,
+    "tokens": 395
+  },
+  {
+    "id": "TR049",
+    "prompt_tokens": 10099,
+    "supervised_tokens": 7,
+    "tokens": 10106
+  },
+  {
+    "id": "TR050",
+    "prompt_tokens": 384,
+    "supervised_tokens": 7,
+    "tokens": 391
+  },
+  {
+    "id": "TR051",
+    "prompt_tokens": 10097,
+    "supervised_tokens": 6,
+    "tokens": 10103
+  },
+  {
+    "id": "TR052",
+    "prompt_tokens": 357,
+    "supervised_tokens": 7,
+    "tokens": 364
+  },
+  {
+    "id": "TR053",
+    "prompt_tokens": 391,
+    "supervised_tokens": 7,
+    "tokens": 398
+  },
+  {
+    "id": "TR054",
+    "prompt_tokens": 731,
+    "supervised_tokens": 7,
+    "tokens": 738
+  },
+  {
+    "id": "TR055",
+    "prompt_tokens": 10117,
+    "supervised_tokens": 6,
+    "tokens": 10123
+  },
+  {
+    "id": "TR056",
+    "prompt_tokens": 385,
+    "supervised_tokens": 7,
+    "tokens": 392
+  },
+  {
+    "id": "TR057",
+    "prompt_tokens": 10082,
+    "supervised_tokens": 6,
+    "tokens": 10088
+  },
+  {
+    "id": "TR058",
+    "prompt_tokens": 10094,
+    "supervised_tokens": 6,
+    "tokens": 10100
+  },
+  {
+    "id": "TR059",
+    "prompt_tokens": 10073,
+    "supervised_tokens": 6,
+    "tokens": 10079
+  },
+  {
+    "id": "TR060",
+    "prompt_tokens": 10112,
+    "supervised_tokens": 6,
+    "tokens": 10118
+  },
+  {
+    "id": "TR061",
+    "prompt_tokens": 10095,
+    "supervised_tokens": 7,
+    "tokens": 10102
+  },
+  {
+    "id": "TR062",
+    "prompt_tokens": 10075,
+    "supervised_tokens": 6,
+    "tokens": 10081
+  },
+  {
+    "id": "TR063",
+    "prompt_tokens": 10099,
+    "supervised_tokens": 6,
+    "tokens": 10105
+  },
+  {
+    "id": "TR064",
+    "prompt_tokens": 10083,
+    "supervised_tokens": 6,
+    "tokens": 10089
+  },
+  {
+    "id": "TR065",
+    "prompt_tokens": 10067,
+    "supervised_tokens": 6,
+    "tokens": 10073
+  },
+  {
+    "id": "TR066",
+    "prompt_tokens": 10086,
+    "supervised_tokens": 9,
+    "tokens": 10095
+  },
+  {
+    "id": "TR067",
+    "prompt_tokens": 10083,
+    "supervised_tokens": 7,
+    "tokens": 10090
+  },
+  {
+    "id": "TR068",
+    "prompt_tokens": 10064,
+    "supervised_tokens": 6,
+    "tokens": 10070
+  },
+  {
+    "id": "TR069",
+    "prompt_tokens": 10080,
+    "supervised_tokens": 6,
+    "tokens": 10086
+  },
+  {
+    "id": "TR073",
+    "prompt_tokens": 1210,
+    "supervised_tokens": 6,
+    "tokens": 1216
+  },
+  {
+    "id": "TR074",
+    "prompt_tokens": 1213,
+    "supervised_tokens": 6,
+    "tokens": 1219
+  },
+  {
+    "id": "TR076",
+    "prompt_tokens": 1232,
+    "supervised_tokens": 6,
+    "tokens": 1238
+  },
+  {
+    "id": "TR077",
+    "prompt_tokens": 1235,
+    "supervised_tokens": 6,
+    "tokens": 1241
+  },
+  {
+    "id": "TR078",
+    "prompt_tokens": 3382,
+    "supervised_tokens": 6,
+    "tokens": 3388
+  },
+  {
+    "id": "TR079",
+    "prompt_tokens": 1480,
+    "supervised_tokens": 6,
+    "tokens": 1486
+  },
+  {
+    "id": "TR081",
+    "prompt_tokens": 3447,
+    "supervised_tokens": 6,
+    "tokens": 3453
+  },
+  {
+    "id": "TR082",
+    "prompt_tokens": 3264,
+    "supervised_tokens": 6,
+    "tokens": 3270
+  },
+  {
+    "id": "TR083",
+    "prompt_tokens": 3249,
+    "supervised_tokens": 6,
+    "tokens": 3255
+  },
+  {
+    "id": "TR084",
+    "prompt_tokens": 3263,
+    "supervised_tokens": 6,
+    "tokens": 3269
+  },
+  {
+    "id": "TR085",
+    "prompt_tokens": 10099,
+    "supervised_tokens": 9,
+    "tokens": 10108
+  },
+  {
+    "id": "TR086",
+    "prompt_tokens": 10096,
+    "supervised_tokens": 6,
+    "tokens": 10102
+  },
+  {
+    "id": "TR087",
+    "prompt_tokens": 10080,
+    "supervised_tokens": 6,
+    "tokens": 10086
+  },
+  {
+    "id": "TR088",
+    "prompt_tokens": 2198,
+    "supervised_tokens": 6,
+    "tokens": 2204
+  },
+  {
+    "id": "TR089",
+    "prompt_tokens": 1206,
+    "supervised_tokens": 6,
+    "tokens": 1212
+  },
+  {
+    "id": "TR090",
+    "prompt_tokens": 2744,
+    "supervised_tokens": 6,
+    "tokens": 2750
+  }
+]

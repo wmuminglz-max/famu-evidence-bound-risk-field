@@ -1,0 +1,17 @@
+{
+  "arm": "S1_gated_KD_s29",
+  "path": "/workspace/famu_student_gpu_20261009/outputs/S1_gated_KD_s29",
+  "load_seconds": 0.2632917584851384,
+  "parameters": 23955459,
+  "config": {
+    "threshold": 0.6
+  },
+  "model_manifest": {
+    "config.json": "079b574367bf26186a186284d0b0f992f26536cc259bba5ce7342a0a199dac3d",
+    "model.safetensors": "91863e8730cb865a92a2a89d53af9745367618d86947dc37cb9ac0fdef89dd2b",
+    "tokenizer_config.json": "a93a18bc860825f568586435a21871384c0072a6b6046b15d58bd2404d92bb52",
+    "tokenizer.json": "48cea5d44424912a6fd1ea647bf4fe50b55ab8b1e5879c3275f80e339e8fae26",
+    "relation_head.safetensors": "a9641a453cdae0d008a7f50991c6cf8cb108dfe9ca5529d5d123da2dfe262755",
+    "student_config.json": "2f8191fbc9b073b5631b02e273e768374d8c2303c8457b283f657c1b80287f56"
+  }
+}

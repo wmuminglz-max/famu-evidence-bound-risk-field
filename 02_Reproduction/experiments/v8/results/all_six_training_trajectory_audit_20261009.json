@@ -1,0 +1,79 @@
+{
+  "checked_at_utc": "2026-10-09T03:03:17.862410+00:00",
+  "scope": "Training trajectory audit only; endpoint reports, final ZIP, checkpoint transfer and E-drive full model export still pending.",
+  "data_hashes_verified": true,
+  "runs": {
+    "D0_direct_s17": {
+      "updates": 401,
+      "exposures": 1604,
+      "per_sample_exposure_verified": true,
+      "loss_gradient_lr_finite": true,
+      "training_log_sha256": "03c3964b923cdc1e1f8f15960ea19213caa22851c9d7e1040463252b08a13e20",
+      "train_seconds": 9186.02974508889,
+      "full_sequence_tokens": 4865037,
+      "answer_tokens": 11532
+    },
+    "E1_bound_s17": {
+      "updates": 401,
+      "exposures": 1604,
+      "per_sample_exposure_verified": true,
+      "loss_gradient_lr_finite": true,
+      "training_log_sha256": "fcdef17c5fe29477b0ff4a651a8574b77b0b9812c9c5903dced4c0327c0d85c5",
+      "train_seconds": 9429.031693419442,
+      "full_sequence_tokens": 5036649,
+      "answer_tokens": 69096
+    },
+    "D0_direct_s29": {
+      "updates": 401,
+      "exposures": 1604,
+      "per_sample_exposure_verified": true,
+      "loss_gradient_lr_finite": true,
+      "training_log_sha256": "1d563df9fcc0a473fe8b1c337eeed326606675fe5946835f06c1ef7dd3ac968e",
+      "train_seconds": 8814.395841371268,
+      "full_sequence_tokens": 4865037,
+      "answer_tokens": 11532
+    },
+    "E1_bound_s29": {
+      "updates": 401,
+      "exposures": 1604,
+      "per_sample_exposure_verified": true,
+      "loss_gradient_lr_finite": true,
+      "training_log_sha256": "c9e836afe5e103908bd02e6d870dd37d1e4610510dfbda8b4b18c82b55940e5c",
+      "train_seconds": 8566.003885902464,
+      "full_sequence_tokens": 5036649,
+      "answer_tokens": 69096
+    },
+    "D0_direct_s43": {
+      "updates": 401,
+      "exposures": 1604,
+      "per_sample_exposure_verified": true,
+      "loss_gradient_lr_finite": true,
+      "training_log_sha256": "2957342bfa6314eebe90d6873d9883bb587871756b7c826a6e58617939e74a63",
+      "train_seconds": 8451.969591835514,
+      "full_sequence_tokens": 4865037,
+      "answer_tokens": 11532
+    },
+    "E1_bound_s43": {
+      "updates": 401,
+      "exposures": 1604,
+      "per_sample_exposure_verified": true,
+      "loss_gradient_lr_finite": true,
+      "training_log_sha256": "24a2da31637f1da0401b7a09588a739bd9defbb2125006eda32c8a7e89765621",
+      "train_seconds": 8673.357412735,
+      "full_sequence_tokens": 5036649,
+      "answer_tokens": 69096
+    }
+  },
+  "effective_updates": 2406,
+  "effective_exposures": 9624,
+  "discarded_migration_segment": {
+    "updates": 141,
+    "exposures": 564,
+    "seconds": 3302.9125448465347,
+    "full_sequence_tokens": 1721439,
+    "answer_tokens": 4050,
+    "unlogged_partial_batch_cost": "unknown"
+  },
+  "known_minimum_actual_complete_updates": 2547,
+  "known_minimum_actual_exposures": 10188
+}

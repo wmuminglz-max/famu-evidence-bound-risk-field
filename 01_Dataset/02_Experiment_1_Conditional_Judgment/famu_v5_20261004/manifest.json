@@ -1,0 +1,58 @@
+{
+  "version": "v5-mechanism-pilot-1",
+  "source_v4_hashes": {
+    "gold_train.jsonl": "27ca96201da826949dc40ebd188ba140a78dabf0010479fd02bd27721437ba44",
+    "internal_dev.jsonl": "fec9c4cc8034f2af9a14dc4cca22f50fb1589f24fc132dd90b664365282a41d1",
+    "labor_auxiliary.jsonl": "1853b9ccb62d18234e3f7239121f17aa6cd1f783f577d18b1b2a49f2e3ceba4e",
+    "manifest.json": "0add23cad90fbc639907d1db4e7a27e2482173750a124a4bdd98eeb2c942727c"
+  },
+  "files": {
+    "examples.jsonl": "e745301ef789f47e2ce96a3301471bd309d8d355cce3ad0f9326b14a535cfc71",
+    "pairs.jsonl": "9deba1f2cccc2daad5bcfdd6bf90aef411ffd9adeefab1844a321dcc9d57aec4"
+  },
+  "counts": {
+    "synthetic_mechanism/train": 512,
+    "synthetic_mechanism/test": 128,
+    "synthetic_mechanism/dev": 128,
+    "labor_atom/train": 390,
+    "v4_legal/train": 46,
+    "v4_legal/regression": 9
+  },
+  "targets": {
+    "synthetic_mechanism/train/not_established": 294,
+    "synthetic_mechanism/train/unknown": 77,
+    "synthetic_mechanism/train/conflict": 64,
+    "synthetic_mechanism/train/established": 77,
+    "synthetic_mechanism/test/not_established": 80,
+    "synthetic_mechanism/test/established": 13,
+    "synthetic_mechanism/test/unknown": 19,
+    "synthetic_mechanism/test/conflict": 16,
+    "synthetic_mechanism/dev/not_established": 77,
+    "synthetic_mechanism/dev/unknown": 22,
+    "synthetic_mechanism/dev/conflict": 16,
+    "synthetic_mechanism/dev/established": 13,
+    "labor_atom/train/established": 130,
+    "labor_atom/train/not_established": 130,
+    "labor_atom/train/unknown": 130,
+    "v4_legal/train/not_established": 20,
+    "v4_legal/train/established": 17,
+    "v4_legal/train/unknown": 9,
+    "v4_legal/regression/not_established": 3,
+    "v4_legal/regression/unknown": 4,
+    "v4_legal/regression/established": 2
+  },
+  "synthetic_families": {
+    "train": 64,
+    "dev": 16,
+    "test": 16
+  },
+  "split_seed": 20261004,
+  "shared_synthetic_templates_across_splits": true,
+  "all_1657_already_used_in_v4": true,
+  "labor_atom_task_subset": 390,
+  "not_new_legal_gold": true,
+  "lab9_is_previously_seen_regression_only": true,
+  "human_multifield_and_anchor_gold_available": false,
+  "excluded_tasks_here": "relation and grade have different semantics; original V4 files unchanged",
+  "release_note": "File hashes refer to the deidentified derivative when the file is included; original fingerprints are in manifests/source_fingerprints.json."
+}

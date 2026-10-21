@@ -1,0 +1,18 @@
+{
+  "run": "TOKEN_NEW_s43",
+  "arm": "TOKEN_NEW",
+  "updates": 960,
+  "train_seconds": 37.17239656671882,
+  "encoder_base_unchanged": true,
+  "adapter_maxabs_change": 0.02685745246708393,
+  "CE_positions": 0,
+  "relation_anchor_exposures": 0,
+  "paragraph_exposures": 30720,
+  "span_token_positions": 3588002,
+  "class_positions": 0,
+  "boundary_positions": 0,
+  "encoder_tokens": 6936482,
+  "padded_tokens": 8106912,
+  "encoded_sequences": 30720,
+  "auxiliary_query_labels": 0
+}

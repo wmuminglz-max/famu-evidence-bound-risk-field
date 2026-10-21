@@ -1,0 +1,10 @@
+{
+  "pid": 22863,
+  "started_unix": 1791638911.3359232,
+  "input_sha256": "2e85b96ca3c31881d06c6a6659d46fc070e5616a2e2f8770827c2310369485ae",
+  "all_inputs_verified": true,
+  "free_bytes_before": 4206632960,
+  "new_training": true,
+  "max_updates": 11520,
+  "wall_hours_max": 2
+}
