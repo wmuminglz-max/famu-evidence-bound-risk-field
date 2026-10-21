@@ -1,6 +1,6 @@
 {
   "algorithm": "SHA256",
-  "date": "2026-10-16",
+  "date": "2026-10-21",
   "excludes": [
     "MANIFEST_SHA256.json"
   ],
@@ -201,9 +201,14 @@
       "sha256": "e6c70e8f8bb309c8918ec1b6bd014672b3991bd9c3b7b11e85534203094ac1cc"
     },
     {
+      "path": "README.en.md",
+      "bytes": 3803,
+      "sha256": "64afcd32be194b922021bc8d7f4ded4366c9a7991b48e39170688f119f8c6adc"
+    },
+    {
       "path": "README_数据集说明.md",
-      "bytes": 3874,
-      "sha256": "e525f36f9e0ee8246fb01b46b764e9407a44359e82ced8e425f93164aa82416c"
+      "bytes": 3131,
+      "sha256": "34c6697ab29f7dee280b7631bc6c8c6b494e627bf46760d5fbbc714566b3b9d2"
     },
     {
       "path": "数据文件清单.csv",

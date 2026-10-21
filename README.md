@@ -1,138 +1,81 @@
 # 面向合同审查的证据绑定风险场方法
 
-## 数据集与复现材料（脱敏版）
+**An Evidence-Bound Risk Field Method for Contract Review**
 
-**English title: An Evidence-Bound Risk Field Method for Contract Review**
+[English](README.en.md)
 
-[English documentation / 英文说明](README.en.md)
+本仓库提供论文《面向合同审查的证据绑定风险场方法》的脱敏数据、标注、实验代码、训练与评测协议及归档预测，支持检查实验设置、核对证据引用和复算主要结果。
 
-本文件夹汇集论文《面向合同审查的证据绑定风险场方法》（*An Evidence-Bound Risk Field Method for Contract Review*）的数据集和复现材料，供读者查阅数据与标注、检查实验设置、核对归档预测及复算论文主要成绩。
+## 文档索引
 
-本次将“法眸智审”（Famu）项目的两个既有脱敏目录统一整理为一个论文配套材料目录。“法眸智审”为原材料使用的项目名称；本目录以以上中英文论文标题标识其对应论文。
+| 内容 | 中文 | English |
+|---|---|---|
+| 仓库概览 | [本文](README.md) | [Overview](README.en.md) |
+| 数据集 | [数据集说明](01_Dataset/README_数据集说明.md) | [Dataset guide](01_Dataset/README.en.md) |
+| 复现材料 | [复现指南](02_Reproduction/README_先读.md) | [Reproduction guide](02_Reproduction/README.en.md) |
+| 复现对象与指纹 | [S2.8 对象清单](02_Reproduction/docs/S2.8_对象与复现范围.md) | [Objects and fingerprints](02_Reproduction/docs/S2.8_objects_and_reproduction_scope.en.md) |
+| 脱敏范围 | [脱敏说明](02_Reproduction/docs/脱敏说明.md) | [De-identification](02_Reproduction/docs/deidentification.en.md) |
+| 运行与环境 | [运行指南](02_Reproduction/docs/运行与环境.md) | [Execution and environment](02_Reproduction/docs/execution_and_environment.en.md) |
+| R11 学生模型 | [实验结果](02_Reproduction/experiments/student/R11_中文结果_连续跨度与训练回放.md) | [Experimental results](02_Reproduction/experiments/student/R11_results.en.md) |
+| 文件完整性 | [校验指南](GITHUB_UPLOAD_NOTES.zh-CN.md) | [Integrity verification](GITHUB_UPLOAD_NOTES.md) |
 
-- **原材料版本：** 2026年10月16日脱敏版。
-- **合并整理日期：** 2026年10月21日。
-- **整理方式：** 原材料先按字节复制；本次将合并目录及其子文件夹改为英文名称，并同步更新说明、路径索引和校验清单。实验数据、标注、划分及冻结代码未改动，历史说明文件名保留原名。
-- **复现边界：** 支持查阅脱敏数据、检查代码与协议、复算归档成绩；原始实验的精确重跑仍需受控权重、缓存及未改动的原始输入。
-
-## 1. 目录结构
+## 目录结构
 
 ```text
-Famu_Evidence_Bound_Risk_Field_Materials_20261021/
-├── README.md                         本说明：论文对应关系与统一使用入口
-├── README.en.md                      英文版说明
-├── MANIFEST_SHA256.json               合并后材料的逐文件大小和 SHA256
-├── 整理与校验记录.json                 来源目录、复制数量与校验结果
-├── 01_Dataset/                         数据、标注、样本划分和来源记录
-│   ├── README_数据集说明.md
-│   ├── 01_Professional_Training_Data/
-│   ├── 02_Experiment_1_Conditional_Judgment/
-│   ├── 03_Experiment_2_Evidence_Binding/
-│   ├── 04_Real_Material_Evaluation/
-│   ├── 05_Student_Model_Data/
-│   ├── 数据文件清单.csv
-│   ├── 样本划分与编号.jsonl
-│   ├── 文件来源与校验.json
-│   ├── 整理校验记录.json
-│   └── MANIFEST_SHA256.json
-└── 02_Reproduction/                       实验代码、协议、归档结果与复算工具
-    ├── README_先读.md
-    ├── data/
-    ├── docs/
-    ├── experiments/
-    ├── manifests/
-    ├── models/
-    ├── results/
-    ├── tools/
-    ├── validation/
-    └── MANIFEST_SHA256.json
+famu-evidence-bound-risk-field/
+├── README.md
+├── README.en.md
+├── MANIFEST_SHA256.json
+├── GITHUB_UPLOAD_NOTES.zh-CN.md
+├── GITHUB_UPLOAD_NOTES.md
+├── 01_Dataset/          数据、标注、划分与来源索引
+└── 02_Reproduction/     实验代码、协议、归档预测与复算工具
 ```
 
-`01_Dataset/`保留原数据集目录的45个文件；`02_Reproduction/`保留原复现材料目录的1,093个文件，共复制1,138个文件。文件数用于说明打包完整性，不代表独立样本数。
-
-## 2. 建议阅读顺序
-
-1. 阅读本说明，了解论文对应关系、材料组成和复现范围。
-2. 查阅[数据集说明](01_Dataset/README_数据集说明.md)与[数据文件清单](01_Dataset/数据文件清单.csv)，选择所需数据。
-3. 阅读[复现材料说明](02_Reproduction/README_先读.md)、[对象与复现范围](02_Reproduction/docs/S2.8_对象与复现范围.md)及[运行与环境](02_Reproduction/docs/运行与环境.md)，核对实验协议。
-4. 根据需要运行完整性核验与成绩复算；重新训练或推理前，另行准备协议要求的模型和环境。
-
-## 3. 数据集组成
+## 数据集
 
 | 位置（相对于 `01_Dataset/`） | 内容与规模 |
 |---|---|
-| `01_Professional_Training_Data/` | 77条专业训练任务、9条内部开发任务、1,657条劳动辅助训练任务。 |
-| `02_Experiment_1_Conditional_Judgment/` | 1,213条混合任务记录、576条配对关系，以及256条新表述压力测试记录；对应复现材料中的 V5。 |
-| `03_Experiment_2_Evidence_Binding/` | 672条合成场景，划分为训练432条、开发96条、测试144条；另保留专业回放、历史回归和冻结版本数据副本；对应 V8。 |
-| `04_Real_Material_Evaluation/` | 28题输入与87个评分项的标准答案。论文正式主实验使用其中17题、53项、5个来源组。 |
-| `05_Student_Model_Data/` | 关系对、段落及片段标注、新场景、历史场景和多轮回归材料；`new_scenes.json`包含训练1,152条、开发72条，以及长句、短句、改序测试各96条。 |
+| `01_Professional_Training_Data/` | 77 条专业训练任务、9 条内部开发任务、1,657 条劳动辅助训练任务。 |
+| `02_Experiment_1_Conditional_Judgment/` | 1,213 条混合任务记录、576 条配对关系，以及 256 条新表述压力测试记录；对应实验一 V5。 |
+| `03_Experiment_2_Evidence_Binding/` | 672 条合成场景：训练 432 条、开发 96 条、测试 144 条；另含专业回放、历史回归及冻结版本数据；对应实验二 V8。 |
+| `04_Real_Material_Evaluation/` | 28 题输入及 87 个评分项的标准答案；论文正式主实验使用其中 17 题、53 项、5 个来源组。 |
+| `05_Student_Model_Data/` | 关系对、段落与片段标注、新场景、历史场景及回归数据；`new_scenes.json` 含训练 1,152 条、开发 72 条，以及长句、短句、改序测试各 96 条。 |
 
-记录数、集合与划分以[数据文件清单](01_Dataset/数据文件清单.csv)和[样本划分与编号](01_Dataset/样本划分与编号.jsonl)为准。JSONL每行一条记录；JSON可能是数组，也可能按内部集合组织。
+逐文件统计见[数据文件清单](01_Dataset/数据文件清单.csv)，样本编号与划分见[样本划分与编号](01_Dataset/样本划分与编号.jsonl)。多个文件可能包含同一批样本的不同版本，记录数不宜直接相加。专业数据中的 9 条内部开发任务在后续实验中也用于历史回归，具体用途以各实验协议为准。
 
-**使用数据时需遵守原有实验划分。** `target`、`states`、标准 `bindings` 和标准答案是监督或评分信息，不应拼入测试时的模型输入。真实材料应分别读取 `public_inputs.jsonl` 和 `gold_keys.jsonl`。配对、改序及不同表述版本可能共享母题，须保留原有组编号。
+`target`、`states`、标准 `bindings` 和标准答案用于监督或评分。测试时的模型输入应与这些字段分开；真实材料评测分别读取 `public_inputs.jsonl` 和 `gold_keys.jsonl`。配对、改序及不同表述版本应保留原有组编号。
 
-## 4. 复现材料组成
+## 实验与复现
 
-| 位置（相对于 `02_Reproduction/`） | 用途 |
-|---|---|
-| `docs/` | 复现范围、脱敏说明、运行层次与环境要求。 |
-| `experiments/v5/` | 实验一条件判断的冻结代码、数据、各配置与种子结果。 |
-| `experiments/v8/` | 实验二证据绑定的代码、训练计划、数据和归档输出。 |
-| `experiments/real_eval/` | 真实材料答题、证据接口、学生推理、评分代码及归档预测。 |
-| `experiments/27b/` | 27B架构、训练实现、参照配置协议和归档结果。 |
-| `experiments/student/` | 学生模型代码、数据、配置及多种表述与回归测试结果。 |
-| `data/` | 复现包原有的专业任务和真实材料输入、评分键。 |
-| `models/` | 模型版本锁、架构元数据、历史指纹及受控对象清单；未包含模型权重。 |
-| `results/`、`validation/` | 归档成绩、逐字段评分、原材料核查和成绩复算记录。 |
-| `manifests/` | 数据划分、条件顺序、来源指纹和脱敏记录。 |
-| `tools/` | 完整性校验、归档成绩复算及受控对象校验工具。 |
+`02_Reproduction/experiments/` 包含 V5 条件判断、V8 证据绑定、真实材料评测、27B 参照配置和学生模型实验。各实验的代码、配置与结果按版本分别保存。
 
-### 无需模型的完整性核验与成绩复算
-
-在本合并目录中打开终端，使用 Python 3.10 或更高版本：
+使用 Python 3.10 或更高版本，在仓库根目录执行：
 
 ```bash
-cd "02_Reproduction"
+cd 02_Reproduction
 python -B tools/verify_release.py
 python -B tools/recompute_results.py
 ```
 
-上述工具仅使用 Python 标准库。第一条 Python 命令核验复现子目录的文件哈希、数据格式、题目引用和证据位置；第二条从包内归档预测及评分键复算主要成绩，并写入 `validation/recomputed_results.json`。它们不加载模型、不联网，也不启动训练。`-B`用于避免生成会影响文件清单核验的字节码缓存。
+上述工具仅依赖 Python 标准库。第一条命令检查文件哈希、数据格式、题目引用及证据位置；第二条从归档预测和评分键复算主要成绩，写入 `validation/recomputed_results.json`。先执行完整性核验，再复算成绩；如需保持工作目录的校验状态，可在副本中复算。
 
-成绩复算会写入归档结果文件；如需保持交付包的校验状态，可先复制 `02_Reproduction/`到工作目录再运行。完整性核验宜在成绩复算前执行。模型推理和重新训练的具体要求见[运行与环境](02_Reproduction/docs/运行与环境.md)及各实验协议。
+`01_Dataset/` 提供独立的数据入口，`02_Reproduction/` 提供代码使用的数据路径。[文件来源与校验](01_Dataset/文件来源与校验.json)列出两处数据的对应关系。
 
-## 5. 两个子目录的关系与复现范围
-
-`01_Dataset/`是从原脱敏复现包中单独整理的数据入口，`02_Reproduction/`则保留运行代码所依赖的数据路径及归档结构。同一数据出现在两处属于有意保留的副本，可通过[文件来源与校验](01_Dataset/文件来源与校验.json)对应到复现包路径。保留副本有助于维持冻结代码的路径和历史校验结果。
-
-不得把两个目录或多个实验副本的记录数相加作为数据集总规模。实验一的1,213条混合记录不等于1,213道独立人工标注合同审查题；真实材料的28题、87项也不等于论文正式主实验规模。
-
-| 使用方式 | 材料支持情况 |
+| 使用方式 | 所需材料 |
 |---|---|
-| 归档成绩复算 | 可用包内预测与评分键复算，无需GPU或模型权重。 |
-| 在脱敏输入上重新训练或推理 | 需另备配套模型与环境；因文字经过脱敏，应作为派生数据上的新运行报告。 |
-| 原始实验精确重跑 | 需受控原始权重、缓存、未改动输入及对应环境；本包未包含全部必要原件。 |
+| 复算归档成绩 | 包内预测、评分键和 Python 标准库。 |
+| 在脱敏输入上训练或推理 | 配套模型、初始化对象和相应运行环境；结果应作为派生数据上的新实验报告。 |
+| 精确重跑原始实验 | 受控原始权重、缓存、未改动的原始输入及对应环境。 |
 
-本次操作仅合并整理和核验材料，没有新增训练、模型推理、专家复核或实验结论。
+运行入口与环境要求见[运行指南](02_Reproduction/docs/运行与环境.md)，对象版本与指纹见[S2.8 对象清单](02_Reproduction/docs/S2.8_对象与复现范围.md)。
 
-## 6. 脱敏、来源与许可说明
+## 数据保护与许可
 
-本目录延续2026年10月16日版本的脱敏处理。本次没有再次改写数据、代码或标注。原材料中的真实姓名、机构、联系方式等按原脱敏方案处理，任务必需的日期、金额、比例和逻辑关系予以保留；详见[脱敏说明](02_Reproduction/docs/脱敏说明.md)。本包属于去标识化材料，不据此宣称来源无法被重新识别。
+材料中的姓名、机构和直接联系方式等已去标识化；判断所需的日期、金额、比例及逻辑关系予以保留。详细范围见[脱敏说明](02_Reproduction/docs/脱敏说明.md)。保留的任务信息仍可能用于关联来源，去标识化不等于不可逆匿名化。
 
-本包不包含身份映射表、原始合同附件、专家签认原件、原始模型权重或特征缓存。`models/`中的清单与指纹用于描述和核对受控对象，不代表相关权重已公开提供。
+仓库不包含身份映射、原始合同附件、专家签认原件、模型权重或特征缓存。`models/` 提供版本锁、架构元数据和受控对象指纹。第三方材料适用其原有许可与使用条件。
 
-原始来源目录名称为：
+## 文件校验
 
-- `法眸智审_数据集_脱敏版_20261016`
-- `法眸智审_论文复现材料_脱敏版_20261016`
-
-两个来源目录均予以保留。本次合并未新增代码或数据的再分发授权，第三方材料仍适用各自原有许可和条件；未新增DOI、公开仓库、外部下载地址或受控材料申请渠道。
-
-## 7. 校验文件说明
-
-- 根目录的 [MANIFEST_SHA256.json](MANIFEST_SHA256.json)记录整个合并目录的逐文件相对路径、字节数和SHA256，清单自身除外；路径以本合并目录为根。
-- 两个子目录中的同名清单各自仅相对于所在子目录生效；数据集清单已同步更新英文路径，复现材料清单保持原样。
-- [整理与校验记录.json](整理与校验记录.json)记录来源文件数量、复制一致性、原清单核验、数据副本对应关系及复现包检查工具的执行结果。
-- `01_Dataset/整理校验记录.json`和 `02_Reproduction/validation/`中的既有记录属于原材料版本，本次未将它们改写为新的实验记录。
-
-本次英文命名与英文版说明的更新也记录在根目录整理记录中。新增说明用于组织和解释配套材料。具体数据划分、训练配置和评分口径应结合保留的原始协议与清单查阅。
+根目录的 [MANIFEST_SHA256.json](MANIFEST_SHA256.json) 记录仓库文件的相对路径、大小和 SHA256，清单自身除外。两个子目录中的同名清单分别以所在目录为根。校验步骤见[文件完整性指南](GITHUB_UPLOAD_NOTES.zh-CN.md)。

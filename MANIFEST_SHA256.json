@@ -3,7 +3,7 @@
   "date": "2026-10-21",
   "paper_title_zh": "面向合同审查的证据绑定风险场方法",
   "paper_title_en": "An Evidence-Bound Risk Field Method for Contract Review",
-  "scope": "All files in the combined folder except this root manifest; paths relative to the combined folder.",
+  "scope": "All current files except this manifest; paths are relative to this directory.",
   "excludes": [
     "MANIFEST_SHA256.json"
   ],
@@ -205,13 +205,18 @@
     },
     {
       "path": "01_Dataset/MANIFEST_SHA256.json",
-      "bytes": 8476,
-      "sha256": "d408f8e2a6306c579417b13a4fd4722648bd626303395c6cf086775bba5158ca"
+      "bytes": 8628,
+      "sha256": "f78b3be1c45bb025f27245e4eb32bd06f938c4abe4433d2b9fe270406dd653f6"
+    },
+    {
+      "path": "01_Dataset/README.en.md",
+      "bytes": 3803,
+      "sha256": "64afcd32be194b922021bc8d7f4ded4366c9a7991b48e39170688f119f8c6adc"
     },
     {
       "path": "01_Dataset/README_数据集说明.md",
-      "bytes": 3874,
-      "sha256": "e525f36f9e0ee8246fb01b46b764e9407a44359e82ced8e425f93164aa82416c"
+      "bytes": 3131,
+      "sha256": "34c6697ab29f7dee280b7631bc6c8c6b494e627bf46760d5fbbc714566b3b9d2"
     },
     {
       "path": "01_Dataset/数据文件清单.csv",
@@ -259,19 +264,34 @@
       "sha256": "f61325b53fbe36e412347d07fa7b283cc3a2f6a4aaa79a2b2b7c1a445793b0e1"
     },
     {
+      "path": "02_Reproduction/docs/deidentification.en.md",
+      "bytes": 3291,
+      "sha256": "f4b6737820cb5a69348196646ff16653d6f8491c165c360bf280ae6812836aa9"
+    },
+    {
+      "path": "02_Reproduction/docs/execution_and_environment.en.md",
+      "bytes": 3117,
+      "sha256": "de16e0dbdcb791710cc4051bc26c28523e7bb0f1dabeea58ea0bc008136c3a36"
+    },
+    {
+      "path": "02_Reproduction/docs/S2.8_objects_and_reproduction_scope.en.md",
+      "bytes": 4632,
+      "sha256": "a2a03d14118d47f5d829bb261fd783379e68189fc06ccee1bf11ec46bd2befae"
+    },
+    {
       "path": "02_Reproduction/docs/S2.8_对象与复现范围.md",
-      "bytes": 4183,
-      "sha256": "39cec6a6862d2b4256481dde6b61636fe85dd16c2673d2daa35389f38d249fda"
+      "bytes": 4007,
+      "sha256": "ac2ab45e8ab08189888f7b13ea7886c6ba413ee35fb803ed54053710ea1d6b4d"
     },
     {
       "path": "02_Reproduction/docs/脱敏说明.md",
-      "bytes": 2996,
-      "sha256": "1a66850b5f5cf9079c3e8510f83299ecb7de11f26d296dba48048d6924e5ac3c"
+      "bytes": 2653,
+      "sha256": "52dcb1b992d7a1332808c3e5d22792f993234774182f5a536f43b381299ef4ec"
     },
     {
       "path": "02_Reproduction/docs/运行与环境.md",
-      "bytes": 2411,
-      "sha256": "155e6bde9ca814e9cc192f9974e7df929a33e2405dd913461c7a109c2579ba3e"
+      "bytes": 2751,
+      "sha256": "e49e7c5fe22846460e50543cfa20ec0c54a1c7931162aeebda09fcf26cdd5e1e"
     },
     {
       "path": "02_Reproduction/experiments/27b/results/labor_then_review_R1/adapter_audit.json",
@@ -1484,9 +1504,14 @@
       "sha256": "de996344886eceb3854e9b1cd2b68a4e96a88b0ec9b7895c87725eddd57187dd"
     },
     {
+      "path": "02_Reproduction/experiments/student/R11_results.en.md",
+      "bytes": 15365,
+      "sha256": "4fb63fd1a7fd3093a012c268276381abee97297767942e8e713672e398a884fd"
+    },
+    {
       "path": "02_Reproduction/experiments/student/R11_中文结果_连续跨度与训练回放.md",
-      "bytes": 14717,
-      "sha256": "366d40af7d9e6dc618e21003bdaa8e34b27e3e391b72fc901c32e1fa54f7fa15"
+      "bytes": 13747,
+      "sha256": "d78e26251927555d10f5b0fa2cd7ecebcafc319f2245ead1ff8496093abb76ac"
     },
     {
       "path": "02_Reproduction/experiments/student/results/all_selections_locked_before_tests.json",
@@ -5605,8 +5630,8 @@
     },
     {
       "path": "02_Reproduction/MANIFEST_SHA256.json",
-      "bytes": 225388,
-      "sha256": "8499c0e01c4f3938820624655fb5053197e57a79d8d731e43e18cec8f0d35060"
+      "bytes": 226234,
+      "sha256": "97d9382209244db2fc51648f1d433df6b81da04ff73193824a06a21b8b105aaf"
     },
     {
       "path": "02_Reproduction/manifests/deidentification_summary.json",
@@ -5615,8 +5640,8 @@
     },
     {
       "path": "02_Reproduction/manifests/source_fingerprints.json",
-      "bytes": 519314,
-      "sha256": "8ef97bff039e93c29cd6c6c306ec2412a960f5f761e8cda6122be7a95c7463a5"
+      "bytes": 519358,
+      "sha256": "81102d0260dab43b92128e06279bf868a24b2d76921d8d869affdd073870a728"
     },
     {
       "path": "02_Reproduction/manifests/splits_and_condition_order.jsonl",
@@ -5649,9 +5674,14 @@
       "sha256": "b012554c9b812d55a69264c531dba2a857e76a06c99553a2fafcdd9437fd76eb"
     },
     {
+      "path": "02_Reproduction/README.en.md",
+      "bytes": 3753,
+      "sha256": "b13f319a5d26f48b229a8bb340153d7c11c918c218681ea123734a2d8bf0d845"
+    },
+    {
       "path": "02_Reproduction/README_先读.md",
-      "bytes": 3939,
-      "sha256": "35e669b37705ab2d05c5903de6759221ccb94c89d2b22fe8f388c7504b5fd38a"
+      "bytes": 3105,
+      "sha256": "21dba9a6532111ce1750f4168b9bf130a94e4a7bd4694206f849de736862748b"
     },
     {
       "path": "02_Reproduction/results/real/analysis.json",
@@ -5699,21 +5729,26 @@
       "sha256": "e73d9a26b0e03ac2a1f9c7595c40a6c856f10de5ebb7ef78ec2d8561772f9216"
     },
     {
+      "path": "GITHUB_UPLOAD_NOTES.md",
+      "bytes": 1837,
+      "sha256": "3da7e04599f934c99901816b5859e5353974375ed4e5f364bc2708b598f87b44"
+    },
+    {
+      "path": "GITHUB_UPLOAD_NOTES.zh-CN.md",
+      "bytes": 1683,
+      "sha256": "09c300c686e704d4f733066c3a182bbe44d556721434e319bc5e26aa67de31a0"
+    },
+    {
       "path": "README.en.md",
-      "bytes": 13612,
-      "sha256": "4e07dd365ad73b8a750645160785744dd780c929ef44e28cc64fcb398cc509bb"
+      "bytes": 6746,
+      "sha256": "b604ee39f947e151fb72c9160e6159ce22985727f18b05319e539f9b3a14ca90"
     },
     {
       "path": "README.md",
-      "bytes": 10343,
-      "sha256": "ad3d5b0eb6c6f15c4c09ac59cf3919886666361e0a40233a3fc3cc9a19d215ae"
-    },
-    {
-      "path": "整理与校验记录.json",
-      "bytes": 3328,
-      "sha256": "572a6561249309a36516564ff8b4556efd14cdf006c4041cae6f23e74f747b29"
+      "bytes": 5813,
+      "sha256": "8f51f2ead58ec09d85c2f6eba7e18267cba2ef9e4cd58af158b1d408eef58d4c"
     }
   ],
-  "directory_name": "Famu_Evidence_Bound_Risk_Field_Materials_20261021",
+  "directory_name": "famu-evidence-bound-risk-field",
   "project_name_en": "Famu"
 }

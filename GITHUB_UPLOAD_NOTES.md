@@ -1,20 +1,39 @@
-# GitHub upload notes
+# File integrity verification
 
-Uploaded from `Famu_Evidence_Bound_Risk_Field_Materials_20261021.zip`.
+[中文](GITHUB_UPLOAD_NOTES.zh-CN.md) · [Repository overview](README.en.md)
 
-- Archive SHA256: `7225ddf960572dc7251b9948a889117408105ef8674154620b2f8ed22ae5e9ca`.
-- Original archive: 1,141 files, 524,315,519 uncompressed bytes.
-- All original files are preserved byte for byte, with their original paths.
-- This note is additional upload documentation and is not listed in the original checksum manifests.
+## Checksum manifests
 
-## Original archive discrepancy
+The root `MANIFEST_SHA256.json` lists relative paths, byte sizes, and SHA256 hashes for repository files, excluding itself. The manifests in `01_Dataset/` and `02_Reproduction/` each use their own subdirectory as the root.
 
-The root `MANIFEST_SHA256.json` and both root READMEs reference `整理与校验记录.json`, but that file is absent from the supplied ZIP archive. It has not been reconstructed, and the original manifest has not been changed. Every other manifest-listed file present in the archive matches its recorded size and SHA256.
+From the repository root, use Python 3.10 or later to check every file in the root manifest:
 
-The `01_Dataset/` manifest verifies all 44 listed files. The `02_Reproduction/` manifest verifies all 1,092 listed files. The manifests themselves are excluded from their own file lists.
+```python
+from pathlib import Path
+import hashlib
+import json
 
-Running `python -B tools/verify_release.py` inside `02_Reproduction/` passed: 1,092 file hashes, 1,085 syntax checks, 28 real-material question references, 357 student evidence anchors, and 1,076 source fingerprints.
+root = Path.cwd()
+manifest = json.loads((root / "MANIFEST_SHA256.json").read_text(encoding="utf-8"))
+for item in manifest["files"]:
+    path = root / item["path"]
+    data = path.read_bytes()
+    assert len(data) == item["bytes"], item["path"]
+    assert hashlib.sha256(data).hexdigest() == item["sha256"], item["path"]
+print(len(manifest["files"]))
+```
 
-## Reproduction scope
+The output is the number of verified files. A size or hash mismatch raises an assertion identifying the file.
 
-This repository contains the de-identified dataset, frozen code, protocols, and archived predictions supplied in the archive. Model weights and controlled original materials are not included. The upload does not add a new license or change the materials' existing terms.
+## Data and reference verification
+
+From the repository root:
+
+```bash
+cd 02_Reproduction
+python -B tools/verify_release.py
+```
+
+This tool checks the reproduction directory's file set, hashes, Python/JSON/JSONL syntax, question references, evidence character positions, and source fingerprints. Use documentation and manifests from the same version. Historical hashes in experimental archives identify historical objects; the relevant directory's `MANIFEST_SHA256.json` describes current repository files.
+
+Score recomputation is separate from integrity verification. `tools/recompute_results.py` scores archived predictions against the scoring keys and writes `validation/recomputed_results.json`. See the [object inventory](02_Reproduction/docs/S2.8_objects_and_reproduction_scope.en.md) for model weights, feature caches, and controlled original inputs.

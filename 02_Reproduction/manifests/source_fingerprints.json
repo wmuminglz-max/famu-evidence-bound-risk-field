@@ -8589,9 +8589,9 @@
       "path": "experiments/student/R11_中文结果_连续跨度与训练回放.md",
       "source_object": "archive/outputs/famu_student_round11_20261010/R11_中文结果_连续跨度与训练回放.md",
       "original_sha256": "366d40af7d9e6dc618e21003bdaa8e34b27e3e391b72fc901c32e1fa54f7fa15",
-      "released_sha256": "366d40af7d9e6dc618e21003bdaa8e34b27e3e391b72fc901c32e1fa54f7fa15",
-      "bytes": 14717,
-      "transformation": "deidentified_copy"
+      "released_sha256": "d78e26251927555d10f5b0fa2cd7ecebcafc319f2245ead1ff8496093abb76ac",
+      "bytes": 13747,
+      "transformation": "documentation_revision_with_archived_numeric_tables_preserved"
     },
     {
       "path": "experiments/student/independent_audit.json",
